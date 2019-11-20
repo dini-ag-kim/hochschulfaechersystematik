@@ -1,0 +1,25 @@
+{
+  "name": "hochschulfaechersystematik",
+  "version": "1.0.0",
+  "description": "Dieses Repository beinhaltet eine SKOS-Version der Destatis-Systematik der Fächergruppen, Studienbereiche und Studienfächer (http://bartoc.org/node/18919) sowie den Code zur Generierung der SKOS-Version aus einer inner halb der Virtuellen Hochschule Bayern (vhb) genutzten XML-Version.",
+  "main": "xml2nt.js",
+  "dependencies": {
+    "xmldom": "^0.1.27",
+    "xpath": "^0.0.27"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node xml2nt.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dini-ag-kim/hochschulfaechersystematik.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dini-ag-kim/hochschulfaechersystematik/issues"
+  },
+  "homepage": "https://github.com/dini-ag-kim/hochschulfaechersystematik#readme"
+}

@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valuespaces>
+	<valuespace property="ccm:taxonid">
+        <key cap="Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin">020</key>
+            <key parent="020" cap="Studienbereich Agrarwissenschaften, Lebensmittel- und Getränketechnologie">020002</key>
+                <key parent="020002" cap="Agrarbiologie">020002001</key>
+                <key parent="020002" cap="Agrarökonomie">020002003</key>
+                <key parent="020002" cap="Agrarwissenschaft/Landwirtschaft">020002002</key>
+                <key parent="020002" cap="Brauwesen/Getränketechnologie">020002004</key>
+                <key parent="020002" cap="Gartenbau">020002005</key>
+                <key parent="020002" cap="Lebensmitteltechnologie">020002006</key>
+                <key parent="020002" cap="Milch- und Molkereiwirtschaft">020002007</key>
+                <key parent="020002" cap="Pflanzenproduktion">020002008</key>
+                <key parent="020002" cap="Tierproduktion">020002009</key>
+                <key parent="020002" cap="Weinbau und Kellerwirtschaft">020002010</key>
+            <key parent="020" cap="Studienbereich Ernährungs- und Haushaltswissenschaften">020003</key>
+                <key parent="020003" cap="Ernährungswissenschaft">020003001</key>
+                <key parent="020003" cap="Haushalts- und Ernährungswissenschaft">020003002</key>
+                <key parent="020003" cap="Haushaltswissenschaft">020003003</key>
+            <key parent="020" cap="Studienbereich Forstwissenschaft, Holzwirtschaft">020004</key>
+                <key parent="020004" cap="Forstwissenschaft, -wirtschaft">020004001</key>
+                <key parent="020004" cap="Holzwirtschaft">020004002</key>
+            <key parent="020" cap="Studienbereich Landespflege, Umweltgestaltung">020005</key>
+                <key parent="020005" cap="Landespflege/Landschaftsgestaltung">020005001</key>
+                <key parent="020005" cap="Meliorationswesen">020005002</key>
+                <key parent="020005" cap="Naturschutz">020005003</key>
+            <key parent="020" cap="Studienbereich Veterinärmedizin">020006</key>
+                <key parent="020006" cap="Tiermedizin/Veterinärmedizin">020006001</key>
+        <key cap="Geisteswissenschaften">030</key>
+            <key parent="030" cap="Studienbereich Allgemeine und vergleichende Literatur- und Sprachwissenschaft">030001</key>
+                <key parent="030001" cap="Allgemeine Literaturwissenschaft">030001001</key>
+                <key parent="030001" cap="Allgemeine Sprachwissenschaft/Indogermanistik">030001002</key>
+                <key parent="030001" cap="Angewandte Sprachwissenschaft">030001003</key>
+                <key parent="030001" cap="Berufsbezogene Fremdsprachenausbildung">030001004</key>
+                <key parent="030001" cap="Computerlinguistik">030001005</key>
+            <key parent="030" cap="Studienbereich Altphilologie (klass. Philologie), Neugriechisch">030002</key>
+                <key parent="030002" cap="Byzantinistik">030002001</key>
+                <key parent="030002" cap="Griechisch">030002002</key>
+                <key parent="030002" cap="Klassische Philologie">030002003</key>
+                <key parent="030002" cap="Latein">030002004</key>
+                <key parent="030002" cap="Neugriechisch">030002005</key>
+            <key parent="030" cap="Studienbereich Anglistik, Amerikanistik">030003</key>
+                <key parent="030003" cap="Amerikanistik/Amerikakunde">030003001</key>
+                <key parent="030003" cap="Anglistik/Englisch">030003002</key>
+            <key parent="030" cap="Studienbereich Außereuropäische Sprach- und Kulturwissenschaften">030004</key>
+                <key parent="030004" cap="Afrikanistik">030004001</key>
+                <key parent="030004" cap="Ägyptologie">030004014</key>
+                <key parent="030004" cap="Arabisch/Arabistik">030004002</key>
+                <key parent="030004" cap="Asiatische Sprachen und Kulturen/Asienwissenschaften">030004003</key>
+                <key parent="030004" cap="Außereuropäische Sprachen und Kulturen in Ozeanien und Amerika">030004004</key>
+                <key parent="030004" cap="Hebräisch/Judaistik">030004005</key>
+                <key parent="030004" cap="Indologie">030004006</key>
+                <key parent="030004" cap="Iranistik">030004007</key>
+                <key parent="030004" cap="Islamwissenschaft">030004008</key>
+                <key parent="030004" cap="Japanologie">030004009</key>
+                <key parent="030004" cap="Kaukasistik">030004010</key>
+                <key parent="030004" cap="Orientalistik/Altorientalistik">030004011</key>
+                <key parent="030004" cap="Sinologie/Koreanistik">030004012</key>
+                <key parent="030004" cap="Turkologie">030004013</key>
+            <key parent="030" cap="Studienbereich Bibliothekswissenschaft, Dokumentation">030005</key>
+                <key parent="030005" cap="Bibliothekswissenschaft/-wesen (nicht an Verwaltungsfachhochschulen)">030005001</key>
+                <key parent="030005" cap="Dokumentationswissenschaft">030005002</key>
+            <key parent="030" cap="Studienbereich Evang. Theologie, -Religionslehre">030006</key>
+                <key parent="030006" cap="Diakoniewissenschaft">030006001</key>
+                <key parent="030006" cap="Evang. Religionspädagogik, kirchliche Bildungsarbeit">030006002</key>
+                <key parent="030006" cap="Evang. Theologie, -Religionslehre">030006003</key>
+            <key parent="030" cap="Studienbereich Geisteswissenschaften allgemein">030007</key>
+                <key parent="030007" cap="Interdisziplinäre Studien (Schwerpunkt Sprach- und Kulturwissenschaften)">030007001</key>
+                <key parent="030007" cap="Lernbereich Sprach- und Kulturwissenschaften">030007002</key>
+                <key parent="030007" cap="Medienwissenschaft">030007003</key>
+            <key parent="030" cap="Studienbereich Germanistik (Deutsch, germanische Sprachen ohne Anglistik)">030008</key>
+                <key parent="030008" cap="Dänisch">030008002</key>
+                <key parent="030008" cap="Deutsch als Fremdsprache oder als Zweitsprache">030008001</key>
+                <key parent="030008" cap="Germanistik/Deutsch">030008003</key>
+                <key parent="030008" cap="Niederdeutsch">030008004</key>
+                <key parent="030008" cap="Niederländisch">030008005</key>
+                <key parent="030008" cap="Nordistik/Skandinavistik (Nordische Philologie, Einzelsprachen a.n.g.)">030008006</key>
+            <key parent="030" cap="Studienbereich Geschichte">030009</key>
+                <key parent="030009" cap="Alte Geschichte">030009001</key>
+                <key parent="030009" cap="Archäologie">030009002</key>
+                <key parent="030009" cap="Geschichte">030009003</key>
+                <key parent="030009" cap="Mittlere und neuere Geschichte">030009004</key>
+                <key parent="030009" cap="Ur- und Frühgeschichte">030009005</key>
+                <key parent="030009" cap="Wirtschafts-/Sozialgeschichte">030009006</key>
+            <key parent="030" cap="Studienbereich Islamische Studien">030010</key>
+                <key parent="030010" cap="Islamische Studien">030010001</key>
+            <key parent="030" cap="Studienbereich Kath. Theologie, -Religionslehre">030011</key>
+                <key parent="030011" cap="Caritaswissenschaft">030011001</key>
+                <key parent="030011" cap="Kath. Religionspädagogik, kirchliche Bildungsarbeit">030011002</key>
+                <key parent="030011" cap="Kath. Theologie, -Religionslehre">030011003</key>
+            <key parent="030" cap="Studienbereich Kulturwissenschaften i.e.S.">030012</key>
+                <key parent="030012" cap="Ethnologie">030012001</key>
+                <key parent="030012" cap="Europäische Ethnologie und Kulturwissenschaft">030012002</key>
+                <key parent="030012" cap="Volkskunde">030012003</key>
+            <key parent="030" cap="Studienbereich Philosophie">030013</key>
+                <key parent="030013" cap="Ethik">030013001</key>
+                <key parent="030013" cap="Philosophie">030013002</key>
+                <key parent="030013" cap="Religionswissenschaft">030013003</key>
+            <key parent="030" cap="Studienbereich Romanistik">030014</key>
+                <key parent="030014" cap="Französisch">030014001</key>
+                <key parent="030014" cap="Italienisch">030014002</key>
+                <key parent="030014" cap="Portugiesisch">030014003</key>
+                <key parent="030014" cap="Romanistik (Roman. Philologie, Einzelsprachen a.n.g.)">030014004</key>
+                <key parent="030014" cap="Spanisch">030014005</key>
+            <key parent="030" cap="Studienbereich Slawistik, Baltistik, Finno-Ugristik">030015</key>
+                <key parent="030015" cap="Baltistik">030015001</key>
+                <key parent="030015" cap="Finno-Ugristik">030015002</key>
+                <key parent="030015" cap="Polnisch">030015003</key>
+                <key parent="030015" cap="Russisch">030015004</key>
+                <key parent="030015" cap="Slawistik (Slaw. Philologie)">030015005</key>
+                <key parent="030015" cap="Sorbisch">030015006</key>
+                <key parent="030015" cap="Südslawisch (Bulgarisch, Serbokroatisch Slowenisch usw.)">030015007</key>
+                <key parent="030015" cap="Tschechisch">030015008</key>
+                <key parent="030015" cap="Westslawisch (allgemein und a.n.g.)">030015009</key>
+        <key cap="Humanmedizin/Gesundheitswissenschaften">040</key>
+            <key parent="040" cap="Studienbereich Gesundheitswissenschaften allgemein">040001</key>
+                <key parent="040001" cap="Gesundheitspädagogik">040001001</key>
+                <key parent="040001" cap="Gesundheitswissenschaft/-management">040001002</key>
+                <key parent="040001" cap="Nichtärztliche Heilberufe/Therapien">040001003</key>
+                <key parent="040001" cap="Pflegewissenschaft/-management">040001004</key>
+            <key parent="040" cap="Studienbereich Humanmedizin (ohne Zahnmedizin)">040002</key>
+                <key parent="040002" cap="Medizin (Allgemein-Medizin)">040002001</key>
+            <key parent="040" cap="Studienbereich Zahnmedizin">040003</key>
+                <key parent="040003" cap="Zahnmedizin">040003001</key>
+        <key cap="Ingenieurwissenschaften">050</key>
+            <key parent="050" cap="Studienbereich Architektur, Innenarchitektur">050001</key>
+                <key parent="050001" cap="Architektur">050001001</key>
+                <key parent="050001" cap="Innenarchitektur">050001002</key>
+            <key parent="050" cap="Studienbereich Bauingenieurwesen">050002</key>
+                <key parent="050002" cap="Bauingenieurwesen/Ingenieurbau">050002001</key>
+                <key parent="050002" cap="Holzbau">050002002</key>
+                <key parent="050002" cap="Stahlbau">050002003</key>
+                <key parent="050002" cap="Wasserbau">050002004</key>
+                <key parent="050002" cap="Wasserwirtschaft">050002005</key>
+            <key parent="050" cap="Studienbereich Bergbau, Hüttenwesen">050012</key>
+                <key parent="050012" cap="Archäometrie (Ingenieurarchäologie)">050012001</key>
+                <key parent="050012" cap="Bergbau/Bergtechnik">050012002</key>
+                <key parent="050012" cap="Hütten- und Gießereiwesen">050012003</key>
+                <key parent="050012" cap="Markscheidewesen">050012004</key>
+            <key parent="050" cap="Studienbereich Elektrotechnik und Informationstechnik">050003</key>
+                <key parent="050003" cap="Elektrische Energietechnik">050003001</key>
+                <key parent="050003" cap="Elektrotechnik/Elektronik">050003002</key>
+                <key parent="050003" cap="Kommunikations- und Informationstechnik">050003003</key>
+                <key parent="050003" cap="Mikroelektronik">050003004</key>
+                <key parent="050003" cap="Mikrosystemtechnik">050003005</key>
+                <key parent="050003" cap="Optoelektronik">050003006</key>
+            <key parent="050" cap="Studienbereich Informatik">050004</key>
+                <key parent="050004" cap="Bioinformatik">050004001</key>
+                <key parent="050004" cap="Computer- und Kommunikationstechniken">050004002</key>
+                <key parent="050004" cap="Informatik">050004003</key>
+                <key parent="050004" cap="Ingenieurinformatik/Technische Informatik">050004004</key>
+                <key parent="050004" cap="Medieninformatik">050004005</key>
+                <key parent="050004" cap="Medizinische Informatik">050004006</key>
+                <key parent="050004" cap="Wirtschaftsinformatik">050004007</key>
+            <key parent="050" cap="Studienbereich Ingenieurwesen allgemein">050005</key>
+                <key parent="050005" cap="Angewandte Systemwissenschaften">050005001</key>
+                <key parent="050005" cap="Interdisziplinäre Studien (Schwerpunkt Ingenieurwissenschaften)">050005002</key>
+                <key parent="050005" cap="Lernbereich Technik">050005003</key>
+                <key parent="050005" cap="Mechatronik">050005004</key>
+                <key parent="050005" cap="Medientechnik">050005005</key>
+                <key parent="050005" cap="Regenerative Energien">050005006</key>
+                <key parent="050005" cap="Werken (technisch)/Technologie">050005007</key>
+            <key parent="050" cap="Studienbereich Maschinenbau/Verfahrenstechnik">050006</key>
+                <key parent="050006" cap="Abfallwirtschaft">050006001</key>
+                <key parent="050006" cap="Augenoptik">050006002</key>
+                <key parent="050006" cap="Chemie-Ingenieurwesen/Chemietechnik">050006003</key>
+                <key parent="050006" cap="Druck- und Reproduktionstechnik">050006004</key>
+                <key parent="050006" cap="Energietechnik (ohne Elektrotechnik)">050006005</key>
+                <key parent="050006" cap="Feinwerktechnik">050006006</key>
+                <key parent="050006" cap="Fertigungs-/Produktionstechnik">050006007</key>
+                <key parent="050006" cap="Gesundheitstechnik">050006008</key>
+                <key parent="050006" cap="Glastechnik/Keramik">050006009</key>
+                <key parent="050006" cap="Holz-/Fasertechnik">050006010</key>
+                <key parent="050006" cap="Kerntechnik/Kernverfahrenstechnik">050006011</key>
+                <key parent="050006" cap="Kunststofftechnik">050006012</key>
+                <key parent="050006" cap="Maschinenbau/-wesen">050006013</key>
+                <key parent="050006" cap="Metalltechnik">050006014</key>
+                <key parent="050006" cap="Physikalische Technik">050006015</key>
+                <key parent="050006" cap="Technische Kybernetik">050006016</key>
+                <key parent="050006" cap="Textil- und Bekleidungstechnik/-gewerbe">050006017</key>
+                <key parent="050006" cap="Transport-/Fördertechnik">050006018</key>
+                <key parent="050006" cap="Umwelttechnik (einschl. Recycling)">050006019</key>
+                <key parent="050006" cap="Verfahrenstechnik">050006020</key>
+                <key parent="050006" cap="Versorgungstechnik">050006021</key>
+            <key parent="050" cap="Studienbereich Materialwissenschaft und Werkstofftechnik">050007</key>
+                <key parent="050007" cap="Materialwissenschaft">050007001</key>
+                <key parent="050007" cap="Werkstofftechnik">050007002</key>
+            <key parent="050" cap="Studienbereich Raumplanung">050008</key>
+                <key parent="050008" cap="Raumplanung">050008001</key>
+                <key parent="050008" cap="Umweltschutz">050008002</key>
+            <key parent="050" cap="Studienbereich Verkehrstechnik, Nautik">050009</key>
+                <key parent="050009" cap="Fahrzeugtechnik">050009001</key>
+                <key parent="050009" cap="Luft- und Raumfahrttechnik">050009002</key>
+                <key parent="050009" cap="Nautik/Seefahrt">050009003</key>
+                <key parent="050009" cap="Schiffbau/Schiffstechnik">050009004</key>
+                <key parent="050009" cap="Verkehrsingenieurwesen">050009005</key>
+            <key parent="050" cap="Studienbereich Vermessungswesen">050010</key>
+                <key parent="050010" cap="Kartographie">050010001</key>
+                <key parent="050010" cap="Vermessungswesen (Geodäsie)">050010002</key>
+            <key parent="050" cap="Studienbereich Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt">050011</key>
+                <key parent="050011" cap="Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt">050011001</key>
+        <key cap="Kunst, Kunstwissenschaft">060</key>
+            <key parent="060" cap="Studienbereich Bildende Kunst">060001</key>
+                <key parent="060001" cap="Bildende Kunst/Graphik">060001001</key>
+                <key parent="060001" cap="Bildhauerei/Plastik">060001002</key>
+                <key parent="060001" cap="Malerei">060001003</key>
+                <key parent="060001" cap="Neue Medien">060001004</key>
+            <key parent="060" cap="Studienbereich Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft">060002</key>
+                <key parent="060002" cap="Darstellende Kunst/Bühnenkunst/Regie">060002001</key>
+                <key parent="060002" cap="Film und Fernsehen">060002002</key>
+                <key parent="060002" cap="Schauspiel">060002003</key>
+                <key parent="060002" cap="Tanzpädagogik">060002004</key>
+                <key parent="060002" cap="Theaterwissenschaft">060002005</key>
+            <key parent="060" cap="Studienbereich Gestaltung">060003</key>
+                <key parent="060003" cap="Angewandte Kunst">060003001</key>
+                <key parent="060003" cap="Edelstein- und Schmuckdesign">060003002</key>
+                <key parent="060003" cap="Graphikdesign/Kommunikationsgestaltung">060003003</key>
+                <key parent="060003" cap="Industriedesign/Produktgestaltung">060003004</key>
+                <key parent="060003" cap="Textilgestaltung">060003005</key>
+                <key parent="060003" cap="Werkerziehung">060003006</key>
+            <key parent="060" cap="Studienbereich Kunst, Kunstwissenschaft allgemein">060004</key>
+                <key parent="060004" cap="Interdisziplinäre Studien (Schwerpunkt Kunst, Kunstwissenschaft)">060004001</key>
+                <key parent="060004" cap="Kunsterziehung">060004002</key>
+                <key parent="060004" cap="Kunstgeschichte, Kunstwissenschaft">060004003</key>
+                <key parent="060004" cap="Restaurierungskunde">060004004</key>
+            <key parent="060" cap="Studienbereich Musik, Musikwissenschaft">060005</key>
+                <key parent="060005" cap="Dirigieren">060005001</key>
+                <key parent="060005" cap="Gesang">060005002</key>
+                <key parent="060005" cap="Instrumentalmusik">060005003</key>
+                <key parent="060005" cap="Jazz und Popularmusik">060005004</key>
+                <key parent="060005" cap="Kirchenmusik">060005005</key>
+                <key parent="060005" cap="Komposition">060005006</key>
+                <key parent="060005" cap="Musikerziehung">060005007</key>
+                <key parent="060005" cap="Musikwissenschaft/-geschichte">060005008</key>
+                <key parent="060005" cap="Orchestermusik">060005009</key>
+                <key parent="060005" cap="Rhythmik">060005010</key>
+                <key parent="060005" cap="Tonmeister">060005011</key>
+        <key cap="Mathematik, Naturwissenschaften">080</key>
+            <key parent="080" cap="Studienbereich Biologie">080001</key>
+                <key parent="080001" cap="Anthropologie (Humanbiologie)">080001001</key>
+                <key parent="080001" cap="Biologie">080001002</key>
+                <key parent="080001" cap="Biomedizin">080001003</key>
+                <key parent="080001" cap="Biotechnologie">080001004</key>
+            <key parent="080" cap="Studienbereich Chemie">080002</key>
+                <key parent="080002" cap="Biochemie">080002001</key>
+                <key parent="080002" cap="Chemie">080002002</key>
+                <key parent="080002" cap="Lebensmittelchemie">080002003</key>
+            <key parent="080" cap="Studienbereich Geographie">080003</key>
+                <key parent="080003" cap="Biogeographie">080003001</key>
+                <key parent="080003" cap="Geographie/Erdkunde">080003002</key>
+                <key parent="080003" cap="Wirtschafts-/Sozialgeographie">080003003</key>
+            <key parent="080" cap="Studienbereich Geowissenschaften (ohne Geographie)">080004</key>
+                <key parent="080004" cap="Geologie/Paläontologie">080004001</key>
+                <key parent="080004" cap="Geoökologie">080004004</key>
+                <key parent="080004" cap="Geophysik">080004002</key>
+                <key parent="080004" cap="Geowissenschaften">080004003</key>
+                <key parent="080004" cap="Meteorologie">080004005</key>
+                <key parent="080004" cap="Mineralogie">080004006</key>
+                <key parent="080004" cap="Ozeanographie">080004007</key>
+            <key parent="080" cap="Studienbereich Mathematik">080005</key>
+                <key parent="080005" cap="Mathematik">080005001</key>
+                <key parent="080005" cap="Mathematische Statistik/Wahrscheinlichkeitsrechnung">080005002</key>
+                <key parent="080005" cap="Technomathematik">080005003</key>
+                <key parent="080005" cap="Wirtschaftsmathematik">080005004</key>
+            <key parent="080" cap="Studienbereich Mathematik, Naturwissenschaften allgemein">080006</key>
+                <key parent="080006" cap="Geschichte der Mathematik und Naturwissenschaften">080006001</key>
+                <key parent="080006" cap="Interdisziplinäre Studien (Schwerpunkt Naturwissenschaften)">080006002</key>
+                <key parent="080006" cap="Lernbereich Naturwissenschaften/Sachunterricht">080006003</key>
+            <key parent="080" cap="Studienbereich Pharmazie">080007</key>
+                <key parent="080007" cap="Pharmazie">080007001</key>
+            <key parent="080" cap="Studienbereich Physik, Astronomie">080008</key>
+                <key parent="080008" cap="Astronomie, Astrophysik">080008001</key>
+                <key parent="080008" cap="Physik">080008002</key>
+        <key cap="Rechts-, Wirtschafts- und Sozialwissenschaften">090</key>
+            <key parent="090" cap="Studienbereich Erziehungswissenschaften">090001</key>
+                <key parent="090001" cap="Ausländerpädagogik">090001001</key>
+                <key parent="090001" cap="Berufs- und Wirtschaftspädagogik">090001002</key>
+                <key parent="090001" cap="Erwachsenenbildung und außerschulische Jugendbildung">090001003</key>
+                <key parent="090001" cap="Erziehungswissenschaft (Pädagogik)">090001004</key>
+                <key parent="090001" cap="Grundschul-/Primarstufenpädagogik">090001005</key>
+                <key parent="090001" cap="Pädagogik der frühen Kindheit">090001006</key>
+                <key parent="090001" cap="Sachunterricht (einschl. Schulgarten)">090001007</key>
+                <key parent="090001" cap="Schulpädagogik">090001008</key>
+                <key parent="090001" cap="Sonderpädagogik5)">090001009</key>
+            <key parent="090" cap="Studienbereich Politikwissenschaften">090002</key>
+                <key parent="090002" cap="Politikwissenschaft/Politologie">090002001</key>
+            <key parent="090" cap="Studienbereich Psychologie">090003</key>
+                <key parent="090003" cap="Psychologie">090003001</key>
+            <key parent="090" cap="Studienbereich Rechts-, Wirtschafts- und Sozialwissenschaften allgemein">090004</key>
+                <key parent="090004" cap="Interdisziplinäre Studien (Schwerpunkt Rechts-, Wirtschafts- und Sozialwissenschaften)">090004001</key>
+                <key parent="090004" cap="Kommunikationswissenschaft/Publizistik">090004002</key>
+                <key parent="090004" cap="Lernbereich Gesellschaftslehre">090004003</key>
+            <key parent="090" cap="Studienbereich Rechtswissenschaften">090005</key>
+                <key parent="090005" cap="Rechtswissenschaft">090005001</key>
+                <key parent="090005" cap="Wirtschaftsrecht">090005002</key>
+            <key parent="090" cap="Studienbereich Regionalwissenschaften">090006</key>
+                <key parent="090006" cap="Lateinamerika">090006001</key>
+                <key parent="090006" cap="Ost- und Südosteuropa">090006002</key>
+                <key parent="090006" cap="Sonstige Regionalwissenschaften">090006003</key>
+            <key parent="090" cap="Studienbereich Sozialwesen">090007</key>
+                <key parent="090007" cap="Soziale Arbeit">090007001</key>
+                <key parent="090007" cap="Sozialpädagogik">090007002</key>
+                <key parent="090007" cap="Sozialwesen">090007003</key>
+            <key parent="090" cap="Studienbereich Sozialwissenschaften">090008</key>
+                <key parent="090008" cap="Sozialkunde">090008001</key>
+                <key parent="090008" cap="Sozialwissenschaft">090008002</key>
+                <key parent="090008" cap="Soziologie">090008003</key>
+            <key parent="090" cap="Studienbereich Verwaltungswissenschaften">090009</key>
+                <key parent="090009" cap="Arbeits- und Berufsberatung">090009001</key>
+                <key parent="090009" cap="Arbeitsverwaltung">090009002</key>
+                <key parent="090009" cap="Archivwesen">090009003</key>
+                <key parent="090009" cap="Auswärtige Angelegenheiten">090009004</key>
+                <key parent="090009" cap="Bankwesen">090009005</key>
+                <key parent="090009" cap="Bibliothekswesen">090009006</key>
+                <key parent="090009" cap="Bundeswehrverwaltung">090009007</key>
+                <key parent="090009" cap="Finanzverwaltung">090009008</key>
+                <key parent="090009" cap="Innere Verwaltung">090009009</key>
+                <key parent="090009" cap="Justizvollzug">090009010</key>
+                <key parent="090009" cap="Polizei/Verfassungsschutz">090009011</key>
+                <key parent="090009" cap="Rechtspflege">090009012</key>
+                <key parent="090009" cap="Sozialversicherung">090009013</key>
+                <key parent="090009" cap="Verkehrswesen">090009014</key>
+                <key parent="090009" cap="Verwaltungswissenschaft/-wesen">090009015</key>
+                <key parent="090009" cap="Zoll- und Steuerverwaltung">090009016</key>
+            <key parent="090" cap="Studienbereich Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt">090010</key>
+                <key parent="090010" cap="Facility Management">090010001</key>
+                <key parent="090010" cap="Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt">090010002</key>
+            <key parent="090" cap="Studienbereich Wirtschaftswissenschaften">090011</key>
+                <key parent="090011" cap="Arbeitslehre/Wirtschaftslehre">090011001</key>
+                <key parent="090011" cap="Betriebswirtschaftslehre">090011002</key>
+                <key parent="090011" cap="Europäische Wirtschaft">090011003</key>
+                <key parent="090011" cap="Internationale Betriebswirtschaft/Management">090011004</key>
+                <key parent="090011" cap="Medienwirtschaft/Medienmanagement">090011005</key>
+                <key parent="090011" cap="Sportmanagement/Sportökonomie">090011006</key>
+                <key parent="090011" cap="Tourismuswirtschaft">090011007</key>
+                <key parent="090011" cap="Verkehrswirtschaft">090011008</key>
+                <key parent="090011" cap="Volkswirtschaftslehre">090011009</key>
+                <key parent="090011" cap="Wirtschaftspädagogik">090011010</key>
+                <key parent="090011" cap="Wirtschaftswissenschaften">090011011</key>
+        <key cap="Sport">110</key>
+            <key parent="110" cap="Studienbereich Sport, Sportwissenschaft">110001</key>
+                <key parent="110001" cap="Sportpädagogik/Sportpsychologie">110001001</key>
+                <key parent="110001" cap="Sportwissenschaft">110001002</key>
+        <key cap="Fachgebietsübergreifend">900</key>
+            <key parent="900" cap="Schlüsselqualifikationen">900002</key>
+            <key parent="900" cap="Sprachen">900001</key>
+	</valuespace>
+	<valuespace property="ccm:topic">
+        <key cap="Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin">020</key>
+            <key parent="020" cap="Studienbereich Agrarwissenschaften, Lebensmittel- und Getränketechnologie">020002</key>
+                <key parent="020002" cap="Agrarbiologie">020002001</key>
+                <key parent="020002" cap="Agrarökonomie">020002003</key>
+                <key parent="020002" cap="Agrarwissenschaft/Landwirtschaft">020002002</key>
+                <key parent="020002" cap="Brauwesen/Getränketechnologie">020002004</key>
+                <key parent="020002" cap="Gartenbau">020002005</key>
+                <key parent="020002" cap="Lebensmitteltechnologie">020002006</key>
+                <key parent="020002" cap="Milch- und Molkereiwirtschaft">020002007</key>
+                <key parent="020002" cap="Pflanzenproduktion">020002008</key>
+                <key parent="020002" cap="Tierproduktion">020002009</key>
+                <key parent="020002" cap="Weinbau und Kellerwirtschaft">020002010</key>
+            <key parent="020" cap="Studienbereich Ernährungs- und Haushaltswissenschaften">020003</key>
+                <key parent="020003" cap="Ernährungswissenschaft">020003001</key>
+                <key parent="020003" cap="Haushalts- und Ernährungswissenschaft">020003002</key>
+                <key parent="020003" cap="Haushaltswissenschaft">020003003</key>
+            <key parent="020" cap="Studienbereich Forstwissenschaft, Holzwirtschaft">020004</key>
+                <key parent="020004" cap="Forstwissenschaft, -wirtschaft">020004001</key>
+                <key parent="020004" cap="Holzwirtschaft">020004002</key>
+            <key parent="020" cap="Studienbereich Landespflege, Umweltgestaltung">020005</key>
+                <key parent="020005" cap="Landespflege/Landschaftsgestaltung">020005001</key>
+                <key parent="020005" cap="Meliorationswesen">020005002</key>
+                <key parent="020005" cap="Naturschutz">020005003</key>
+            <key parent="020" cap="Studienbereich Veterinärmedizin">020006</key>
+                <key parent="020006" cap="Tiermedizin/Veterinärmedizin">020006001</key>
+        <key cap="Geisteswissenschaften">030</key>
+            <key parent="030" cap="Studienbereich Allgemeine und vergleichende Literatur- und Sprachwissenschaft">030001</key>
+                <key parent="030001" cap="Allgemeine Literaturwissenschaft">030001001</key>
+                <key parent="030001" cap="Allgemeine Sprachwissenschaft/Indogermanistik">030001002</key>
+                <key parent="030001" cap="Angewandte Sprachwissenschaft">030001003</key>
+                <key parent="030001" cap="Berufsbezogene Fremdsprachenausbildung">030001004</key>
+                <key parent="030001" cap="Computerlinguistik">030001005</key>
+            <key parent="030" cap="Studienbereich Altphilologie (klass. Philologie), Neugriechisch">030002</key>
+                <key parent="030002" cap="Byzantinistik">030002001</key>
+                <key parent="030002" cap="Griechisch">030002002</key>
+                <key parent="030002" cap="Klassische Philologie">030002003</key>
+                <key parent="030002" cap="Latein">030002004</key>
+                <key parent="030002" cap="Neugriechisch">030002005</key>
+            <key parent="030" cap="Studienbereich Anglistik, Amerikanistik">030003</key>
+                <key parent="030003" cap="Amerikanistik/Amerikakunde">030003001</key>
+                <key parent="030003" cap="Anglistik/Englisch">030003002</key>
+            <key parent="030" cap="Studienbereich Außereuropäische Sprach- und Kulturwissenschaften">030004</key>
+                <key parent="030004" cap="Afrikanistik">030004001</key>
+                <key parent="030004" cap="Ägyptologie">030004014</key>
+                <key parent="030004" cap="Arabisch/Arabistik">030004002</key>
+                <key parent="030004" cap="Asiatische Sprachen und Kulturen/Asienwissenschaften">030004003</key>
+                <key parent="030004" cap="Außereuropäische Sprachen und Kulturen in Ozeanien und Amerika">030004004</key>
+                <key parent="030004" cap="Hebräisch/Judaistik">030004005</key>
+                <key parent="030004" cap="Indologie">030004006</key>
+                <key parent="030004" cap="Iranistik">030004007</key>
+                <key parent="030004" cap="Islamwissenschaft">030004008</key>
+                <key parent="030004" cap="Japanologie">030004009</key>
+                <key parent="030004" cap="Kaukasistik">030004010</key>
+                <key parent="030004" cap="Orientalistik/Altorientalistik">030004011</key>
+                <key parent="030004" cap="Sinologie/Koreanistik">030004012</key>
+                <key parent="030004" cap="Turkologie">030004013</key>
+            <key parent="030" cap="Studienbereich Bibliothekswissenschaft, Dokumentation">030005</key>
+                <key parent="030005" cap="Bibliothekswissenschaft/-wesen (nicht an Verwaltungsfachhochschulen)">030005001</key>
+                <key parent="030005" cap="Dokumentationswissenschaft">030005002</key>
+            <key parent="030" cap="Studienbereich Evang. Theologie, -Religionslehre">030006</key>
+                <key parent="030006" cap="Diakoniewissenschaft">030006001</key>
+                <key parent="030006" cap="Evang. Religionspädagogik, kirchliche Bildungsarbeit">030006002</key>
+                <key parent="030006" cap="Evang. Theologie, -Religionslehre">030006003</key>
+            <key parent="030" cap="Studienbereich Geisteswissenschaften allgemein">030007</key>
+                <key parent="030007" cap="Interdisziplinäre Studien (Schwerpunkt Sprach- und Kulturwissenschaften)">030007001</key>
+                <key parent="030007" cap="Lernbereich Sprach- und Kulturwissenschaften">030007002</key>
+                <key parent="030007" cap="Medienwissenschaft">030007003</key>
+            <key parent="030" cap="Studienbereich Germanistik (Deutsch, germanische Sprachen ohne Anglistik)">030008</key>
+                <key parent="030008" cap="Dänisch">030008002</key>
+                <key parent="030008" cap="Deutsch als Fremdsprache oder als Zweitsprache">030008001</key>
+                <key parent="030008" cap="Germanistik/Deutsch">030008003</key>
+                <key parent="030008" cap="Niederdeutsch">030008004</key>
+                <key parent="030008" cap="Niederländisch">030008005</key>
+                <key parent="030008" cap="Nordistik/Skandinavistik (Nordische Philologie, Einzelsprachen a.n.g.)">030008006</key>
+            <key parent="030" cap="Studienbereich Geschichte">030009</key>
+                <key parent="030009" cap="Alte Geschichte">030009001</key>
+                <key parent="030009" cap="Archäologie">030009002</key>
+                <key parent="030009" cap="Geschichte">030009003</key>
+                <key parent="030009" cap="Mittlere und neuere Geschichte">030009004</key>
+                <key parent="030009" cap="Ur- und Frühgeschichte">030009005</key>
+                <key parent="030009" cap="Wirtschafts-/Sozialgeschichte">030009006</key>
+            <key parent="030" cap="Studienbereich Islamische Studien">030010</key>
+                <key parent="030010" cap="Islamische Studien">030010001</key>
+            <key parent="030" cap="Studienbereich Kath. Theologie, -Religionslehre">030011</key>
+                <key parent="030011" cap="Caritaswissenschaft">030011001</key>
+                <key parent="030011" cap="Kath. Religionspädagogik, kirchliche Bildungsarbeit">030011002</key>
+                <key parent="030011" cap="Kath. Theologie, -Religionslehre">030011003</key>
+            <key parent="030" cap="Studienbereich Kulturwissenschaften i.e.S.">030012</key>
+                <key parent="030012" cap="Ethnologie">030012001</key>
+                <key parent="030012" cap="Europäische Ethnologie und Kulturwissenschaft">030012002</key>
+                <key parent="030012" cap="Volkskunde">030012003</key>
+            <key parent="030" cap="Studienbereich Philosophie">030013</key>
+                <key parent="030013" cap="Ethik">030013001</key>
+                <key parent="030013" cap="Philosophie">030013002</key>
+                <key parent="030013" cap="Religionswissenschaft">030013003</key>
+            <key parent="030" cap="Studienbereich Romanistik">030014</key>
+                <key parent="030014" cap="Französisch">030014001</key>
+                <key parent="030014" cap="Italienisch">030014002</key>
+                <key parent="030014" cap="Portugiesisch">030014003</key>
+                <key parent="030014" cap="Romanistik (Roman. Philologie, Einzelsprachen a.n.g.)">030014004</key>
+                <key parent="030014" cap="Spanisch">030014005</key>
+            <key parent="030" cap="Studienbereich Slawistik, Baltistik, Finno-Ugristik">030015</key>
+                <key parent="030015" cap="Baltistik">030015001</key>
+                <key parent="030015" cap="Finno-Ugristik">030015002</key>
+                <key parent="030015" cap="Polnisch">030015003</key>
+                <key parent="030015" cap="Russisch">030015004</key>
+                <key parent="030015" cap="Slawistik (Slaw. Philologie)">030015005</key>
+                <key parent="030015" cap="Sorbisch">030015006</key>
+                <key parent="030015" cap="Südslawisch (Bulgarisch, Serbokroatisch Slowenisch usw.)">030015007</key>
+                <key parent="030015" cap="Tschechisch">030015008</key>
+                <key parent="030015" cap="Westslawisch (allgemein und a.n.g.)">030015009</key>
+        <key cap="Humanmedizin/Gesundheitswissenschaften">040</key>
+            <key parent="040" cap="Studienbereich Gesundheitswissenschaften allgemein">040001</key>
+                <key parent="040001" cap="Gesundheitspädagogik">040001001</key>
+                <key parent="040001" cap="Gesundheitswissenschaft/-management">040001002</key>
+                <key parent="040001" cap="Nichtärztliche Heilberufe/Therapien">040001003</key>
+                <key parent="040001" cap="Pflegewissenschaft/-management">040001004</key>
+            <key parent="040" cap="Studienbereich Humanmedizin (ohne Zahnmedizin)">040002</key>
+                <key parent="040002" cap="Medizin (Allgemein-Medizin)">040002001</key>
+            <key parent="040" cap="Studienbereich Zahnmedizin">040003</key>
+                <key parent="040003" cap="Zahnmedizin">040003001</key>
+        <key cap="Ingenieurwissenschaften">050</key>
+            <key parent="050" cap="Studienbereich Architektur, Innenarchitektur">050001</key>
+                <key parent="050001" cap="Architektur">050001001</key>
+                <key parent="050001" cap="Innenarchitektur">050001002</key>
+            <key parent="050" cap="Studienbereich Bauingenieurwesen">050002</key>
+                <key parent="050002" cap="Bauingenieurwesen/Ingenieurbau">050002001</key>
+                <key parent="050002" cap="Holzbau">050002002</key>
+                <key parent="050002" cap="Stahlbau">050002003</key>
+                <key parent="050002" cap="Wasserbau">050002004</key>
+                <key parent="050002" cap="Wasserwirtschaft">050002005</key>
+            <key parent="050" cap="Studienbereich Bergbau, Hüttenwesen">050012</key>
+                <key parent="050012" cap="Archäometrie (Ingenieurarchäologie)">050012001</key>
+                <key parent="050012" cap="Bergbau/Bergtechnik">050012002</key>
+                <key parent="050012" cap="Hütten- und Gießereiwesen">050012003</key>
+                <key parent="050012" cap="Markscheidewesen">050012004</key>
+            <key parent="050" cap="Studienbereich Elektrotechnik und Informationstechnik">050003</key>
+                <key parent="050003" cap="Elektrische Energietechnik">050003001</key>
+                <key parent="050003" cap="Elektrotechnik/Elektronik">050003002</key>
+                <key parent="050003" cap="Kommunikations- und Informationstechnik">050003003</key>
+                <key parent="050003" cap="Mikroelektronik">050003004</key>
+                <key parent="050003" cap="Mikrosystemtechnik">050003005</key>
+                <key parent="050003" cap="Optoelektronik">050003006</key>
+            <key parent="050" cap="Studienbereich Informatik">050004</key>
+                <key parent="050004" cap="Bioinformatik">050004001</key>
+                <key parent="050004" cap="Computer- und Kommunikationstechniken">050004002</key>
+                <key parent="050004" cap="Informatik">050004003</key>
+                <key parent="050004" cap="Ingenieurinformatik/Technische Informatik">050004004</key>
+                <key parent="050004" cap="Medieninformatik">050004005</key>
+                <key parent="050004" cap="Medizinische Informatik">050004006</key>
+                <key parent="050004" cap="Wirtschaftsinformatik">050004007</key>
+            <key parent="050" cap="Studienbereich Ingenieurwesen allgemein">050005</key>
+                <key parent="050005" cap="Angewandte Systemwissenschaften">050005001</key>
+                <key parent="050005" cap="Interdisziplinäre Studien (Schwerpunkt Ingenieurwissenschaften)">050005002</key>
+                <key parent="050005" cap="Lernbereich Technik">050005003</key>
+                <key parent="050005" cap="Mechatronik">050005004</key>
+                <key parent="050005" cap="Medientechnik">050005005</key>
+                <key parent="050005" cap="Regenerative Energien">050005006</key>
+                <key parent="050005" cap="Werken (technisch)/Technologie">050005007</key>
+            <key parent="050" cap="Studienbereich Maschinenbau/Verfahrenstechnik">050006</key>
+                <key parent="050006" cap="Abfallwirtschaft">050006001</key>
+                <key parent="050006" cap="Augenoptik">050006002</key>
+                <key parent="050006" cap="Chemie-Ingenieurwesen/Chemietechnik">050006003</key>
+                <key parent="050006" cap="Druck- und Reproduktionstechnik">050006004</key>
+                <key parent="050006" cap="Energietechnik (ohne Elektrotechnik)">050006005</key>
+                <key parent="050006" cap="Feinwerktechnik">050006006</key>
+                <key parent="050006" cap="Fertigungs-/Produktionstechnik">050006007</key>
+                <key parent="050006" cap="Gesundheitstechnik">050006008</key>
+                <key parent="050006" cap="Glastechnik/Keramik">050006009</key>
+                <key parent="050006" cap="Holz-/Fasertechnik">050006010</key>
+                <key parent="050006" cap="Kerntechnik/Kernverfahrenstechnik">050006011</key>
+                <key parent="050006" cap="Kunststofftechnik">050006012</key>
+                <key parent="050006" cap="Maschinenbau/-wesen">050006013</key>
+                <key parent="050006" cap="Metalltechnik">050006014</key>
+                <key parent="050006" cap="Physikalische Technik">050006015</key>
+                <key parent="050006" cap="Technische Kybernetik">050006016</key>
+                <key parent="050006" cap="Textil- und Bekleidungstechnik/-gewerbe">050006017</key>
+                <key parent="050006" cap="Transport-/Fördertechnik">050006018</key>
+                <key parent="050006" cap="Umwelttechnik (einschl. Recycling)">050006019</key>
+                <key parent="050006" cap="Verfahrenstechnik">050006020</key>
+                <key parent="050006" cap="Versorgungstechnik">050006021</key>
+            <key parent="050" cap="Studienbereich Materialwissenschaft und Werkstofftechnik">050007</key>
+                <key parent="050007" cap="Materialwissenschaft">050007001</key>
+                <key parent="050007" cap="Werkstofftechnik">050007002</key>
+            <key parent="050" cap="Studienbereich Raumplanung">050008</key>
+                <key parent="050008" cap="Raumplanung">050008001</key>
+                <key parent="050008" cap="Umweltschutz">050008002</key>
+            <key parent="050" cap="Studienbereich Verkehrstechnik, Nautik">050009</key>
+                <key parent="050009" cap="Fahrzeugtechnik">050009001</key>
+                <key parent="050009" cap="Luft- und Raumfahrttechnik">050009002</key>
+                <key parent="050009" cap="Nautik/Seefahrt">050009003</key>
+                <key parent="050009" cap="Schiffbau/Schiffstechnik">050009004</key>
+                <key parent="050009" cap="Verkehrsingenieurwesen">050009005</key>
+            <key parent="050" cap="Studienbereich Vermessungswesen">050010</key>
+                <key parent="050010" cap="Kartographie">050010001</key>
+                <key parent="050010" cap="Vermessungswesen (Geodäsie)">050010002</key>
+            <key parent="050" cap="Studienbereich Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt">050011</key>
+                <key parent="050011" cap="Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt">050011001</key>
+        <key cap="Kunst, Kunstwissenschaft">060</key>
+            <key parent="060" cap="Studienbereich Bildende Kunst">060001</key>
+                <key parent="060001" cap="Bildende Kunst/Graphik">060001001</key>
+                <key parent="060001" cap="Bildhauerei/Plastik">060001002</key>
+                <key parent="060001" cap="Malerei">060001003</key>
+                <key parent="060001" cap="Neue Medien">060001004</key>
+            <key parent="060" cap="Studienbereich Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft">060002</key>
+                <key parent="060002" cap="Darstellende Kunst/Bühnenkunst/Regie">060002001</key>
+                <key parent="060002" cap="Film und Fernsehen">060002002</key>
+                <key parent="060002" cap="Schauspiel">060002003</key>
+                <key parent="060002" cap="Tanzpädagogik">060002004</key>
+                <key parent="060002" cap="Theaterwissenschaft">060002005</key>
+            <key parent="060" cap="Studienbereich Gestaltung">060003</key>
+                <key parent="060003" cap="Angewandte Kunst">060003001</key>
+                <key parent="060003" cap="Edelstein- und Schmuckdesign">060003002</key>
+                <key parent="060003" cap="Graphikdesign/Kommunikationsgestaltung">060003003</key>
+                <key parent="060003" cap="Industriedesign/Produktgestaltung">060003004</key>
+                <key parent="060003" cap="Textilgestaltung">060003005</key>
+                <key parent="060003" cap="Werkerziehung">060003006</key>
+            <key parent="060" cap="Studienbereich Kunst, Kunstwissenschaft allgemein">060004</key>
+                <key parent="060004" cap="Interdisziplinäre Studien (Schwerpunkt Kunst, Kunstwissenschaft)">060004001</key>
+                <key parent="060004" cap="Kunsterziehung">060004002</key>
+                <key parent="060004" cap="Kunstgeschichte, Kunstwissenschaft">060004003</key>
+                <key parent="060004" cap="Restaurierungskunde">060004004</key>
+            <key parent="060" cap="Studienbereich Musik, Musikwissenschaft">060005</key>
+                <key parent="060005" cap="Dirigieren">060005001</key>
+                <key parent="060005" cap="Gesang">060005002</key>
+                <key parent="060005" cap="Instrumentalmusik">060005003</key>
+                <key parent="060005" cap="Jazz und Popularmusik">060005004</key>
+                <key parent="060005" cap="Kirchenmusik">060005005</key>
+                <key parent="060005" cap="Komposition">060005006</key>
+                <key parent="060005" cap="Musikerziehung">060005007</key>
+                <key parent="060005" cap="Musikwissenschaft/-geschichte">060005008</key>
+                <key parent="060005" cap="Orchestermusik">060005009</key>
+                <key parent="060005" cap="Rhythmik">060005010</key>
+                <key parent="060005" cap="Tonmeister">060005011</key>
+        <key cap="Mathematik, Naturwissenschaften">080</key>
+            <key parent="080" cap="Studienbereich Biologie">080001</key>
+                <key parent="080001" cap="Anthropologie (Humanbiologie)">080001001</key>
+                <key parent="080001" cap="Biologie">080001002</key>
+                <key parent="080001" cap="Biomedizin">080001003</key>
+                <key parent="080001" cap="Biotechnologie">080001004</key>
+            <key parent="080" cap="Studienbereich Chemie">080002</key>
+                <key parent="080002" cap="Biochemie">080002001</key>
+                <key parent="080002" cap="Chemie">080002002</key>
+                <key parent="080002" cap="Lebensmittelchemie">080002003</key>
+            <key parent="080" cap="Studienbereich Geographie">080003</key>
+                <key parent="080003" cap="Biogeographie">080003001</key>
+                <key parent="080003" cap="Geographie/Erdkunde">080003002</key>
+                <key parent="080003" cap="Wirtschafts-/Sozialgeographie">080003003</key>
+            <key parent="080" cap="Studienbereich Geowissenschaften (ohne Geographie)">080004</key>
+                <key parent="080004" cap="Geologie/Paläontologie">080004001</key>
+                <key parent="080004" cap="Geoökologie">080004004</key>
+                <key parent="080004" cap="Geophysik">080004002</key>
+                <key parent="080004" cap="Geowissenschaften">080004003</key>
+                <key parent="080004" cap="Meteorologie">080004005</key>
+                <key parent="080004" cap="Mineralogie">080004006</key>
+                <key parent="080004" cap="Ozeanographie">080004007</key>
+            <key parent="080" cap="Studienbereich Mathematik">080005</key>
+                <key parent="080005" cap="Mathematik">080005001</key>
+                <key parent="080005" cap="Mathematische Statistik/Wahrscheinlichkeitsrechnung">080005002</key>
+                <key parent="080005" cap="Technomathematik">080005003</key>
+                <key parent="080005" cap="Wirtschaftsmathematik">080005004</key>
+            <key parent="080" cap="Studienbereich Mathematik, Naturwissenschaften allgemein">080006</key>
+                <key parent="080006" cap="Geschichte der Mathematik und Naturwissenschaften">080006001</key>
+                <key parent="080006" cap="Interdisziplinäre Studien (Schwerpunkt Naturwissenschaften)">080006002</key>
+                <key parent="080006" cap="Lernbereich Naturwissenschaften/Sachunterricht">080006003</key>
+            <key parent="080" cap="Studienbereich Pharmazie">080007</key>
+                <key parent="080007" cap="Pharmazie">080007001</key>
+            <key parent="080" cap="Studienbereich Physik, Astronomie">080008</key>
+                <key parent="080008" cap="Astronomie, Astrophysik">080008001</key>
+                <key parent="080008" cap="Physik">080008002</key>
+        <key cap="Rechts-, Wirtschafts- und Sozialwissenschaften">090</key>
+            <key parent="090" cap="Studienbereich Erziehungswissenschaften">090001</key>
+                <key parent="090001" cap="Ausländerpädagogik">090001001</key>
+                <key parent="090001" cap="Berufs- und Wirtschaftspädagogik">090001002</key>
+                <key parent="090001" cap="Erwachsenenbildung und außerschulische Jugendbildung">090001003</key>
+                <key parent="090001" cap="Erziehungswissenschaft (Pädagogik)">090001004</key>
+                <key parent="090001" cap="Grundschul-/Primarstufenpädagogik">090001005</key>
+                <key parent="090001" cap="Pädagogik der frühen Kindheit">090001006</key>
+                <key parent="090001" cap="Sachunterricht (einschl. Schulgarten)">090001007</key>
+                <key parent="090001" cap="Schulpädagogik">090001008</key>
+                <key parent="090001" cap="Sonderpädagogik5)">090001009</key>
+            <key parent="090" cap="Studienbereich Politikwissenschaften">090002</key>
+                <key parent="090002" cap="Politikwissenschaft/Politologie">090002001</key>
+            <key parent="090" cap="Studienbereich Psychologie">090003</key>
+                <key parent="090003" cap="Psychologie">090003001</key>
+            <key parent="090" cap="Studienbereich Rechts-, Wirtschafts- und Sozialwissenschaften allgemein">090004</key>
+                <key parent="090004" cap="Interdisziplinäre Studien (Schwerpunkt Rechts-, Wirtschafts- und Sozialwissenschaften)">090004001</key>
+                <key parent="090004" cap="Kommunikationswissenschaft/Publizistik">090004002</key>
+                <key parent="090004" cap="Lernbereich Gesellschaftslehre">090004003</key>
+            <key parent="090" cap="Studienbereich Rechtswissenschaften">090005</key>
+                <key parent="090005" cap="Rechtswissenschaft">090005001</key>
+                <key parent="090005" cap="Wirtschaftsrecht">090005002</key>
+            <key parent="090" cap="Studienbereich Regionalwissenschaften">090006</key>
+                <key parent="090006" cap="Lateinamerika">090006001</key>
+                <key parent="090006" cap="Ost- und Südosteuropa">090006002</key>
+                <key parent="090006" cap="Sonstige Regionalwissenschaften">090006003</key>
+            <key parent="090" cap="Studienbereich Sozialwesen">090007</key>
+                <key parent="090007" cap="Soziale Arbeit">090007001</key>
+                <key parent="090007" cap="Sozialpädagogik">090007002</key>
+                <key parent="090007" cap="Sozialwesen">090007003</key>
+            <key parent="090" cap="Studienbereich Sozialwissenschaften">090008</key>
+                <key parent="090008" cap="Sozialkunde">090008001</key>
+                <key parent="090008" cap="Sozialwissenschaft">090008002</key>
+                <key parent="090008" cap="Soziologie">090008003</key>
+            <key parent="090" cap="Studienbereich Verwaltungswissenschaften">090009</key>
+                <key parent="090009" cap="Arbeits- und Berufsberatung">090009001</key>
+                <key parent="090009" cap="Arbeitsverwaltung">090009002</key>
+                <key parent="090009" cap="Archivwesen">090009003</key>
+                <key parent="090009" cap="Auswärtige Angelegenheiten">090009004</key>
+                <key parent="090009" cap="Bankwesen">090009005</key>
+                <key parent="090009" cap="Bibliothekswesen">090009006</key>
+                <key parent="090009" cap="Bundeswehrverwaltung">090009007</key>
+                <key parent="090009" cap="Finanzverwaltung">090009008</key>
+                <key parent="090009" cap="Innere Verwaltung">090009009</key>
+                <key parent="090009" cap="Justizvollzug">090009010</key>
+                <key parent="090009" cap="Polizei/Verfassungsschutz">090009011</key>
+                <key parent="090009" cap="Rechtspflege">090009012</key>
+                <key parent="090009" cap="Sozialversicherung">090009013</key>
+                <key parent="090009" cap="Verkehrswesen">090009014</key>
+                <key parent="090009" cap="Verwaltungswissenschaft/-wesen">090009015</key>
+                <key parent="090009" cap="Zoll- und Steuerverwaltung">090009016</key>
+            <key parent="090" cap="Studienbereich Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt">090010</key>
+                <key parent="090010" cap="Facility Management">090010001</key>
+                <key parent="090010" cap="Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt">090010002</key>
+            <key parent="090" cap="Studienbereich Wirtschaftswissenschaften">090011</key>
+                <key parent="090011" cap="Arbeitslehre/Wirtschaftslehre">090011001</key>
+                <key parent="090011" cap="Betriebswirtschaftslehre">090011002</key>
+                <key parent="090011" cap="Europäische Wirtschaft">090011003</key>
+                <key parent="090011" cap="Internationale Betriebswirtschaft/Management">090011004</key>
+                <key parent="090011" cap="Medienwirtschaft/Medienmanagement">090011005</key>
+                <key parent="090011" cap="Sportmanagement/Sportökonomie">090011006</key>
+                <key parent="090011" cap="Tourismuswirtschaft">090011007</key>
+                <key parent="090011" cap="Verkehrswirtschaft">090011008</key>
+                <key parent="090011" cap="Volkswirtschaftslehre">090011009</key>
+                <key parent="090011" cap="Wirtschaftspädagogik">090011010</key>
+                <key parent="090011" cap="Wirtschaftswissenschaften">090011011</key>
+        <key cap="Sport">110</key>
+            <key parent="110" cap="Studienbereich Sport, Sportwissenschaft">110001</key>
+                <key parent="110001" cap="Sportpädagogik/Sportpsychologie">110001001</key>
+                <key parent="110001" cap="Sportwissenschaft">110001002</key>
+        <key cap="Fachgebietsübergreifend">900</key>
+            <key parent="900" cap="Schlüsselqualifikationen">900002</key>
+            <key parent="900" cap="Sprachen">900001</key>
+	</valuespace>
+</valuespaces>
