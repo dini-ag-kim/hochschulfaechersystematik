@@ -38,7 +38,7 @@ topConcepts.forEach(concept => console.log(`
     'skos:narrower ' + childConcepts.filter(child => child.parent === concept.id).map(child => '<' + child.id + '#>').join(', ') + ';'
     || ''
   }
-  skos:notation ${concept.notation} ;
+  skos:notation "${concept.notation}" ;
   skos:topConceptOf <scheme#> .
 `))
 
@@ -51,6 +51,6 @@ childConcepts.forEach(concept => console.log(`
     || ''
   }
   skos:broader <${concept.parent}#> ;
-  skos:notation ${concept.notation} ;
+  skos:notation "${concept.notation}" ;
   skos:inScheme <scheme#> .
 `))
