@@ -5,7 +5,7 @@ var fs = require('fs')
 var xml = fs.readFileSync('fachgebiete.xml', 'utf8')
 
 var doc = new dom().parseFromString(xml)
-var nodes = xpath.select('//key', doc)
+var nodes = xpath.select('/valuespaces/valuespace[@property="ccm:taxonid"]/key', doc)
 var topConcepts = []
 var childConcepts = []
 
