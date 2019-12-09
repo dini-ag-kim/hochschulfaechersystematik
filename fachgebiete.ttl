@@ -39,19 +39,19 @@
 
 <n4#> a skos:Concept ;
   skos:prefLabel "Mathematik, Naturwissenschaften"@de ;
-  skos:narrower <n42#>, <n40#>, <n44#>, <n43#>, <n37#>, <n36#>, <n080007#>, <n080008#>;
+  skos:narrower <n42#>, <n40#>, <n44#>, <n43#>, <n37#>, <n36#>, <n41#>, <n39#>;
   skos:notation "4" ;
   skos:topConceptOf <scheme#> .
 
 <n3#> a skos:Concept ;
   skos:prefLabel "Rechts-, Wirtschafts- und Sozialwissenschaften"@de ;
-  skos:narrower <n090001#>, <n090002#>, <n090003#>, <n090004#>, <n090005#>, <n090006#>, <n090007#>, <n090008#>, <n090009#>, <n090010#>, <n090011#>;
+  skos:narrower <n33#>, <n25#>, <n32#>, <n23#>, <n28#>, <n24#>, <n27#>, <n26#>, <n29#>, <n31#>, <n30#>;
   skos:notation "3" ;
   skos:topConceptOf <scheme#> .
 
 <n2#> a skos:Concept ;
   skos:prefLabel "Sport"@de ;
-  skos:narrower <n110001#>;
+  skos:narrower <n22#>;
   skos:notation "2" ;
   skos:topConceptOf <scheme#> .
 
@@ -1660,456 +1660,456 @@
   skos:notation "186" ;
   skos:inScheme <scheme#> .
 
-<n080007#> a skos:Concept ;
+<n41#> a skos:Concept ;
   skos:prefLabel "Studienbereich Pharmazie"@de ;
-  skos:narrower <n080007001#>;
+  skos:narrower <n126#>;
   skos:broader <n4#> ;
-  skos:notation "080007" ;
+  skos:notation "41" ;
   skos:inScheme <scheme#> .
 
-<n080007001#> a skos:Concept ;
+<n126#> a skos:Concept ;
   skos:prefLabel "Pharmazie"@de ;
-  skos:broader <n080007#> ;
-  skos:notation "080007001" ;
+  skos:broader <n41#> ;
+  skos:notation "126" ;
   skos:inScheme <scheme#> .
 
-<n080008#> a skos:Concept ;
-  skos:prefLabel "Studienbereich Physik, Astronomie"@de ;
-  skos:narrower <n080008001#>, <n080008002#>;
+<n39#> a skos:Concept ;
+  skos:prefLabel "Physik, Astronomie"@de ;
+  skos:narrower <n014#>, <n0128#>;
   skos:broader <n4#> ;
-  skos:notation "080008" ;
+  skos:notation "39" ;
   skos:inScheme <scheme#> .
 
-<n080008001#> a skos:Concept ;
+<n014#> a skos:Concept ;
   skos:prefLabel "Astronomie, Astrophysik"@de ;
-  skos:broader <n080008#> ;
-  skos:notation "080008001" ;
+  skos:broader <n39#> ;
+  skos:notation "014" ;
   skos:inScheme <scheme#> .
 
-<n080008002#> a skos:Concept ;
+<n0128#> a skos:Concept ;
   skos:prefLabel "Physik"@de ;
-  skos:broader <n080008#> ;
-  skos:notation "080008002" ;
+  skos:broader <n39#> ;
+  skos:notation "128" ;
   skos:inScheme <scheme#> .
 
-<n090001#> a skos:Concept ;
-  skos:prefLabel "Studienbereich Erziehungswissenschaften"@de ;
-  skos:narrower <n090001001#>, <n090001002#>, <n090001003#>, <n090001004#>, <n090001005#>, <n090001006#>, <n090001007#>, <n090001008#>, <n090001009#>;
+<n33#> a skos:Concept ;
+  skos:prefLabel "Erziehungswissenschaften"@de ;
+  skos:narrower <n117#>, <n270#>, <n321#>, <n052#>, <n115#>, <n365#>, <n254#>, <n361#>, <n190#>;
   skos:broader <n3#> ;
-  skos:notation "090001" ;
+  skos:notation "33" ;
   skos:inScheme <scheme#> .
 
-<n090001001#> a skos:Concept ;
+<n117#> a skos:Concept ;
   skos:prefLabel "Ausländerpädagogik"@de ;
-  skos:broader <n090001#> ;
-  skos:notation "090001001" ;
+  skos:broader <n33#> ;
+  skos:notation "117" ;
   skos:inScheme <scheme#> .
 
-<n090001002#> a skos:Concept ;
+<n270#> a skos:Concept ;
   skos:prefLabel "Berufs- und Wirtschaftspädagogik"@de ;
-  skos:broader <n090001#> ;
-  skos:notation "090001002" ;
+  skos:broader <n33#> ;
+  skos:notation "270" ;
   skos:inScheme <scheme#> .
 
-<n090001003#> a skos:Concept ;
+<n321#> a skos:Concept ;
   skos:prefLabel "Erwachsenenbildung und außerschulische Jugendbildung"@de ;
-  skos:broader <n090001#> ;
-  skos:notation "090001003" ;
+  skos:broader <n33#> ;
+  skos:notation "321" ;
   skos:inScheme <scheme#> .
 
-<n090001004#> a skos:Concept ;
+<n052#> a skos:Concept ;
   skos:prefLabel "Erziehungswissenschaft (Pädagogik)"@de ;
-  skos:broader <n090001#> ;
-  skos:notation "090001004" ;
+  skos:broader <n33#> ;
+  skos:notation "052" ;
   skos:inScheme <scheme#> .
 
-<n090001005#> a skos:Concept ;
+<n115#> a skos:Concept ;
   skos:prefLabel "Grundschul-/Primarstufenpädagogik"@de ;
-  skos:broader <n090001#> ;
-  skos:notation "090001005" ;
+  skos:broader <n33#> ;
+  skos:notation "115" ;
   skos:inScheme <scheme#> .
 
-<n090001006#> a skos:Concept ;
+<n365#> a skos:Concept ;
   skos:prefLabel "Pädagogik der frühen Kindheit"@de ;
-  skos:broader <n090001#> ;
-  skos:notation "090001006" ;
+  skos:broader <n33#> ;
+  skos:notation "365" ;
   skos:inScheme <scheme#> .
 
-<n090001007#> a skos:Concept ;
+<n254#> a skos:Concept ;
   skos:prefLabel "Sachunterricht (einschl. Schulgarten)"@de ;
-  skos:broader <n090001#> ;
-  skos:notation "090001007" ;
+  skos:broader <n33#> ;
+  skos:notation "254" ;
   skos:inScheme <scheme#> .
 
-<n090001008#> a skos:Concept ;
+<n361#> a skos:Concept ;
   skos:prefLabel "Schulpädagogik"@de ;
-  skos:broader <n090001#> ;
-  skos:notation "090001008" ;
+  skos:broader <n33#> ;
+  skos:notation "361" ;
   skos:inScheme <scheme#> .
 
-<n090001009#> a skos:Concept ;
-  skos:prefLabel "Sonderpädagogik5)"@de ;
-  skos:broader <n090001#> ;
-  skos:notation "090001009" ;
+<n190#> a skos:Concept ;
+  skos:prefLabel "Sonderpädagogik"@de ;
+  skos:broader <n33#> ;
+  skos:notation "190" ;
   skos:inScheme <scheme#> .
 
-<n090002#> a skos:Concept ;
-  skos:prefLabel "Studienbereich Politikwissenschaften"@de ;
-  skos:narrower <n090002001#>;
+<n25#> a skos:Concept ;
+  skos:prefLabel "Politikwissenschaften"@de ;
+  skos:narrower <n129#>;
   skos:broader <n3#> ;
-  skos:notation "090002" ;
+  skos:notation "25" ;
   skos:inScheme <scheme#> .
 
-<n090002001#> a skos:Concept ;
+<n129#> a skos:Concept ;
   skos:prefLabel "Politikwissenschaft/Politologie"@de ;
-  skos:broader <n090002#> ;
-  skos:notation "090002001" ;
+  skos:broader <n25#> ;
+  skos:notation "129" ;
   skos:inScheme <scheme#> .
 
-<n090003#> a skos:Concept ;
+<n32#> a skos:Concept ;
   skos:prefLabel "Studienbereich Psychologie"@de ;
-  skos:narrower <n090003001#>;
+  skos:narrower <n132#>;
   skos:broader <n3#> ;
-  skos:notation "090003" ;
+  skos:notation "32" ;
   skos:inScheme <scheme#> .
 
-<n090003001#> a skos:Concept ;
+<n132#> a skos:Concept ;
   skos:prefLabel "Psychologie"@de ;
-  skos:broader <n090003#> ;
-  skos:notation "090003001" ;
+  skos:broader <n32#> ;
+  skos:notation "132" ;
   skos:inScheme <scheme#> .
 
-<n090004#> a skos:Concept ;
-  skos:prefLabel "Studienbereich Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"@de ;
-  skos:narrower <n090004001#>, <n090004002#>, <n090004003#>;
+<n23#> a skos:Concept ;
+  skos:prefLabel "Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"@de ;
+  skos:narrower <n030#>, <n303#>, <n154#>;
   skos:broader <n3#> ;
-  skos:notation "090004" ;
+  skos:notation "23" ;
   skos:inScheme <scheme#> .
 
-<n090004001#> a skos:Concept ;
+<n030#> a skos:Concept ;
   skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Rechts-, Wirtschafts- und Sozialwissenschaften)"@de ;
-  skos:broader <n090004#> ;
-  skos:notation "090004001" ;
+  skos:broader <n23#> ;
+  skos:notation "030" ;
   skos:inScheme <scheme#> .
 
-<n090004002#> a skos:Concept ;
+<n303#> a skos:Concept ;
   skos:prefLabel "Kommunikationswissenschaft/Publizistik"@de ;
-  skos:broader <n090004#> ;
-  skos:notation "090004002" ;
+  skos:broader <n23#> ;
+  skos:notation "303" ;
   skos:inScheme <scheme#> .
 
-<n090004003#> a skos:Concept ;
+<n154#> a skos:Concept ;
   skos:prefLabel "Lernbereich Gesellschaftslehre"@de ;
-  skos:broader <n090004#> ;
-  skos:notation "090004003" ;
+  skos:broader <n23#> ;
+  skos:notation "154" ;
   skos:inScheme <scheme#> .
 
-<n090005#> a skos:Concept ;
-  skos:prefLabel "Studienbereich Rechtswissenschaften"@de ;
-  skos:narrower <n090005001#>, <n090005002#>;
+<n28#> a skos:Concept ;
+  skos:prefLabel "Rechtswissenschaften"@de ;
+  skos:narrower <n135#>, <n042#>;
   skos:broader <n3#> ;
-  skos:notation "090005" ;
+  skos:notation "28" ;
   skos:inScheme <scheme#> .
 
-<n090005001#> a skos:Concept ;
+<n135#> a skos:Concept ;
   skos:prefLabel "Rechtswissenschaft"@de ;
-  skos:broader <n090005#> ;
-  skos:notation "090005001" ;
+  skos:broader <n28#> ;
+  skos:notation "135" ;
   skos:inScheme <scheme#> .
 
-<n090005002#> a skos:Concept ;
+<n042#> a skos:Concept ;
   skos:prefLabel "Wirtschaftsrecht"@de ;
-  skos:broader <n090005#> ;
-  skos:notation "090005002" ;
+  skos:broader <n28#> ;
+  skos:notation "042" ;
   skos:inScheme <scheme#> .
 
-<n090006#> a skos:Concept ;
-  skos:prefLabel "Studienbereich Regionalwissenschaften"@de ;
-  skos:narrower <n090006001#>, <n090006002#>, <n090006003#>;
+<n24#> a skos:Concept ;
+  skos:prefLabel "Regionalwissenschaften"@de ;
+  skos:narrower <n038#>, <n044#>, <n036#>;
   skos:broader <n3#> ;
-  skos:notation "090006" ;
+  skos:notation "24" ;
   skos:inScheme <scheme#> .
 
-<n090006001#> a skos:Concept ;
+<n038#> a skos:Concept ;
   skos:prefLabel "Lateinamerika"@de ;
-  skos:broader <n090006#> ;
-  skos:notation "090006001" ;
+  skos:broader <n24#> ;
+  skos:notation "038" ;
   skos:inScheme <scheme#> .
 
-<n090006002#> a skos:Concept ;
+<n044#> a skos:Concept ;
   skos:prefLabel "Ost- und Südosteuropa"@de ;
-  skos:broader <n090006#> ;
-  skos:notation "090006002" ;
+  skos:broader <n24#> ;
+  skos:notation "044" ;
   skos:inScheme <scheme#> .
 
-<n090006003#> a skos:Concept ;
+<n036#> a skos:Concept ;
   skos:prefLabel "Sonstige Regionalwissenschaften"@de ;
-  skos:broader <n090006#> ;
-  skos:notation "090006003" ;
+  skos:broader <n24#> ;
+  skos:notation "036" ;
   skos:inScheme <scheme#> .
 
-<n090007#> a skos:Concept ;
+<n27#> a skos:Concept ;
   skos:prefLabel "Studienbereich Sozialwesen"@de ;
-  skos:narrower <n090007001#>, <n090007002#>, <n090007003#>;
+  skos:narrower <n208#>, <n245#>, <n253#>;
   skos:broader <n3#> ;
-  skos:notation "090007" ;
+  skos:notation "27" ;
   skos:inScheme <scheme#> .
 
-<n090007001#> a skos:Concept ;
+<n208#> a skos:Concept ;
   skos:prefLabel "Soziale Arbeit"@de ;
-  skos:broader <n090007#> ;
-  skos:notation "090007001" ;
+  skos:broader <n27#> ;
+  skos:notation "208" ;
   skos:inScheme <scheme#> .
 
-<n090007002#> a skos:Concept ;
+<n245#> a skos:Concept ;
   skos:prefLabel "Sozialpädagogik"@de ;
-  skos:broader <n090007#> ;
-  skos:notation "090007002" ;
+  skos:broader <n27#> ;
+  skos:notation "245" ;
   skos:inScheme <scheme#> .
 
-<n090007003#> a skos:Concept ;
+<n253#> a skos:Concept ;
   skos:prefLabel "Sozialwesen"@de ;
-  skos:broader <n090007#> ;
-  skos:notation "090007003" ;
+  skos:broader <n27#> ;
+  skos:notation "253" ;
   skos:inScheme <scheme#> .
 
-<n090008#> a skos:Concept ;
-  skos:prefLabel "Studienbereich Sozialwissenschaften"@de ;
-  skos:narrower <n090008001#>, <n090008002#>, <n090008003#>;
+<n26#> a skos:Concept ;
+  skos:prefLabel "Sozialwissenschaften"@de ;
+  skos:narrower <n147#>, <n148#>, <n149#>;
   skos:broader <n3#> ;
-  skos:notation "090008" ;
+  skos:notation "26" ;
   skos:inScheme <scheme#> .
 
-<n090008001#> a skos:Concept ;
+<n147#> a skos:Concept ;
   skos:prefLabel "Sozialkunde"@de ;
-  skos:broader <n090008#> ;
-  skos:notation "090008001" ;
+  skos:broader <n26#> ;
+  skos:notation "147" ;
   skos:inScheme <scheme#> .
 
-<n090008002#> a skos:Concept ;
+<n148#> a skos:Concept ;
   skos:prefLabel "Sozialwissenschaft"@de ;
-  skos:broader <n090008#> ;
-  skos:notation "090008002" ;
+  skos:broader <n26#> ;
+  skos:notation "148" ;
   skos:inScheme <scheme#> .
 
-<n090008003#> a skos:Concept ;
+<n149#> a skos:Concept ;
   skos:prefLabel "Soziologie"@de ;
-  skos:broader <n090008#> ;
-  skos:notation "090008003" ;
+  skos:broader <n26#> ;
+  skos:notation "149" ;
   skos:inScheme <scheme#> .
 
-<n090009#> a skos:Concept ;
-  skos:prefLabel "Studienbereich Verwaltungswissenschaften"@de ;
-  skos:narrower <n090009001#>, <n090009002#>, <n090009003#>, <n090009004#>, <n090009005#>, <n090009006#>, <n090009007#>, <n090009008#>, <n090009009#>, <n090009010#>, <n090009011#>, <n090009012#>, <n090009013#>, <n090009014#>, <n090009015#>, <n090009016#>;
+<n29#> a skos:Concept ;
+  skos:prefLabel "Verwaltungswissenschaften"@de ;
+  skos:narrower <n257#>, <n258#>, <n255#>, <n259#>, <n265#>, <n262#>, <n260#>, <n266#>, <n261#>, <n168#>, <n263#>, <n256#>, <n264#>, <n268#>, <n172#>, <n269#>;
   skos:broader <n3#> ;
-  skos:notation "090009" ;
+  skos:notation "29" ;
   skos:inScheme <scheme#> .
 
-<n090009001#> a skos:Concept ;
+<n257#> a skos:Concept ;
   skos:prefLabel "Arbeits- und Berufsberatung"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009001" ;
+  skos:broader <n29#> ;
+  skos:notation "257" ;
   skos:inScheme <scheme#> .
 
-<n090009002#> a skos:Concept ;
+<n258#> a skos:Concept ;
   skos:prefLabel "Arbeitsverwaltung"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009002" ;
+  skos:broader <n29#> ;
+  skos:notation "258" ;
   skos:inScheme <scheme#> .
 
-<n090009003#> a skos:Concept ;
+<n255#> a skos:Concept ;
   skos:prefLabel "Archivwesen"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009003" ;
+  skos:broader <n29#> ;
+  skos:notation "255" ;
   skos:inScheme <scheme#> .
 
-<n090009004#> a skos:Concept ;
+<n259#> a skos:Concept ;
   skos:prefLabel "Auswärtige Angelegenheiten"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009004" ;
+  skos:broader <n29#> ;
+  skos:notation "259" ;
   skos:inScheme <scheme#> .
 
-<n090009005#> a skos:Concept ;
+<n265#> a skos:Concept ;
   skos:prefLabel "Bankwesen"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009005" ;
+  skos:broader <n29#> ;
+  skos:notation "265" ;
   skos:inScheme <scheme#> .
 
-<n090009006#> a skos:Concept ;
+<n262#> a skos:Concept ;
   skos:prefLabel "Bibliothekswesen"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009006" ;
+  skos:broader <n29#> ;
+  skos:notation "262" ;
   skos:inScheme <scheme#> .
 
-<n090009007#> a skos:Concept ;
+<n260#> a skos:Concept ;
   skos:prefLabel "Bundeswehrverwaltung"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009007" ;
+  skos:broader <n29#> ;
+  skos:notation "260" ;
   skos:inScheme <scheme#> .
 
-<n090009008#> a skos:Concept ;
+<n266#> a skos:Concept ;
   skos:prefLabel "Finanzverwaltung"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009008" ;
+  skos:broader <n29#> ;
+  skos:notation "266" ;
   skos:inScheme <scheme#> .
 
-<n090009009#> a skos:Concept ;
+<n261#> a skos:Concept ;
   skos:prefLabel "Innere Verwaltung"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009009" ;
+  skos:broader <n29#> ;
+  skos:notation "261" ;
   skos:inScheme <scheme#> .
 
-<n090009010#> a skos:Concept ;
+<n168#> a skos:Concept ;
   skos:prefLabel "Justizvollzug"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009010" ;
+  skos:broader <n29#> ;
+  skos:notation "168" ;
   skos:inScheme <scheme#> .
 
-<n090009011#> a skos:Concept ;
+<n263#> a skos:Concept ;
   skos:prefLabel "Polizei/Verfassungsschutz"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009011" ;
+  skos:broader <n29#> ;
+  skos:notation "263" ;
   skos:inScheme <scheme#> .
 
-<n090009012#> a skos:Concept ;
+<n256#> a skos:Concept ;
   skos:prefLabel "Rechtspflege"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009012" ;
+  skos:broader <n29#> ;
+  skos:notation "256" ;
   skos:inScheme <scheme#> .
 
-<n090009013#> a skos:Concept ;
+<n264#> a skos:Concept ;
   skos:prefLabel "Sozialversicherung"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009013" ;
+  skos:broader <n29#> ;
+  skos:notation "264" ;
   skos:inScheme <scheme#> .
 
-<n090009014#> a skos:Concept ;
+<n268#> a skos:Concept ;
   skos:prefLabel "Verkehrswesen"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009014" ;
+  skos:broader <n29#> ;
+  skos:notation "268" ;
   skos:inScheme <scheme#> .
 
-<n090009015#> a skos:Concept ;
+<n172#> a skos:Concept ;
   skos:prefLabel "Verwaltungswissenschaft/-wesen"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009015" ;
+  skos:broader <n29#> ;
+  skos:notation "172" ;
   skos:inScheme <scheme#> .
 
-<n090009016#> a skos:Concept ;
+<n269#> a skos:Concept ;
   skos:prefLabel "Zoll- und Steuerverwaltung"@de ;
-  skos:broader <n090009#> ;
-  skos:notation "090009016" ;
+  skos:broader <n29#> ;
+  skos:notation "269" ;
   skos:inScheme <scheme#> .
 
-<n090010#> a skos:Concept ;
+<n31#> a skos:Concept ;
   skos:prefLabel "Studienbereich Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt"@de ;
-  skos:narrower <n090010001#>, <n090010002#>;
+  skos:narrower <n464#>, <n179#>;
   skos:broader <n3#> ;
-  skos:notation "090010" ;
+  skos:notation "31" ;
   skos:inScheme <scheme#> .
 
-<n090010001#> a skos:Concept ;
+<n464#> a skos:Concept ;
   skos:prefLabel "Facility Management"@de ;
-  skos:broader <n090010#> ;
-  skos:notation "090010001" ;
+  skos:broader <n31#> ;
+  skos:notation "464" ;
   skos:inScheme <scheme#> .
 
-<n090010002#> a skos:Concept ;
+<n179#> a skos:Concept ;
   skos:prefLabel "Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt"@de ;
-  skos:broader <n090010#> ;
-  skos:notation "090010002" ;
+  skos:broader <n31#> ;
+  skos:notation "179" ;
   skos:inScheme <scheme#> .
 
-<n090011#> a skos:Concept ;
+<n30#> a skos:Concept ;
   skos:prefLabel "Studienbereich Wirtschaftswissenschaften"@de ;
-  skos:narrower <n090011001#>, <n090011002#>, <n090011003#>, <n090011004#>, <n090011005#>, <n090011006#>, <n090011007#>, <n090011008#>, <n090011009#>, <n090011010#>, <n090011011#>;
+  skos:narrower <n011#>, <n021#>, <n167#>, <n182#>, <n304#>, <n166#>, <n274#>, <n210#>, <n175#>, <n181#>, <n184#>;
   skos:broader <n3#> ;
-  skos:notation "090011" ;
+  skos:notation "30" ;
   skos:inScheme <scheme#> .
 
-<n090011001#> a skos:Concept ;
+<n011#> a skos:Concept ;
   skos:prefLabel "Arbeitslehre/Wirtschaftslehre"@de ;
-  skos:broader <n090011#> ;
-  skos:notation "090011001" ;
+  skos:broader <n30#> ;
+  skos:notation "011" ;
   skos:inScheme <scheme#> .
 
-<n090011002#> a skos:Concept ;
+<n021#> a skos:Concept ;
   skos:prefLabel "Betriebswirtschaftslehre"@de ;
-  skos:broader <n090011#> ;
-  skos:notation "090011002" ;
+  skos:broader <n30#> ;
+  skos:notation "021" ;
   skos:inScheme <scheme#> .
 
-<n090011003#> a skos:Concept ;
+<n167#> a skos:Concept ;
   skos:prefLabel "Europäische Wirtschaft"@de ;
-  skos:broader <n090011#> ;
-  skos:notation "090011003" ;
+  skos:broader <n30#> ;
+  skos:notation "167" ;
   skos:inScheme <scheme#> .
 
-<n090011004#> a skos:Concept ;
+<n182#> a skos:Concept ;
   skos:prefLabel "Internationale Betriebswirtschaft/Management"@de ;
-  skos:broader <n090011#> ;
-  skos:notation "090011004" ;
+  skos:broader <n30#> ;
+  skos:notation "182" ;
   skos:inScheme <scheme#> .
 
-<n090011005#> a skos:Concept ;
+<n304#> a skos:Concept ;
   skos:prefLabel "Medienwirtschaft/Medienmanagement"@de ;
-  skos:broader <n090011#> ;
-  skos:notation "090011005" ;
+  skos:broader <n30#> ;
+  skos:notation "304" ;
   skos:inScheme <scheme#> .
 
-<n090011006#> a skos:Concept ;
+<n166#> a skos:Concept ;
   skos:prefLabel "Sportmanagement/Sportökonomie"@de ;
-  skos:broader <n090011#> ;
-  skos:notation "090011006" ;
+  skos:broader <n30#> ;
+  skos:notation "166" ;
   skos:inScheme <scheme#> .
 
-<n090011007#> a skos:Concept ;
+<n274#> a skos:Concept ;
   skos:prefLabel "Tourismuswirtschaft"@de ;
-  skos:broader <n090011#> ;
-  skos:notation "090011007" ;
+  skos:broader <n30#> ;
+  skos:notation "274" ;
   skos:inScheme <scheme#> .
 
-<n090011008#> a skos:Concept ;
+<n210#> a skos:Concept ;
   skos:prefLabel "Verkehrswirtschaft"@de ;
-  skos:broader <n090011#> ;
-  skos:notation "090011008" ;
+  skos:broader <n30#> ;
+  skos:notation "210" ;
   skos:inScheme <scheme#> .
 
-<n090011009#> a skos:Concept ;
+<n175#> a skos:Concept ;
   skos:prefLabel "Volkswirtschaftslehre"@de ;
-  skos:broader <n090011#> ;
-  skos:notation "090011009" ;
+  skos:broader <n30#> ;
+  skos:notation "175" ;
   skos:inScheme <scheme#> .
 
-<n090011010#> a skos:Concept ;
+<n181#> a skos:Concept ;
   skos:prefLabel "Wirtschaftspädagogik"@de ;
-  skos:broader <n090011#> ;
-  skos:notation "090011010" ;
+  skos:broader <n30#> ;
+  skos:notation "181" ;
   skos:inScheme <scheme#> .
 
-<n090011011#> a skos:Concept ;
+<n184#> a skos:Concept ;
   skos:prefLabel "Wirtschaftswissenschaften"@de ;
-  skos:broader <n090011#> ;
-  skos:notation "090011011" ;
+  skos:broader <n30#> ;
+  skos:notation "184" ;
   skos:inScheme <scheme#> .
 
-<n110001#> a skos:Concept ;
-  skos:prefLabel "Studienbereich Sport, Sportwissenschaft"@de ;
-  skos:narrower <n110001001#>, <n110001002#>;
+<n22#> a skos:Concept ;
+  skos:prefLabel "Sport, Sportwissenschaft"@de ;
+  skos:narrower <n098#>, <n029#>;
   skos:broader <n2#> ;
-  skos:notation "110001" ;
+  skos:notation "22" ;
   skos:inScheme <scheme#> .
 
-<n110001001#> a skos:Concept ;
+<n098#> a skos:Concept ;
   skos:prefLabel "Sportpädagogik/Sportpsychologie"@de ;
-  skos:broader <n110001#> ;
-  skos:notation "110001001" ;
+  skos:broader <n22#> ;
+  skos:notation "098" ;
   skos:inScheme <scheme#> .
 
-<n110001002#> a skos:Concept ;
+<n029#> a skos:Concept ;
   skos:prefLabel "Sportwissenschaft"@de ;
-  skos:broader <n110001#> ;
-  skos:notation "110001002" ;
+  skos:broader <n22#> ;
+  skos:notation "029" ;
   skos:inScheme <scheme#> .
 
 <n900002#> a skos:Concept ;
