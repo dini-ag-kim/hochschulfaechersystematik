@@ -5,7 +5,7 @@
 
 <scheme#> a skos:ConceptScheme ;
   dct:title "Destatis-Systematik der Fächergruppen, Studienbereiche und Studienfächer"@de ;
-  skos:hasTopConcept <n7#>, <n1#>, <n5#>, <n8#>, <n9#>, <n4#>, <n3#>, <n2#>, <n10#> .
+  skos:hasTopConcept <n7#>, <n1#>, <n5#>, <n8#>, <n9#>, <n4#>, <n3#>, <n2#> .
 
 <n7#> a skos:Concept ;
   skos:prefLabel "Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin"@de ;
@@ -53,12 +53,6 @@
   skos:prefLabel "Sport"@de ;
   skos:narrower <n22#>;
   skos:notation "2" ;
-  skos:topConceptOf <scheme#> .
-
-<n10#> a skos:Concept ;
-  skos:prefLabel "Fachgebietsübergreifend"@de ;
-  skos:narrower <n900002#>, <n900001#>;
-  skos:notation "10" ;
   skos:topConceptOf <scheme#> .
 
 <n58#> a skos:Concept ;
@@ -2110,16 +2104,4 @@
   skos:prefLabel "Sportwissenschaft"@de ;
   skos:broader <n22#> ;
   skos:notation "029" ;
-  skos:inScheme <scheme#> .
-
-<n900002#> a skos:Concept ;
-  skos:prefLabel "Schlüsselqualifikationen"@de ;
-  skos:broader <n10#> ;
-  skos:notation "900002" ;
-  skos:inScheme <scheme#> .
-
-<n900001#> a skos:Concept ;
-  skos:prefLabel "Sprachen"@de ;
-  skos:broader <n10#> ;
-  skos:notation "900001" ;
   skos:inScheme <scheme#> .
