@@ -1481,10 +1481,10 @@
   skos:notation "009" ;
   skos:inScheme <scheme#> .
 
-<n26#> a skos:Concept ;
+<n026#> a skos:Concept ;
   skos:prefLabel "Biologie"@de ;
   skos:broader <n42#> ;
-  skos:notation "26" ;
+  skos:notation "026" ;
   skos:inScheme <scheme#> .
 
 <n300#> a skos:Concept ;
