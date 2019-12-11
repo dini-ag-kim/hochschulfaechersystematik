@@ -7,7 +7,7 @@
 <scheme#> a skos:ConceptScheme ;
   dct:title "Destatis-Systematik der Fächergruppen, Studienbereiche und Studienfächer"@de ;
   dct:alternative "Hochschulfächersystematik"@de ;
-  dct:description "Diese SKOS-Klassifikation wurde generiert aus der Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](http://bartoc.org/node/18919)."@de ;
+  dct:description "Diese SKOS-Klassifikation basiert auf der Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](http://bartoc.org/node/18919)."@de ;
   dct:issued "2019-12-11" ;
   dct:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
   vann:preferredNamespacePrefix "hfs" ;
