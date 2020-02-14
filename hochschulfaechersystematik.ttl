@@ -1,4 +1,4 @@
-@base <https://w3id.org/class/hochschulfaechersystematik/> .
+@base <https://w3id.org/kim/hochschulfaechersystematik/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix schema: <http://schema.org/> .
