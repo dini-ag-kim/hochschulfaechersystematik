@@ -1,5 +1,6 @@
 @base <https://w3id.org/kim/hochschulfaechersystematik/> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix gnd: <https://d-nb.info/gnd/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix schema: <http://schema.org/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
@@ -39,6 +40,7 @@
   skos:notation "4" ;
   skos:topConceptOf <scheme> .
 
+
 <n5> a skos:Concept ;
   skos:prefLabel "Humanmedizin/Gesundheitswissenschaften"@de ;
   skos:narrower <n48>, <n49>, <n50>;
@@ -50,6 +52,7 @@
   skos:narrower <n58>, <n60>, <n59>, <n57>, <n51>;
   skos:notation "7" ;
   skos:topConceptOf <scheme> .
+
 
 <n8> a skos:Concept ;
   skos:prefLabel "Ingenieurwissenschaften"@de ;
@@ -68,21 +71,24 @@
   skos:narrower <n004>, <n090>, <n302>;
   skos:broader <n1> ;
   skos:notation "01" ;
-  skos:inScheme <scheme> .
+  skos:inScheme <scheme> ;
+  skos:closeMatch gnd:4019838-8 .
 
 <n02> a skos:Concept ;
   skos:prefLabel "Evang. Theologie, -Religionslehre"@de ;
   skos:narrower <n161>, <n544>, <n053>;
   skos:broader <n1> ;
   skos:notation "02" ;
-  skos:inScheme <scheme> .
+  skos:inScheme <scheme> ;
+  skos:closeMatch gnd:4015875-5 .
 
 <n03> a skos:Concept ;
   skos:prefLabel "Kath. Theologie, -Religionslehre"@de ;
   skos:narrower <n162>, <n545>, <n086>;
   skos:broader <n1> ;
   skos:notation "03" ;
-  skos:inScheme <scheme> .
+  skos:inScheme <scheme> ;
+  skos:closeMatch gnd:4030005-5 .
 
 <n04> a skos:Concept ;
   skos:prefLabel "Studienbereich Philosophie"@de ;
@@ -103,7 +109,11 @@
   skos:narrower <n022>, <n037>;
   skos:broader <n1> ;
   skos:notation "06" ;
-  skos:inScheme <scheme> .
+  skos:inScheme <scheme> ;
+  skos:closeMatch [
+  a skos:Concept ;
+  skos:hasNarrower gnd:4006465-7, gnd:4012656-0
+] .
 
 <n07> a skos:Concept ;
   skos:prefLabel "Allgemeine und vergleichende Literatur- und Sprachwissenschaft"@de ;
@@ -179,60 +189,76 @@
   skos:prefLabel "Agrarbiologie"@de ;
   skos:broader <n58> ;
   skos:notation "138" ;
-  skos:inScheme <scheme> .
+  skos:inScheme <scheme> ;
+  skos:closeMatch gnd:4241276-6 .
 
 <n125> a skos:Concept ;
   skos:prefLabel "Agrarökonomie"@de ;
   skos:broader <n58> ;
   skos:notation "125" ;
-  skos:inScheme <scheme> .
+  skos:inScheme <scheme> ;
+  skos:closeMatch gnd:4704302-7 .
 
 <n003> a skos:Concept ;
   skos:prefLabel "Agrarwissenschaft/Landwirtschaft"@de ;
   skos:broader <n58> ;
   skos:notation "003" ;
+  skos:closeMatch gnd:4068473-8 ;
   skos:inScheme <scheme> .
 
 <n028> a skos:Concept ;
   skos:prefLabel "Brauwesen/Getränketechnologie"@de ;
   skos:broader <n58> ;
   skos:notation "028" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4146518-0, gnd:44236073-0
+  ] ;
   skos:inScheme <scheme> .
 
 <n060> a skos:Concept ;
   skos:prefLabel "Gartenbau"@de ;
   skos:broader <n58> ;
   skos:notation "060" ;
+  skos:closeMatch gnd:4019294-5 ;
   skos:inScheme <scheme> .
 
 <n097> a skos:Concept ;
   skos:prefLabel "Lebensmitteltechnologie"@de ;
   skos:broader <n58> ;
   skos:notation "097" ;
+  skos:closeMatch gnd:4034901-9 ;
   skos:inScheme <scheme> .
 
 <n220> a skos:Concept ;
   skos:prefLabel "Milch- und Molkereiwirtschaft"@de ;
   skos:broader <n58> ;
   skos:notation "220" ;
+  skos:closeMatch gnd:4039289-2 ;
   skos:inScheme <scheme> .
 
 <n353> a skos:Concept ;
   skos:prefLabel "Pflanzenproduktion"@de ;
   skos:broader <n58> ;
   skos:notation "353" ;
+  skos:closeMatch gnd:4251085-5 ;
   skos:inScheme <scheme> .
 
 <n371> a skos:Concept ;
   skos:prefLabel "Tierproduktion"@de ;
   skos:broader <n58> ;
   skos:notation "371" ;
+  skos:closeMatch gnd:4117223-1 ;
   skos:inScheme <scheme> .
 
 <n227> a skos:Concept ;
   skos:prefLabel "Weinbau und Kellerwirtschaft"@de ;
   skos:broader <n58> ;
   skos:notation "227" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4065136-8, gnd:4030198-9
+  ] ;
   skos:inScheme <scheme> .
 
 <n60> a skos:Concept ;
@@ -246,6 +272,7 @@
   skos:prefLabel "Ernährungswissenschaft"@de ;
   skos:broader <n60> ;
   skos:notation "320" ;
+  skos:closeMatch gnd:4152829-3 ;
   skos:inScheme <scheme> .
 
 <n071> a skos:Concept ;
@@ -258,6 +285,7 @@
   skos:prefLabel "Haushaltswissenschaft"@de ;
   skos:broader <n60> ;
   skos:notation "333" ;
+  skos:closeMatch gnd:4159290-6 ;
   skos:inScheme <scheme> .
 
 <n59> a skos:Concept ;
@@ -271,12 +299,14 @@
   skos:prefLabel "Forstwissenschaft, -wirtschaft"@de ;
   skos:broader <n59> ;
   skos:notation "058" ;
+  skos:closeMatch gnd:4155069-9 ;
   skos:inScheme <scheme> .
 
 <n075> a skos:Concept ;
   skos:prefLabel "Holzwirtschaft"@de ;
   skos:broader <n59> ;
   skos:notation "075" ;
+  skos:closeMatch gnd:4025763-0 ;
   skos:inScheme <scheme> .
 
 <n57> a skos:Concept ;
@@ -290,6 +320,10 @@
   skos:prefLabel "Landespflege/Landschaftsgestaltung"@de ;
   skos:broader <n57> ;
   skos:notation "093" ;
+    skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4034350-9, gnd:4034265-7
+  ] ;
   skos:inScheme <scheme> .
 
 <n061> a skos:Concept ;
@@ -302,6 +336,7 @@
   skos:prefLabel "Naturschutz"@de ;
   skos:broader <n57> ;
   skos:notation "064" ;
+  skos:closeMatch gnd:4115348-0 ;
   skos:inScheme <scheme> .
 
 <n51> a skos:Concept ;
@@ -315,24 +350,28 @@
   skos:prefLabel "Tiermedizin/Veterinärmedizin"@de ;
   skos:broader <n51> ;
   skos:notation "156" ;
+  skos:closeMatch gnd:4078315-7 ;
   skos:inScheme <scheme> .
 
 <n188> a skos:Concept ;
   skos:prefLabel "Allgemeine Literaturwissenschaft"@de ;
   skos:broader <n07> ;
   skos:notation "188" ;
+  skos:closeMatch gnd:4036034-9 ;
   skos:inScheme <scheme> .
 
 <n152> a skos:Concept ;
   skos:prefLabel "Allgemeine Sprachwissenschaft/Indogermanistik"@de ;
   skos:broader <n07> ;
   skos:notation "152" ;
+  skos:closeMatch gnd:4161557-8 ;
   skos:inScheme <scheme> .
 
 <n284> a skos:Concept ;
   skos:prefLabel "Angewandte Sprachwissenschaft"@de ;
   skos:broader <n07> ;
   skos:notation "284" ;
+  skos:closeMatch gnd:4127822-7 ;
   skos:inScheme <scheme> .
 
 <n018> a skos:Concept ;
@@ -345,72 +384,87 @@
   skos:prefLabel "Computerlinguistik"@de ;
   skos:broader <n07> ;
   skos:notation "160" ;
+  skos:closeMatch gnd:4035843-4 ;
   skos:inScheme <scheme> .
 
 <n031> a skos:Concept ;
   skos:prefLabel "Byzantinistik"@de ;
   skos:broader <n08> ;
   skos:notation "031" ;
+  skos:closeMatch gnd:4147095-3 ;
   skos:inScheme <scheme> .
 
 <n070> a skos:Concept ;
   skos:prefLabel "Griechisch"@de ;
   skos:broader <n08> ;
   skos:notation "070" ;
+  skos:closeMatch gnd:4113791-7 ;
   skos:inScheme <scheme> .
 
 <n005> a skos:Concept ;
   skos:prefLabel "Klassische Philologie"@de ;
   skos:broader <n08> ;
   skos:notation "005" ;
+  skos:closeMatch gnd:4164044-5 ;
   skos:inScheme <scheme> .
 
 <n095> a skos:Concept ;
   skos:prefLabel "Latein"@de ;
   skos:broader <n08> ;
   skos:notation "095" ;
+  skos:closeMatch gnd:4114364-4 ;
   skos:inScheme <scheme> .
 
 <n043> a skos:Concept ;
   skos:prefLabel "Neugriechisch"@de ;
   skos:broader <n08> ;
   skos:notation "043" ;
+  skos:closeMatch gnd:4120278-8 ;
   skos:inScheme <scheme> .
 
 <n006> a skos:Concept ;
   skos:prefLabel "Amerikanistik/Amerikakunde"@de ;
   skos:broader <n10> ;
   skos:notation "006" ;
+  skos:closeMatch gnd:4142196-6 ;
   skos:inScheme <scheme> .
 
 <n008> a skos:Concept ;
   skos:prefLabel "Anglistik/Englisch"@de ;
   skos:broader <n10> ;
   skos:notation "008" ;
+  skos:closeMatch gnd:4002046-0 ;
   skos:inScheme <scheme> .
 
 <n002> a skos:Concept ;
   skos:prefLabel "Afrikanistik"@de ;
   skos:broader <n13> ;
   skos:notation "002" ;
+  skos:closeMatch gnd:4122766-9 ;
   skos:inScheme <scheme> .
 
 <n001> a skos:Concept ;
   skos:prefLabel "Ägyptologie"@de ;
   skos:broader <n13> ;
   skos:notation "001" ;
+  skos:closeMatch gnd:4141476-7 ;
   skos:inScheme <scheme> .
 
 <n010> a skos:Concept ;
   skos:prefLabel "Arabisch/Arabistik"@de ;
   skos:broader <n13> ;
   skos:notation "010" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4142845-6, gnd:4241223-7
+  ] ;
   skos:inScheme <scheme> .
 
 <n187> a skos:Concept ;
   skos:prefLabel "Asiatische Sprachen und Kulturen/Asienwissenschaften"@de ;
   skos:broader <n13> ;
   skos:notation "187" ;
+  skos:closeMatch gnd:4291279-9 ;
   skos:inScheme <scheme> .
 
 <n015> a skos:Concept ;
@@ -423,84 +477,110 @@
   skos:prefLabel "Hebräisch/Judaistik"@de ;
   skos:broader <n13> ;
   skos:notation "073" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4162796-9, gnd:4023922-6
+  ] ;
   skos:inScheme <scheme> .
 
 <n078> a skos:Concept ;
   skos:prefLabel "Indologie"@de ;
   skos:broader <n13> ;
   skos:notation "078" ;
+  skos:closeMatch gnd:4161576-1 ;
   skos:inScheme <scheme> .
 
 <n081> a skos:Concept ;
   skos:prefLabel "Iranistik"@de ;
   skos:broader <n13> ;
   skos:notation "081" ;
+  skos:closeMatch gnd:4162398-8 ;
   skos:inScheme <scheme> .
 
 <n083> a skos:Concept ;
   skos:prefLabel "Islamwissenschaft"@de ;
   skos:broader <n13> ;
   skos:notation "083" ;
+  skos:closeMatch gnd:4162468-3 ;
   skos:inScheme <scheme> .
 
 <n085> a skos:Concept ;
   skos:prefLabel "Japanologie"@de ;
   skos:broader <n13> ;
   skos:notation "085" ;
+  skos:closeMatch gnd:4162713-1 ;
   skos:inScheme <scheme> .
 
 <n180> a skos:Concept ;
   skos:prefLabel "Kaukasistik"@de ;
   skos:broader <n13> ;
   skos:notation "180" ;
+  skos:closeMatch gnd:1033784729 ;
   skos:inScheme <scheme> .
 
 <n122> a skos:Concept ;
   skos:prefLabel "Orientalistik/Altorientalistik"@de ;
   skos:broader <n13> ;
   skos:notation "122" ;
+ skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4172819-1, gnd:4142081-0
+  ] ;
   skos:inScheme <scheme> .
 
 <n145> a skos:Concept ;
   skos:prefLabel "Sinologie/Koreanistik"@de ;
   skos:broader <n13> ;
   skos:notation "145" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4137926-3, gnd:4201431-1
+  ] ;
   skos:inScheme <scheme> .
 
 <n158> a skos:Concept ;
   skos:prefLabel "Turkologie"@de ;
   skos:broader <n13> ;
   skos:notation "158" ;
+  skos:closeMatch gnd:4186473-6 ;
   skos:inScheme <scheme> .
 
 <n022> a skos:Concept ;
   skos:prefLabel "Bibliothekswissenschaft/-wesen (nicht an Verwaltungsfachhochschulen)"@de ;
   skos:broader <n06> ;
   skos:notation "022" ;
+  skos:closeMatch gnd:4006465-7 ;
   skos:inScheme <scheme> .
 
 <n037> a skos:Concept ;
   skos:prefLabel "Dokumentationswissenschaft"@de ;
   skos:broader <n06> ;
   skos:notation "037" ;
+  skos:closeMatch gnd:4128313-2 ;
   skos:inScheme <scheme> .
 
 <n161> a skos:Concept ;
   skos:prefLabel "Diakoniewissenschaft"@de ;
   skos:broader <n02> ;
   skos:notation "161" ;
+  skos:closeMatch gnd:4661954-9 ;
   skos:inScheme <scheme> .
 
 <n544> a skos:Concept ;
   skos:prefLabel "Evang. Religionspädagogik, kirchliche Bildungsarbeit"@de ;
   skos:broader <n02> ;
   skos:notation "544" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4153261-2, gnd:4126242-6
+  ] ;
   skos:inScheme <scheme> .
 
 <n053> a skos:Concept ;
   skos:prefLabel "Evang. Theologie, -Religionslehre"@de ;
   skos:broader <n02> ;
   skos:notation "053" ;
+  skos:closeMatch gnd:4015875-5 ;
   skos:inScheme <scheme> .
 
 <n004> a skos:Concept ;
@@ -518,78 +598,100 @@
   skos:prefLabel "Medienwissenschaft"@de ;
   skos:broader <n01> ;
   skos:notation "302" ;
+  skos:closeMatch gnd:4169194-5 ;
   skos:inScheme <scheme> .
 
 <n034> a skos:Concept ;
   skos:prefLabel "Dänisch"@de ;
   skos:broader <n09> ;
   skos:notation "034" ;
+  skos:closeMatch gnd:4113262-2 ;
   skos:inScheme <scheme> .
 
 <n271> a skos:Concept ;
   skos:prefLabel "Deutsch als Fremdsprache oder als Zweitsprache"@de ;
   skos:broader <n09> ;
   skos:notation "271" ;
+  skos:closeMatch gnd:7505710-4 ;
   skos:inScheme <scheme> .
 
 <n067> a skos:Concept ;
   skos:prefLabel "Germanistik/Deutsch"@de ;
   skos:broader <n09> ;
   skos:notation "067" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4020383-9, gnd:4113292-0
+  ] ;
   skos:inScheme <scheme> .
 
 <n189> a skos:Concept ;
   skos:prefLabel "Niederdeutsch"@de ;
   skos:broader <n09> ;
   skos:notation "189" ;
+  skos:closeMatch gnd:4042178-8 ;
   skos:inScheme <scheme> .
 
 <n119> a skos:Concept ;
   skos:prefLabel "Niederländisch"@de ;
   skos:broader <n09> ;
   skos:notation "119" ;
+  skos:closeMatch gnd:4122614-8 ;
   skos:inScheme <scheme> .
 
 <n120> a skos:Concept ;
   skos:prefLabel "Nordistik/Skandinavistik (Nordische Philologie, Einzelsprachen a.n.g.)"@de ;
   skos:broader <n09> ;
   skos:notation "120" ;
+  skos:closeMatch gnd:4077478-8 ;
   skos:inScheme <scheme> .
 
 <n272> a skos:Concept ;
   skos:prefLabel "Alte Geschichte"@de ;
   skos:broader <n05> ;
   skos:notation "272" ;
+  skos:closeMatch gnd:7502913-3 ;
   skos:inScheme <scheme> .
 
 <n012> a skos:Concept ;
   skos:prefLabel "Archäologie"@de ;
   skos:broader <n05> ;
   skos:notation "012" ;
+  skos:closeMatch gnd:4002827-6 ;
   skos:inScheme <scheme> .
 
 <n068> a skos:Concept ;
   skos:prefLabel "Geschichte"@de ;
   skos:broader <n05> ;
   skos:notation "068" ;
+  skos:closeMatch gnd:4020517-4 ;
   skos:inScheme <scheme> .
 
 <n273> a skos:Concept ;
   skos:prefLabel "Mittlere und neuere Geschichte"@de ;
   skos:broader <n05> ;
   skos:notation "273" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4170208-6, gnd:4136254-8
+  ] ;
   skos:inScheme <scheme> .
 
 <n548> a skos:Concept ;
   skos:prefLabel "Ur- und Frühgeschichte"@de ;
   skos:broader <n05> ;
   skos:notation "548" ;
+  skos:closeMatch gnd:4078951-2 ;
   skos:inScheme <scheme> .
 
 <n183> a skos:Concept ;
   skos:prefLabel "Wirtschafts-/Sozialgeschichte"@de ;
   skos:broader <n05> ;
   skos:notation "183" ;
+   skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4170208-6, gnd:4121930-2, gnd:7504419-5
+  ] ;
   skos:inScheme <scheme> .
 
 <n030010001> a skos:Concept ;
@@ -602,24 +704,28 @@
   skos:prefLabel "Caritaswissenschaft"@de ;
   skos:broader <n03> ;
   skos:notation "162" ;
+  skos:closeMatch gnd:4535278-1 ;
   skos:inScheme <scheme> .
 
 <n545> a skos:Concept ;
   skos:prefLabel "Kath. Religionspädagogik, kirchliche Bildungsarbeit"@de ;
   skos:broader <n03> ;
   skos:notation "545" ;
+  skos:closeMatch gnd:4378168-8 ;
   skos:inScheme <scheme> .
 
 <n086> a skos:Concept ;
   skos:prefLabel "Kath. Theologie, -Religionslehre"@de ;
   skos:broader <n03> ;
   skos:notation "086" ;
+  skos:closeMatch gnd:4030005-5 ;
   skos:inScheme <scheme> .
 
 <n173> a skos:Concept ;
   skos:prefLabel "Ethnologie"@de ;
   skos:broader <n14> ;
   skos:notation "173" ;
+  skos:closeMatch gnd:4078931-7 ;
   skos:inScheme <scheme> .
 
 <n024> a skos:Concept ;
@@ -632,60 +738,70 @@
   skos:prefLabel "Volkskunde"@de ;
   skos:broader <n14> ;
   skos:notation "174" ;
+  skos:closeMatch gnd:4078937-8 ;
   skos:inScheme <scheme> .
 
 <n169> a skos:Concept ;
   skos:prefLabel "Ethik"@de ;
   skos:broader <n04> ;
   skos:notation "169" ;
+  skos:closeMatch gnd:4015602-3 ;
   skos:inScheme <scheme> .
 
 <n127> a skos:Concept ;
   skos:prefLabel "Philosophie"@de ;
   skos:broader <n04> ;
   skos:notation "127" ;
+  skos:closeMatch gnd:4045791-6 ;
   skos:inScheme <scheme> .
 
 <n136> a skos:Concept ;
   skos:prefLabel "Religionswissenschaft"@de ;
   skos:broader <n04> ;
   skos:notation "136" ;
+  skos:closeMatch gnd:4049426-3 ;
   skos:inScheme <scheme> .
 
 <n059> a skos:Concept ;
   skos:prefLabel "Französisch"@de ;
   skos:broader <n11> ;
   skos:notation "059" ;
+  skos:closeMatch gnd:4113615-9 ;
   skos:inScheme <scheme> .
 
 <n084> a skos:Concept ;
   skos:prefLabel "Italienisch"@de ;
   skos:broader <n11> ;
   skos:notation "084" ;
+  skos:closeMatch gnd:4114056-4 ;
   skos:inScheme <scheme> .
 
 <n131> a skos:Concept ;
   skos:prefLabel "Portugiesisch"@de ;
   skos:broader <n11> ;
   skos:notation "131" ;
+  skos:closeMatch gnd:4120316-1 ;
   skos:inScheme <scheme> .
 
 <n137> a skos:Concept ;
   skos:prefLabel "Romanistik (Roman. Philologie, Einzelsprachen a.n.g.)"@de ;
   skos:broader <n11> ;
   skos:notation "137" ;
+  skos:closeMatch gnd:4050484-0 ;
   skos:inScheme <scheme> .
 
 <n150> a skos:Concept ;
   skos:prefLabel "Spanisch"@de ;
   skos:broader <n11> ;
   skos:notation "150" ;
+  skos:closeMatch gnd:4077640-2 ;
   skos:inScheme <scheme> .
 
 <n016> a skos:Concept ;
   skos:prefLabel "Baltistik"@de ;
   skos:broader <n12> ;
   skos:notation "016" ;
+  skos:closeMatch gnd:4576777-4 ;
   skos:inScheme <scheme> .
 
 <n056> a skos:Concept ;
@@ -698,42 +814,49 @@
   skos:prefLabel "Polnisch"@de ;
   skos:broader <n12> ;
   skos:notation "206" ;
+  skos:closeMatch gnd:4120314-8 ;
   skos:inScheme <scheme> .
 
 <n139> a skos:Concept ;
   skos:prefLabel "Russisch"@de ;
   skos:broader <n12> ;
   skos:notation "139" ;
+  skos:closeMatch gnd:4051038-4 ;
   skos:inScheme <scheme> .
 
 <n146> a skos:Concept ;
   skos:prefLabel "Slawistik (Slaw. Philologie)"@de ;
   skos:broader <n12> ;
   skos:notation "146" ;
+  skos:closeMatch gnd:4055287-1 ;
   skos:inScheme <scheme> .
 
 <n207> a skos:Concept ;
   skos:prefLabel "Sorbisch"@de ;
   skos:broader <n12> ;
   skos:notation "207" ;
+  skos:closeMatch gnd:4116533-0 ;
   skos:inScheme <scheme> .
 
 <n153> a skos:Concept ;
   skos:prefLabel "Südslawisch (Bulgarisch, Serbokroatisch Slowenisch usw.)"@de ;
   skos:broader <n12> ;
   skos:notation "153" ;
+  skos:closeMatch gnd:4830611-3 ;
   skos:inScheme <scheme> .
 
 <n209> a skos:Concept ;
   skos:prefLabel "Tschechisch"@de ;
   skos:broader <n12> ;
   skos:notation "209" ;
+  skos:closeMatch gnd:4061084-6 ;
   skos:inScheme <scheme> .
 
 <n130> a skos:Concept ;
   skos:prefLabel "Westslawisch (allgemein und a.n.g.)"@de ;
   skos:broader <n12> ;
   skos:notation "130" ;
+  skos:closeMatch gnd:4830608-3 ;
   skos:inScheme <scheme> .
 
 <n48> a skos:Concept ;
@@ -741,18 +864,21 @@
   skos:narrower <n195>, <n232>, <n233>, <n234>;
   skos:broader <n5> ;
   skos:notation "48" ;
+  skos:closeMatch gnd:4249464-3 ;
   skos:inScheme <scheme> .
 
 <n195> a skos:Concept ;
   skos:prefLabel "Gesundheitspädagogik"@de ;
   skos:broader <n48> ;
   skos:notation "195" ;
+  skos:closeMatch gnd:4020759-6 ;
   skos:inScheme <scheme> .
 
 <n232> a skos:Concept ;
   skos:prefLabel "Gesundheitswissenschaft/-management"@de ;
   skos:broader <n48> ;
   skos:notation "232" ;
+  skos:closeMatch gnd:4249464-3 ;
   skos:inScheme <scheme> .
 
 <n233> a skos:Concept ;
@@ -765,6 +891,10 @@
   skos:prefLabel "Pflegewissenschaft/-management"@de ;
   skos:broader <n48> ;
   skos:notation "234" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:7603053-2, gnd:4517988-8
+  ] ;
   skos:inScheme <scheme> .
 
 <n49> a skos:Concept ;
@@ -778,6 +908,7 @@
   skos:prefLabel "Medizin (Allgemein-Medizin)"@de ;
   skos:broader <n49> ;
   skos:notation "107" ;
+  skos:closeMatch gnd:4038243-6 ;
   skos:inScheme <scheme> .
 
 <n50> a skos:Concept ;
@@ -791,6 +922,7 @@
   skos:prefLabel "Zahnmedizin"@de ;
   skos:broader <n50> ;
   skos:notation "185" ;
+  skos:closeMatch gnd:4079454-4 ;
   skos:inScheme <scheme> .
 
 <n66> a skos:Concept ;
@@ -804,12 +936,14 @@
   skos:prefLabel "Architektur"@de ;
   skos:broader <n66> ;
   skos:notation "013" ;
+  skos:closeMatch gnd:4002851-3 ;
   skos:inScheme <scheme> .
 
 <n242> a skos:Concept ;
   skos:prefLabel "Innenarchitektur"@de ;
   skos:broader <n66> ;
   skos:notation "242" ;
+  skos:closeMatch gnd:4072819-5 ;
   skos:inScheme <scheme> .
 
 <n68> a skos:Concept ;
@@ -817,36 +951,42 @@
   skos:narrower <n017>, <n197>, <n429>, <n094>, <n077>;
   skos:broader <n8> ;
   skos:notation "68" ;
+  skos:closeMatch gnd:4004955-3 ;
   skos:inScheme <scheme> .
 
 <n017> a skos:Concept ;
   skos:prefLabel "Bauingenieurwesen/Ingenieurbau"@de ;
   skos:broader <n68> ;
   skos:notation "017" ;
+  skos:closeMatch gnd:4026978-4	 ;
   skos:inScheme <scheme> .
 
 <n197> a skos:Concept ;
   skos:prefLabel "Holzbau"@de ;
   skos:broader <n68> ;
   skos:notation "197" ;
+  skos:closeMatch gnd:4025677-7 ;
   skos:inScheme <scheme> .
 
 <n429> a skos:Concept ;
   skos:prefLabel "Stahlbau"@de ;
   skos:broader <n68> ;
   skos:notation "429" ;
+  skos:closeMatch gnd:4056837-4 ;
   skos:inScheme <scheme> .
 
 <n094> a skos:Concept ;
   skos:prefLabel "Wasserbau"@de ;
   skos:broader <n68> ;
   skos:notation "094" ;
+  skos:closeMatch gnd:4064700-6 ;
   skos:inScheme <scheme> .
 
 <n077> a skos:Concept ;
   skos:prefLabel "Wasserwirtschaft"@de ;
   skos:broader <n68> ;
   skos:notation "077" ;
+  skos:closeMatch gnd:4064821-7 ;
   skos:inScheme <scheme> .
 
 <n62> a skos:Concept ;
@@ -860,18 +1000,21 @@
   skos:prefLabel "Archäometrie (Ingenieurarchäologie)"@de ;
   skos:broader <n62> ;
   skos:notation "390" ;
+  skos:closeMatch gnd:4130392-1 ;
   skos:inScheme <scheme> .
 
 <n020> a skos:Concept ;
   skos:prefLabel "Bergbau/Bergtechnik"@de ;
   skos:broader <n62> ;
   skos:notation "020" ;
+  skos:closeMatch gnd:4005614-4 ;
   skos:inScheme <scheme> .
 
 <n076> a skos:Concept ;
   skos:prefLabel "Hütten- und Gießereiwesen"@de ;
   skos:broader <n62> ;
   skos:notation "076" ;
+  skos:closeMatch gnd:4160760-0 ;
   skos:inScheme <scheme> .
 
 <n103> a skos:Concept ;
@@ -891,36 +1034,45 @@
   skos:prefLabel "Elektrische Energietechnik"@de ;
   skos:broader <n64> ;
   skos:notation "316" ;
+  skos:closeMatch gnd:4113411-4 ;
   skos:inScheme <scheme> .
 
 <n048> a skos:Concept ;
   skos:prefLabel "Elektrotechnik/Elektronik"@de ;
   skos:broader <n64> ;
   skos:notation "048" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4014390-9, gnd:4014346-6
+  ] ;
   skos:inScheme <scheme> .
 
 <n222> a skos:Concept ;
   skos:prefLabel "Kommunikations- und Informationstechnik"@de ;
   skos:broader <n64> ;
   skos:notation "222" ;
+  skos:closeMatch gnd:4026926-7 ;
   skos:inScheme <scheme> .
 
 <n157> a skos:Concept ;
   skos:prefLabel "Mikroelektronik"@de ;
   skos:broader <n64> ;
   skos:notation "157" ;
+  skos:closeMatch gnd:4039207-7 ;
   skos:inScheme <scheme> .
 
 <n286> a skos:Concept ;
   skos:prefLabel "Mikrosystemtechnik"@de ;
   skos:broader <n64> ;
   skos:notation "286" ;
+  skos:closeMatch gnd:4221617-5 ;
   skos:inScheme <scheme> .
 
 <n088> a skos:Concept ;
   skos:prefLabel "Optoelektronik"@de ;
   skos:broader <n64> ;
   skos:notation "088" ;
+  skos:closeMatch gnd:4043687-1 ;
   skos:inScheme <scheme> .
 
 <n71> a skos:Concept ;
@@ -934,42 +1086,55 @@
   skos:prefLabel "Bioinformatik"@de ;
   skos:broader <n71> ;
   skos:notation "221" ;
+  skos:closeMatch gnd:4611085-9 ;
   skos:inScheme <scheme> .
 
 <n200> a skos:Concept ;
   skos:prefLabel "Computer- und Kommunikationstechniken"@de ;
   skos:broader <n71> ;
   skos:notation "200" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4031888-6, gnd:4148885-4
+  ] ;
   skos:inScheme <scheme> .
 
 <n079> a skos:Concept ;
   skos:prefLabel "Informatik"@de ;
   skos:broader <n71> ;
   skos:notation "079" ;
+  skos:closeMatch gnd:4026894-9 ;
   skos:inScheme <scheme> .
 
 <n123> a skos:Concept ;
   skos:prefLabel "Ingenieurinformatik/Technische Informatik"@de ;
   skos:broader <n71> ;
   skos:notation "123" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4112526-5, gnd:4196734-3
+  ] ;
   skos:inScheme <scheme> .
 
 <n121> a skos:Concept ;
   skos:prefLabel "Medieninformatik"@de ;
   skos:broader <n71> ;
   skos:notation "121" ;
+  skos:closeMatch gnd:4875411-0 ;
   skos:inScheme <scheme> .
 
 <n247> a skos:Concept ;
   skos:prefLabel "Medizinische Informatik"@de ;
   skos:broader <n71> ;
   skos:notation "247" ;
+  skos:closeMatch gnd:4038261-8 ;
   skos:inScheme <scheme> .
 
 <n277> a skos:Concept ;
   skos:prefLabel "Wirtschaftsinformatik"@de ;
   skos:broader <n71> ;
   skos:notation "277" ;
+  skos:closeMatch gnd:4112736-5 ;
   skos:inScheme <scheme> .
 
 <n61> a skos:Concept ;
@@ -977,6 +1142,7 @@
   skos:narrower <n140>, <n072>, <n199>, <n380>, <n305>, <n310>, <n201>;
   skos:broader <n8> ;
   skos:notation "61" ;
+  skos:closeMatch gnd:4137304-2 ;
   skos:inScheme <scheme> .
 
 <n140> a skos:Concept ;
@@ -1001,24 +1167,28 @@
   skos:prefLabel "Mechatronik"@de ;
   skos:broader <n61> ;
   skos:notation "380" ;
+  skos:closeMatch gnd:4238812-0 ;
   skos:inScheme <scheme> .
 
 <n305> a skos:Concept ;
   skos:prefLabel "Medientechnik"@de ;
   skos:broader <n61> ;
   skos:notation "305" ;
+  skos:closeMatch gnd:4794555-2 ;
   skos:inScheme <scheme> .
 
 <n310> a skos:Concept ;
   skos:prefLabel "Regenerative Energien"@de ;
   skos:broader <n61> ;
   skos:notation "310" ;
+  skos:closeMatch gnd:4068598-6 ;
   skos:inScheme <scheme> .
 
 <n201> a skos:Concept ;
   skos:prefLabel "Werken (technisch)/Technologie"@de ;
   skos:broader <n61> ;
   skos:notation "201" ;
+  skos:closeMatch gnd:4184586-9 ;
   skos:inScheme <scheme> .
 
 <n63> a skos:Concept ;
@@ -1026,90 +1196,114 @@
   skos:narrower <n141>, <n143>, <n033>, <n231>, <n211>, <n212>, <n202>, <n215>, <n216>, <n082>, <n241>, <n219>, <n104>, <n108>, <n224>, <n144>, <n225>, <n074>, <n457>, <n226>, <n213>;
   skos:broader <n8> ;
   skos:notation "63" ;
+  skos:closeMatch gnd:4062781-0 ;
   skos:inScheme <scheme> .
 
 <n141> a skos:Concept ;
   skos:prefLabel "Abfallwirtschaft"@de ;
   skos:broader <n63> ;
   skos:notation "141" ;
+  skos:closeMatch gnd:4000107-6 ;
   skos:inScheme <scheme> .
 
 <n143> a skos:Concept ;
   skos:prefLabel "Augenoptik"@de ;
   skos:broader <n63> ;
   skos:notation "143" ;
+  skos:closeMatch gnd:4126655-9 ;
   skos:inScheme <scheme> .
 
 <n033> a skos:Concept ;
   skos:prefLabel "Chemie-Ingenieurwesen/Chemietechnik"@de ;
   skos:broader <n63> ;
   skos:notation "033" ;
+  skos:closeMatch gnd:4349723-8 ;
   skos:inScheme <scheme> .
 
 <n231> a skos:Concept ;
   skos:prefLabel "Druck- und Reproduktionstechnik"@de ;
   skos:broader <n63> ;
   skos:notation "231" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4049540-1, gnd:4124801-6
+  ] ;
   skos:inScheme <scheme> .
 
 <n211> a skos:Concept ;
   skos:prefLabel "Energietechnik (ohne Elektrotechnik)"@de ;
   skos:broader <n63> ;
   skos:notation "211" ;
+  skos:closeMatch gnd:4014725-3 ;
   skos:inScheme <scheme> .
 
 <n212> a skos:Concept ;
   skos:prefLabel "Feinwerktechnik"@de ;
   skos:broader <n63> ;
   skos:notation "212" ;
+  skos:closeMatch gnd:4016654-5 ;
   skos:inScheme <scheme> .
 
 <n202> a skos:Concept ;
   skos:prefLabel "Fertigungs-/Produktionstechnik"@de ;
   skos:broader <n63> ;
   skos:notation "202" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:1072438291, gnd:4329079-6
+  ] ;
   skos:inScheme <scheme> .
 
 <n215> a skos:Concept ;
   skos:prefLabel "Gesundheitstechnik"@de ;
   skos:broader <n63> ;
   skos:notation "215" ;
+  skos:closeMatch gnd:4127385-0 ;
   skos:inScheme <scheme> .
 
 <n216> a skos:Concept ;
   skos:prefLabel "Glastechnik/Keramik"@de ;
   skos:broader <n63> ;
   skos:notation "216" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4444561-1, gnd:4030270-2
+  ] ;
   skos:inScheme <scheme> .
 
 <n082> a skos:Concept ;
   skos:prefLabel "Holz-/Fasertechnik"@de ;
   skos:broader <n63> ;
   skos:notation "082" ;
+  skos:closeMatch gnd:4025684-4 ;
   skos:inScheme <scheme> .
 
 <n241> a skos:Concept ;
   skos:prefLabel "Kerntechnik/Kernverfahrenstechnik"@de ;
   skos:broader <n63> ;
   skos:notation "241" ;
+  skos:closeMatch gnd:4134381-5 ;
   skos:inScheme <scheme> .
 
 <n219> a skos:Concept ;
   skos:prefLabel "Kunststofftechnik"@de ;
   skos:broader <n63> ;
   skos:notation "219" ;
+  skos:closeMatch gnd:4166076-6 ;
   skos:inScheme <scheme> .
 
 <n104> a skos:Concept ;
   skos:prefLabel "Maschinenbau/-wesen"@de ;
   skos:broader <n63> ;
   skos:notation "104" ;
+  skos:closeMatch gnd:4037790-8 ;
   skos:inScheme <scheme> .
 
 <n108> a skos:Concept ;
   skos:prefLabel "Metalltechnik"@de ;
   skos:broader <n63> ;
   skos:notation "108" ;
+  skos:closeMatch gnd:4038872-4 ;
   skos:inScheme <scheme> .
 
 <n224> a skos:Concept ;
@@ -1128,30 +1322,38 @@
   skos:prefLabel "Textil- und Bekleidungstechnik/-gewerbe"@de ;
   skos:broader <n63> ;
   skos:notation "225" ;
+  skos:closeMatch gnd:4059643-6 ;
   skos:inScheme <scheme> .
 
 <n074> a skos:Concept ;
   skos:prefLabel "Transport-/Fördertechnik"@de ;
   skos:broader <n63> ;
   skos:notation "074" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4113594-5, gnd:4185935-2
+  ] ;
   skos:inScheme <scheme> .
 
 <n457> a skos:Concept ;
   skos:prefLabel "Umwelttechnik (einschl. Recycling)"@de ;
   skos:broader <n63> ;
   skos:notation "457" ;
+  skos:closeMatch gnd:4061650-2 ;
   skos:inScheme <scheme> .
 
 <n226> a skos:Concept ;
   skos:prefLabel "Verfahrenstechnik"@de ;
   skos:broader <n63> ;
   skos:notation "226" ;
+  skos:closeMatch gnd:4062781-0 ;
   skos:inScheme <scheme> .
 
 <n213> a skos:Concept ;
   skos:prefLabel "Versorgungstechnik"@de ;
   skos:broader <n63> ;
   skos:notation "213" ;
+  skos:closeMatch gnd:4188027-4 ;
   skos:inScheme <scheme> .
 
 <n72> a skos:Concept ;
@@ -1159,18 +1361,21 @@
   skos:narrower <n294>, <n177>;
   skos:broader <n8> ;
   skos:notation "72" ;
+  skos:closeMatch gnd:4079184-1 ;
   skos:inScheme <scheme> .
 
 <n294> a skos:Concept ;
   skos:prefLabel "Materialwissenschaft"@de ;
   skos:broader <n72> ;
   skos:notation "294" ;
+  skos:closeMatch gnd: ;
   skos:inScheme <scheme> .
 
 <n177> a skos:Concept ;
   skos:prefLabel "Werkstofftechnik"@de ;
   skos:broader <n72> ;
   skos:notation "177" ;
+  skos:closeMatch gnd: ;
   skos:inScheme <scheme> .
 
 <n67> a skos:Concept ;
@@ -1178,18 +1383,21 @@
   skos:narrower <n134>, <n458>;
   skos:broader <n8> ;
   skos:notation "67" ;
+  skos:closeMatch gnd: ;
   skos:inScheme <scheme> .
 
 <n134> a skos:Concept ;
   skos:prefLabel "Raumplanung"@de ;
   skos:broader <n67> ;
   skos:notation "134" ;
+  skos:closeMatch gnd:4048590-0 ;
   skos:inScheme <scheme> .
 
 <n458> a skos:Concept ;
   skos:prefLabel "Umweltschutz"@de ;
   skos:broader <n67> ;
   skos:notation "458" ;
+  skos:closeMatch gnd:4061644-7 ;
   skos:inScheme <scheme> .
 
 <n65> a skos:Concept ;
@@ -1209,18 +1417,27 @@
   skos:prefLabel "Luft- und Raumfahrttechnik"@de ;
   skos:broader <n65> ;
   skos:notation "057" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4168244-0, gnd:4177061-4
+  ] ;
   skos:inScheme <scheme> .
 
 <n223> a skos:Concept ;
   skos:prefLabel "Nautik/Seefahrt"@de ;
   skos:broader <n65> ;
   skos:notation "223" ;
+  skos:closeMatch gnd:4041447-4 ;
   skos:inScheme <scheme> .
 
 <n142> a skos:Concept ;
   skos:prefLabel "Schiffbau/Schiffstechnik"@de ;
   skos:broader <n65> ;
   skos:notation "142" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4052397-4, gnd:4179595-7
+  ] ;
   skos:inScheme <scheme> .
 
 <n089> a skos:Concept ;
@@ -1240,12 +1457,14 @@
   skos:prefLabel "Kartographie"@de ;
   skos:broader <n69> ;
   skos:notation "280" ;
+  skos:closeMatch gnd:4029823-1 ;
   skos:inScheme <scheme> .
 
 <n171> a skos:Concept ;
   skos:prefLabel "Vermessungswesen (Geodäsie)"@de ;
   skos:broader <n69> ;
   skos:notation "171" ;
+  skos:closeMatch gnd:4020202-1 ;
   skos:inScheme <scheme> .
 
 <n70> a skos:Concept ;
@@ -1253,6 +1472,7 @@
   skos:narrower <n370>;
   skos:broader <n8> ;
   skos:notation "70" ;
+  skos:closeMatch gnd: ;
   skos:inScheme <scheme> .
 
 <n370> a skos:Concept ;
@@ -1272,24 +1492,28 @@
   skos:prefLabel "Bildende Kunst/Graphik"@de ;
   skos:broader <n75> ;
   skos:notation "023" ;
+  skos:closeMatch gnd:4021845-4 ;
   skos:inScheme <scheme> .
 
 <n205> a skos:Concept ;
   skos:prefLabel "Bildhauerei/Plastik"@de ;
   skos:broader <n75> ;
   skos:notation "205" ;
+  skos:closeMatch gnd:4046277-8 ;
   skos:inScheme <scheme> .
 
 <n204> a skos:Concept ;
   skos:prefLabel "Malerei"@de ;
   skos:broader <n75> ;
   skos:notation "204" ;
+  skos:closeMatch gnd:4037220-0  ;
   skos:inScheme <scheme> .
 
 <n287> a skos:Concept ;
   skos:prefLabel "Neue Medien"@de ;
   skos:broader <n75> ;
   skos:notation "287" ;
+  skos:closeMatch gnd:4196910-8 ;
   skos:inScheme <scheme> .
 
 <n77> a skos:Concept ;
@@ -1303,30 +1527,41 @@
   skos:prefLabel "Darstellende Kunst/Bühnenkunst/Regie"@de ;
   skos:broader <n77> ;
   skos:notation "035" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4129566-3, gnd:4177403-6
+  ] ;
   skos:inScheme <scheme> .
 
 <n054> a skos:Concept ;
   skos:prefLabel "Film und Fernsehen"@de ;
   skos:broader <n77> ;
   skos:notation "054" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4017102-4, gnd:4016825-6
+  ] ;
   skos:inScheme <scheme> .
 
 <n102> a skos:Concept ;
   skos:prefLabel "Schauspiel"@de ;
   skos:broader <n77> ;
   skos:notation "102" ;
+  skos:closeMatch gnd:4129090-2 ;
   skos:inScheme <scheme> .
 
 <n106> a skos:Concept ;
   skos:prefLabel "Tanzpädagogik"@de ;
   skos:broader <n77> ;
   skos:notation "106" ;
+  skos:closeMatch gnd:4392528-5 ;
   skos:inScheme <scheme> .
 
 <n155> a skos:Concept ;
   skos:prefLabel "Theaterwissenschaft"@de ;
   skos:broader <n77> ;
   skos:notation "155" ;
+  skos:closeMatch gnd:4185058-0 ;
   skos:inScheme <scheme> .
 
 <n76> a skos:Concept ;
@@ -1340,6 +1575,7 @@
   skos:prefLabel "Angewandte Kunst"@de ;
   skos:broader <n76> ;
   skos:notation "007" ;
+  skos:closeMatch gnd:7593577-6  ;
   skos:inScheme <scheme> .
 
 <n159> a skos:Concept ;
@@ -1352,24 +1588,31 @@
   skos:prefLabel "Graphikdesign/Kommunikationsgestaltung"@de ;
   skos:broader <n76> ;
   skos:notation "069" ;
+  skos:closeMatch gnd:4019558-2 ;
   skos:inScheme <scheme> .
 
 <n203> a skos:Concept ;
   skos:prefLabel "Industriedesign/Produktgestaltung"@de ;
   skos:broader <n76> ;
   skos:notation "203" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4072788-9, gnd:4047340-5
+  ] ;
   skos:inScheme <scheme> .
 
 <n116> a skos:Concept ;
   skos:prefLabel "Textilgestaltung"@de ;
   skos:broader <n76> ;
   skos:notation "116" ;
+  skos:closeMatch gnd:7506104-1 ;
   skos:inScheme <scheme> .
 
 <n176> a skos:Concept ;
   skos:prefLabel "Werkerziehung"@de ;
   skos:broader <n76> ;
   skos:notation "176" ;
+  skos:closeMatch gnd:4065590-8 ;
   skos:inScheme <scheme> .
 
 <n74> a skos:Concept ;
@@ -1389,12 +1632,17 @@
   skos:prefLabel "Kunsterziehung"@de ;
   skos:broader <n74> ;
   skos:notation "091" ;
+  skos:closeMatch gnd:4033637-2 ;
   skos:inScheme <scheme> .
 
 <n092> a skos:Concept ;
   skos:prefLabel "Kunstgeschichte, Kunstwissenschaft"@de ;
   skos:broader <n74> ;
   skos:notation "092" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:7503709-9, gnd:4120632-0
+  ] ;
   skos:inScheme <scheme> .
 
 <n101> a skos:Concept ;
@@ -1407,67 +1655,87 @@
   skos:prefLabel "Musik, Musikwissenschaft"@de ;
   skos:narrower <n192>, <n230>, <n080>, <n164>, <n193>, <n191>, <n113>, <n114>, <n165>, <n163>, <n194>;
   skos:broader <n9> ;
-  skos:notation "78" ;
+  skos:notation "78" ;  
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4040802-4, gnd:4130526-7 
+  ] ;
   skos:inScheme <scheme> .
 
 <n192> a skos:Concept ;
   skos:prefLabel "Dirigieren"@de ;
   skos:broader <n78> ;
   skos:notation "192" ;
+  skos:closeMatch gnd:4012435-6 ;
   skos:inScheme <scheme> .
 
 <n230> a skos:Concept ;
   skos:prefLabel "Gesang"@de ;
   skos:broader <n78> ;
   skos:notation "230" ;
+  skos:closeMatch gnd:4020470-4 ;
   skos:inScheme <scheme> .
 
 <n080> a skos:Concept ;
   skos:prefLabel "Instrumentalmusik"@de ;
   skos:broader <n78> ;
   skos:notation "080" ;
+  skos:closeMatch gnd:4129951-6 ;
   skos:inScheme <scheme> .
 
 <n164> a skos:Concept ;
   skos:prefLabel "Jazz und Popularmusik"@de ;
   skos:broader <n78> ;
   skos:notation "164" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4028532-7, gnd:4061916-3 
+  ] ;
   skos:inScheme <scheme> .
 
 <n193> a skos:Concept ;
   skos:prefLabel "Kirchenmusik"@de ;
   skos:broader <n78> ;
   skos:notation "193" ;
+  skos:closeMatch gnd:4030736-0 ;
   skos:inScheme <scheme> .
 
 <n191> a skos:Concept ;
   skos:prefLabel "Komposition"@de ;
   skos:broader <n78> ;
   skos:notation "191" ;
+  skos:closeMatch gnd:4133320-2 ;
   skos:inScheme <scheme> .
 
 <n113> a skos:Concept ;
   skos:prefLabel "Musikerziehung"@de ;
   skos:broader <n78> ;
   skos:notation "113" ;
+  skos:closeMatch gnd:4040843-7 ;
   skos:inScheme <scheme> .
 
 <n114> a skos:Concept ;
   skos:prefLabel "Musikwissenschaft/-geschichte"@de ;
   skos:broader <n78> ;
   skos:notation "114" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4130526-7, gnd:7503845-6 
+  ] ;
   skos:inScheme <scheme> .
 
 <n165> a skos:Concept ;
   skos:prefLabel "Orchestermusik"@de ;
   skos:broader <n78> ;
   skos:notation "165" ;
+  skos:closeMatch gnd:4131523-6 ;
   skos:inScheme <scheme> .
 
 <n163> a skos:Concept ;
   skos:prefLabel "Rhythmik"@de ;
   skos:broader <n78> ;
   skos:notation "163" ;
+  skos:closeMatch gnd:4178059-0 ;
   skos:inScheme <scheme> .
 
 <n194> a skos:Concept ;
@@ -1487,24 +1755,28 @@
   skos:prefLabel "Anthropologie (Humanbiologie)"@de ;
   skos:broader <n42> ;
   skos:notation "009" ;
+  skos:closeMatch gnd:4160775-2 ;
   skos:inScheme <scheme> .
 
 <n026> a skos:Concept ;
   skos:prefLabel "Biologie"@de ;
   skos:broader <n42> ;
   skos:notation "026" ;
+  skos:closeMatch gnd:4006851-1 ;
   skos:inScheme <scheme> .
 
 <n300> a skos:Concept ;
   skos:prefLabel "Biomedizin"@de ;
   skos:broader <n42> ;
   skos:notation "300" ;
+  skos:closeMatch gnd:4647152-2 ;
   skos:inScheme <scheme> .
 
 <n282> a skos:Concept ;
   skos:prefLabel "Biotechnologie"@de ;
   skos:broader <n42> ;
   skos:notation "282" ;
+  skos:closeMatch gnd:4069491-4 ;
   skos:inScheme <scheme> .
 
 <n40> a skos:Concept ;
@@ -1518,18 +1790,21 @@
   skos:prefLabel "Biochemie"@de ;
   skos:broader <n40> ;
   skos:notation "025" ;
+  skos:closeMatch gnd:4006777-4 ;
   skos:inScheme <scheme> .
 
 <n032> a skos:Concept ;
   skos:prefLabel "Chemie"@de ;
   skos:broader <n40> ;
   skos:notation "032" ;
+  skos:closeMatch gnd:4009816-3 ;
   skos:inScheme <scheme> .
 
 <n096> a skos:Concept ;
   skos:prefLabel "Lebensmittelchemie"@de ;
   skos:broader <n40> ;
   skos:notation "096" ;
+  skos:closeMatch gnd:4034873-8 ;
   skos:inScheme <scheme> .
 
 <n44> a skos:Concept ;
@@ -1543,18 +1818,24 @@
   skos:prefLabel "Biogeographie"@de ;
   skos:broader <n44> ;
   skos:notation "283" ;
+  skos:closeMatch gnd:4006801-8 ;
   skos:inScheme <scheme> .
 
 <n050> a skos:Concept ;
   skos:prefLabel "Geographie/Erdkunde"@de ;
   skos:broader <n44> ;
   skos:notation "050" ;
+  skos:closeMatch gnd:4020216-1 ;
   skos:inScheme <scheme> .
 
 <n178> a skos:Concept ;
   skos:prefLabel "Wirtschafts-/Sozialgeographie"@de ;
   skos:broader <n44> ;
   skos:notation "178" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4066446-6, gnd:4055768-6 
+  ] ;
   skos:inScheme <scheme> .
 
 <n43> a skos:Concept ;
@@ -1568,42 +1849,52 @@
   skos:prefLabel "Geologie/Paläontologie"@de ;
   skos:broader <n43> ;
   skos:notation "065" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4020227-6, gnd:4044375-9
+  ] ;
   skos:inScheme <scheme> .
 
 <n385> a skos:Concept ;
   skos:prefLabel "Geoökologie"@de ;
   skos:broader <n43> ;
   skos:notation "385" ;
+  skos:closeMatch gnd:4137703-5 ;
   skos:inScheme <scheme> .
 
 <n066> a skos:Concept ;
   skos:prefLabel "Geophysik"@de ;
   skos:broader <n43> ;
   skos:notation "066" ;
+  skos:closeMatch gnd:4020252-5 ;
   skos:inScheme <scheme> .
 
 <n039> a skos:Concept ;
   skos:prefLabel "Geowissenschaften"@de ;
   skos:broader <n43> ;
   skos:notation "039" ;
+  skos:closeMatch gnd:4020288-4 ;
   skos:inScheme <scheme> .
 
 <n110> a skos:Concept ;
   skos:prefLabel "Meteorologie"@de ;
   skos:broader <n43> ;
   skos:notation "110" ;
+  skos:closeMatch gnd:4038953-4 ;
   skos:inScheme <scheme> .
 
 <n111> a skos:Concept ;
   skos:prefLabel "Mineralogie"@de ;
   skos:broader <n43> ;
   skos:notation "111" ;
+  skos:closeMatch gnd:4039457-8 ;
   skos:inScheme <scheme> .
 
 <n124> a skos:Concept ;
   skos:prefLabel "Ozeanographie"@de ;
   skos:broader <n43> ;
   skos:notation "124" ;
+  skos:closeMatch gnd:4074685-9 ;
   skos:inScheme <scheme> .
 
 <n37> a skos:Concept ;
@@ -1617,24 +1908,31 @@
   skos:prefLabel "Mathematik"@de ;
   skos:broader <n37> ;
   skos:notation "105" ;
+  skos:closeMatch gnd:4037944-9 ;
   skos:inScheme <scheme> .
 
 <n237> a skos:Concept ;
   skos:prefLabel "Mathematische Statistik/Wahrscheinlichkeitsrechnung"@de ;
   skos:broader <n37> ;
   skos:notation "237" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4056995-0, gnd:4064324-4
+  ] ;
   skos:inScheme <scheme> .
 
 <n118> a skos:Concept ;
   skos:prefLabel "Technomathematik"@de ;
   skos:broader <n37> ;
   skos:notation "118" ;
+  skos:closeMatch gnd:4827059-3 ;
   skos:inScheme <scheme> .
 
 <n276> a skos:Concept ;
   skos:prefLabel "Wirtschaftsmathematik"@de ;
   skos:broader <n37> ;
   skos:notation "276" ;
+  skos:closeMatch gnd:4066472-7 ;
   skos:inScheme <scheme> .
 
 <n36> a skos:Concept ;
@@ -1673,6 +1971,7 @@
   skos:prefLabel "Pharmazie"@de ;
   skos:broader <n41> ;
   skos:notation "126" ;
+  skos:closeMatch gnd:4045705-9 ;
   skos:inScheme <scheme> .
 
 <n39> a skos:Concept ;
@@ -1686,12 +1985,17 @@
   skos:prefLabel "Astronomie, Astrophysik"@de ;
   skos:broader <n39> ;
   skos:notation "014" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4003311-9 , gnd:4003326-0
+  ] ;
   skos:inScheme <scheme> .
 
 <n0128> a skos:Concept ;
   skos:prefLabel "Physik"@de ;
   skos:broader <n39> ;
   skos:notation "128" ;
+  skos:closeMatch gnd:4045956-1 ;
   skos:inScheme <scheme> .
 
 <n33> a skos:Concept ;
@@ -1705,54 +2009,69 @@
   skos:prefLabel "Ausländerpädagogik"@de ;
   skos:broader <n33> ;
   skos:notation "117" ;
+  skos:closeMatch gnd:4122851-0 ;
   skos:inScheme <scheme> .
 
 <n270> a skos:Concept ;
   skos:prefLabel "Berufs- und Wirtschaftspädagogik"@de ;
   skos:broader <n33> ;
   skos:notation "270" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4005924-8 , gnd:4066486-7
+  ] ;
   skos:inScheme <scheme> .
 
 <n321> a skos:Concept ;
   skos:prefLabel "Erwachsenenbildung und außerschulische Jugendbildung"@de ;
   skos:broader <n33> ;
   skos:notation "321" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4015428-2 , gnd:4112643-9
+  ] ;
   skos:inScheme <scheme> .
 
 <n052> a skos:Concept ;
   skos:prefLabel "Erziehungswissenschaft (Pädagogik)"@de ;
   skos:broader <n33> ;
   skos:notation "052" ;
+  skos:closeMatch gnd:4044302-4 ;
   skos:inScheme <scheme> .
 
 <n115> a skos:Concept ;
   skos:prefLabel "Grundschul-/Primarstufenpädagogik"@de ;
   skos:broader <n33> ;
   skos:notation "115" ;
+  skos:closeMatch gnd:4158406-5 ;
   skos:inScheme <scheme> .
 
 <n365> a skos:Concept ;
   skos:prefLabel "Pädagogik der frühen Kindheit"@de ;
   skos:broader <n33> ;
   skos:notation "365" ;
+  skos:closeMatch gnd:4073499-7 ;
   skos:inScheme <scheme> .
 
 <n254> a skos:Concept ;
   skos:prefLabel "Sachunterricht (einschl. Schulgarten)"@de ;
   skos:broader <n33> ;
   skos:notation "254" ;
+  skos:closeMatch gnd:4051158-3 ;
   skos:inScheme <scheme> .
 
 <n361> a skos:Concept ;
   skos:prefLabel "Schulpädagogik"@de ;
   skos:broader <n33> ;
   skos:notation "361" ;
+  skos:closeMatch gnd:4077208-1 ;
   skos:inScheme <scheme> .
 
 <n190> a skos:Concept ;
   skos:prefLabel "Sonderpädagogik"@de ;
   skos:broader <n33> ;
   skos:notation "190" ;
+  skos:closeMatch gnd:4077513-6 ;
   skos:inScheme <scheme> .
 
 <n25> a skos:Concept ;
@@ -1766,6 +2085,7 @@
   skos:prefLabel "Politikwissenschaft/Politologie"@de ;
   skos:broader <n25> ;
   skos:notation "129" ;
+  skos:closeMatch gnd:4076229-4 ;
   skos:inScheme <scheme> .
 
 <n32> a skos:Concept ;
@@ -1779,6 +2099,7 @@
   skos:prefLabel "Psychologie"@de ;
   skos:broader <n32> ;
   skos:notation "132" ;
+  skos:closeMatch gnd:4047704-6 ;
   skos:inScheme <scheme> .
 
 <n23> a skos:Concept ;
@@ -1798,12 +2119,17 @@
   skos:prefLabel "Kommunikationswissenschaft/Publizistik"@de ;
   skos:broader <n23> ;
   skos:notation "303" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4120588-1 , gnd:4047770-8
+  ] ;
   skos:inScheme <scheme> .
 
 <n154> a skos:Concept ;
   skos:prefLabel "Lernbereich Gesellschaftslehre"@de ;
   skos:broader <n23> ;
   skos:notation "154" ;
+  skos:closeMatch gnd:4077608-6 ;
   skos:inScheme <scheme> .
 
 <n28> a skos:Concept ;
@@ -1817,12 +2143,14 @@
   skos:prefLabel "Rechtswissenschaft"@de ;
   skos:broader <n28> ;
   skos:notation "135" ;
+  skos:closeMatch gnd:4076570-2 ;
   skos:inScheme <scheme> .
 
 <n042> a skos:Concept ;
   skos:prefLabel "Wirtschaftsrecht"@de ;
   skos:broader <n28> ;
   skos:notation "042" ;
+  skos:closeMatch gnd:4066510-0 ;
   skos:inScheme <scheme> .
 
 <n24> a skos:Concept ;
@@ -1836,12 +2164,17 @@
   skos:prefLabel "Lateinamerika"@de ;
   skos:broader <n24> ;
   skos:notation "038" ;
+  skos:closeMatch gnd:4310260-8 ;
   skos:inScheme <scheme> .
 
 <n044> a skos:Concept ;
   skos:prefLabel "Ost- und Südosteuropa"@de ;
   skos:broader <n24> ;
   skos:notation "044" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4172951-1 , gnd:4507887-7
+  ] ;
   skos:inScheme <scheme> .
 
 <n036> a skos:Concept ;
@@ -1861,18 +2194,21 @@
   skos:prefLabel "Soziale Arbeit"@de ;
   skos:broader <n27> ;
   skos:notation "208" ;
+  skos:closeMatch gnd:4055676-1 ;
   skos:inScheme <scheme> .
 
 <n245> a skos:Concept ;
   skos:prefLabel "Sozialpädagogik"@de ;
   skos:broader <n27> ;
   skos:notation "245" ;
+  skos:closeMatch gnd:4055864-2 ;
   skos:inScheme <scheme> .
 
 <n253> a skos:Concept ;
   skos:prefLabel "Sozialwesen"@de ;
   skos:broader <n27> ;
   skos:notation "253" ;
+  skos:closeMatch gnd:4139318-1 ;
   skos:inScheme <scheme> .
 
 <n26> a skos:Concept ;
@@ -1886,18 +2222,21 @@
   skos:prefLabel "Sozialkunde"@de ;
   skos:broader <n26> ;
   skos:notation "147" ;
+  skos:closeMatch gnd:4077608-6 ;
   skos:inScheme <scheme> .
 
 <n148> a skos:Concept ;
   skos:prefLabel "Sozialwissenschaft"@de ;
   skos:broader <n26> ;
   skos:notation "148" ;
+  skos:closeMatch gnd:4055916-6 ;
   skos:inScheme <scheme> .
 
 <n149> a skos:Concept ;
   skos:prefLabel "Soziologie"@de ;
   skos:broader <n26> ;
   skos:notation "149" ;
+  skos:closeMatch gnd:4077624-4 ;
   skos:inScheme <scheme> .
 
 <n29> a skos:Concept ;
@@ -1911,96 +2250,121 @@
   skos:prefLabel "Arbeits- und Berufsberatung"@de ;
   skos:broader <n29> ;
   skos:notation "257" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4499546-5 , gnd:4005878-5
+  ] ;
   skos:inScheme <scheme> .
 
 <n258> a skos:Concept ;
   skos:prefLabel "Arbeitsverwaltung"@de ;
   skos:broader <n29> ;
   skos:notation "258" ;
+  skos:closeMatch gnd:4130930-3 ;
   skos:inScheme <scheme> .
 
 <n255> a skos:Concept ;
   skos:prefLabel "Archivwesen"@de ;
   skos:broader <n29> ;
   skos:notation "255" ;
+  skos:closeMatch gnd:4002859-8 ;
   skos:inScheme <scheme> .
 
 <n259> a skos:Concept ;
   skos:prefLabel "Auswärtige Angelegenheiten"@de ;
   skos:broader <n29> ;
   skos:notation "259" ;
+  skos:closeMatch gnd:4003910-9 ;
   skos:inScheme <scheme> .
 
 <n265> a skos:Concept ;
   skos:prefLabel "Bankwesen"@de ;
   skos:broader <n29> ;
   skos:notation "265" ;
+  skos:closeMatch gnd:4032950-1 ;
   skos:inScheme <scheme> .
 
 <n262> a skos:Concept ;
   skos:prefLabel "Bibliothekswesen"@de ;
   skos:broader <n29> ;
   skos:notation "262" ;
+  skos:closeMatch gnd:4006439-6 ;
   skos:inScheme <scheme> .
 
 <n260> a skos:Concept ;
   skos:prefLabel "Bundeswehrverwaltung"@de ;
   skos:broader <n29> ;
   skos:notation "260" ;
+  skos:closeMatch gnd:4146998-7 ;
   skos:inScheme <scheme> .
 
 <n266> a skos:Concept ;
   skos:prefLabel "Finanzverwaltung"@de ;
   skos:broader <n29> ;
   skos:notation "266" ;
+  skos:closeMatch gnd:4017212-0 ;
   skos:inScheme <scheme> .
 
 <n261> a skos:Concept ;
   skos:prefLabel "Innere Verwaltung"@de ;
   skos:broader <n29> ;
   skos:notation "261" ;
+  skos:closeMatch gnd:4345139-1 ;
   skos:inScheme <scheme> .
 
 <n168> a skos:Concept ;
   skos:prefLabel "Justizvollzug"@de ;
   skos:broader <n29> ;
   skos:notation "168" ;
+  skos:closeMatch gnd:4057808-2 ;
   skos:inScheme <scheme> .
 
 <n263> a skos:Concept ;
   skos:prefLabel "Polizei/Verfassungsschutz"@de ;
   skos:broader <n29> ;
   skos:notation "263" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4046595-0 , gnd:4062803-6
+  ] ;
   skos:inScheme <scheme> .
 
 <n256> a skos:Concept ;
   skos:prefLabel "Rechtspflege"@de ;
   skos:broader <n29> ;
   skos:notation "256" ;
+  skos:closeMatch gnd:4048816-0 ;
   skos:inScheme <scheme> .
 
 <n264> a skos:Concept ;
   skos:prefLabel "Sozialversicherung"@de ;
   skos:broader <n29> ;
   skos:notation "264" ;
+  skos:closeMatch gnd:4055905-1 ;
   skos:inScheme <scheme> .
 
 <n268> a skos:Concept ;
   skos:prefLabel "Verkehrswesen"@de ;
   skos:broader <n29> ;
   skos:notation "268" ;
+  skos:closeMatch gnd:4062901-6 ;
   skos:inScheme <scheme> .
 
 <n172> a skos:Concept ;
   skos:prefLabel "Verwaltungswissenschaft/-wesen"@de ;
   skos:broader <n29> ;
   skos:notation "172" ;
+  skos:closeMatch gnd:4137670-5 ;
   skos:inScheme <scheme> .
 
 <n269> a skos:Concept ;
   skos:prefLabel "Zoll- und Steuerverwaltung"@de ;
   skos:broader <n29> ;
   skos:notation "269" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4191032-1 , gnd:4183231-0
+  ] ;
   skos:inScheme <scheme> .
 
 <n31> a skos:Concept ;
@@ -2014,6 +2378,7 @@
   skos:prefLabel "Facility Management"@de ;
   skos:broader <n31> ;
   skos:notation "464" ;
+  skos:closeMatch gnd:4372194-1 ;
   skos:inScheme <scheme> .
 
 <n179> a skos:Concept ;
@@ -2033,12 +2398,17 @@
   skos:prefLabel "Arbeitslehre/Wirtschaftslehre"@de ;
   skos:broader <n30> ;
   skos:notation "011" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4002718-1 , gnd:4079346-1
+  ] ;
   skos:inScheme <scheme> .
 
 <n021> a skos:Concept ;
   skos:prefLabel "Betriebswirtschaftslehre"@de ;
   skos:broader <n30> ;
   skos:notation "021" ;
+  skos:closeMatch gnd:4069402-1 ;
   skos:inScheme <scheme> .
 
 <n167> a skos:Concept ;
@@ -2051,48 +2421,62 @@
   skos:prefLabel "Internationale Betriebswirtschaft/Management"@de ;
   skos:broader <n30> ;
   skos:notation "182" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4257369-5 , gnd:4114040-0
+  ] ;
   skos:inScheme <scheme> .
 
 <n304> a skos:Concept ;
   skos:prefLabel "Medienwirtschaft/Medienmanagement"@de ;
   skos:broader <n30> ;
   skos:notation "304" ;
+  skos:closeMatch gnd:4129410-5 ;
   skos:inScheme <scheme> .
 
 <n166> a skos:Concept ;
   skos:prefLabel "Sportmanagement/Sportökonomie"@de ;
   skos:broader <n30> ;
   skos:notation "166" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:7508942-7 , gnd:4207188-4
+  ] ;
   skos:inScheme <scheme> .
 
 <n274> a skos:Concept ;
   skos:prefLabel "Tourismuswirtschaft"@de ;
   skos:broader <n30> ;
   skos:notation "274" ;
+  skos:closeMatch gnd:4466880-6 ;
   skos:inScheme <scheme> .
 
 <n210> a skos:Concept ;
   skos:prefLabel "Verkehrswirtschaft"@de ;
   skos:broader <n30> ;
   skos:notation "210" ;
+  skos:closeMatch gnd:4062992-2 ;
   skos:inScheme <scheme> .
 
 <n175> a skos:Concept ;
   skos:prefLabel "Volkswirtschaftslehre"@de ;
   skos:broader <n30> ;
   skos:notation "175" ;
+  skos:closeMatch gnd:4078943-3 ;
   skos:inScheme <scheme> .
 
 <n181> a skos:Concept ;
   skos:prefLabel "Wirtschaftspädagogik"@de ;
   skos:broader <n30> ;
   skos:notation "181" ;
+  skos:closeMatch gnd:4066486-7 ;
   skos:inScheme <scheme> .
 
 <n184> a skos:Concept ;
   skos:prefLabel "Wirtschaftswissenschaften"@de ;
   skos:broader <n30> ;
   skos:notation "184" ;
+  skos:closeMatch gnd:4066528-8 ;
   skos:inScheme <scheme> .
 
 <n22> a skos:Concept ;
@@ -2106,10 +2490,15 @@
   skos:prefLabel "Sportpädagogik/Sportpsychologie"@de ;
   skos:broader <n22> ;
   skos:notation "098" ;
+  skos:closeMatch [
+    a skos:Concept ;
+    skos:hasNarrower gnd:4130615-6 , gnd:4056415-0
+  ] ;
   skos:inScheme <scheme> .
 
 <n029> a skos:Concept ;
   skos:prefLabel "Sportwissenschaft"@de ;
   skos:broader <n22> ;
   skos:notation "029" ;
+  skos:closeMatch gnd:4056442-3 ;
   skos:inScheme <scheme> .
