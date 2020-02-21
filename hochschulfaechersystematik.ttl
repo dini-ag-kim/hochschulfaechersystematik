@@ -1478,9 +1478,9 @@
 
 <n42> a skos:Concept ;
   skos:prefLabel "Studienbereich Biologie"@de ;
-  skos:narrower <n009>, <n42>, <n300>, <n282>;
+  skos:narrower <n009>, <n026>, <n300>, <n282>;
   skos:broader <n4> ;
-  skos:notation "080001" ;
+  skos:notation "42" ;
   skos:inScheme <scheme> .
 
 <n009> a skos:Concept ;
