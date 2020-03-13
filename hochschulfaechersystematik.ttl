@@ -1368,14 +1368,14 @@
   skos:prefLabel "Materialwissenschaft"@de ;
   skos:broader <n72> ;
   skos:notation "294" ;
-  skos:closeMatch gnd: ;
+  skos:closeMatch gnd:4079184-1 ;
   skos:inScheme <scheme> .
 
 <n177> a skos:Concept ;
   skos:prefLabel "Werkstofftechnik"@de ;
   skos:broader <n72> ;
   skos:notation "177" ;
-  skos:closeMatch gnd: ;
+  skos:closeMatch gnd:4079184-1 ;
   skos:inScheme <scheme> .
 
 <n67> a skos:Concept ;
@@ -1383,7 +1383,6 @@
   skos:narrower <n134>, <n458>;
   skos:broader <n8> ;
   skos:notation "67" ;
-  skos:closeMatch gnd: ;
   skos:inScheme <scheme> .
 
 <n134> a skos:Concept ;
@@ -1472,7 +1471,6 @@
   skos:narrower <n370>;
   skos:broader <n8> ;
   skos:notation "70" ;
-  skos:closeMatch gnd: ;
   skos:inScheme <scheme> .
 
 <n370> a skos:Concept ;
