@@ -11,7 +11,7 @@
   dct:issued "2019-12-11" ;
   dct:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
   vann:preferredNamespacePrefix "hfs" ;
-  vann:preferredNamespaceUri "https://w3id.org/class/hochschulfaechersystematik/" ;
+  vann:preferredNamespaceUri "https://w3id.org/kim/hochschulfaechersystematik/" ;
   schema:isBasedOn <http://bartoc.org/node/18919> ;
   skos:hasTopConcept <n7>, <n1>, <n5>, <n8>, <n9>, <n4>, <n3>, <n2> .
 
