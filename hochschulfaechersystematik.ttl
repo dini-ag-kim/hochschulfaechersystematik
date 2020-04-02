@@ -112,7 +112,7 @@
   skos:inScheme <scheme> ;
   skos:closeMatch [
   a skos:Concept ;
-  skos:hasNarrower gnd:4006465-7, gnd:4012656-0
+  skos:narrower gnd:4006465-7, gnd:4012656-0
 ] .
 
 <n07> a skos:Concept ;
@@ -212,7 +212,7 @@
   skos:notation "028" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4146518-0, gnd:44236073-0
+    skos:narrower gnd:4146518-0, gnd:44236073-0
   ] ;
   skos:inScheme <scheme> .
 
@@ -257,7 +257,7 @@
   skos:notation "227" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4065136-8, gnd:4030198-9
+    skos:narrower gnd:4065136-8, gnd:4030198-9
   ] ;
   skos:inScheme <scheme> .
 
@@ -322,7 +322,7 @@
   skos:notation "093" ;
     skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4034350-9, gnd:4034265-7
+    skos:narrower gnd:4034350-9, gnd:4034265-7
   ] ;
   skos:inScheme <scheme> .
 
@@ -456,7 +456,7 @@
   skos:notation "010" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4142845-6, gnd:4241223-7
+    skos:narrower gnd:4142845-6, gnd:4241223-7
   ] ;
   skos:inScheme <scheme> .
 
@@ -479,7 +479,7 @@
   skos:notation "073" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4162796-9, gnd:4023922-6
+    skos:narrower gnd:4162796-9, gnd:4023922-6
   ] ;
   skos:inScheme <scheme> .
 
@@ -524,7 +524,7 @@
   skos:notation "122" ;
  skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4172819-1, gnd:4142081-0
+    skos:narrower gnd:4172819-1, gnd:4142081-0
   ] ;
   skos:inScheme <scheme> .
 
@@ -534,7 +534,7 @@
   skos:notation "145" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4137926-3, gnd:4201431-1
+    skos:narrower gnd:4137926-3, gnd:4201431-1
   ] ;
   skos:inScheme <scheme> .
 
@@ -572,7 +572,7 @@
   skos:notation "544" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4153261-2, gnd:4126242-6
+    skos:narrower gnd:4153261-2, gnd:4126242-6
   ] ;
   skos:inScheme <scheme> .
 
@@ -621,7 +621,7 @@
   skos:notation "067" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4020383-9, gnd:4113292-0
+    skos:narrower gnd:4020383-9, gnd:4113292-0
   ] ;
   skos:inScheme <scheme> .
 
@@ -673,7 +673,7 @@
   skos:notation "273" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4170208-6, gnd:4136254-8
+    skos:narrower gnd:4170208-6, gnd:4136254-8
   ] ;
   skos:inScheme <scheme> .
 
@@ -690,7 +690,7 @@
   skos:notation "183" ;
    skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4170208-6, gnd:4121930-2, gnd:7504419-5
+    skos:narrower gnd:4170208-6, gnd:4121930-2, gnd:7504419-5
   ] ;
   skos:inScheme <scheme> .
 
@@ -893,7 +893,7 @@
   skos:notation "234" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:7603053-2, gnd:4517988-8
+    skos:narrower gnd:7603053-2, gnd:4517988-8
   ] ;
   skos:inScheme <scheme> .
 
@@ -1043,7 +1043,7 @@
   skos:notation "048" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4014390-9, gnd:4014346-6
+    skos:narrower gnd:4014390-9, gnd:4014346-6
   ] ;
   skos:inScheme <scheme> .
 
@@ -1095,7 +1095,7 @@
   skos:notation "200" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4031888-6, gnd:4148885-4
+    skos:narrower gnd:4031888-6, gnd:4148885-4
   ] ;
   skos:inScheme <scheme> .
 
@@ -1112,7 +1112,7 @@
   skos:notation "123" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4112526-5, gnd:4196734-3
+    skos:narrower gnd:4112526-5, gnd:4196734-3
   ] ;
   skos:inScheme <scheme> .
 
@@ -1226,7 +1226,7 @@
   skos:notation "231" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4049540-1, gnd:4124801-6
+    skos:narrower gnd:4049540-1, gnd:4124801-6
   ] ;
   skos:inScheme <scheme> .
 
@@ -1250,7 +1250,7 @@
   skos:notation "202" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:1072438291, gnd:4329079-6
+    skos:narrower gnd:1072438291, gnd:4329079-6
   ] ;
   skos:inScheme <scheme> .
 
@@ -1267,7 +1267,7 @@
   skos:notation "216" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4444561-1, gnd:4030270-2
+    skos:narrower gnd:4444561-1, gnd:4030270-2
   ] ;
   skos:inScheme <scheme> .
 
@@ -1331,7 +1331,7 @@
   skos:notation "074" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4113594-5, gnd:4185935-2
+    skos:narrower gnd:4113594-5, gnd:4185935-2
   ] ;
   skos:inScheme <scheme> .
 
@@ -1418,7 +1418,7 @@
   skos:notation "057" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4168244-0, gnd:4177061-4
+    skos:narrower gnd:4168244-0, gnd:4177061-4
   ] ;
   skos:inScheme <scheme> .
 
@@ -1435,7 +1435,7 @@
   skos:notation "142" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4052397-4, gnd:4179595-7
+    skos:narrower gnd:4052397-4, gnd:4179595-7
   ] ;
   skos:inScheme <scheme> .
 
@@ -1527,7 +1527,7 @@
   skos:notation "035" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4129566-3, gnd:4177403-6
+    skos:narrower gnd:4129566-3, gnd:4177403-6
   ] ;
   skos:inScheme <scheme> .
 
@@ -1537,7 +1537,7 @@
   skos:notation "054" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4017102-4, gnd:4016825-6
+    skos:narrower gnd:4017102-4, gnd:4016825-6
   ] ;
   skos:inScheme <scheme> .
 
@@ -1595,7 +1595,7 @@
   skos:notation "203" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4072788-9, gnd:4047340-5
+    skos:narrower gnd:4072788-9, gnd:4047340-5
   ] ;
   skos:inScheme <scheme> .
 
@@ -1639,7 +1639,7 @@
   skos:notation "092" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:7503709-9, gnd:4120632-0
+    skos:narrower gnd:7503709-9, gnd:4120632-0
   ] ;
   skos:inScheme <scheme> .
 
@@ -1656,7 +1656,7 @@
   skos:notation "78" ;  
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4040802-4, gnd:4130526-7 
+    skos:narrower gnd:4040802-4, gnd:4130526-7 
   ] ;
   skos:inScheme <scheme> .
 
@@ -1687,7 +1687,7 @@
   skos:notation "164" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4028532-7, gnd:4061916-3 
+    skos:narrower gnd:4028532-7, gnd:4061916-3 
   ] ;
   skos:inScheme <scheme> .
 
@@ -1718,7 +1718,7 @@
   skos:notation "114" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4130526-7, gnd:7503845-6 
+    skos:narrower gnd:4130526-7, gnd:7503845-6 
   ] ;
   skos:inScheme <scheme> .
 
@@ -1832,7 +1832,7 @@
   skos:notation "178" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4066446-6, gnd:4055768-6 
+    skos:narrower gnd:4066446-6, gnd:4055768-6 
   ] ;
   skos:inScheme <scheme> .
 
@@ -1849,7 +1849,7 @@
   skos:notation "065" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4020227-6, gnd:4044375-9
+    skos:narrower gnd:4020227-6, gnd:4044375-9
   ] ;
   skos:inScheme <scheme> .
 
@@ -1915,7 +1915,7 @@
   skos:notation "237" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4056995-0, gnd:4064324-4
+    skos:narrower gnd:4056995-0, gnd:4064324-4
   ] ;
   skos:inScheme <scheme> .
 
@@ -1985,7 +1985,7 @@
   skos:notation "014" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4003311-9 , gnd:4003326-0
+    skos:narrower gnd:4003311-9 , gnd:4003326-0
   ] ;
   skos:inScheme <scheme> .
 
@@ -2016,7 +2016,7 @@
   skos:notation "270" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4005924-8 , gnd:4066486-7
+    skos:narrower gnd:4005924-8 , gnd:4066486-7
   ] ;
   skos:inScheme <scheme> .
 
@@ -2026,7 +2026,7 @@
   skos:notation "321" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4015428-2 , gnd:4112643-9
+    skos:narrower gnd:4015428-2 , gnd:4112643-9
   ] ;
   skos:inScheme <scheme> .
 
@@ -2119,7 +2119,7 @@
   skos:notation "303" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4120588-1 , gnd:4047770-8
+    skos:narrower gnd:4120588-1 , gnd:4047770-8
   ] ;
   skos:inScheme <scheme> .
 
@@ -2171,7 +2171,7 @@
   skos:notation "044" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4172951-1 , gnd:4507887-7
+    skos:narrower gnd:4172951-1 , gnd:4507887-7
   ] ;
   skos:inScheme <scheme> .
 
@@ -2250,7 +2250,7 @@
   skos:notation "257" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4499546-5 , gnd:4005878-5
+    skos:narrower gnd:4499546-5 , gnd:4005878-5
   ] ;
   skos:inScheme <scheme> .
 
@@ -2323,7 +2323,7 @@
   skos:notation "263" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4046595-0 , gnd:4062803-6
+    skos:narrower gnd:4046595-0 , gnd:4062803-6
   ] ;
   skos:inScheme <scheme> .
 
@@ -2361,7 +2361,7 @@
   skos:notation "269" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4191032-1 , gnd:4183231-0
+    skos:narrower gnd:4191032-1 , gnd:4183231-0
   ] ;
   skos:inScheme <scheme> .
 
@@ -2398,7 +2398,7 @@
   skos:notation "011" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4002718-1 , gnd:4079346-1
+    skos:narrower gnd:4002718-1 , gnd:4079346-1
   ] ;
   skos:inScheme <scheme> .
 
@@ -2421,7 +2421,7 @@
   skos:notation "182" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4257369-5 , gnd:4114040-0
+    skos:narrower gnd:4257369-5 , gnd:4114040-0
   ] ;
   skos:inScheme <scheme> .
 
@@ -2438,7 +2438,7 @@
   skos:notation "166" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:7508942-7 , gnd:4207188-4
+    skos:narrower gnd:7508942-7 , gnd:4207188-4
   ] ;
   skos:inScheme <scheme> .
 
@@ -2490,7 +2490,7 @@
   skos:notation "098" ;
   skos:closeMatch [
     a skos:Concept ;
-    skos:hasNarrower gnd:4130615-6 , gnd:4056415-0
+    skos:narrower gnd:4130615-6 , gnd:4056415-0
   ] ;
   skos:inScheme <scheme> .
 
