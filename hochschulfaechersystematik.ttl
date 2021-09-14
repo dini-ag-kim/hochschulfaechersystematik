@@ -13,11 +13,11 @@
   vann:preferredNamespacePrefix "hfs" ;
   vann:preferredNamespaceUri "https://w3id.org/kim/hochschulfaechersystematik/" ;
   schema:isBasedOn <http://bartoc.org/node/18919> ;
-  skos:hasTopConcept <n7>, <n1>, <n5>, <n8>, <n9>, <n4>, <n3>, <n2> .
+  skos:hasTopConcept  <n1>, <n2>, <n3>, <n4>, <n5>, <n7>, <n8>, <n9> .
 
 <n1> a skos:Concept ;
   skos:prefLabel "Geisteswissenschaften"@de ;
-  skos:narrower <n07>, <n08>, <n10>, <n13>, <n06>, <n02>, <n01>, <n09>, <n05>, <n18>, <n03>, <n14>, <n04>, <n11>, <n12>;
+  skos:narrower <n01>, <n02>, <n03>, <n04>, <n05>, <n06>, <n07>, <n08>, <n09>, <n10>, <n11>, <n12>, <n13>, <n14>, <n18> ;
   skos:notation "1" ;
   skos:topConceptOf <scheme> .
 
@@ -29,13 +29,13 @@
 
 <n3> a skos:Concept ;
   skos:prefLabel "Rechts-, Wirtschafts- und Sozialwissenschaften"@de ;
-  skos:narrower <n33>, <n25>, <n32>, <n23>, <n28>, <n24>, <n27>, <n26>, <n29>, <n31>, <n30>;
+  skos:narrower <n23>, <n24>, <n25>, <n26>, <n27>, <n28>, <n29>, <n30>, <n31>, <n32>, <n33>;
   skos:notation "3" ;
   skos:topConceptOf <scheme> .
 
 <n4> a skos:Concept ;
   skos:prefLabel "Mathematik, Naturwissenschaften"@de ;
-  skos:narrower <n42>, <n40>, <n44>, <n43>, <n37>, <n36>, <n41>, <n39>;
+  skos:narrower   <n36>, <n37>, <n39>, <n40>, <n41>, <n42>, <n43>, <n44> ;
   skos:notation "4" ;
   skos:topConceptOf <scheme> .
 
@@ -47,19 +47,19 @@
 
 <n7> a skos:Concept ;
   skos:prefLabel "Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin"@de ;
-  skos:narrower <n58>, <n60>, <n59>, <n57>, <n51>;
+  skos:narrower <n51>, <n57>, <n58>, <n59>, <n60>;
   skos:notation "7" ;
   skos:topConceptOf <scheme> .
 
 <n8> a skos:Concept ;
   skos:prefLabel "Ingenieurwissenschaften"@de ;
-  skos:narrower <n66>, <n68>, <n62>, <n64>, <n71>, <n61>, <n63>, <n72>, <n67>, <n65>, <n69>, <n70>;
+  skos:narrower <n61>, <n62>, <n63>, <n64>, <n65>, <n66>, <n67>, <n68>, <n69>, <n70>, <n71>, <n72>;
   skos:notation "8" ;
   skos:topConceptOf <scheme> .
 
 <n9> a skos:Concept ;
   skos:prefLabel "Kunst, Kunstwissenschaft"@de ;
-  skos:narrower <n75>, <n77>, <n76>, <n74>, <n78>;
+  skos:narrower <n74>, <n75>, <n76>, <n77>, <n78>;
   skos:notation "9" ;
   skos:topConceptOf <scheme> .
 
