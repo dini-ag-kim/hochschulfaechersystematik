@@ -218,7 +218,7 @@
   skos:inScheme <scheme> .
 
 <n353> a skos:Concept ;
-  skos:prefLabel "Pflanzenproduktion"@de, "Food Technology"@en ;
+  skos:prefLabel "Pflanzenproduktion"@de, "Plant Production"@en ;
   skos:broader <n58> ;
   skos:notation "353" ;
   skos:inScheme <scheme> .
