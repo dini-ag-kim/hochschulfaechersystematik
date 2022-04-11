@@ -1908,7 +1908,7 @@
   skos:inScheme <scheme> .
 
 <n257> a skos:Concept ;
-  skos:prefLabel "Arbeits- und Berufsberatung"@de, "Occupational Guidance and Career Counselling"@en "Профорієнтація та розвиток кар'єри"@uk ;
+  skos:prefLabel "Arbeits- und Berufsberatung"@de, "Occupational Guidance and Career Counselling"@en, "Профорієнтація та розвиток кар'єри"@uk ;
   skos:broader <n29> ;
   skos:notation "257" ;
   skos:inScheme <scheme> .
