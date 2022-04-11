@@ -1769,7 +1769,7 @@
   skos:inScheme <scheme> .
 
 <n32> a skos:Concept ;
-  skos:prefLabel "Studienbereich Psychologie"@de, "Psychology"@en, "Психологія"ua@ ;
+  skos:prefLabel "Studienbereich Psychologie"@de, "Psychology"@en, "Психологія"@uk ;
   skos:narrower <n132>;
   skos:broader <n3> ;
   skos:notation "32" ;
