@@ -2072,7 +2072,7 @@
   skos:inScheme <scheme> .
 
 <n210> a skos:Concept ;
-  skos:prefLabel "Verkehrswirtschaft"@de, "Transport Economics"@en, "Економіка транспорту" @uk ;
+  skos:prefLabel "Verkehrswirtschaft"@de, "Transport Economics"@en, "Економіка транспорту"@uk ;
   skos:broader <n30> ;
   skos:notation "210" ;
   skos:inScheme <scheme> .
@@ -2109,7 +2109,7 @@
   skos:inScheme <scheme> .
 
 <n029> a skos:Concept ;
-  skos:prefLabel "Sportwissenschaft"@de, "Sports Science"@en,"Науки про спорт"@uk ;
+  skos:prefLabel "Sportwissenschaft"@de, "Sports Science"@en, "Науки про спорт"@uk ;
   skos:broader <n22> ;
   skos:notation "029" ;
   skos:inScheme <scheme> .
