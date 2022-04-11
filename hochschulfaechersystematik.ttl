@@ -1638,7 +1638,7 @@
   skos:inScheme <scheme> .
 
 <n36> a skos:Concept ;
-  skos:prefLabel "Mathematik, Naturwissenschaften allgemein"@de, "Mathematics, Natural Sciences (general)"@en, "Математика, Природничі науки (загальні)@uk" ;
+  skos:prefLabel "Mathematik, Naturwissenschaften allgemein"@de, "Mathematics, Natural Sciences (general)"@en, "Математика, Природничі науки (загальні)"@uk ;
   skos:narrower <n275>, <n049>, <n186>;
   skos:broader <n4> ;
   skos:notation "36" ;
