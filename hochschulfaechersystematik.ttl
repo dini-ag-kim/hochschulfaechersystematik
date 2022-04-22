@@ -5,9 +5,9 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <scheme> a skos:ConceptScheme ;
-  dct:title "Destatis-Systematik der Fächergruppen, Studienbereiche und Studienfächer"@de, "Destatis classification for subject groups, study areas and study subjects"@en ;
+  dct:title "Destatis-Systematik der Fächergruppen, Studienbereiche und Studienfächer"@de, "Destatis classification for subject groups, study areas and study subjects"@en, "Destatis класифікація за предметними рубриками, спеціальностями та дисциплінами"@uk ;
   dct:alternative "Hochschulfächersystematik"@de ;
-  dct:description "Diese SKOS-Klassifikation basiert auf der Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](https://bartoc.org/en/node/18919)."@de , "This SKOS classification is based on Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](https://bartoc.org/en/node/18919)."@en;
+  dct:description "Diese SKOS-Klassifikation basiert auf der Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](https://bartoc.org/en/node/18919)."@de , "This SKOS classification is based on Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](https://bartoc.org/en/node/18919)."@en, "Ця SKOS класифікація грунтується на Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](https://bartoc.org/en/node/18919)."@uk ;
   dct:issued "2019-12-11" ;
   dct:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
   vann:preferredNamespacePrefix "hfs" ;
