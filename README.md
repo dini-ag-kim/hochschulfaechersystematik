@@ -1,4 +1,4 @@
-# Hochschulfachersystematik
+# Hochschulfächersystematik
 
 Diese Hochschulfächersystematik basiert auf der Destatis-Systematik der Fächergruppen, Studienbereiche und Studienfächer (http://bartoc.org/node/18919) und wird gepflegt von der [OER-Metadatengruppe der DINI-AG KIM](https://wiki.dnb.de/display/DINIAGKIM/OER-Metadatengruppe). Die Systematik ist Bestandteil der Spezifikationen [LOM for Higher Education OER Repositories](https://w3id.org/kim/hs-oer-lom-profil/latest/) und [LRMI-Profil (Entwurf)](https://github.com/dini-ag-kim/lrmi-profile).
 
