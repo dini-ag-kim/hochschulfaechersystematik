@@ -17,7 +17,7 @@
 
 <n1> a skos:Concept ;
   skos:prefLabel "Geisteswissenschaften"@de, "Humanities"@en, "Гуманітарні науки"@uk ;
-  skos:narrower <n01>, <n02>, <n03>, <n04>, <n05>, <n06>, <n07>, <n08>, <n09>, <n10>, <n11>, <n12>, <n13>, <n14>, <n18> ;
+  skos:narrower <n01>, <n02>, <n03>, <n04>, <n05>, <n06>, <n07>, <n08>, <n09>, <n10>, <n11>, <n12>, <n13>, <n14>, <n18>, <n19> ;
   skos:notation "1" ;
   skos:topConceptOf <scheme> .
 
@@ -35,7 +35,7 @@
 
 <n4> a skos:Concept ;
   skos:prefLabel "Mathematik, Naturwissenschaften"@de, "Mathematics, Natural Sciences"@en, "Математика, природничі науки"@uk ;
-  skos:narrower   <n36>, <n37>, <n39>, <n40>, <n41>, <n42>, <n43>, <n44> ;
+  skos:narrower  <n36>, <n37>, <n39>, <n40>, <n41>, <n42>, <n43>, <n44> ;
   skos:notation "4" ;
   skos:topConceptOf <scheme> .
 
@@ -93,13 +93,13 @@
 
 <n05> a skos:Concept ;
   skos:prefLabel "Studienbereich Geschichte"@de, "History"@en, "Історія"@uk ;
-  skos:narrower <n272>, <n012>, <n068>, <n273>, <n548>, <n183>;
+  skos:narrower <n272>, <n012>, <n068>, <n273>, <n548>, <n183>, <n275>;
   skos:broader <n1> ;
   skos:notation "05" ;
   skos:inScheme <scheme> .
 
 <n06> a skos:Concept ;
-  skos:prefLabel "Bibliothekswissenschaft, Dokumentation"@de, "Information and Library Sciences"@en, "Бібліотекознавство, документознавство"@uk ;
+  skos:prefLabel "Informations- und Bibliothekswissenschaften"@de, "Information and Library Sciences"@en, "Бібліотекознавство, документознавство"@uk ;
   skos:narrower <n022>, <n037>;
   skos:broader <n1> ;
   skos:notation "06" ;
@@ -148,7 +148,7 @@
   skos:inScheme <scheme> .
 
 <n13> a skos:Concept ;
-  skos:prefLabel "Außereuropäische Sprach- und Kulturwissenschaften"@de, "Other linguistic and cultural studies"@en, "Інші лінгвокультурологічні дослідження"@uk ;
+  skos:prefLabel "Sonstige Sprach- und Kulturwissenschaften"@de, "Other linguistic and cultural studies"@en, "Інші лінгвокультурологічні дослідження"@uk ;
   skos:narrower <n002>, <n001>, <n010>, <n187>, <n015>, <n073>, <n078>, <n081>, <n083>, <n085>, <n180>, <n122>, <n145>, <n158>;
   skos:broader <n1> ;
   skos:notation "13" ;
@@ -162,7 +162,7 @@
   skos:inScheme <scheme> .
 
 <n18> a skos:Concept ;
-  skos:prefLabel "Studienbereich Islamische Studien"@de, "Islamic Studies/Islamic Theology"@en, "Ісламознавство/Ісламська теологія"@uk ;
+  skos:prefLabel "Islamische Studien/Islamische Theologie"@de, "Islamic Studies/Islamic Theology"@en, "Ісламознавство/Ісламська теологія"@uk ;
   skos:narrower <n030010001>;
   skos:broader <n1> ;
   skos:notation "18" ;
@@ -420,7 +420,7 @@
   skos:inScheme <scheme> .
 
 <n073> a skos:Concept ;
-  skos:prefLabel "Hebräisch/Judaistik"@de, "Judaic Studies/Hebrew"@en, "Юдаїка"@uk ;
+  skos:prefLabel "Judaistik/Hebräisch"@de, "Judaic Studies/Hebrew"@en, "Юдаїка"@uk ;
   skos:broader <n13> ;
   skos:notation "073" ;
   skos:inScheme <scheme> .
@@ -474,13 +474,13 @@
   skos:inScheme <scheme> .
 
 <n022> a skos:Concept ;
-  skos:prefLabel "Bibliothekswissenschaft/-wesen (nicht an Verwaltungsfachhochschulen)"@de, "Information and Library Sciences"@en, "Бібліотекознавство"@uk ;
+  skos:prefLabel "Informations- und Bibliothekswissenschaften (nicht für Verwaltungsfachhochschulen)"@de, "Information and Library Sciences"@en, "Бібліотекознавство"@uk ;
   skos:broader <n06> ;
   skos:notation "022" ;
   skos:inScheme <scheme> .
 
 <n037> a skos:Concept ;
-  skos:prefLabel "Dokumentationswissenschaft"@de, "Archival and Documentation Science"@en, "Документознавство"@uk ;
+  skos:prefLabel "Archiv- und Dokumentationswissenschaft"@de, "Archival and Documentation Science"@en, "Документознавство"@uk ;
   skos:broader <n06> ;
   skos:notation "037" ;
   skos:inScheme <scheme> .
@@ -504,19 +504,26 @@
   skos:inScheme <scheme> .
 
 <n004> a skos:Concept ;
-  skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Sprach- und Kulturwissenschaften)"@de, "Interdisciplinary Studies (specialising in Humanities)"@en ;
+  skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften)"@de, "Interdisciplinary Studies (specialising in Humanities)"@en ;
   skos:broader <n01> ;
   skos:notation "004" ;
   skos:inScheme <scheme> .
 
 <n090> a skos:Concept ;
-  skos:prefLabel "Lernbereich Sprach- und Kulturwissenschaften"@de, "Area of study: Humanities"@en, "Галузь знань: гуманітарні науки"@uk ;
+  skos:prefLabel "Lernbereich Geisteswissenschaften"@de, "Area of study: Humanities"@en, "Галузь знань: гуманітарні науки"@uk ;
   skos:notation "090" ;
+  skos:inScheme <scheme> .
+
+<n19> a skos:Concept ;
+  skos:prefLabel "Medienwissenschaft"@de, "Media Science"@en, "Медіазнавство"@uk ;
+  skos:narrower <n302> ;
+  skos:broader <n1> ;
+  skos:notation "19" ;
   skos:inScheme <scheme> .
 
 <n302> a skos:Concept ;
   skos:prefLabel "Medienwissenschaft"@de, "Media Science"@en, "Медіазнавство"@uk ;
-  skos:broader <n01> ;
+  skos:broader <n19> ;
   skos:notation "302" ;
   skos:inScheme <scheme> .
 
@@ -593,7 +600,7 @@
   skos:inScheme <scheme> .
 
 <n030010001> a skos:Concept ;
-  skos:prefLabel "Islamische Studien"@de, "Islamic Studies/Islamic Theology"@en, "Ісламознавство"@uk ;
+  skos:prefLabel "Islamische Studien/Islamische Theologie"@de, "Islamic Studies/Islamic Theology"@en, "Ісламознавство"@uk ;
   skos:broader <n18> ;
   skos:notation "292" ;
   skos:inScheme <scheme> .
@@ -713,7 +720,7 @@
   skos:inScheme <scheme> .
 
 <n207> a skos:Concept ;
-  skos:prefLabel "Sorbisch"@de, "Sorbian Studies"@en, "Лужицькі студії"@uk ;
+  skos:prefLabel "Sorabistik"@de, "Sorbian Studies"@en, "Лужицькі студії"@uk ;
   skos:broader <n12> ;
   skos:notation "207" ;
   skos:inScheme <scheme> .
@@ -1023,7 +1030,7 @@
 
 <n63> a skos:Concept ;
   skos:prefLabel "Maschinenbau/Verfahrenstechnik"@de, "Mechanical Engineering / Process Engineering"@en, "Машинобудування/Технологія"@uk ;
-  skos:narrower <n141>, <n143>, <n033>, <n231>, <n211>, <n212>, <n202>, <n215>, <n216>, <n082>, <n241>, <n219>, <n104>, <n108>, <n224>, <n144>, <n225>, <n074>, <n457>, <n226>, <n213>;
+  skos:narrower <n141>, <n143>, <n033>, <n231>, <n211>, <n212>, <n202>, <n215>, <n216>, <n082>, <n219>, <n104>, <n108>, <n224>, <n144>, <n225>, <n074>, <n457>, <n226>, <n213>;
   skos:broader <n8> ;
   skos:notation "63" ;
   skos:inScheme <scheme> .
@@ -1041,7 +1048,7 @@
   skos:inScheme <scheme> .
 
 <n033> a skos:Concept ;
-  skos:prefLabel "Chemie-Ingenieurwesen/Chemietechnik"@de, "Chemical Engineering/Chemical Process Engineering"@en, "Хімічна інженерія/Інженерія хімічних процесів"@uk ;
+  skos:prefLabel "Chemie-Ingenieurwesen/Chemieverfahrenstechnik"@de, "Chemical Engineering/Chemical Process Engineering"@en, "Хімічна інженерія/Інженерія хімічних процесів"@uk ;
   skos:broader <n63> ;
   skos:notation "033" ;
   skos:inScheme <scheme> .
@@ -1053,9 +1060,10 @@
   skos:inScheme <scheme> .
 
 <n211> a skos:Concept ;
-  skos:prefLabel "Energietechnik (ohne Elektrotechnik)"@de, "Energy Process Engineering"@en, "Енергетичні технології (без електротехніки)"@uk ;
+  skos:prefLabel "Energieverfahrenstechnik"@de, "Energy Process Engineering"@en, "Енергетичні технології (без електротехніки)"@uk ;
   skos:broader <n63> ;
   skos:notation "211" ;
+  skos:closeMatch <n241> ;
   skos:inScheme <scheme> .
 
 <n212> a skos:Concept ;
@@ -1090,8 +1098,9 @@
 
 <n241> a skos:Concept ;
   skos:prefLabel "Kerntechnik/Kernverfahrenstechnik"@de, "Nuclear technology/nuclear process engineering"@en, "Атомна інженерія/Інженерія ядерних процесів"@uk ;
-  skos:broader <n63> ;
   skos:notation "241" ;
+  skos:deprecated true ;
+  skos:note "Integrated into 211"@en ;
   skos:inScheme <scheme> .
 
 <n219> a skos:Concept ;
@@ -1113,7 +1122,7 @@
   skos:inScheme <scheme> .
 
 <n224> a skos:Concept ;
-  skos:prefLabel "Physikalische Technik"@de, "Engineering Physics/Mechanical Process Engineering"@en, "Інженерна фізика"@uk ;
+  skos:prefLabel "Physikalische Technik/Mechanische Verfahrenstechnik"@de, "Engineering Physics/Mechanical Process Engineering"@en, "Інженерна фізика"@uk ;
   skos:broader <n63> ;
   skos:notation "224" ;
   skos:inScheme <scheme> .
@@ -1540,7 +1549,7 @@
   skos:inScheme <scheme> .
 
 <n283> a skos:Concept ;
-  skos:prefLabel "Biogeographie"@de, "Landscape Ecology/Biogeography"@en, "Ландшафтна екологія/Біогеографія"@uk ;
+  skos:prefLabel "Landschaftsökologie/Biogeographie"@de, "Landscape Ecology/Biogeography"@en, "Ландшафтна екологія/Біогеографія"@uk ;
   skos:broader <n44> ;
   skos:notation "283" ;
   skos:inScheme <scheme> .
@@ -1583,7 +1592,7 @@
   skos:inScheme <scheme> .
 
 <n039> a skos:Concept ;
-  skos:prefLabel "Geowissenschaften"@de, "Geosciences (general)"@en, "Науки про Землю (загальні)"@uk ;
+  skos:prefLabel "Geowissenschaften allgemein"@de, "Geosciences (general)"@en, "Науки про Землю (загальні)"@uk ;
   skos:broader <n43> ;
   skos:notation "039" ;
   skos:inScheme <scheme> .
@@ -1607,8 +1616,8 @@
   skos:inScheme <scheme> .
 
 <n37> a skos:Concept ;
-  skos:prefLabel "Studienbereich Mathematik"@de, "Mathematics"@en, "Математика"@uk ;
-  skos:narrower <n105>, <n237>, <n118>, <n276>;
+  skos:prefLabel "Mathematik"@de, "Mathematics"@en, "Математика"@uk ;
+  skos:narrower <n105>, <n118>, <n276>;
   skos:broader <n4> ;
   skos:notation "37" ;
   skos:inScheme <scheme> .
@@ -1621,8 +1630,9 @@
 
 <n237> a skos:Concept ;
   skos:prefLabel "Mathematische Statistik/Wahrscheinlichkeitsrechnung"@de, "Mathematical statistics/probability calculation"@en, "Математична статистика/Теорія ймовірності"@uk ;
-  skos:broader <n37> ;
   skos:notation "237" ;
+  skos:deprecated true ;
+  skos:note "Replaced by n312."@en ;
   skos:inScheme <scheme> .
 
 <n118> a skos:Concept ;
@@ -1639,14 +1649,27 @@
 
 <n36> a skos:Concept ;
   skos:prefLabel "Mathematik, Naturwissenschaften allgemein"@de, "Mathematics, Natural Sciences (general)"@en, "Математика, Природничі науки (загальні)"@uk ;
-  skos:narrower <n275>, <n049>, <n186>;
+  skos:narrower <n049>, <n186>, <n019>, <n312>;
   skos:broader <n4> ;
   skos:notation "36" ;
   skos:inScheme <scheme> .
 
-<n275> a skos:Concept ;
-  skos:prefLabel "Geschichte der Mathematik und Naturwissenschaften"@de, "History of Science/History of Technology"@en, "Історія науки і техніки"@uk ;
+<n019> a skos:Concept ;
+  skos:prefLabel "Orientierungsstudium MINT"@de, "STEM orientation studies"@en ;
   skos:broader <n36> ;
+  skos:notation "019" ;
+  skos:inScheme <scheme> .
+
+<n312> a skos:Concept ;
+  skos:prefLabel "Statistik"@de, "Statistics"@en, "Cтатистика"@uk ;
+  skos:broader <n36> ;
+  skos:notation "312" ;
+  skos:exactMatch <n237> ; 
+  skos:inScheme <scheme> .
+
+<n275> a skos:Concept ;
+  skos:prefLabel "Wissenschaftsgeschichte/Technikgeschichte"@de, "History of Science/History of Technology"@en, "Історія науки і техніки"@uk ;
+  skos:broader <n05> ;
   skos:notation "275" ;
   skos:inScheme <scheme> .
 
@@ -1683,7 +1706,7 @@
   skos:inScheme <scheme> .
 
 <n014> a skos:Concept ;
-  skos:prefLabel "Astronomie, Astrophysik"@de, "Astrophysics, Astronomy"@en, "Астрофізика, Астрономія"@uk ;
+  skos:prefLabel "Astrophysik und Astronomie"@de, "Astrophysics, Astronomy"@en, "Астрофізика, Астрономія"@uk ;
   skos:broader <n39> ;
   skos:notation "014" ;
   skos:inScheme <scheme> .
@@ -1756,7 +1779,7 @@
   skos:inScheme <scheme> .
 
 <n25> a skos:Concept ;
-  skos:prefLabel "Politikwissenschaften"@de, "Political Science"@en, "Політологія"@uk ;
+  skos:prefLabel "Politikwissenschaft"@de, "Political Science"@en, "Політологія"@uk ;
   skos:narrower <n129>;
   skos:broader <n3> ;
   skos:notation "25" ;
@@ -1783,9 +1806,16 @@
 
 <n23> a skos:Concept ;
   skos:prefLabel "Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"@de, "Law, Economics and Social Sciences (general)"@en, "Право, економіка та суспільні науки"@uk ;
-  skos:narrower <n030>, <n303>, <n154>;
+  skos:narrower <n030>, <n154>, <n055>;
   skos:broader <n3> ;
   skos:notation "23" ;
+  skos:inScheme <scheme> .
+
+<n34> a skos:Concept ;
+  skos:prefLabel "Kommunikationswissenschaft/Publizistik"@de, "Communication Science/Journalism"@en, "Соціальні комунікації/Журналістика"@uk ;
+  skos:narrower <n303> ;
+  skos:broader <n3> ;
+  skos:notation "34" ;
   skos:inScheme <scheme> .
 
 <n030> a skos:Concept ;
@@ -1796,7 +1826,7 @@
 
 <n303> a skos:Concept ;
   skos:prefLabel "Kommunikationswissenschaft/Publizistik"@de, "Communication Science/Journalism"@en, "Соціальні комунікації/Журналістика"@uk ;
-  skos:broader <n23> ;
+  skos:broader <n34> ;
   skos:notation "303" ;
   skos:inScheme <scheme> .
 
@@ -1804,6 +1834,12 @@
   skos:prefLabel "Lernbereich Gesellschaftslehre"@de, "Area of study: Social Studies"@en, "Галузь знань: суспільні науки"@uk ;
   skos:broader <n23> ;
   skos:notation "154" ;
+  skos:inScheme <scheme> .
+
+<n055> a skos:Concept ;
+  skos:prefLabel "Orientierungsstudium Gesellschaftswissenschaften"@de, "Social sciences orientation studies"@en ;
+  skos:broader <n23> ;
+  skos:notation "055" ;
   skos:inScheme <scheme> .
 
 <n28> a skos:Concept ;
@@ -1833,13 +1869,13 @@
   skos:inScheme <scheme> .
 
 <n038> a skos:Concept ;
-  skos:prefLabel "Lateinamerika"@de, "Latin American Studies"@en,"Латиноамериканські студії"@uk ;
+  skos:prefLabel "Lateinamerika-Studien"@de, "Latin American Studies"@en,"Латиноамериканські студії"@uk ;
   skos:broader <n24> ;
   skos:notation "038" ;
   skos:inScheme <scheme> .
 
 <n044> a skos:Concept ;
-  skos:prefLabel "Ost- und Südosteuropa"@de, "East and Southeast European Studies"@en, "Дослідження Східної та Південно-Східної Європи"@uk ;
+  skos:prefLabel "Ost- und Südosteuropa-Studien"@de, "East and Southeast European Studies"@en, "Дослідження Східної та Південно-Східної Європи"@uk ;
   skos:broader <n24> ;
   skos:notation "044" ;
   skos:inScheme <scheme> .
@@ -1876,7 +1912,7 @@
   skos:inScheme <scheme> .
 
 <n26> a skos:Concept ;
-  skos:prefLabel "Sozialwissenschaften"@de, "Social Sciences/Sociology"@en, "Суспільні науки та соціологія"@uk ;
+  skos:prefLabel "Sozialwissenschaften/Soziologie"@de, "Social Sciences/Sociology"@en, "Суспільні науки та соціологія"@uk ;
   skos:narrower <n147>, <n148>, <n149>;
   skos:broader <n3> ;
   skos:notation "26" ;
@@ -1889,7 +1925,7 @@
   skos:inScheme <scheme> .
 
 <n148> a skos:Concept ;
-  skos:prefLabel "Sozialwissenschaft"@de, "Social Sciences"@en, "Суспільні науки"@uk ;
+  skos:prefLabel "Sozialwissenschaften"@de, "Social Sciences"@en, "Суспільні науки"@uk ;
   skos:broader <n26> ;
   skos:notation "148" ;
   skos:inScheme <scheme> .
