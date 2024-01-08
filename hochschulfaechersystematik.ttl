@@ -1655,7 +1655,7 @@
   skos:inScheme <scheme> .
 
 <n019> a skos:Concept ;
-  skos:prefLabel "Orientierungsstudium MINT"@de ;
+  skos:prefLabel "Orientierungsstudium MINT"@de "STEM orientation studies"@en ;
   skos:broader <n36> ;
   skos:notation "019" ;
   skos:inScheme <scheme> .
