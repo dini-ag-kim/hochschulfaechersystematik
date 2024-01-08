@@ -163,7 +163,7 @@
 
 <n18> a skos:Concept ;
   skos:prefLabel "Islamische Studien/Islamische Theologie"@de, "Islamic Studies/Islamic Theology"@en, "Ісламознавство/Ісламська теологія"@uk ;
-  skos:narrower <n292>;
+  skos:narrower <n030010001>;
   skos:broader <n1> ;
   skos:notation "18" ;
   skos:inScheme <scheme> .
@@ -599,7 +599,7 @@
   skos:notation "183" ;
   skos:inScheme <scheme> .
 
-<n292> a skos:Concept ;
+<n030010001> a skos:Concept ;
   skos:prefLabel "Islamische Studien/Islamische Theologie"@de, "Islamic Studies/Islamic Theology"@en, "Ісламознавство"@uk ;
   skos:broader <n18> ;
   skos:notation "292" ;
