@@ -1837,7 +1837,7 @@
   skos:inScheme <scheme> .
 
 <n055> a skos:Concept ;
-  skos:prefLabel "Orientierungsstudium Gesellschaftswissenschaften"@de ;
+  skos:prefLabel "Orientierungsstudium Gesellschaftswissenschaften"@de , "Social sciences orientation studies"@en ;
   skos:broader <n23> ;
   skos:notation "055" ;
   skos:inScheme <scheme> .
