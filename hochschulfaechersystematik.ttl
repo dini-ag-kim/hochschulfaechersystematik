@@ -1655,7 +1655,7 @@
   skos:inScheme <scheme> .
 
 <n019> a skos:Concept ;
-  skos:prefLabel "Orientierungsstudium MINT"@de "STEM orientation studies"@en ;
+  skos:prefLabel "Orientierungsstudium MINT"@de, "STEM orientation studies"@en ;
   skos:broader <n36> ;
   skos:notation "019" ;
   skos:inScheme <scheme> .
@@ -1837,7 +1837,7 @@
   skos:inScheme <scheme> .
 
 <n055> a skos:Concept ;
-  skos:prefLabel "Orientierungsstudium Gesellschaftswissenschaften"@de , "Social sciences orientation studies"@en ;
+  skos:prefLabel "Orientierungsstudium Gesellschaftswissenschaften"@de, "Social sciences orientation studies"@en ;
   skos:broader <n23> ;
   skos:notation "055" ;
   skos:inScheme <scheme> .
