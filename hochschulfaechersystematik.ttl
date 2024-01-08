@@ -1100,7 +1100,7 @@
   skos:prefLabel "Kerntechnik/Kernverfahrenstechnik"@de, "Nuclear technology/nuclear process engineering"@en, "Атомна інженерія/Інженерія ядерних процесів"@uk ;
   skos:notation "241" ;
   skos:deprecated true ;
-  skos:note "Integrated into 211" ;
+  skos:note "Integrated into 211"@en ;
   skos:inScheme <scheme> .
 
 <n219> a skos:Concept ;
@@ -1632,7 +1632,7 @@
   skos:prefLabel "Mathematische Statistik/Wahrscheinlichkeitsrechnung"@de, "Mathematical statistics/probability calculation"@en, "Математична статистика/Теорія ймовірності"@uk ;
   skos:notation "237" ;
   skos:deprecated true ;
-  skos:note "Replaced by n312." ;
+  skos:note "Replaced by n312."@en ;
   skos:inScheme <scheme> .
 
 <n118> a skos:Concept ;
