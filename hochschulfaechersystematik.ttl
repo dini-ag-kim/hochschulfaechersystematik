@@ -70,7 +70,7 @@
 
 <n01> a skos:Concept ;
   skos:prefLabel "Geisteswissenschaften allgemein"@de, "Humanities (general)"@en, "Гуманітарні науки загалом"@uk ;
-  skos:narrower <n004>, <n090>, <n302>;
+  skos:narrower <n004>, <n090> ;
   skos:broader <n1> ;
   skos:notation "01" ;
   skos:inScheme <scheme> .
