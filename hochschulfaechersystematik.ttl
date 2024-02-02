@@ -516,6 +516,7 @@
 
 <n090> a skos:Concept ;
   skos:prefLabel "Lernbereich Geisteswissenschaften"@de, "Area of study: Humanities"@en, "Галузь знань: гуманітарні науки"@uk ;
+  skos:broader <n01> ;
   skos:notation "090" ;
   skos:inScheme <scheme> .
 
