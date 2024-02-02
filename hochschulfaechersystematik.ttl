@@ -1035,7 +1035,7 @@
 
 <n63> a skos:Concept ;
   skos:prefLabel "Maschinenbau/Verfahrenstechnik"@de, "Mechanical Engineering / Process Engineering"@en, "Машинобудування/Технологія"@uk ;
-  skos:narrower <n141>, <n143>, <n033>, <n231>, <n211>, <n212>, <n202>, <n215>, <n216>, <n082>, <n219>, <n104>, <n108>, <n224>, <n144>, <n225>, <n074>, <n457>, <n226>, <n213>;
+  skos:narrower <n141>, <n143>, <n033>, <n231>, <n211>, <n212>, <n202>, <n215>, <n216>, <n082>, <n241>, <n219>, <n104>, <n108>, <n224>, <n144>, <n225>, <n074>, <n457>, <n226>, <n213>;
   skos:broader <n8> ;
   skos:notation "63" ;
   skos:inScheme <scheme> .
@@ -1103,6 +1103,7 @@
 
 <n241> a skos:Concept ;
   skos:prefLabel "Kerntechnik/Kernverfahrenstechnik"@de, "Nuclear technology/nuclear process engineering"@en, "Атомна інженерія/Інженерія ядерних процесів"@uk ;
+  skos:broader <n63> ;
   skos:notation "241" ;
   skos:deprecated true ;
   skos:note "Integrated into 211"@en ;
@@ -1622,7 +1623,7 @@
 
 <n37> a skos:Concept ;
   skos:prefLabel "Mathematik"@de, "Mathematics"@en, "Математика"@uk ;
-  skos:narrower <n105>, <n118>, <n276>;
+  skos:narrower <n105>, <n237>, <n118>, <n276>;
   skos:broader <n4> ;
   skos:notation "37" ;
   skos:inScheme <scheme> .
@@ -1635,6 +1636,7 @@
 
 <n237> a skos:Concept ;
   skos:prefLabel "Mathematische Statistik/Wahrscheinlichkeitsrechnung"@de, "Mathematical statistics/probability calculation"@en, "Математична статистика/Теорія ймовірності"@uk ;
+  skos:broader <n37> ;
   skos:notation "237" ;
   skos:deprecated true ;
   skos:note "Replaced by n312."@en ;
