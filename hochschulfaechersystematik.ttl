@@ -491,7 +491,7 @@
   skos:inScheme <scheme> .
 
 <n161> a skos:Concept ;
-  skos:prefLabel "Diakoniewissenschaft"@de, "Pastoral Care Studies"@en ;
+  skos:prefLabel "Diakoniewissenschaft"@de, "Pastoral Care Studies"@en, "Душпастирські студії"@uk ;
   skos:broader <n02> ;
   skos:notation "161" ;
   skos:inScheme <scheme> .
@@ -509,7 +509,7 @@
   skos:inScheme <scheme> .
 
 <n004> a skos:Concept ;
-  skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften)"@de, "Interdisciplinary Studies (specialising in Humanities)"@en ;
+  skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften)"@de, "Interdisciplinary Studies (specialising in Humanities)"@en, "Міждисциплінарні науки (Спеціалізація гумагітарні науки)"@uk ;
   skos:broader <n01> ;
   skos:notation "004" ;
   skos:inScheme <scheme> .
@@ -611,7 +611,7 @@
   skos:inScheme <scheme> .
 
 <n162> a skos:Concept ;
-  skos:prefLabel "Caritaswissenschaft"@de, "Caritas Science"@en ;
+  skos:prefLabel "Caritaswissenschaft"@de, "Caritas Science"@en, "Наука Карітасу"@uk ;
   skos:broader <n03> ;
   skos:notation "162" ;
   skos:inScheme <scheme> .
@@ -1662,7 +1662,7 @@
   skos:inScheme <scheme> .
 
 <n019> a skos:Concept ;
-  skos:prefLabel "Orientierungsstudium MINT"@de, "STEM orientation studies"@en ;
+  skos:prefLabel "Orientierungsstudium MINT"@de, "STEM orientation studies"@en, "Науки технологічного спрямування"@uk ;
   skos:broader <n36> ;
   skos:notation "019" ;
   skos:inScheme <scheme> .
@@ -1844,7 +1844,7 @@
   skos:inScheme <scheme> .
 
 <n055> a skos:Concept ;
-  skos:prefLabel "Orientierungsstudium Gesellschaftswissenschaften"@de, "Social sciences orientation studies"@en ;
+  skos:prefLabel "Orientierungsstudium Gesellschaftswissenschaften"@de, "Social sciences orientation studies"@en, "Орієнтаційні студії з соціальних наук"@uk ;
   skos:broader <n23> ;
   skos:notation "055" ;
   skos:inScheme <scheme> .
