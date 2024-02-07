@@ -1640,7 +1640,7 @@
   skos:broader <n37> ;
   skos:notation "237" ;
   skos:deprecated true ;
-  skos:note "Replaced by n312."@en ;
+  dct:isReplacedBy <n312> ;
   skos:inScheme <scheme> .
 
 <n118> a skos:Concept ;
