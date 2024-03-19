@@ -4,6 +4,7 @@ on: [push]
 
 jobs:
   validate-for-warnings:
+    name: Check for Warnings
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
@@ -25,6 +26,7 @@ jobs:
         done
 
   validate-for-errors:
+    name: Check for Errors
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
