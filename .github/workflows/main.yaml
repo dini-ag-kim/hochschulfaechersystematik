@@ -9,7 +9,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
       
-    - name: Find and process .ttl files
+    - name: Check for Warnings
+      continue-on-error: true
       run: |
         find . -type f -name '*.ttl' | while read file; do
           # Adjust the file path to remove the './' part
@@ -21,5 +22,25 @@ jobs:
           curl -s https://raw.githubusercontent.com/skohub-io/shapes/main/scripts/checkForWarning.rq >> checkForWarning.rq
           validationResult="$(docker run --rm --mount type=bind,source=./checkForWarning.rq,target=/rdf/checkForViolation.rq --mount type=bind,source=./result.ttl,target=/rdf/result.ttl skohub/jena:4.6.1 arq --data /rdf/result.ttl --query /rdf/checkForViolation.rq)"
           echo $validationResult
+          lines=$(echo "$validationResult" | wc -l )
+          # Correct validation has 4 lines of output
+          [[ ${lines} -eq 4 ]] || die "$validationResult"
+        done
+
+    - name: Check for Errors
+      run: |
+        find . -type f -name '*.ttl' | while read file; do
+          # Adjust the file path to remove the './' part
+          adjusted_file_path=$(echo "$file" | sed 's|^./||')  
+          echo "Processing $adjusted_file_path with Docker..."
+          docker run --rm -v "$(pwd)/$adjusted_file_path:/rdf/test.ttl" skohub/jena:4.6.1 riot --validate /rdf/test.ttl
+          result="$(docker run --rm -v "$(pwd)/$adjusted_file_path:/rdf/test.ttl" skohub/jena:4.6.1 shacl validate --shapes https://raw.githubusercontent.com/skohub-io/shapes/main/skohub.shacl.ttl --data /rdf/test.ttl)"
+          echo $result > result.ttl
+          curl -s https://raw.githubusercontent.com/skohub-io/shapes/main/scripts/checkForViolation.rq >> checkForViolation.rq
+          validationResult="$(docker run --rm --mount type=bind,source=./checkForViolation.rq,target=/rdf/checkForViolation.rq --mount type=bind,source=./result.ttl,target=/rdf/result.ttl skohub/jena:4.6.1 arq --data /rdf/result.ttl --query /rdf/checkForViolation.rq)"
+          echo $validationResult
+          lines=$(echo "$validationResult" | wc -l )
+          # Correct validation has 4 lines of output
+          [[ ${lines} -eq 4 ]] || die "$validationResult"
         done
 
