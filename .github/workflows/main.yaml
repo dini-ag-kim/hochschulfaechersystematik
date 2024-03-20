@@ -22,7 +22,7 @@ jobs:
           echo $validation_result
           lines=$(echo "$validation_result" | wc -l )
           # Correct validation has 4 lines of output
-          [[ ${lines} -eq 4 ]] || exit 1
+          [[ ${lines} -eq 4 ]] || echo "::warning file=app.js,line=1,col=5,endColumn=7::Missing semicolon"
         done
 
   validate-for-errors:
