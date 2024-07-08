@@ -31,7 +31,8 @@ g.add((URIRef('scheme'), dct['alternative'], Literal('Hochschulfächersystematik
 g.add((URIRef('scheme'), dct['description'], Literal('Diese SKOS-Klassifikation basiert auf der Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](https://bartoc.org/en/node/18919).', lang='de')))
 g.add((URIRef('scheme'), dct['issued'], Literal('2019-12-11')))
 g.add((URIRef('scheme'), dct['publisher'], rdflib.term.URIRef('https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f')))
-g.add((URIRef('scheme'), vann['preferredNamespaceUri'], rdflib.term.URIRef('https://w3id.org/kim/hochschulfaechersystematik/')))
+g.add((URIRef('scheme'), vann['preferredNamespaceUri'], Literal('https://w3id.org/kim/hochschulfaechersystematik/')))
+g.add((URIRef('scheme'), vann['preferredNamespacePrefix'], Literal('hfs')))
 g.add((URIRef('scheme'), schema['isBasedOn'], rdflib.term.URIRef('http://bartoc.org/node/18919')))
 
 

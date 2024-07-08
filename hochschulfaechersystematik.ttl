@@ -2101,6 +2101,7 @@
     dcterms:issued "2019-12-11" ;
     dcterms:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
     dcterms:title "Destatis-Systematik der Fächergruppen, Studienbereiche und Studienfächer"@de ;
-    vann:preferredNamespaceUri <> ;
+    vann:preferredNamespacePrefix "hfs" ;
+    vann:preferredNamespaceUri "https://w3id.org/kim/hochschulfaechersystematik/" ;
     schema:isBasedOn <http://bartoc.org/node/18919> .
 
