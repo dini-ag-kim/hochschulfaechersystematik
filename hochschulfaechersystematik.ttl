@@ -1,3 +1,4 @@
+@base <https://w3id.org/kim/hochschulfaechersystematik/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -2100,6 +2101,6 @@
     dcterms:issued "2019-12-11" ;
     dcterms:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
     dcterms:title "Destatis-Systematik der Fächergruppen, Studienbereiche und Studienfächer"@de ;
-    vann:preferredNamespaceUri <https://w3id.org/kim/hochschulfaechersystematik/> ;
+    vann:preferredNamespaceUri <> ;
     schema:isBasedOn <http://bartoc.org/node/18919> .
 

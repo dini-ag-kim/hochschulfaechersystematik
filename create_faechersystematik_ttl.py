@@ -15,13 +15,14 @@ dict_2nd_level = df_2nd_level.to_dict("records")
 dict_3rd_level = df_3rd_level.to_dict("records")
 
 g = Graph()
-
+base = Namespace('https://w3id.org/kim/hochschulfaechersystematik/')
 vann = Namespace('http://purl.org/vocab/vann/')
 dct = Namespace('http://purl.org/dc/terms/')
 owl = Namespace('http://www.w3.org/2002/07/owl#')
 skos = Namespace('http://www.w3.org/2004/02/skos/core#')
 schema = Namespace('https://schema.org/')
 g.bind("schema", schema)
+g = Graph(base=base)
 
 #conceptScheme
 g.add((URIRef('scheme'), RDF['type'], skos['ConceptScheme']))
