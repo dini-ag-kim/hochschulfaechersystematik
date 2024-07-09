@@ -42,6 +42,7 @@ for idx, i in enumerate(dict_1st_level):
     g.add((URIRef('n%s' % top_level), skos['topConceptOf'], (URIRef('scheme'))))
     g.add((URIRef('n%s' % top_level), skos['prefLabel'], Literal(dict_1st_level[idx]['label'], lang='de')))
     g.add((URIRef('n%s' % top_level), skos['notation'], Literal(top_level)))
+    g.add((URIRef('scheme'), skos['hasTopConcept'], (URIRef('n%s' % top_level))))
     for idx_2, i_2 in enumerate(dict_2nd_level):
         if dict_2nd_level[idx_2]['broader'].lstrip("0") == top_level:
             level_2_notation = dict_2nd_level[idx_2]['notation']
@@ -57,12 +58,12 @@ for idx, i in enumerate(dict_1st_level):
                     g.add((URIRef('n%s' % level_3_notation), skos['prefLabel'],Literal(dict_3rd_level[idx_3]['label'], lang='de')))
                     g.add((URIRef('n%s' % level_3_notation), skos['notation'], Literal(level_3_notation)))
                     g.add((URIRef('n%s' % level_3_notation), skos['inScheme'], (URIRef('scheme'))))
-                    g.add((URIRef('n%s' % level_3_notation), skos['broader'], (URIRef('n%s' % dict_3rd_level[idx_3]['broader'].lstrip('0')))))
+                    g.add((URIRef('n%s' % level_3_notation), skos['broader'], (URIRef('n%s' % dict_3rd_level[idx_3]['broader']))))
 
 g.add((URIRef('n0'), RDF['type'], skos['Concept']))
 g.add((URIRef('n0'), skos['prefLabel'], Literal('Fachübergreifend', lang='de')))
 g.add((URIRef('n0'), skos['notation'], Literal('0')))
-g.add((URIRef('n0'), skos['topConceptOf'], (URIRef('scheme'))))
+g.add((URIRef('scheme'), skos['hasTopConcept'], (URIRef('n0'))))
 g.bind("dct", DCTERMS)
 g.serialize('hochschulfaechersystematik.ttl', format='turtle')
 
