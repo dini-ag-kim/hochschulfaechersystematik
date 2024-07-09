@@ -1893,9 +1893,13 @@
     skos:broader <n1> ;
     skos:inScheme <scheme> ;
     skos:notation "10" ;
-    skos:prefLabel "Anglistik, Amerikanistik"@de,
-        "Außerhalb der Studienbereichsgliederung/Sonstige Fächer"@de ;
+    skos:prefLabel "Anglistik, Amerikanistik"@de .
+
+<n10top> a skos:Concept ;
+    skos:notation "10top" ;
+    skos:prefLabel "Außerhalb der Studienbereichsgliederung/Sonstige Fächer"@de ;
     skos:topConceptOf <scheme> .
+
 
 <n36> a skos:Concept ;
     skos:broader <n4> ;
@@ -2104,7 +2108,7 @@
     vann:preferredNamespaceUri "https://w3id.org/kim/hochschulfaechersystematik/" ;
     skos:hasTopConcept <n0>,
         <n1>,
-        <n10>,
+        <n10top>,
         <n15>,
         <n2>,
         <n20>,
