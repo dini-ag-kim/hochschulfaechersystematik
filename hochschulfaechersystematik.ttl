@@ -1,5 +1,5 @@
 @base <https://w3id.org/kim/hochschulfaechersystematik/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
@@ -2096,11 +2096,11 @@
     skos:prefLabel "Maschinenbau/Verfahrenstechnik"@de .
 
 <scheme> a skos:ConceptScheme ;
-    dcterms:alternative "Hochschulfächersystematik"@de ;
-    dcterms:description "Diese SKOS-Klassifikation basiert auf der Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](https://bartoc.org/en/node/18919)."@de ;
-    dcterms:issued "2019-12-11" ;
-    dcterms:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
-    dcterms:title "Destatis-Systematik der Fächergruppen, Studienbereiche und Studienfächer"@de ;
+    dct:alternative "Hochschulfächersystematik"@de ;
+    dct:description "Diese SKOS-Klassifikation basiert auf der Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](https://bartoc.org/en/node/18919)."@de ;
+    dct:issued "2019-12-11" ;
+    dct:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
+    dct:title "Destatis-Systematik der Fächergruppen, Studienbereiche und Studienfächer"@de ;
     vann:preferredNamespacePrefix "hfs" ;
     vann:preferredNamespaceUri "https://w3id.org/kim/hochschulfaechersystematik/" ;
     schema:isBasedOn <http://bartoc.org/node/18919> .

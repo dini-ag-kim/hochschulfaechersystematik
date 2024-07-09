@@ -1,6 +1,6 @@
 import pandas as pd
 import rdflib.term
-from rdflib import Graph, Literal, RDF, URIRef, Namespace
+from rdflib import Graph, Literal, RDF, URIRef, Namespace, DCTERMS
 
 url_1st_level = "https://github.com/dini-ag-kim/destatis-schluesseltabellen/blob/main/studierende/Faechergruppe.csv?raw=true"
 url_2nd_level = "https://github.com/dini-ag-kim/destatis-schluesseltabellen/raw/main/studierende/STB.csv?raw=true"
@@ -63,6 +63,6 @@ g.add((URIRef('n0'), RDF['type'], skos['Concept']))
 g.add((URIRef('n0'), skos['prefLabel'], Literal('Fachübergreifend', lang='de')))
 g.add((URIRef('n0'), skos['notation'], Literal('0')))
 g.add((URIRef('n0'), skos['topConceptOf'], (URIRef('scheme'))))
-
+g.bind("dct", DCTERMS)
 g.serialize('hochschulfaechersystematik.ttl', format='turtle')
 
