@@ -1734,6 +1734,11 @@
     skos:notation "70" ;
     skos:prefLabel "Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt"@de .
 
+<n00> a skos:Concept ;
+    skos:notation "00" ;
+    skos:prefLabel "Außerhalb der Studienbereichsgliederung/Sonstige Fächer"@de ;
+    skos:topConceptOf <scheme> .
+
 <n01> a skos:Concept ;
     skos:broader <n1> ;
     skos:inScheme <scheme> ;
@@ -1745,6 +1750,12 @@
     skos:inScheme <scheme> ;
     skos:notation "06" ;
     skos:prefLabel "Informations- und Bibliothekswissenschaften"@de .
+
+<n10> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "10" ;
+    skos:prefLabel "Anglistik, Amerikanistik"@de .
 
 <n2> a skos:Concept ;
     skos:notation "2" ;
@@ -1884,22 +1895,10 @@
     skos:prefLabel "Ernährungs- und Haushaltswissenschaften"@de .
 
 <n83> a skos:Concept ;
-    skos:broader <n10> ;
+    skos:broader <n00> ;
     skos:inScheme <scheme> ;
     skos:notation "83" ;
     skos:prefLabel "Außerhalb der Studienbereichsgliederung"@de .
-
-<n10> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "10" ;
-    skos:prefLabel "Anglistik, Amerikanistik"@de .
-
-<n00> a skos:Concept ;
-    skos:notation "00" ;
-    skos:prefLabel "Außerhalb der Studienbereichsgliederung/Sonstige Fächer"@de ;
-    skos:topConceptOf <scheme> .
-
 
 <n36> a skos:Concept ;
     skos:broader <n4> ;
@@ -2107,8 +2106,8 @@
     vann:preferredNamespacePrefix "hfs" ;
     vann:preferredNamespaceUri "https://w3id.org/kim/hochschulfaechersystematik/" ;
     skos:hasTopConcept <n0>,
-        <n1>,
         <n00>,
+        <n1>,
         <n15>,
         <n2>,
         <n20>,

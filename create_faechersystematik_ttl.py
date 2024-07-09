@@ -10,6 +10,11 @@ df_1st_level = pd.read_csv(url_1st_level, encoding="ISO-8859-1", sep=';', quotec
 df_2nd_level = pd.read_csv(url_2nd_level, encoding="ISO-8859-1", sep=';', quotechar='"', header=None, engine ='python', dtype=str, usecols=[0, 2, 3], names=["notation", "label", "broader"])
 df_3rd_level = pd.read_csv(url_3rd_level, encoding="ISO-8859-1", sep=';', quotechar='"', header=None, engine ='python', dtype=str, usecols=[0, 2, 3], names=["notation", "label", "broader"])
 
+df_1st_level['notation'] = df_1st_level['notation'].str.lstrip("0")
+df_2nd_level['broader'] = df_2nd_level['broader'].str.lstrip("0")
+df_1st_level['notation'] = df_1st_level['notation'].apply(lambda n: "00" if n == "10" else n)
+df_2nd_level['broader'] = df_2nd_level['broader'].apply(lambda n: "00" if n == "10" else n)
+
 dict_1st_level = df_1st_level.to_dict("records")
 dict_2nd_level = df_2nd_level.to_dict("records")
 dict_3rd_level = df_3rd_level.to_dict("records")
@@ -37,18 +42,18 @@ g.add((URIRef('scheme'), schema['isBasedOn'], rdflib.term.URIRef('http://bartoc.
 
 
 for idx, i in enumerate(dict_1st_level):
-    top_level = dict_1st_level[idx]['notation'].lstrip("0")
+    top_level = dict_1st_level[idx]['notation']
     g.add((URIRef('n%s' % top_level), RDF['type'], skos['Concept']))
     g.add((URIRef('n%s' % top_level), skos['topConceptOf'], (URIRef('scheme'))))
     g.add((URIRef('n%s' % top_level), skos['prefLabel'], Literal(dict_1st_level[idx]['label'], lang='de')))
     g.add((URIRef('n%s' % top_level), skos['notation'], Literal(top_level)))
     g.add((URIRef('scheme'), skos['hasTopConcept'], (URIRef('n%s' % top_level))))
     for idx_2, i_2 in enumerate(dict_2nd_level):
-        if dict_2nd_level[idx_2]['broader'].lstrip("0") == top_level:
+        if dict_2nd_level[idx_2]['broader'] == top_level:
             level_2_notation = dict_2nd_level[idx_2]['notation']
             g.add((URIRef('n%s' % level_2_notation), RDF['type'], skos['Concept']))
             g.add((URIRef('n%s' % level_2_notation), skos['prefLabel'], Literal(dict_2nd_level[idx_2]['label'], lang='de')))
-            g.add((URIRef('n%s' % level_2_notation), skos['broader'], (URIRef('n%s' % dict_2nd_level[idx_2]['broader'].lstrip('0')))))
+            g.add((URIRef('n%s' % level_2_notation), skos['broader'], (URIRef('n%s' % dict_2nd_level[idx_2]['broader']))))
             g.add((URIRef('n%s' % level_2_notation), skos['notation'], Literal(level_2_notation)))
             g.add((URIRef('n%s' % level_2_notation), skos['inScheme'], (URIRef('scheme'))))
             for idx_3, i_3 in enumerate(dict_3rd_level):
