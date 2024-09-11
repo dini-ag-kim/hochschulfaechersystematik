@@ -14,9 +14,7 @@
     vann:preferredNamespaceUri "https://w3id.org/kim/hochschulfaechersystematik/" ;
     skos:hasTopConcept <n0>,
         <n1>,
-        <n15>,
         <n2>,
-        <n20>,
         <n3>,
         <n4>,
         <n5>,
@@ -200,10 +198,6 @@
         "Cultural Studies in the narrower sense"@en,
         "Культурологія у вужчому розумінні"@uk .
 
-<n15> a skos:Concept ;
-    skos:prefLabel "Zentrale Einrichtungen (ohne klinikspezifische Einrichtungen)"@de ;
-    skos:topConceptOf <scheme> .
-
 <n18> a skos:Concept ;
     skos:broader <n1> ;
     skos:inScheme <scheme> ;
@@ -219,10 +213,6 @@
     skos:prefLabel "Medienwissenschaft"@de,
         "Media Science"@en,
         "Медіазнавство"@uk .
-
-<n20> a skos:Concept ;
-    skos:prefLabel "Zentrale Einrichtungen der Hochschulkliniken (nur Humanmedizin)"@de ;
-    skos:topConceptOf <scheme> .
 
 <n22> a skos:Concept ;
     skos:broader <n2> ;
@@ -2771,3 +2761,4 @@
     skos:prefLabel "Ur- und Frühgeschichte"@de,
         "Prehistory and Early History"@en,
         "Історія первісного суспільства"@uk .
+

@@ -52,7 +52,8 @@ df_2nd_level = pd.read_csv(url_2nd_level, encoding="ISO-8859-1", sep=';', quotec
 df_3rd_level = pd.read_csv(url_3rd_level, encoding="ISO-8859-1", sep=';', quotechar='"', header=None, engine ='python', dtype=str, usecols=[0, 2, 3], names=["notation", "label", "broader"])
 
 # remove duplicate, unused notation 10 from top level
-df_1st_level = df_1st_level[df_1st_level.notation !="10"]
+# remove unused notations 15 & 20
+df_1st_level = df_1st_level[~df_1st_level["notation"].isin(["10", "15", "20"])]
 
 # remove of "10" subordinate notations from 2nd and 3rd level
 df_2nd_level = df_2nd_level[df_2nd_level.broader !="10"]
@@ -74,7 +75,7 @@ for lang_preflabel_dict in lang_preflabel_list:
 g = Graph()
 
 # namespaces
-base = Namespace('https://w3id.org/kim/hochschulfaechersystematik/')
+base = 'https://w3id.org/kim/hochschulfaechersystematik/'
 vann = Namespace('http://purl.org/vocab/vann/')
 dct = Namespace('http://purl.org/dc/terms/')
 owl = Namespace('http://www.w3.org/2002/07/owl#')
