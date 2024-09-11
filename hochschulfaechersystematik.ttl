@@ -1,2101 +1,7 @@
-@base <https://w3id.org/kim/hochschulfaechersystematik/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
-
-<n001> a skos:Concept ;
-    skos:broader <n13> ;
-    skos:inScheme <scheme> ;
-    skos:notation "001" ;
-    skos:prefLabel "Ägyptologie"@de .
-
-<n002> a skos:Concept ;
-    skos:broader <n13> ;
-    skos:inScheme <scheme> ;
-    skos:notation "002" ;
-    skos:prefLabel "Afrikanistik"@de .
-
-<n003> a skos:Concept ;
-    skos:broader <n58> ;
-    skos:inScheme <scheme> ;
-    skos:notation "003" ;
-    skos:prefLabel "Agrarwissenschaft/Landwirtschaft"@de .
-
-<n004> a skos:Concept ;
-    skos:broader <n01> ;
-    skos:inScheme <scheme> ;
-    skos:notation "004" ;
-    skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften)"@de .
-
-<n005> a skos:Concept ;
-    skos:broader <n08> ;
-    skos:inScheme <scheme> ;
-    skos:notation "005" ;
-    skos:prefLabel "Klassische Philologie"@de .
-
-<n006> a skos:Concept ;
-    skos:broader <n10> ;
-    skos:inScheme <scheme> ;
-    skos:notation "006" ;
-    skos:prefLabel "Amerikanistik/Amerikakunde"@de .
-
-<n007> a skos:Concept ;
-    skos:broader <n76> ;
-    skos:inScheme <scheme> ;
-    skos:notation "007" ;
-    skos:prefLabel "Angewandte Kunst"@de .
-
-<n008> a skos:Concept ;
-    skos:broader <n10> ;
-    skos:inScheme <scheme> ;
-    skos:notation "008" ;
-    skos:prefLabel "Anglistik/Englisch"@de .
-
-<n009> a skos:Concept ;
-    skos:broader <n42> ;
-    skos:inScheme <scheme> ;
-    skos:notation "009" ;
-    skos:prefLabel "Anthropologie (Humanbiologie)"@de .
-
-<n010> a skos:Concept ;
-    skos:broader <n13> ;
-    skos:inScheme <scheme> ;
-    skos:notation "010" ;
-    skos:prefLabel "Arabisch/Arabistik"@de .
-
-<n011> a skos:Concept ;
-    skos:broader <n30> ;
-    skos:inScheme <scheme> ;
-    skos:notation "011" ;
-    skos:prefLabel "Arbeitslehre/Wirtschaftslehre"@de .
-
-<n012> a skos:Concept ;
-    skos:broader <n05> ;
-    skos:inScheme <scheme> ;
-    skos:notation "012" ;
-    skos:prefLabel "Archäologie"@de .
-
-<n013> a skos:Concept ;
-    skos:broader <n66> ;
-    skos:inScheme <scheme> ;
-    skos:notation "013" ;
-    skos:prefLabel "Architektur"@de .
-
-<n014> a skos:Concept ;
-    skos:broader <n39> ;
-    skos:inScheme <scheme> ;
-    skos:notation "014" ;
-    skos:prefLabel "Astrophysik und Astronomie"@de .
-
-<n015> a skos:Concept ;
-    skos:broader <n13> ;
-    skos:inScheme <scheme> ;
-    skos:notation "015" ;
-    skos:prefLabel "Außereuropäische Sprachen und Kulturen in Ozeanien und Amerika"@de .
-
-<n016> a skos:Concept ;
-    skos:broader <n12> ;
-    skos:inScheme <scheme> ;
-    skos:notation "016" ;
-    skos:prefLabel "Baltistik"@de .
-
-<n017> a skos:Concept ;
-    skos:broader <n68> ;
-    skos:inScheme <scheme> ;
-    skos:notation "017" ;
-    skos:prefLabel "Bauingenieurwesen/Ingenieurbau"@de .
-
-<n018> a skos:Concept ;
-    skos:broader <n07> ;
-    skos:inScheme <scheme> ;
-    skos:notation "018" ;
-    skos:prefLabel "Berufsbezogene Fremdsprachenausbildung"@de .
-
-<n019> a skos:Concept ;
-    skos:broader <n36> ;
-    skos:inScheme <scheme> ;
-    skos:notation "019" ;
-    skos:prefLabel "Orientierungsstudium MINT"@de .
-
-<n020> a skos:Concept ;
-    skos:broader <n62> ;
-    skos:inScheme <scheme> ;
-    skos:notation "020" ;
-    skos:prefLabel "Bergbau/Bergtechnik"@de .
-
-<n021> a skos:Concept ;
-    skos:broader <n30> ;
-    skos:inScheme <scheme> ;
-    skos:notation "021" ;
-    skos:prefLabel "Betriebswirtschaftslehre"@de .
-
-<n022> a skos:Concept ;
-    skos:broader <n06> ;
-    skos:inScheme <scheme> ;
-    skos:notation "022" ;
-    skos:prefLabel "Informations- und Bibliothekswissenschaften (nicht für Verwaltungsfachhochschulen)"@de .
-
-<n023> a skos:Concept ;
-    skos:broader <n75> ;
-    skos:inScheme <scheme> ;
-    skos:notation "023" ;
-    skos:prefLabel "Bildende Kunst/Graphik"@de .
-
-<n024> a skos:Concept ;
-    skos:broader <n14> ;
-    skos:inScheme <scheme> ;
-    skos:notation "024" ;
-    skos:prefLabel "Europäische Ethnologie und Kulturwissenschaft"@de .
-
-<n025> a skos:Concept ;
-    skos:broader <n40> ;
-    skos:inScheme <scheme> ;
-    skos:notation "025" ;
-    skos:prefLabel "Biochemie"@de .
-
-<n026> a skos:Concept ;
-    skos:broader <n42> ;
-    skos:inScheme <scheme> ;
-    skos:notation "026" ;
-    skos:prefLabel "Biologie"@de .
-
-<n028> a skos:Concept ;
-    skos:broader <n58> ;
-    skos:inScheme <scheme> ;
-    skos:notation "028" ;
-    skos:prefLabel "Brauwesen/Getränketechnologie"@de .
-
-<n029> a skos:Concept ;
-    skos:broader <n22> ;
-    skos:inScheme <scheme> ;
-    skos:notation "029" ;
-    skos:prefLabel "Sportwissenschaft"@de .
-
-<n030> a skos:Concept ;
-    skos:broader <n23> ;
-    skos:inScheme <scheme> ;
-    skos:notation "030" ;
-    skos:prefLabel "Interdisziplin. Studien (Schwerpunkt Rechts-, Wirtschafts- und Sozialwissenschaften)"@de .
-
-<n031> a skos:Concept ;
-    skos:broader <n08> ;
-    skos:inScheme <scheme> ;
-    skos:notation "031" ;
-    skos:prefLabel "Byzantinistik"@de .
-
-<n032> a skos:Concept ;
-    skos:broader <n40> ;
-    skos:inScheme <scheme> ;
-    skos:notation "032" ;
-    skos:prefLabel "Chemie"@de .
-
-<n033> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "033" ;
-    skos:prefLabel "Chemie-Ingenieurwesen/Chemieverfahrenstechnik"@de .
-
-<n034> a skos:Concept ;
-    skos:broader <n09> ;
-    skos:inScheme <scheme> ;
-    skos:notation "034" ;
-    skos:prefLabel "Dänisch"@de .
-
-<n035> a skos:Concept ;
-    skos:broader <n77> ;
-    skos:inScheme <scheme> ;
-    skos:notation "035" ;
-    skos:prefLabel "Darstellende Kunst/Bühnenkunst/Regie"@de .
-
-<n036> a skos:Concept ;
-    skos:broader <n24> ;
-    skos:inScheme <scheme> ;
-    skos:notation "036" ;
-    skos:prefLabel "Sonstige Regionalwissenschaften"@de .
-
-<n037> a skos:Concept ;
-    skos:broader <n06> ;
-    skos:inScheme <scheme> ;
-    skos:notation "037" ;
-    skos:prefLabel "Archiv- und Dokumentationswissenschaft"@de .
-
-<n038> a skos:Concept ;
-    skos:broader <n24> ;
-    skos:inScheme <scheme> ;
-    skos:notation "038" ;
-    skos:prefLabel "Lateinamerika-Studien"@de .
-
-<n039> a skos:Concept ;
-    skos:broader <n43> ;
-    skos:inScheme <scheme> ;
-    skos:notation "039" ;
-    skos:prefLabel "Geowissenschaften allgemein"@de .
-
-<n040> a skos:Concept ;
-    skos:broader <n74> ;
-    skos:inScheme <scheme> ;
-    skos:notation "040" ;
-    skos:prefLabel "Interdiszipl. Studien (Schwerpunkt Kunst, Kunstwissenschaft)"@de .
-
-<n041> a skos:Concept ;
-    skos:broader <n83> ;
-    skos:inScheme <scheme> ;
-    skos:notation "041" ;
-    skos:prefLabel "Sonstiges Orientierungsstudium"@de .
-
-<n042> a skos:Concept ;
-    skos:broader <n28> ;
-    skos:inScheme <scheme> ;
-    skos:notation "042" ;
-    skos:prefLabel "Wirtschaftsrecht"@de .
-
-<n043> a skos:Concept ;
-    skos:broader <n08> ;
-    skos:inScheme <scheme> ;
-    skos:notation "043" ;
-    skos:prefLabel "Neugriechisch"@de .
-
-<n044> a skos:Concept ;
-    skos:broader <n24> ;
-    skos:inScheme <scheme> ;
-    skos:notation "044" ;
-    skos:prefLabel "Ost- und Südosteuropa-Studien"@de .
-
-<n048> a skos:Concept ;
-    skos:broader <n64> ;
-    skos:inScheme <scheme> ;
-    skos:notation "048" ;
-    skos:prefLabel "Elektrotechnik/Elektronik"@de .
-
-<n049> a skos:Concept ;
-    skos:broader <n36> ;
-    skos:inScheme <scheme> ;
-    skos:notation "049" ;
-    skos:prefLabel "Interdisziplin. Studien (Schwerpunkt Naturwissenschaften)"@de .
-
-<n050> a skos:Concept ;
-    skos:broader <n44> ;
-    skos:inScheme <scheme> ;
-    skos:notation "050" ;
-    skos:prefLabel "Geographie/Erdkunde"@de .
-
-<n052> a skos:Concept ;
-    skos:broader <n33> ;
-    skos:inScheme <scheme> ;
-    skos:notation "052" ;
-    skos:prefLabel "Erziehungswissenschaft (Pädagogik)"@de .
-
-<n053> a skos:Concept ;
-    skos:broader <n02> ;
-    skos:inScheme <scheme> ;
-    skos:notation "053" ;
-    skos:prefLabel "Evang. Theologie, -Religionslehre"@de .
-
-<n054> a skos:Concept ;
-    skos:broader <n77> ;
-    skos:inScheme <scheme> ;
-    skos:notation "054" ;
-    skos:prefLabel "Film und Fernsehen"@de .
-
-<n055> a skos:Concept ;
-    skos:broader <n23> ;
-    skos:inScheme <scheme> ;
-    skos:notation "055" ;
-    skos:prefLabel "Orientierungsstudium Gesellschaftswissenschaften"@de .
-
-<n056> a skos:Concept ;
-    skos:broader <n12> ;
-    skos:inScheme <scheme> ;
-    skos:notation "056" ;
-    skos:prefLabel "Finno-Ugristik"@de .
-
-<n057> a skos:Concept ;
-    skos:broader <n65> ;
-    skos:inScheme <scheme> ;
-    skos:notation "057" ;
-    skos:prefLabel "Luft- und Raumfahrttechnik"@de .
-
-<n058> a skos:Concept ;
-    skos:broader <n59> ;
-    skos:inScheme <scheme> ;
-    skos:notation "058" ;
-    skos:prefLabel "Forstwissenschaft, -wirtschaft"@de .
-
-<n059> a skos:Concept ;
-    skos:broader <n11> ;
-    skos:inScheme <scheme> ;
-    skos:notation "059" ;
-    skos:prefLabel "Französisch"@de .
-
-<n060> a skos:Concept ;
-    skos:broader <n58> ;
-    skos:inScheme <scheme> ;
-    skos:notation "060" ;
-    skos:prefLabel "Gartenbau"@de .
-
-<n061> a skos:Concept ;
-    skos:broader <n57> ;
-    skos:inScheme <scheme> ;
-    skos:notation "061" ;
-    skos:prefLabel "Meliorationswesen"@de .
-
-<n064> a skos:Concept ;
-    skos:broader <n57> ;
-    skos:inScheme <scheme> ;
-    skos:notation "064" ;
-    skos:prefLabel "Naturschutz"@de .
-
-<n065> a skos:Concept ;
-    skos:broader <n43> ;
-    skos:inScheme <scheme> ;
-    skos:notation "065" ;
-    skos:prefLabel "Geologie/Paläontologie"@de .
-
-<n066> a skos:Concept ;
-    skos:broader <n43> ;
-    skos:inScheme <scheme> ;
-    skos:notation "066" ;
-    skos:prefLabel "Geophysik"@de .
-
-<n067> a skos:Concept ;
-    skos:broader <n09> ;
-    skos:inScheme <scheme> ;
-    skos:notation "067" ;
-    skos:prefLabel "Germanistik/Deutsch"@de .
-
-<n068> a skos:Concept ;
-    skos:broader <n05> ;
-    skos:inScheme <scheme> ;
-    skos:notation "068" ;
-    skos:prefLabel "Geschichte"@de .
-
-<n069> a skos:Concept ;
-    skos:broader <n76> ;
-    skos:inScheme <scheme> ;
-    skos:notation "069" ;
-    skos:prefLabel "Graphikdesign/Kommunikationsgestaltung"@de .
-
-<n070> a skos:Concept ;
-    skos:broader <n08> ;
-    skos:inScheme <scheme> ;
-    skos:notation "070" ;
-    skos:prefLabel "Griechisch"@de .
-
-<n071> a skos:Concept ;
-    skos:broader <n60> ;
-    skos:inScheme <scheme> ;
-    skos:notation "071" ;
-    skos:prefLabel "Haushalts- und Ernährungswissenschaft"@de .
-
-<n072> a skos:Concept ;
-    skos:broader <n61> ;
-    skos:inScheme <scheme> ;
-    skos:notation "072" ;
-    skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Ingenieurwissenschaften)"@de .
-
-<n073> a skos:Concept ;
-    skos:broader <n13> ;
-    skos:inScheme <scheme> ;
-    skos:notation "073" ;
-    skos:prefLabel "Judaistik/Hebräisch "@de .
-
-<n074> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "074" ;
-    skos:prefLabel "Transport-/Fördertechnik"@de .
-
-<n075> a skos:Concept ;
-    skos:broader <n59> ;
-    skos:inScheme <scheme> ;
-    skos:notation "075" ;
-    skos:prefLabel "Holzwirtschaft"@de .
-
-<n076> a skos:Concept ;
-    skos:broader <n62> ;
-    skos:inScheme <scheme> ;
-    skos:notation "076" ;
-    skos:prefLabel "Hütten- und Gießereiwesen"@de .
-
-<n077> a skos:Concept ;
-    skos:broader <n68> ;
-    skos:inScheme <scheme> ;
-    skos:notation "077" ;
-    skos:prefLabel "Wasserwirtschaft"@de .
-
-<n078> a skos:Concept ;
-    skos:broader <n13> ;
-    skos:inScheme <scheme> ;
-    skos:notation "078" ;
-    skos:prefLabel "Indologie"@de .
-
-<n079> a skos:Concept ;
-    skos:broader <n71> ;
-    skos:inScheme <scheme> ;
-    skos:notation "079" ;
-    skos:prefLabel "Informatik"@de .
-
-<n080> a skos:Concept ;
-    skos:broader <n78> ;
-    skos:inScheme <scheme> ;
-    skos:notation "080" ;
-    skos:prefLabel "Instrumentalmusik"@de .
-
-<n081> a skos:Concept ;
-    skos:broader <n13> ;
-    skos:inScheme <scheme> ;
-    skos:notation "081" ;
-    skos:prefLabel "Iranistik"@de .
-
-<n082> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "082" ;
-    skos:prefLabel "Holz-/Fasertechnik"@de .
-
-<n083> a skos:Concept ;
-    skos:broader <n13> ;
-    skos:inScheme <scheme> ;
-    skos:notation "083" ;
-    skos:prefLabel "Islamwissenschaft"@de .
-
-<n084> a skos:Concept ;
-    skos:broader <n11> ;
-    skos:inScheme <scheme> ;
-    skos:notation "084" ;
-    skos:prefLabel "Italienisch"@de .
-
-<n085> a skos:Concept ;
-    skos:broader <n13> ;
-    skos:inScheme <scheme> ;
-    skos:notation "085" ;
-    skos:prefLabel "Japanologie"@de .
-
-<n086> a skos:Concept ;
-    skos:broader <n03> ;
-    skos:inScheme <scheme> ;
-    skos:notation "086" ;
-    skos:prefLabel "Kath. Theologie, -Religionslehre"@de .
-
-<n088> a skos:Concept ;
-    skos:broader <n64> ;
-    skos:inScheme <scheme> ;
-    skos:notation "088" ;
-    skos:prefLabel "Optoelektronik"@de .
-
-<n089> a skos:Concept ;
-    skos:broader <n65> ;
-    skos:inScheme <scheme> ;
-    skos:notation "089" ;
-    skos:prefLabel "Verkehrsingenieurwesen"@de .
-
-<n090> a skos:Concept ;
-    skos:broader <n01> ;
-    skos:inScheme <scheme> ;
-    skos:notation "090" ;
-    skos:prefLabel "Lernbereich Geisteswissenschaften"@de .
-
-<n091> a skos:Concept ;
-    skos:broader <n74> ;
-    skos:inScheme <scheme> ;
-    skos:notation "091" ;
-    skos:prefLabel "Kunsterziehung"@de .
-
-<n092> a skos:Concept ;
-    skos:broader <n74> ;
-    skos:inScheme <scheme> ;
-    skos:notation "092" ;
-    skos:prefLabel "Kunstgeschichte, Kunstwissenschaft"@de .
-
-<n093> a skos:Concept ;
-    skos:broader <n57> ;
-    skos:inScheme <scheme> ;
-    skos:notation "093" ;
-    skos:prefLabel "Landespflege/Landschaftsgestaltung"@de .
-
-<n094> a skos:Concept ;
-    skos:broader <n68> ;
-    skos:inScheme <scheme> ;
-    skos:notation "094" ;
-    skos:prefLabel "Wasserbau"@de .
-
-<n095> a skos:Concept ;
-    skos:broader <n08> ;
-    skos:inScheme <scheme> ;
-    skos:notation "095" ;
-    skos:prefLabel "Latein"@de .
-
-<n096> a skos:Concept ;
-    skos:broader <n40> ;
-    skos:inScheme <scheme> ;
-    skos:notation "096" ;
-    skos:prefLabel "Lebensmittelchemie"@de .
-
-<n097> a skos:Concept ;
-    skos:broader <n58> ;
-    skos:inScheme <scheme> ;
-    skos:notation "097" ;
-    skos:prefLabel "Lebensmitteltechnologie"@de .
-
-<n098> a skos:Concept ;
-    skos:broader <n22> ;
-    skos:inScheme <scheme> ;
-    skos:notation "098" ;
-    skos:prefLabel "Sportpädagogik/Sportpsychologie"@de .
-
-<n101> a skos:Concept ;
-    skos:broader <n74> ;
-    skos:inScheme <scheme> ;
-    skos:notation "101" ;
-    skos:prefLabel "Restaurierungskunde"@de .
-
-<n102> a skos:Concept ;
-    skos:broader <n77> ;
-    skos:inScheme <scheme> ;
-    skos:notation "102" ;
-    skos:prefLabel "Schauspiel"@de .
-
-<n103> a skos:Concept ;
-    skos:broader <n62> ;
-    skos:inScheme <scheme> ;
-    skos:notation "103" ;
-    skos:prefLabel "Markscheidewesen"@de .
-
-<n104> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "104" ;
-    skos:prefLabel "Maschinenbau/-wesen"@de .
-
-<n105> a skos:Concept ;
-    skos:broader <n37> ;
-    skos:inScheme <scheme> ;
-    skos:notation "105" ;
-    skos:prefLabel "Mathematik"@de .
-
-<n106> a skos:Concept ;
-    skos:broader <n77> ;
-    skos:inScheme <scheme> ;
-    skos:notation "106" ;
-    skos:prefLabel "Tanzpädagogik"@de .
-
-<n107> a skos:Concept ;
-    skos:broader <n49> ;
-    skos:inScheme <scheme> ;
-    skos:notation "107" ;
-    skos:prefLabel "Medizin (Allgemein-Medizin)"@de .
-
-<n108> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "108" ;
-    skos:prefLabel "Metalltechnik"@de .
-
-<n110> a skos:Concept ;
-    skos:broader <n43> ;
-    skos:inScheme <scheme> ;
-    skos:notation "110" ;
-    skos:prefLabel "Meteorologie"@de .
-
-<n111> a skos:Concept ;
-    skos:broader <n43> ;
-    skos:inScheme <scheme> ;
-    skos:notation "111" ;
-    skos:prefLabel "Mineralogie"@de .
-
-<n113> a skos:Concept ;
-    skos:broader <n78> ;
-    skos:inScheme <scheme> ;
-    skos:notation "113" ;
-    skos:prefLabel "Musikerziehung"@de .
-
-<n114> a skos:Concept ;
-    skos:broader <n78> ;
-    skos:inScheme <scheme> ;
-    skos:notation "114" ;
-    skos:prefLabel "Musikwissenschaft/-geschichte"@de .
-
-<n115> a skos:Concept ;
-    skos:broader <n33> ;
-    skos:inScheme <scheme> ;
-    skos:notation "115" ;
-    skos:prefLabel "Grundschul-/Primarstufenpädagogik"@de .
-
-<n116> a skos:Concept ;
-    skos:broader <n76> ;
-    skos:inScheme <scheme> ;
-    skos:notation "116" ;
-    skos:prefLabel "Textilgestaltung"@de .
-
-<n117> a skos:Concept ;
-    skos:broader <n33> ;
-    skos:inScheme <scheme> ;
-    skos:notation "117" ;
-    skos:prefLabel "Ausländerpädagogik"@de .
-
-<n118> a skos:Concept ;
-    skos:broader <n37> ;
-    skos:inScheme <scheme> ;
-    skos:notation "118" ;
-    skos:prefLabel "Technomathematik"@de .
-
-<n119> a skos:Concept ;
-    skos:broader <n09> ;
-    skos:inScheme <scheme> ;
-    skos:notation "119" ;
-    skos:prefLabel "Niederländisch"@de .
-
-<n120> a skos:Concept ;
-    skos:broader <n09> ;
-    skos:inScheme <scheme> ;
-    skos:notation "120" ;
-    skos:prefLabel "Nordistik/Skandinavistik (Nord. Philologie, Einzelsprachen a.n.g.)"@de .
-
-<n121> a skos:Concept ;
-    skos:broader <n71> ;
-    skos:inScheme <scheme> ;
-    skos:notation "121" ;
-    skos:prefLabel "Medieninformatik"@de .
-
-<n122> a skos:Concept ;
-    skos:broader <n13> ;
-    skos:inScheme <scheme> ;
-    skos:notation "122" ;
-    skos:prefLabel "Orientalistik, Altorientalistik"@de .
-
-<n123> a skos:Concept ;
-    skos:broader <n71> ;
-    skos:inScheme <scheme> ;
-    skos:notation "123" ;
-    skos:prefLabel "Ingenieurinformatik/Technische Informatik"@de .
-
-<n124> a skos:Concept ;
-    skos:broader <n43> ;
-    skos:inScheme <scheme> ;
-    skos:notation "124" ;
-    skos:prefLabel "Ozeanographie"@de .
-
-<n125> a skos:Concept ;
-    skos:broader <n58> ;
-    skos:inScheme <scheme> ;
-    skos:notation "125" ;
-    skos:prefLabel "Agrarökonomie"@de .
-
-<n126> a skos:Concept ;
-    skos:broader <n41> ;
-    skos:inScheme <scheme> ;
-    skos:notation "126" ;
-    skos:prefLabel "Pharmazie"@de .
-
-<n127> a skos:Concept ;
-    skos:broader <n04> ;
-    skos:inScheme <scheme> ;
-    skos:notation "127" ;
-    skos:prefLabel "Philosophie"@de .
-
-<n128> a skos:Concept ;
-    skos:broader <n39> ;
-    skos:inScheme <scheme> ;
-    skos:notation "128" ;
-    skos:prefLabel "Physik"@de .
-
-<n129> a skos:Concept ;
-    skos:broader <n25> ;
-    skos:inScheme <scheme> ;
-    skos:notation "129" ;
-    skos:prefLabel "Politikwissenschaft/Politologie"@de .
-
-<n130> a skos:Concept ;
-    skos:broader <n12> ;
-    skos:inScheme <scheme> ;
-    skos:notation "130" ;
-    skos:prefLabel "Westslawisch (allgemein und a.n.g.)"@de .
-
-<n131> a skos:Concept ;
-    skos:broader <n11> ;
-    skos:inScheme <scheme> ;
-    skos:notation "131" ;
-    skos:prefLabel "Portugiesisch"@de .
-
-<n132> a skos:Concept ;
-    skos:broader <n32> ;
-    skos:inScheme <scheme> ;
-    skos:notation "132" ;
-    skos:prefLabel "Psychologie"@de .
-
-<n134> a skos:Concept ;
-    skos:broader <n67> ;
-    skos:inScheme <scheme> ;
-    skos:notation "134" ;
-    skos:prefLabel "Raumplanung"@de .
-
-<n135> a skos:Concept ;
-    skos:broader <n28> ;
-    skos:inScheme <scheme> ;
-    skos:notation "135" ;
-    skos:prefLabel "Rechtswissenschaft"@de .
-
-<n136> a skos:Concept ;
-    skos:broader <n04> ;
-    skos:inScheme <scheme> ;
-    skos:notation "136" ;
-    skos:prefLabel "Religionswissenschaft"@de .
-
-<n137> a skos:Concept ;
-    skos:broader <n11> ;
-    skos:inScheme <scheme> ;
-    skos:notation "137" ;
-    skos:prefLabel "Romanistik (Romanische Philologie, Einzelsprachen a.n.g.)"@de .
-
-<n138> a skos:Concept ;
-    skos:broader <n58> ;
-    skos:inScheme <scheme> ;
-    skos:notation "138" ;
-    skos:prefLabel "Agrarbiologie"@de .
-
-<n139> a skos:Concept ;
-    skos:broader <n12> ;
-    skos:inScheme <scheme> ;
-    skos:notation "139" ;
-    skos:prefLabel "Russisch"@de .
-
-<n140> a skos:Concept ;
-    skos:broader <n61> ;
-    skos:inScheme <scheme> ;
-    skos:notation "140" ;
-    skos:prefLabel "Angewandte Systemwissenschaften"@de .
-
-<n141> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "141" ;
-    skos:prefLabel "Abfallwirtschaft"@de .
-
-<n142> a skos:Concept ;
-    skos:broader <n65> ;
-    skos:inScheme <scheme> ;
-    skos:notation "142" ;
-    skos:prefLabel "Schiffbau/Schiffstechnik"@de .
-
-<n143> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "143" ;
-    skos:prefLabel "Augenoptik"@de .
-
-<n144> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "144" ;
-    skos:prefLabel "Technische Kybernetik"@de .
-
-<n145> a skos:Concept ;
-    skos:broader <n13> ;
-    skos:inScheme <scheme> ;
-    skos:notation "145" ;
-    skos:prefLabel "Sinologie/Koreanistik"@de .
-
-<n146> a skos:Concept ;
-    skos:broader <n12> ;
-    skos:inScheme <scheme> ;
-    skos:notation "146" ;
-    skos:prefLabel "Slawistik (Slaw. Philologie)"@de .
-
-<n147> a skos:Concept ;
-    skos:broader <n26> ;
-    skos:inScheme <scheme> ;
-    skos:notation "147" ;
-    skos:prefLabel "Sozialkunde"@de .
-
-<n148> a skos:Concept ;
-    skos:broader <n26> ;
-    skos:inScheme <scheme> ;
-    skos:notation "148" ;
-    skos:prefLabel "Sozialwissenschaften"@de .
-
-<n149> a skos:Concept ;
-    skos:broader <n26> ;
-    skos:inScheme <scheme> ;
-    skos:notation "149" ;
-    skos:prefLabel "Soziologie"@de .
-
-<n150> a skos:Concept ;
-    skos:broader <n11> ;
-    skos:inScheme <scheme> ;
-    skos:notation "150" ;
-    skos:prefLabel "Spanisch"@de .
-
-<n152> a skos:Concept ;
-    skos:broader <n07> ;
-    skos:inScheme <scheme> ;
-    skos:notation "152" ;
-    skos:prefLabel "Allgemeine Sprachwissenschaft/Indogermanistik"@de .
-
-<n153> a skos:Concept ;
-    skos:broader <n12> ;
-    skos:inScheme <scheme> ;
-    skos:notation "153" ;
-    skos:prefLabel "Südslawisch (Bulgarisch, Serbokroatisch, Slowenisch usw.)"@de .
-
-<n154> a skos:Concept ;
-    skos:broader <n23> ;
-    skos:inScheme <scheme> ;
-    skos:notation "154" ;
-    skos:prefLabel "Lernbereich Gesellschaftslehre"@de .
-
-<n155> a skos:Concept ;
-    skos:broader <n77> ;
-    skos:inScheme <scheme> ;
-    skos:notation "155" ;
-    skos:prefLabel "Theaterwissenschaft"@de .
-
-<n156> a skos:Concept ;
-    skos:broader <n51> ;
-    skos:inScheme <scheme> ;
-    skos:notation "156" ;
-    skos:prefLabel "Tiermedizin/Veterinärmedizin"@de .
-
-<n157> a skos:Concept ;
-    skos:broader <n64> ;
-    skos:inScheme <scheme> ;
-    skos:notation "157" ;
-    skos:prefLabel "Mikroelektronik"@de .
-
-<n158> a skos:Concept ;
-    skos:broader <n13> ;
-    skos:inScheme <scheme> ;
-    skos:notation "158" ;
-    skos:prefLabel "Turkologie"@de .
-
-<n159> a skos:Concept ;
-    skos:broader <n76> ;
-    skos:inScheme <scheme> ;
-    skos:notation "159" ;
-    skos:prefLabel "Edelstein- und Schmuckdesign"@de .
-
-<n160> a skos:Concept ;
-    skos:broader <n07> ;
-    skos:inScheme <scheme> ;
-    skos:notation "160" ;
-    skos:prefLabel "Computerlinguistik"@de .
-
-<n161> a skos:Concept ;
-    skos:broader <n02> ;
-    skos:inScheme <scheme> ;
-    skos:notation "161" ;
-    skos:prefLabel "Diakoniewissenschaft"@de .
-
-<n162> a skos:Concept ;
-    skos:broader <n03> ;
-    skos:inScheme <scheme> ;
-    skos:notation "162" ;
-    skos:prefLabel "Caritaswissenschaft"@de .
-
-<n163> a skos:Concept ;
-    skos:broader <n78> ;
-    skos:inScheme <scheme> ;
-    skos:notation "163" ;
-    skos:prefLabel "Rhythmik"@de .
-
-<n164> a skos:Concept ;
-    skos:broader <n78> ;
-    skos:inScheme <scheme> ;
-    skos:notation "164" ;
-    skos:prefLabel "Jazz und Popularmusik"@de .
-
-<n165> a skos:Concept ;
-    skos:broader <n78> ;
-    skos:inScheme <scheme> ;
-    skos:notation "165" ;
-    skos:prefLabel "Orchestermusik"@de .
-
-<n166> a skos:Concept ;
-    skos:broader <n30> ;
-    skos:inScheme <scheme> ;
-    skos:notation "166" ;
-    skos:prefLabel "Sportmanagement/Sportökonomie"@de .
-
-<n167> a skos:Concept ;
-    skos:broader <n30> ;
-    skos:inScheme <scheme> ;
-    skos:notation "167" ;
-    skos:prefLabel "Europäische Wirtschaft"@de .
-
-<n168> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "168" ;
-    skos:prefLabel "Justizvollzug"@de .
-
-<n169> a skos:Concept ;
-    skos:broader <n04> ;
-    skos:inScheme <scheme> ;
-    skos:notation "169" ;
-    skos:prefLabel "Ethik"@de .
-
-<n171> a skos:Concept ;
-    skos:broader <n69> ;
-    skos:inScheme <scheme> ;
-    skos:notation "171" ;
-    skos:prefLabel "Vermessungswesen (Geodäsie)"@de .
-
-<n172> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "172" ;
-    skos:prefLabel "Verwaltungswissenschaft/-wesen"@de .
-
-<n173> a skos:Concept ;
-    skos:broader <n14> ;
-    skos:inScheme <scheme> ;
-    skos:notation "173" ;
-    skos:prefLabel "Ethnologie"@de .
-
-<n174> a skos:Concept ;
-    skos:broader <n14> ;
-    skos:inScheme <scheme> ;
-    skos:notation "174" ;
-    skos:prefLabel "Volkskunde"@de .
-
-<n175> a skos:Concept ;
-    skos:broader <n30> ;
-    skos:inScheme <scheme> ;
-    skos:notation "175" ;
-    skos:prefLabel "Volkswirtschaftslehre"@de .
-
-<n176> a skos:Concept ;
-    skos:broader <n76> ;
-    skos:inScheme <scheme> ;
-    skos:notation "176" ;
-    skos:prefLabel "Werkerziehung"@de .
-
-<n177> a skos:Concept ;
-    skos:broader <n72> ;
-    skos:inScheme <scheme> ;
-    skos:notation "177" ;
-    skos:prefLabel "Werkstofftechnik"@de .
-
-<n178> a skos:Concept ;
-    skos:broader <n44> ;
-    skos:inScheme <scheme> ;
-    skos:notation "178" ;
-    skos:prefLabel "Wirtschafts-/Sozialgeographie"@de .
-
-<n179> a skos:Concept ;
-    skos:broader <n31> ;
-    skos:inScheme <scheme> ;
-    skos:notation "179" ;
-    skos:prefLabel "Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt"@de .
-
-<n180> a skos:Concept ;
-    skos:broader <n13> ;
-    skos:inScheme <scheme> ;
-    skos:notation "180" ;
-    skos:prefLabel "Kaukasistik"@de .
-
-<n181> a skos:Concept ;
-    skos:broader <n30> ;
-    skos:inScheme <scheme> ;
-    skos:notation "181" ;
-    skos:prefLabel "Wirtschaftspädagogik"@de .
-
-<n182> a skos:Concept ;
-    skos:broader <n30> ;
-    skos:inScheme <scheme> ;
-    skos:notation "182" ;
-    skos:prefLabel "Intern. Betriebswirtschaft/Management"@de .
-
-<n183> a skos:Concept ;
-    skos:broader <n05> ;
-    skos:inScheme <scheme> ;
-    skos:notation "183" ;
-    skos:prefLabel "Wirtschafts-/Sozialgeschichte"@de .
-
-<n184> a skos:Concept ;
-    skos:broader <n30> ;
-    skos:inScheme <scheme> ;
-    skos:notation "184" ;
-    skos:prefLabel "Wirtschaftswissenschaften"@de .
-
-<n185> a skos:Concept ;
-    skos:broader <n50> ;
-    skos:inScheme <scheme> ;
-    skos:notation "185" ;
-    skos:prefLabel "Zahnmedizin"@de .
-
-<n186> a skos:Concept ;
-    skos:broader <n36> ;
-    skos:inScheme <scheme> ;
-    skos:notation "186" ;
-    skos:prefLabel "Lernbereich Naturwissenschaft/Sachunterricht"@de .
-
-<n187> a skos:Concept ;
-    skos:broader <n13> ;
-    skos:inScheme <scheme> ;
-    skos:notation "187" ;
-    skos:prefLabel "Asiatische Sprachen und Kulturen/Asienwissenschaften"@de .
-
-<n188> a skos:Concept ;
-    skos:broader <n07> ;
-    skos:inScheme <scheme> ;
-    skos:notation "188" ;
-    skos:prefLabel "Allgemeine Literaturwissenschaft"@de .
-
-<n189> a skos:Concept ;
-    skos:broader <n09> ;
-    skos:inScheme <scheme> ;
-    skos:notation "189" ;
-    skos:prefLabel "Niederdeutsch"@de .
-
-<n190> a skos:Concept ;
-    skos:broader <n33> ;
-    skos:inScheme <scheme> ;
-    skos:notation "190" ;
-    skos:prefLabel "Sonderpädagogik"@de .
-
-<n191> a skos:Concept ;
-    skos:broader <n78> ;
-    skos:inScheme <scheme> ;
-    skos:notation "191" ;
-    skos:prefLabel "Komposition"@de .
-
-<n192> a skos:Concept ;
-    skos:broader <n78> ;
-    skos:inScheme <scheme> ;
-    skos:notation "192" ;
-    skos:prefLabel "Dirigieren"@de .
-
-<n193> a skos:Concept ;
-    skos:broader <n78> ;
-    skos:inScheme <scheme> ;
-    skos:notation "193" ;
-    skos:prefLabel "Kirchenmusik"@de .
-
-<n194> a skos:Concept ;
-    skos:broader <n78> ;
-    skos:inScheme <scheme> ;
-    skos:notation "194" ;
-    skos:prefLabel "Tonmeister"@de .
-
-<n195> a skos:Concept ;
-    skos:broader <n48> ;
-    skos:inScheme <scheme> ;
-    skos:notation "195" ;
-    skos:prefLabel "Gesundheitspädagogik"@de .
-
-<n196> a skos:Concept ;
-    skos:broader <n83> ;
-    skos:inScheme <scheme> ;
-    skos:notation "196" ;
-    skos:prefLabel "Studienkolleg"@de .
-
-<n197> a skos:Concept ;
-    skos:broader <n68> ;
-    skos:inScheme <scheme> ;
-    skos:notation "197" ;
-    skos:prefLabel "Holzbau"@de .
-
-<n199> a skos:Concept ;
-    skos:broader <n61> ;
-    skos:inScheme <scheme> ;
-    skos:notation "199" ;
-    skos:prefLabel "Lernbereich Technik"@de .
-
-<n200> a skos:Concept ;
-    skos:broader <n71> ;
-    skos:inScheme <scheme> ;
-    skos:notation "200" ;
-    skos:prefLabel "Computer- und Kommunikationstechniken"@de .
-
-<n201> a skos:Concept ;
-    skos:broader <n61> ;
-    skos:inScheme <scheme> ;
-    skos:notation "201" ;
-    skos:prefLabel "Werken (technisch)/Technologie"@de .
-
-<n202> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "202" ;
-    skos:prefLabel "Fertigungs-/Produktionstechnik"@de .
-
-<n203> a skos:Concept ;
-    skos:broader <n76> ;
-    skos:inScheme <scheme> ;
-    skos:notation "203" ;
-    skos:prefLabel "Industriedesign/Produktgestaltung"@de .
-
-<n204> a skos:Concept ;
-    skos:broader <n75> ;
-    skos:inScheme <scheme> ;
-    skos:notation "204" ;
-    skos:prefLabel "Malerei"@de .
-
-<n205> a skos:Concept ;
-    skos:broader <n75> ;
-    skos:inScheme <scheme> ;
-    skos:notation "205" ;
-    skos:prefLabel "Bildhauerei/Plastik"@de .
-
-<n206> a skos:Concept ;
-    skos:broader <n12> ;
-    skos:inScheme <scheme> ;
-    skos:notation "206" ;
-    skos:prefLabel "Polnisch"@de .
-
-<n207> a skos:Concept ;
-    skos:broader <n12> ;
-    skos:inScheme <scheme> ;
-    skos:notation "207" ;
-    skos:prefLabel "Sorabistik"@de .
-
-<n208> a skos:Concept ;
-    skos:broader <n27> ;
-    skos:inScheme <scheme> ;
-    skos:notation "208" ;
-    skos:prefLabel "Soziale Arbeit"@de .
-
-<n209> a skos:Concept ;
-    skos:broader <n12> ;
-    skos:inScheme <scheme> ;
-    skos:notation "209" ;
-    skos:prefLabel "Tschechisch"@de .
-
-<n210> a skos:Concept ;
-    skos:broader <n30> ;
-    skos:inScheme <scheme> ;
-    skos:notation "210" ;
-    skos:prefLabel "Verkehrswirtschaft"@de .
-
-<n211> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "211" ;
-    skos:prefLabel "Energieverfahrenstechnik"@de .
-
-<n212> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "212" ;
-    skos:prefLabel "Feinwerktechnik"@de .
-
-<n213> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "213" ;
-    skos:prefLabel "Versorgungstechnik"@de .
-
-<n215> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "215" ;
-    skos:prefLabel "Gesundheitstechnik"@de .
-
-<n216> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "216" ;
-    skos:prefLabel "Glastechnik/Keramik"@de .
-
-<n219> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "219" ;
-    skos:prefLabel "Kunststofftechnik"@de .
-
-<n220> a skos:Concept ;
-    skos:broader <n58> ;
-    skos:inScheme <scheme> ;
-    skos:notation "220" ;
-    skos:prefLabel "Milch- und Molkereiwirtschaft"@de .
-
-<n221> a skos:Concept ;
-    skos:broader <n71> ;
-    skos:inScheme <scheme> ;
-    skos:notation "221" ;
-    skos:prefLabel "Bioinformatik"@de .
-
-<n222> a skos:Concept ;
-    skos:broader <n64> ;
-    skos:inScheme <scheme> ;
-    skos:notation "222" ;
-    skos:prefLabel "Kommunikations- und Informationstechnik"@de .
-
-<n223> a skos:Concept ;
-    skos:broader <n65> ;
-    skos:inScheme <scheme> ;
-    skos:notation "223" ;
-    skos:prefLabel "Nautik/Seefahrt"@de .
-
-<n224> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "224" ;
-    skos:prefLabel "Physikalische Technik/Mechanische Verfahrenstechnik"@de .
-
-<n225> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "225" ;
-    skos:prefLabel "Textil- und Bekleidungstechnik/-gewerbe"@de .
-
-<n226> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "226" ;
-    skos:prefLabel "Verfahrenstechnik"@de .
-
-<n227> a skos:Concept ;
-    skos:broader <n58> ;
-    skos:inScheme <scheme> ;
-    skos:notation "227" ;
-    skos:prefLabel "Weinbau und Kellerwirtschaft"@de .
-
-<n230> a skos:Concept ;
-    skos:broader <n78> ;
-    skos:inScheme <scheme> ;
-    skos:notation "230" ;
-    skos:prefLabel "Gesang"@de .
-
-<n231> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "231" ;
-    skos:prefLabel "Druck- und Reproduktionstechnik"@de .
-
-<n232> a skos:Concept ;
-    skos:broader <n48> ;
-    skos:inScheme <scheme> ;
-    skos:notation "232" ;
-    skos:prefLabel "Gesundheitswissenschaften/-management"@de .
-
-<n233> a skos:Concept ;
-    skos:broader <n48> ;
-    skos:inScheme <scheme> ;
-    skos:notation "233" ;
-    skos:prefLabel "Nichtärztliche Heilberufe/Therapien"@de .
-
-<n234> a skos:Concept ;
-    skos:broader <n48> ;
-    skos:inScheme <scheme> ;
-    skos:notation "234" ;
-    skos:prefLabel "Pflegewissenschaft/-management"@de .
-
-<n235> a skos:Concept ;
-    skos:broader <n65> ;
-    skos:inScheme <scheme> ;
-    skos:notation "235" ;
-    skos:prefLabel "Fahrzeugtechnik"@de .
-
-<n242> a skos:Concept ;
-    skos:broader <n66> ;
-    skos:inScheme <scheme> ;
-    skos:notation "242" ;
-    skos:prefLabel "Innenarchitektur"@de .
-
-<n245> a skos:Concept ;
-    skos:broader <n27> ;
-    skos:inScheme <scheme> ;
-    skos:notation "245" ;
-    skos:prefLabel "Sozialpädagogik"@de .
-
-<n247> a skos:Concept ;
-    skos:broader <n71> ;
-    skos:inScheme <scheme> ;
-    skos:notation "247" ;
-    skos:prefLabel "Medizinische Informatik"@de .
-
-<n253> a skos:Concept ;
-    skos:broader <n27> ;
-    skos:inScheme <scheme> ;
-    skos:notation "253" ;
-    skos:prefLabel "Sozialwesen"@de .
-
-<n254> a skos:Concept ;
-    skos:broader <n33> ;
-    skos:inScheme <scheme> ;
-    skos:notation "254" ;
-    skos:prefLabel "Sachunterricht (einschl. Schulgarten)"@de .
-
-<n255> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "255" ;
-    skos:prefLabel "Archivwesen"@de .
-
-<n256> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "256" ;
-    skos:prefLabel "Rechtspflege"@de .
-
-<n257> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "257" ;
-    skos:prefLabel "Arbeits- und Berufsberatung"@de .
-
-<n258> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "258" ;
-    skos:prefLabel "Arbeitsverwaltung"@de .
-
-<n259> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "259" ;
-    skos:prefLabel "Auswärtige Angelegenheiten"@de .
-
-<n260> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "260" ;
-    skos:prefLabel "Bundeswehrverwaltung"@de .
-
-<n261> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "261" ;
-    skos:prefLabel "Innere Verwaltung"@de .
-
-<n262> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "262" ;
-    skos:prefLabel "Bibliothekswesen"@de .
-
-<n263> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "263" ;
-    skos:prefLabel "Polizei/Verfassungsschutz"@de .
-
-<n264> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "264" ;
-    skos:prefLabel "Sozialversicherung"@de .
-
-<n265> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "265" ;
-    skos:prefLabel "Bankwesen"@de .
-
-<n266> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "266" ;
-    skos:prefLabel "Finanzverwaltung"@de .
-
-<n268> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "268" ;
-    skos:prefLabel "Verkehrswesen"@de .
-
-<n269> a skos:Concept ;
-    skos:broader <n29> ;
-    skos:inScheme <scheme> ;
-    skos:notation "269" ;
-    skos:prefLabel "Zoll- und Steuerverwaltung"@de .
-
-<n270> a skos:Concept ;
-    skos:broader <n33> ;
-    skos:inScheme <scheme> ;
-    skos:notation "270" ;
-    skos:prefLabel "Berufs- und Wirtschaftspädagogik"@de .
-
-<n271> a skos:Concept ;
-    skos:broader <n09> ;
-    skos:inScheme <scheme> ;
-    skos:notation "271" ;
-    skos:prefLabel "Deutsch als Fremdsprache oder als Zweitsprache"@de .
-
-<n272> a skos:Concept ;
-    skos:broader <n05> ;
-    skos:inScheme <scheme> ;
-    skos:notation "272" ;
-    skos:prefLabel "Alte Geschichte"@de .
-
-<n273> a skos:Concept ;
-    skos:broader <n05> ;
-    skos:inScheme <scheme> ;
-    skos:notation "273" ;
-    skos:prefLabel "Mittlere und neuere Geschichte"@de .
-
-<n274> a skos:Concept ;
-    skos:broader <n30> ;
-    skos:inScheme <scheme> ;
-    skos:notation "274" ;
-    skos:prefLabel "Tourismuswirtschaft"@de .
-
-<n275> a skos:Concept ;
-    skos:broader <n05> ;
-    skos:inScheme <scheme> ;
-    skos:notation "275" ;
-    skos:prefLabel "Wissenschaftsgeschichte/Technikgeschichte"@de .
-
-<n276> a skos:Concept ;
-    skos:broader <n37> ;
-    skos:inScheme <scheme> ;
-    skos:notation "276" ;
-    skos:prefLabel "Wirtschaftsmathematik"@de .
-
-<n277> a skos:Concept ;
-    skos:broader <n71> ;
-    skos:inScheme <scheme> ;
-    skos:notation "277" ;
-    skos:prefLabel "Wirtschaftsinformatik"@de .
-
-<n280> a skos:Concept ;
-    skos:broader <n69> ;
-    skos:inScheme <scheme> ;
-    skos:notation "280" ;
-    skos:prefLabel "Kartographie"@de .
-
-<n282> a skos:Concept ;
-    skos:broader <n42> ;
-    skos:inScheme <scheme> ;
-    skos:notation "282" ;
-    skos:prefLabel "Biotechnologie"@de .
-
-<n283> a skos:Concept ;
-    skos:broader <n44> ;
-    skos:inScheme <scheme> ;
-    skos:notation "283" ;
-    skos:prefLabel "Landschaftsökologie/Biogeographie"@de .
-
-<n284> a skos:Concept ;
-    skos:broader <n07> ;
-    skos:inScheme <scheme> ;
-    skos:notation "284" ;
-    skos:prefLabel "Angewandte Sprachwissenschaft"@de .
-
-<n286> a skos:Concept ;
-    skos:broader <n64> ;
-    skos:inScheme <scheme> ;
-    skos:notation "286" ;
-    skos:prefLabel "Mikrosystemtechnik"@de .
-
-<n287> a skos:Concept ;
-    skos:broader <n75> ;
-    skos:inScheme <scheme> ;
-    skos:notation "287" ;
-    skos:prefLabel "Neue Medien"@de .
-
-<n290> a skos:Concept ;
-    skos:broader <n83> ;
-    skos:inScheme <scheme> ;
-    skos:notation "290" ;
-    skos:prefLabel "Sonstige Fächer"@de .
-
-<n292> a skos:Concept ;
-    skos:broader <n18> ;
-    skos:inScheme <scheme> ;
-    skos:notation "292" ;
-    skos:prefLabel "Islamische Studien/Islamische Theologie"@de .
-
-<n294> a skos:Concept ;
-    skos:broader <n72> ;
-    skos:inScheme <scheme> ;
-    skos:notation "294" ;
-    skos:prefLabel "Materialwissenschaft"@de .
-
-<n300> a skos:Concept ;
-    skos:broader <n42> ;
-    skos:inScheme <scheme> ;
-    skos:notation "300" ;
-    skos:prefLabel "Biomedizin"@de .
-
-<n302> a skos:Concept ;
-    skos:broader <n19> ;
-    skos:inScheme <scheme> ;
-    skos:notation "302" ;
-    skos:prefLabel "Medienwissenschaft"@de .
-
-<n303> a skos:Concept ;
-    skos:broader <n34> ;
-    skos:inScheme <scheme> ;
-    skos:notation "303" ;
-    skos:prefLabel "Kommunikationswissenschaft/Publizistik"@de .
-
-<n304> a skos:Concept ;
-    skos:broader <n30> ;
-    skos:inScheme <scheme> ;
-    skos:notation "304" ;
-    skos:prefLabel "Medienwirtschaft/Medienmanagement"@de .
-
-<n305> a skos:Concept ;
-    skos:broader <n61> ;
-    skos:inScheme <scheme> ;
-    skos:notation "305" ;
-    skos:prefLabel "Medientechnik"@de .
-
-<n310> a skos:Concept ;
-    skos:broader <n61> ;
-    skos:inScheme <scheme> ;
-    skos:notation "310" ;
-    skos:prefLabel "Regenerative Energien"@de .
-
-<n312> a skos:Concept ;
-    skos:broader <n36> ;
-    skos:inScheme <scheme> ;
-    skos:notation "312" ;
-    skos:prefLabel "Statistik"@de .
-
-<n316> a skos:Concept ;
-    skos:broader <n64> ;
-    skos:inScheme <scheme> ;
-    skos:notation "316" ;
-    skos:prefLabel "Elektrische Energietechnik"@de .
-
-<n320> a skos:Concept ;
-    skos:broader <n60> ;
-    skos:inScheme <scheme> ;
-    skos:notation "320" ;
-    skos:prefLabel "Ernährungswissenschaft"@de .
-
-<n321> a skos:Concept ;
-    skos:broader <n33> ;
-    skos:inScheme <scheme> ;
-    skos:notation "321" ;
-    skos:prefLabel "Erwachsenenbildung und außerschulische Jugendbildung"@de .
-
-<n333> a skos:Concept ;
-    skos:broader <n60> ;
-    skos:inScheme <scheme> ;
-    skos:notation "333" ;
-    skos:prefLabel "Haushaltswissenschaft"@de .
-
-<n353> a skos:Concept ;
-    skos:broader <n58> ;
-    skos:inScheme <scheme> ;
-    skos:notation "353" ;
-    skos:prefLabel "Pflanzenproduktion"@de .
-
-<n361> a skos:Concept ;
-    skos:broader <n33> ;
-    skos:inScheme <scheme> ;
-    skos:notation "361" ;
-    skos:prefLabel "Schulpädagogik"@de .
-
-<n365> a skos:Concept ;
-    skos:broader <n33> ;
-    skos:inScheme <scheme> ;
-    skos:notation "365" ;
-    skos:prefLabel "Pädagogik der frühen Kindheit"@de .
-
-<n370> a skos:Concept ;
-    skos:broader <n70> ;
-    skos:inScheme <scheme> ;
-    skos:notation "370" ;
-    skos:prefLabel "Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt"@de .
-
-<n371> a skos:Concept ;
-    skos:broader <n58> ;
-    skos:inScheme <scheme> ;
-    skos:notation "371" ;
-    skos:prefLabel "Tierproduktion"@de .
-
-<n380> a skos:Concept ;
-    skos:broader <n61> ;
-    skos:inScheme <scheme> ;
-    skos:notation "380" ;
-    skos:prefLabel "Mechatronik"@de .
-
-<n385> a skos:Concept ;
-    skos:broader <n43> ;
-    skos:inScheme <scheme> ;
-    skos:notation "385" ;
-    skos:prefLabel "Geoökologie"@de .
-
-<n390> a skos:Concept ;
-    skos:broader <n62> ;
-    skos:inScheme <scheme> ;
-    skos:notation "390" ;
-    skos:prefLabel "Archäometrie (Ingenieurarchäologie)"@de .
-
-<n429> a skos:Concept ;
-    skos:broader <n68> ;
-    skos:inScheme <scheme> ;
-    skos:notation "429" ;
-    skos:prefLabel "Stahlbau"@de .
-
-<n457> a skos:Concept ;
-    skos:broader <n63> ;
-    skos:inScheme <scheme> ;
-    skos:notation "457" ;
-    skos:prefLabel "Umwelttechnik (einschl. Recycling)"@de .
-
-<n458> a skos:Concept ;
-    skos:broader <n67> ;
-    skos:inScheme <scheme> ;
-    skos:notation "458" ;
-    skos:prefLabel "Umweltschutz"@de .
-
-<n464> a skos:Concept ;
-    skos:broader <n31> ;
-    skos:inScheme <scheme> ;
-    skos:notation "464" ;
-    skos:prefLabel "Facility Management"@de .
-
-<n544> a skos:Concept ;
-    skos:broader <n02> ;
-    skos:inScheme <scheme> ;
-    skos:notation "544" ;
-    skos:prefLabel "Evang. Religionspädagogik, kirchliche Bildungsarbeit"@de .
-
-<n545> a skos:Concept ;
-    skos:broader <n03> ;
-    skos:inScheme <scheme> ;
-    skos:notation "545" ;
-    skos:prefLabel "Kath. Religionspädagogik, kirchliche Bildungsarbeit"@de .
-
-<n548> a skos:Concept ;
-    skos:broader <n05> ;
-    skos:inScheme <scheme> ;
-    skos:notation "548" ;
-    skos:prefLabel "Ur- und Frühgeschichte"@de .
-
-<n0> a skos:Concept ;
-    skos:notation "0" ;
-    skos:prefLabel "Fachübergreifend"@de .
-
-<n15> a skos:Concept ;
-    skos:notation "15" ;
-    skos:prefLabel "Zentrale Einrichtungen (ohne klinikspezifische Einrichtungen)"@de ;
-    skos:topConceptOf <scheme> .
-
-<n18> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "18" ;
-    skos:prefLabel "Islamische Studien/Islamische Theologie"@de .
-
-<n19> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "19" ;
-    skos:prefLabel "Medienwissenschaft"@de .
-
-<n20> a skos:Concept ;
-    skos:notation "20" ;
-    skos:prefLabel "Zentrale Einrichtungen der Hochschulkliniken (nur Humanmedizin)"@de ;
-    skos:topConceptOf <scheme> .
-
-<n25> a skos:Concept ;
-    skos:broader <n3> ;
-    skos:inScheme <scheme> ;
-    skos:notation "25" ;
-    skos:prefLabel "Politikwissenschaft"@de .
-
-<n32> a skos:Concept ;
-    skos:broader <n3> ;
-    skos:inScheme <scheme> ;
-    skos:notation "32" ;
-    skos:prefLabel "Psychologie"@de .
-
-<n34> a skos:Concept ;
-    skos:broader <n3> ;
-    skos:inScheme <scheme> ;
-    skos:notation "34" ;
-    skos:prefLabel "Kommunikationswissenschaft/Publizistik"@de .
-
-<n41> a skos:Concept ;
-    skos:broader <n4> ;
-    skos:inScheme <scheme> ;
-    skos:notation "41" ;
-    skos:prefLabel "Pharmazie"@de .
-
-<n49> a skos:Concept ;
-    skos:broader <n5> ;
-    skos:inScheme <scheme> ;
-    skos:notation "49" ;
-    skos:prefLabel "Humanmedizin (ohne Zahnmedizin)"@de .
-
-<n50> a skos:Concept ;
-    skos:broader <n5> ;
-    skos:inScheme <scheme> ;
-    skos:notation "50" ;
-    skos:prefLabel "Zahnmedizin"@de .
-
-<n51> a skos:Concept ;
-    skos:broader <n7> ;
-    skos:inScheme <scheme> ;
-    skos:notation "51" ;
-    skos:prefLabel "Veterinärmedizin"@de .
-
-<n70> a skos:Concept ;
-    skos:broader <n8> ;
-    skos:inScheme <scheme> ;
-    skos:notation "70" ;
-    skos:prefLabel "Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt"@de .
-
-<n00> a skos:Concept ;
-    skos:notation "00" ;
-    skos:prefLabel "Außerhalb der Studienbereichsgliederung/Sonstige Fächer"@de ;
-    skos:topConceptOf <scheme> .
-
-<n01> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "01" ;
-    skos:prefLabel "Geisteswissenschaften allgemein"@de .
-
-<n06> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "06" ;
-    skos:prefLabel "Informations- und Bibliothekswissenschaften"@de .
-
-<n10> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "10" ;
-    skos:prefLabel "Anglistik, Amerikanistik"@de .
-
-<n2> a skos:Concept ;
-    skos:notation "2" ;
-    skos:prefLabel "Sport"@de ;
-    skos:topConceptOf <scheme> .
-
-<n22> a skos:Concept ;
-    skos:broader <n2> ;
-    skos:inScheme <scheme> ;
-    skos:notation "22" ;
-    skos:prefLabel "Sport, Sportwissenschaft"@de .
-
-<n28> a skos:Concept ;
-    skos:broader <n3> ;
-    skos:inScheme <scheme> ;
-    skos:notation "28" ;
-    skos:prefLabel "Rechtswissenschaften"@de .
-
-<n31> a skos:Concept ;
-    skos:broader <n3> ;
-    skos:inScheme <scheme> ;
-    skos:notation "31" ;
-    skos:prefLabel "Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt"@de .
-
-<n39> a skos:Concept ;
-    skos:broader <n4> ;
-    skos:inScheme <scheme> ;
-    skos:notation "39" ;
-    skos:prefLabel "Physik, Astronomie"@de .
-
-<n59> a skos:Concept ;
-    skos:broader <n7> ;
-    skos:inScheme <scheme> ;
-    skos:notation "59" ;
-    skos:prefLabel "Forstwissenschaft, Holzwirtschaft"@de .
-
-<n66> a skos:Concept ;
-    skos:broader <n8> ;
-    skos:inScheme <scheme> ;
-    skos:notation "66" ;
-    skos:prefLabel "Architektur, Innenarchitektur"@de .
-
-<n67> a skos:Concept ;
-    skos:broader <n8> ;
-    skos:inScheme <scheme> ;
-    skos:notation "67" ;
-    skos:prefLabel "Raumplanung"@de .
-
-<n69> a skos:Concept ;
-    skos:broader <n8> ;
-    skos:inScheme <scheme> ;
-    skos:notation "69" ;
-    skos:prefLabel "Vermessungswesen"@de .
-
-<n72> a skos:Concept ;
-    skos:broader <n8> ;
-    skos:inScheme <scheme> ;
-    skos:notation "72" ;
-    skos:prefLabel "Materialwissenschaft und Werkstofftechnik"@de .
-
-<n02> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "02" ;
-    skos:prefLabel "Evangelische Theologie, -Religionslehre"@de .
-
-<n03> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "03" ;
-    skos:prefLabel "Katholische Theologie, -Religionslehre"@de .
-
-<n04> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "04" ;
-    skos:prefLabel "Philosophie"@de .
-
-<n14> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "14" ;
-    skos:prefLabel "Kulturwissenschaften i.e.S."@de .
-
-<n23> a skos:Concept ;
-    skos:broader <n3> ;
-    skos:inScheme <scheme> ;
-    skos:notation "23" ;
-    skos:prefLabel "Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"@de .
-
-<n24> a skos:Concept ;
-    skos:broader <n3> ;
-    skos:inScheme <scheme> ;
-    skos:notation "24" ;
-    skos:prefLabel "Regionalwissenschaften"@de .
-
-<n26> a skos:Concept ;
-    skos:broader <n3> ;
-    skos:inScheme <scheme> ;
-    skos:notation "26" ;
-    skos:prefLabel "Sozialwissenschaften/Soziologie"@de .
-
-<n27> a skos:Concept ;
-    skos:broader <n3> ;
-    skos:inScheme <scheme> ;
-    skos:notation "27" ;
-    skos:prefLabel "Sozialwesen"@de .
-
-<n37> a skos:Concept ;
-    skos:broader <n4> ;
-    skos:inScheme <scheme> ;
-    skos:notation "37" ;
-    skos:prefLabel "Mathematik"@de .
-
-<n40> a skos:Concept ;
-    skos:broader <n4> ;
-    skos:inScheme <scheme> ;
-    skos:notation "40" ;
-    skos:prefLabel "Chemie"@de .
-
-<n44> a skos:Concept ;
-    skos:broader <n4> ;
-    skos:inScheme <scheme> ;
-    skos:notation "44" ;
-    skos:prefLabel "Geographie"@de .
-
-<n57> a skos:Concept ;
-    skos:broader <n7> ;
-    skos:inScheme <scheme> ;
-    skos:notation "57" ;
-    skos:prefLabel "Landespflege, Umweltgestaltung"@de .
-
-<n60> a skos:Concept ;
-    skos:broader <n7> ;
-    skos:inScheme <scheme> ;
-    skos:notation "60" ;
-    skos:prefLabel "Ernährungs- und Haushaltswissenschaften"@de .
-
-<n83> a skos:Concept ;
-    skos:broader <n00> ;
-    skos:inScheme <scheme> ;
-    skos:notation "83" ;
-    skos:prefLabel "Außerhalb der Studienbereichsgliederung"@de .
-
-<n36> a skos:Concept ;
-    skos:broader <n4> ;
-    skos:inScheme <scheme> ;
-    skos:notation "36" ;
-    skos:prefLabel "Mathematik, Naturwissenschaften allgemein"@de .
-
-<n42> a skos:Concept ;
-    skos:broader <n4> ;
-    skos:inScheme <scheme> ;
-    skos:notation "42" ;
-    skos:prefLabel "Biologie"@de .
-
-<n48> a skos:Concept ;
-    skos:broader <n5> ;
-    skos:inScheme <scheme> ;
-    skos:notation "48" ;
-    skos:prefLabel "Gesundheitswissenschaften allgemein"@de .
-
-<n5> a skos:Concept ;
-    skos:notation "5" ;
-    skos:prefLabel "Humanmedizin/Gesundheitswissenschaften"@de ;
-    skos:topConceptOf <scheme> .
-
-<n62> a skos:Concept ;
-    skos:broader <n8> ;
-    skos:inScheme <scheme> ;
-    skos:notation "62" ;
-    skos:prefLabel "Bergbau, Hüttenwesen"@de .
-
-<n74> a skos:Concept ;
-    skos:broader <n9> ;
-    skos:inScheme <scheme> ;
-    skos:notation "74" ;
-    skos:prefLabel "Kunst, Kunstwissenschaft allgemein"@de .
-
-<n75> a skos:Concept ;
-    skos:broader <n9> ;
-    skos:inScheme <scheme> ;
-    skos:notation "75" ;
-    skos:prefLabel "Bildende Kunst"@de .
-
-<n07> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "07" ;
-    skos:prefLabel "Allgemeine und vergleichende Literatur- und Sprachwissenschaft"@de .
-
-<n08> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "08" ;
-    skos:prefLabel "Altphilologie (klassische Philologie), Neugriechisch"@de .
-
-<n11> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "11" ;
-    skos:prefLabel "Romanistik"@de .
-
-<n65> a skos:Concept ;
-    skos:broader <n8> ;
-    skos:inScheme <scheme> ;
-    skos:notation "65" ;
-    skos:prefLabel "Verkehrstechnik, Nautik"@de .
-
-<n68> a skos:Concept ;
-    skos:broader <n8> ;
-    skos:inScheme <scheme> ;
-    skos:notation "68" ;
-    skos:prefLabel "Bauingenieurwesen"@de .
-
-<n77> a skos:Concept ;
-    skos:broader <n9> ;
-    skos:inScheme <scheme> ;
-    skos:notation "77" ;
-    skos:prefLabel "Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft"@de .
-
-<n09> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "09" ;
-    skos:prefLabel "Germanistik (Deutsch, germanische Sprachen ohne Anglistik)"@de .
-
-<n64> a skos:Concept ;
-    skos:broader <n8> ;
-    skos:inScheme <scheme> ;
-    skos:notation "64" ;
-    skos:prefLabel "Elektrotechnik und Informationstechnik"@de .
-
-<n7> a skos:Concept ;
-    skos:notation "7" ;
-    skos:prefLabel "Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin"@de ;
-    skos:topConceptOf <scheme> .
-
-<n76> a skos:Concept ;
-    skos:broader <n9> ;
-    skos:inScheme <scheme> ;
-    skos:notation "76" ;
-    skos:prefLabel "Gestaltung"@de .
-
-<n9> a skos:Concept ;
-    skos:notation "9" ;
-    skos:prefLabel "Kunst, Kunstwissenschaft"@de ;
-    skos:topConceptOf <scheme> .
-
-<n05> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "05" ;
-    skos:prefLabel "Geschichte"@de .
-
-<n43> a skos:Concept ;
-    skos:broader <n4> ;
-    skos:inScheme <scheme> ;
-    skos:notation "43" ;
-    skos:prefLabel "Geowissenschaften (ohne Geographie)"@de .
-
-<n61> a skos:Concept ;
-    skos:broader <n8> ;
-    skos:inScheme <scheme> ;
-    skos:notation "61" ;
-    skos:prefLabel "Ingenieurwesen allgemein"@de .
-
-<n71> a skos:Concept ;
-    skos:broader <n8> ;
-    skos:inScheme <scheme> ;
-    skos:notation "71" ;
-    skos:prefLabel "Informatik"@de .
-
-<n12> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "12" ;
-    skos:prefLabel "Slawistik, Baltistik, Finno-Ugristik"@de .
-
-<n33> a skos:Concept ;
-    skos:broader <n3> ;
-    skos:inScheme <scheme> ;
-    skos:notation "33" ;
-    skos:prefLabel "Erziehungswissenschaften"@de .
-
-<n4> a skos:Concept ;
-    skos:notation "4" ;
-    skos:prefLabel "Mathematik, Naturwissenschaften"@de ;
-    skos:topConceptOf <scheme> .
-
-<n58> a skos:Concept ;
-    skos:broader <n7> ;
-    skos:inScheme <scheme> ;
-    skos:notation "58" ;
-    skos:prefLabel "Agrarwissenschaften, Lebensmittel- und Getränketechnologie"@de .
-
-<n30> a skos:Concept ;
-    skos:broader <n3> ;
-    skos:inScheme <scheme> ;
-    skos:notation "30" ;
-    skos:prefLabel "Wirtschaftswissenschaften"@de .
-
-<n78> a skos:Concept ;
-    skos:broader <n9> ;
-    skos:inScheme <scheme> ;
-    skos:notation "78" ;
-    skos:prefLabel "Musik, Musikwissenschaft"@de .
-
-<n3> a skos:Concept ;
-    skos:notation "3" ;
-    skos:prefLabel "Rechts-, Wirtschafts- und Sozialwissenschaften"@de ;
-    skos:topConceptOf <scheme> .
-
-<n8> a skos:Concept ;
-    skos:notation "8" ;
-    skos:prefLabel "Ingenieurwissenschaften"@de ;
-    skos:topConceptOf <scheme> .
-
-<n13> a skos:Concept ;
-    skos:broader <n1> ;
-    skos:inScheme <scheme> ;
-    skos:notation "13" ;
-    skos:prefLabel "Sonstige Sprach- und Kulturwissenschaften"@de .
-
-<n29> a skos:Concept ;
-    skos:broader <n3> ;
-    skos:inScheme <scheme> ;
-    skos:notation "29" ;
-    skos:prefLabel "Verwaltungswissenschaften"@de .
-
-<n1> a skos:Concept ;
-    skos:notation "1" ;
-    skos:prefLabel "Geisteswissenschaften"@de ;
-    skos:topConceptOf <scheme> .
-
-<n63> a skos:Concept ;
-    skos:broader <n8> ;
-    skos:inScheme <scheme> ;
-    skos:notation "63" ;
-    skos:prefLabel "Maschinenbau/Verfahrenstechnik"@de .
 
 <scheme> a skos:ConceptScheme ;
     dct:alternative "Hochschulfächersystematik"@de ;
@@ -2106,7 +12,6 @@
     vann:preferredNamespacePrefix "hfs" ;
     vann:preferredNamespaceUri "https://w3id.org/kim/hochschulfaechersystematik/" ;
     skos:hasTopConcept <n0>,
-        <n00>,
         <n1>,
         <n15>,
         <n2>,
@@ -2118,4 +23,2751 @@
         <n8>,
         <n9> ;
     schema:isBasedOn <http://bartoc.org/node/18919> .
+
+<n0> a skos:Concept ;
+    skos:notation "0" ;
+    skos:prefLabel "Fachübergreifend"@de,
+        "Interdisciplinary"@en,
+        "Міждисциплінарний"@uk ;
+    skos:topConceptOf <scheme> .
+
+<n1> a skos:Concept ;
+    skos:notation "1" ;
+    skos:prefLabel "Geisteswissenschaften"@de,
+        "Humanities"@en,
+        "Гуманітарні науки"@uk ;
+    skos:topConceptOf <scheme> .
+
+<n2> a skos:Concept ;
+    skos:notation "2" ;
+    skos:prefLabel "Sport"@de,
+        "Sports"@en,
+        "Спорт"@uk ;
+    skos:topConceptOf <scheme> .
+
+<n3> a skos:Concept ;
+    skos:notation "3" ;
+    skos:prefLabel "Rechts-, Wirtschafts- und Sozialwissenschaften"@de,
+        "Law, Economics and Social Sciences"@en,
+        "Право, економіка та суспільні науки"@uk ;
+    skos:topConceptOf <scheme> .
+
+<n4> a skos:Concept ;
+    skos:notation "4" ;
+    skos:prefLabel "Mathematik, Naturwissenschaften"@de,
+        "Mathematics, Natural Sciences"@en,
+        "Математика, природничі науки"@uk ;
+    skos:topConceptOf <scheme> .
+
+<n5> a skos:Concept ;
+    skos:notation "5" ;
+    skos:prefLabel "Humanmedizin/Gesundheitswissenschaften"@de,
+        "Human Medicine / Health Sciences"@en,
+        "Медицина / Науки про здоров'я"@uk ;
+    skos:topConceptOf <scheme> .
+
+<n7> a skos:Concept ;
+    skos:notation "7" ;
+    skos:prefLabel "Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin"@de,
+        "Agricultural, Forest and Nutritional Sciences, Veterinary medicine"@en,
+        "Сільськогосподарські, лісові та харчові науки, ветеринарія"@uk ;
+    skos:topConceptOf <scheme> .
+
+<n8> a skos:Concept ;
+    skos:notation "8" ;
+    skos:prefLabel "Ingenieurwissenschaften"@de,
+        "Engineering Sciences"@en,
+        "Інженерія"@uk ;
+    skos:topConceptOf <scheme> .
+
+<n9> a skos:Concept ;
+    skos:notation "9" ;
+    skos:prefLabel "Kunst, Kunstwissenschaft"@de,
+        "Art, Art Theory"@en,
+        "Мистецтво, мистецтвознавство"@uk ;
+    skos:topConceptOf <scheme> .
+
+<n01> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "01" ;
+    skos:prefLabel "Geisteswissenschaften allgemein"@de,
+        "Humanities (general)"@en,
+        "Гуманітарні науки загалом"@uk .
+
+<n02> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "02" ;
+    skos:prefLabel "Evangelische Theologie, -Religionslehre"@de,
+        "Protestant Theology, Protestant Religious Education"@en,
+        "Протестантська теологія, протестантська релігійна освіта"@uk .
+
+<n03> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "03" ;
+    skos:prefLabel "Katholische Theologie, -Religionslehre"@de,
+        "Catholic Theology, Catholic Religious Education"@en,
+        "Католицька теологія, католицька релігійна освіта"@uk .
+
+<n04> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "04" ;
+    skos:prefLabel "Philosophie"@de,
+        "Philosophy"@en,
+        "Філософія"@uk .
+
+<n05> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "05" ;
+    skos:prefLabel "Geschichte"@de,
+        "History"@en,
+        "Історія"@uk .
+
+<n06> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "06" ;
+    skos:prefLabel "Informations- und Bibliothekswissenschaften"@de,
+        "Information and Library Sciences"@en,
+        "Бібліотекознавство, документознавство"@uk .
+
+<n07> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "07" ;
+    skos:prefLabel "Allgemeine und vergleichende Literatur- und Sprachwissenschaft"@de,
+        "General and Comparative Literary Studies and Linguistics"@en,
+        "Загальне та порівняльне літературознавство та мовознавство"@uk .
+
+<n08> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "08" ;
+    skos:prefLabel "Altphilologie (klassische Philologie), Neugriechisch"@de,
+        "Classical Philology, Modern Greek"@en,
+        "Класична філологія, новогрецька мова"@uk .
+
+<n09> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "09" ;
+    skos:prefLabel "Germanistik (Deutsch, germanische Sprachen ohne Anglistik)"@de,
+        "German Studies (German, Germanic Languages excl. English)"@en,
+        "Німецькі студії (німецька мова, германські мови без англійської мови)"@uk .
+
+<n10> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "10" ;
+    skos:prefLabel "Anglistik, Amerikanistik"@de,
+        "English Studies, American Studies"@en,
+        "Англійські студії, американські студії"@uk .
+
+<n11> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "11" ;
+    skos:prefLabel "Romanistik"@de,
+        "Romance Studies"@en,
+        "Романістика"@uk .
+
+<n12> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "12" ;
+    skos:prefLabel "Slawistik, Baltistik, Finno-Ugristik"@de,
+        "Slavic, Baltic, Finno-Ugrian Studies"@en,
+        "Слов'янознавство, балтистика, фіно-угрознавство"@uk .
+
+<n13> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "13" ;
+    skos:prefLabel "Sonstige Sprach- und Kulturwissenschaften"@de,
+        "Other linguistic and cultural studies"@en,
+        "Інші лінгвокультурологічні дослідження"@uk .
+
+<n14> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "14" ;
+    skos:prefLabel "Kulturwissenschaften i.e.S."@de,
+        "Cultural Studies in the narrower sense"@en,
+        "Культурологія у вужчому розумінні"@uk .
+
+<n15> a skos:Concept ;
+    skos:prefLabel "Zentrale Einrichtungen (ohne klinikspezifische Einrichtungen)"@de ;
+    skos:topConceptOf <scheme> .
+
+<n18> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "18" ;
+    skos:prefLabel "Islamische Studien/Islamische Theologie"@de,
+        "Islamic Studies/Islamic Theology"@en,
+        "Ісламознавство/Ісламська теологія"@uk .
+
+<n19> a skos:Concept ;
+    skos:broader <n1> ;
+    skos:inScheme <scheme> ;
+    skos:notation "19" ;
+    skos:prefLabel "Medienwissenschaft"@de,
+        "Media Science"@en,
+        "Медіазнавство"@uk .
+
+<n20> a skos:Concept ;
+    skos:prefLabel "Zentrale Einrichtungen der Hochschulkliniken (nur Humanmedizin)"@de ;
+    skos:topConceptOf <scheme> .
+
+<n22> a skos:Concept ;
+    skos:broader <n2> ;
+    skos:inScheme <scheme> ;
+    skos:notation "22" ;
+    skos:prefLabel "Sport, Sportwissenschaft"@de,
+        "Sports, Sports Science"@en,
+        "Фізична культура та спорт"@uk .
+
+<n23> a skos:Concept ;
+    skos:broader <n3> ;
+    skos:inScheme <scheme> ;
+    skos:notation "23" ;
+    skos:prefLabel "Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"@de,
+        "Law, Economics and Social Sciences (general)"@en,
+        "Право, економіка та суспільні науки"@uk .
+
+<n24> a skos:Concept ;
+    skos:broader <n3> ;
+    skos:inScheme <scheme> ;
+    skos:notation "24" ;
+    skos:prefLabel "Regionalwissenschaften"@de,
+        "Regional Studies"@en,
+        "Регіональні студії"@uk .
+
+<n25> a skos:Concept ;
+    skos:broader <n3> ;
+    skos:inScheme <scheme> ;
+    skos:notation "25" ;
+    skos:prefLabel "Politikwissenschaft"@de,
+        "Political Science"@en,
+        "Політологія"@uk .
+
+<n26> a skos:Concept ;
+    skos:broader <n3> ;
+    skos:inScheme <scheme> ;
+    skos:notation "26" ;
+    skos:prefLabel "Sozialwissenschaften/Soziologie"@de,
+        "Social Sciences/Sociology"@en,
+        "Суспільні науки та соціологія"@uk .
+
+<n27> a skos:Concept ;
+    skos:broader <n3> ;
+    skos:inScheme <scheme> ;
+    skos:notation "27" ;
+    skos:prefLabel "Sozialwesen"@de,
+        "Applied Social Science"@en,
+        "Прикладні суспільні науки"@uk .
+
+<n28> a skos:Concept ;
+    skos:broader <n3> ;
+    skos:inScheme <scheme> ;
+    skos:notation "28" ;
+    skos:prefLabel "Rechtswissenschaften"@de,
+        "Law"@en,
+        "Правознавство"@uk .
+
+<n29> a skos:Concept ;
+    skos:broader <n3> ;
+    skos:inScheme <scheme> ;
+    skos:notation "29" ;
+    skos:prefLabel "Verwaltungswissenschaften"@de,
+        "Administrative Sciences"@en,
+        "Управління та адміністрування"@uk .
+
+<n30> a skos:Concept ;
+    skos:broader <n3> ;
+    skos:inScheme <scheme> ;
+    skos:notation "30" ;
+    skos:prefLabel "Wirtschaftswissenschaften"@de,
+        "Business and Economics"@en,
+        "Бізнес та економіка"@uk .
+
+<n31> a skos:Concept ;
+    skos:broader <n3> ;
+    skos:inScheme <scheme> ;
+    skos:notation "31" ;
+    skos:prefLabel "Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt"@de,
+        "Business Engineering specialising in Economics"@en,
+        "Бізнес інженерія у галузі економіки"@uk .
+
+<n32> a skos:Concept ;
+    skos:broader <n3> ;
+    skos:inScheme <scheme> ;
+    skos:notation "32" ;
+    skos:prefLabel "Psychologie"@de,
+        "Psychology"@en,
+        "Психологія"@uk .
+
+<n33> a skos:Concept ;
+    skos:broader <n3> ;
+    skos:inScheme <scheme> ;
+    skos:notation "33" ;
+    skos:prefLabel "Erziehungswissenschaften"@de,
+        "Educational Sciences"@en,
+        "Педагогічні науки"@uk .
+
+<n34> a skos:Concept ;
+    skos:broader <n3> ;
+    skos:inScheme <scheme> ;
+    skos:notation "34" ;
+    skos:prefLabel "Kommunikationswissenschaft/Publizistik"@de,
+        "Communication Science/Journalism"@en,
+        "Соціальні комунікації/Журналістика"@uk .
+
+<n36> a skos:Concept ;
+    skos:broader <n4> ;
+    skos:inScheme <scheme> ;
+    skos:notation "36" ;
+    skos:prefLabel "Mathematik, Naturwissenschaften allgemein"@de,
+        "Mathematics, Natural Sciences (general)"@en,
+        "Математика, Природничі науки (загальні)"@uk .
+
+<n37> a skos:Concept ;
+    skos:broader <n4> ;
+    skos:inScheme <scheme> ;
+    skos:notation "37" ;
+    skos:prefLabel "Mathematik"@de,
+        "Mathematics"@en,
+        "Математика"@uk .
+
+<n39> a skos:Concept ;
+    skos:broader <n4> ;
+    skos:inScheme <scheme> ;
+    skos:notation "39" ;
+    skos:prefLabel "Physik, Astronomie"@de,
+        "Physics, Astronomy"@en,
+        "Фізика, Астрономія"@uk .
+
+<n40> a skos:Concept ;
+    skos:broader <n4> ;
+    skos:inScheme <scheme> ;
+    skos:notation "40" ;
+    skos:prefLabel "Chemie"@de,
+        "Chemistry"@en,
+        "Хімія"@uk .
+
+<n41> a skos:Concept ;
+    skos:broader <n4> ;
+    skos:inScheme <scheme> ;
+    skos:notation "41" ;
+    skos:prefLabel "Pharmazie"@de,
+        "Pharmacy"@en,
+        "Фармація"@uk .
+
+<n42> a skos:Concept ;
+    skos:broader <n4> ;
+    skos:inScheme <scheme> ;
+    skos:notation "42" ;
+    skos:prefLabel "Biologie"@de,
+        "Biology"@en,
+        "Біологія"@uk .
+
+<n43> a skos:Concept ;
+    skos:broader <n4> ;
+    skos:inScheme <scheme> ;
+    skos:notation "43" ;
+    skos:prefLabel "Geowissenschaften (ohne Geographie)"@de,
+        "Geosciences (excl. Geography)"@en,
+        "Науки про Землю(крім географії)"@uk .
+
+<n44> a skos:Concept ;
+    skos:broader <n4> ;
+    skos:inScheme <scheme> ;
+    skos:notation "44" ;
+    skos:prefLabel "Geographie"@de,
+        "Geography"@en,
+        "Географія"@uk .
+
+<n48> a skos:Concept ;
+    skos:broader <n5> ;
+    skos:inScheme <scheme> ;
+    skos:notation "48" ;
+    skos:prefLabel "Gesundheitswissenschaften allgemein"@de,
+        "Health Sciences (general)"@en,
+        "Науки про здоров'я (в цілому)"@uk .
+
+<n49> a skos:Concept ;
+    skos:broader <n5> ;
+    skos:inScheme <scheme> ;
+    skos:notation "49" ;
+    skos:prefLabel "Humanmedizin (ohne Zahnmedizin)"@de,
+        "Human Medicine (excl. Dentistry)"@en,
+        "Медицина людини (крім стоматології)"@uk .
+
+<n50> a skos:Concept ;
+    skos:broader <n5> ;
+    skos:inScheme <scheme> ;
+    skos:notation "50" ;
+    skos:prefLabel "Zahnmedizin"@de,
+        "Dentistry"@en,
+        "Стоматологія"@uk .
+
+<n51> a skos:Concept ;
+    skos:broader <n7> ;
+    skos:inScheme <scheme> ;
+    skos:notation "51" ;
+    skos:prefLabel "Veterinärmedizin"@de,
+        "Veterinary Medicine"@en,
+        "Ветеринарна медицина"@uk .
+
+<n57> a skos:Concept ;
+    skos:broader <n7> ;
+    skos:inScheme <scheme> ;
+    skos:notation "57" ;
+    skos:prefLabel "Landespflege, Umweltgestaltung"@de,
+        "Land Management Engineering, Environmental Design"@en,
+        "Землеустрій, екологічний дизайн"@uk .
+
+<n58> a skos:Concept ;
+    skos:broader <n7> ;
+    skos:inScheme <scheme> ;
+    skos:notation "58" ;
+    skos:prefLabel "Agrarwissenschaften, Lebensmittel- und Getränketechnologie"@de,
+        "Agricultural Science, Food- and Beverage Technology"@en,
+        "Сільськогосподарська наука, харчові технології"@uk .
+
+<n59> a skos:Concept ;
+    skos:broader <n7> ;
+    skos:inScheme <scheme> ;
+    skos:notation "59" ;
+    skos:prefLabel "Forstwissenschaft, Holzwirtschaft"@de,
+        "Forestry, Wood Science"@en,
+        "Лісівництво, деревообробна промисловість"@uk .
+
+<n60> a skos:Concept ;
+    skos:broader <n7> ;
+    skos:inScheme <scheme> ;
+    skos:notation "60" ;
+    skos:prefLabel "Ernährungs- und Haushaltswissenschaften"@de,
+        "Nutritional and Domestic Science"@en,
+        "Харчові та побутові науки"@uk .
+
+<n61> a skos:Concept ;
+    skos:broader <n8> ;
+    skos:inScheme <scheme> ;
+    skos:notation "61" ;
+    skos:prefLabel "Ingenieurwesen allgemein"@de,
+        "Engineering (general)"@en,
+        "Інженерія (в цілому)"@uk .
+
+<n62> a skos:Concept ;
+    skos:broader <n8> ;
+    skos:inScheme <scheme> ;
+    skos:notation "62" ;
+    skos:prefLabel "Bergbau, Hüttenwesen"@de,
+        "Mining, Metallurgy"@en,
+        "Гірнича справа, металургія"@uk .
+
+<n63> a skos:Concept ;
+    skos:broader <n8> ;
+    skos:inScheme <scheme> ;
+    skos:notation "63" ;
+    skos:prefLabel "Maschinenbau/Verfahrenstechnik"@de,
+        "Mechanical Engineering / Process Engineering"@en,
+        "Машинобудування/Технологія"@uk .
+
+<n64> a skos:Concept ;
+    skos:broader <n8> ;
+    skos:inScheme <scheme> ;
+    skos:notation "64" ;
+    skos:prefLabel "Elektrotechnik und Informationstechnik"@de,
+        "Electrical Engineering and Information Engineering"@en,
+        "Електротехніка та інформаційні технології"@uk .
+
+<n65> a skos:Concept ;
+    skos:broader <n8> ;
+    skos:inScheme <scheme> ;
+    skos:notation "65" ;
+    skos:prefLabel "Verkehrstechnik, Nautik"@de,
+        "Traffic Engineering, Nautical Science"@en,
+        "Транспортні технології/Мореплавство"@uk .
+
+<n66> a skos:Concept ;
+    skos:broader <n8> ;
+    skos:inScheme <scheme> ;
+    skos:notation "66" ;
+    skos:prefLabel "Architektur, Innenarchitektur"@de,
+        "Architecture, Interior Architecture "@en,
+        "Архітектура, дизайн інтер'єру"@uk .
+
+<n67> a skos:Concept ;
+    skos:broader <n8> ;
+    skos:inScheme <scheme> ;
+    skos:notation "67" ;
+    skos:prefLabel "Raumplanung"@de,
+        "Spatial Planning"@en,
+        "Містобудування та територіальне планування"@uk .
+
+<n68> a skos:Concept ;
+    skos:broader <n8> ;
+    skos:inScheme <scheme> ;
+    skos:notation "68" ;
+    skos:prefLabel "Bauingenieurwesen"@de,
+        "Civil Engineering"@en,
+        "Цивільна інженерія"@uk .
+
+<n69> a skos:Concept ;
+    skos:broader <n8> ;
+    skos:inScheme <scheme> ;
+    skos:notation "69" ;
+    skos:prefLabel "Vermessungswesen"@de,
+        "Surveying"@en,
+        "Землеустрій"@uk .
+
+<n70> a skos:Concept ;
+    skos:broader <n8> ;
+    skos:inScheme <scheme> ;
+    skos:notation "70" ;
+    skos:prefLabel "Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt"@de,
+        "Business Engineering specialising in Engineering Sciences"@en,
+        "Промислова інженерія у галузі технічних наук"@uk .
+
+<n71> a skos:Concept ;
+    skos:broader <n8> ;
+    skos:inScheme <scheme> ;
+    skos:notation "71" ;
+    skos:prefLabel "Informatik"@de,
+        "Computer Science"@en,
+        "Комп'ютерні науки"@uk .
+
+<n72> a skos:Concept ;
+    skos:broader <n8> ;
+    skos:inScheme <scheme> ;
+    skos:notation "72" ;
+    skos:prefLabel "Materialwissenschaft und Werkstofftechnik"@de,
+        "Materials Science and Materials Engineering"@en,
+        "Матеріалознавство та прикладна механіка"@uk .
+
+<n74> a skos:Concept ;
+    skos:broader <n9> ;
+    skos:inScheme <scheme> ;
+    skos:notation "74" ;
+    skos:prefLabel "Kunst, Kunstwissenschaft allgemein"@de,
+        "Art, Art Theory (general)"@en,
+        "Культура і мистецтво, теорія мистецтв (загальні)"@uk .
+
+<n75> a skos:Concept ;
+    skos:broader <n9> ;
+    skos:inScheme <scheme> ;
+    skos:notation "75" ;
+    skos:prefLabel "Bildende Kunst"@de,
+        "Fine Arts"@en,
+        "Образотворче мистецтво"@uk .
+
+<n76> a skos:Concept ;
+    skos:broader <n9> ;
+    skos:inScheme <scheme> ;
+    skos:notation "76" ;
+    skos:prefLabel "Gestaltung"@de,
+        "Design"@en,
+        "Дизайн"@uk .
+
+<n77> a skos:Concept ;
+    skos:broader <n9> ;
+    skos:inScheme <scheme> ;
+    skos:notation "77" ;
+    skos:prefLabel "Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft"@de,
+        "Performing Arts, Film and Television Studies, Theatre Studies"@en,
+        "Акторська гра/Телемистецтво/Театральне мистецтво"@uk .
+
+<n78> a skos:Concept ;
+    skos:broader <n9> ;
+    skos:inScheme <scheme> ;
+    skos:notation "78" ;
+    skos:prefLabel "Musik, Musikwissenschaft"@de,
+        "Music, Musicology"@en,
+        "Музика, музикознавство"@uk .
+
+<n001> a skos:Concept ;
+    skos:broader <n13> ;
+    skos:inScheme <scheme> ;
+    skos:notation "001" ;
+    skos:prefLabel "Ägyptologie"@de,
+        "Egyptology"@en,
+        "Єгиптологія"@uk .
+
+<n002> a skos:Concept ;
+    skos:broader <n13> ;
+    skos:inScheme <scheme> ;
+    skos:notation "002" ;
+    skos:prefLabel "Afrikanistik"@de,
+        "African Studies"@en,
+        "Африканські студії"@uk .
+
+<n003> a skos:Concept ;
+    skos:broader <n58> ;
+    skos:inScheme <scheme> ;
+    skos:notation "003" ;
+    skos:prefLabel "Agrarwissenschaft/Landwirtschaft"@de,
+        "Agricultural Science/Agriculture"@en,
+        "Аграрні науки/Сільське господарство"@uk .
+
+<n004> a skos:Concept ;
+    skos:broader <n01> ;
+    skos:inScheme <scheme> ;
+    skos:notation "004" ;
+    skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften)"@de,
+        "Interdisciplinary Studies (specialising in Humanities)"@en,
+        "Міждисциплінарні науки (Спеціалізація гумагітарні науки)"@uk .
+
+<n005> a skos:Concept ;
+    skos:broader <n08> ;
+    skos:inScheme <scheme> ;
+    skos:notation "005" ;
+    skos:prefLabel "Klassische Philologie"@de,
+        "Classical Philology"@en,
+        "Класична філологія"@uk .
+
+<n006> a skos:Concept ;
+    skos:broader <n10> ;
+    skos:inScheme <scheme> ;
+    skos:notation "006" ;
+    skos:prefLabel "Amerikanistik/Amerikakunde"@de,
+        "American Studies"@en,
+        "Американські студії"@uk .
+
+<n007> a skos:Concept ;
+    skos:broader <n76> ;
+    skos:inScheme <scheme> ;
+    skos:notation "007" ;
+    skos:prefLabel "Angewandte Kunst"@de,
+        "Applied Art"@en,
+        "Декоративно-ужиткове мистецтво"@uk .
+
+<n008> a skos:Concept ;
+    skos:broader <n10> ;
+    skos:inScheme <scheme> ;
+    skos:notation "008" ;
+    skos:prefLabel "Anglistik/Englisch"@de,
+        "English Studies"@en,
+        "Англійські студії"@uk .
+
+<n009> a skos:Concept ;
+    skos:broader <n42> ;
+    skos:inScheme <scheme> ;
+    skos:notation "009" ;
+    skos:prefLabel "Anthropologie (Humanbiologie)"@de,
+        "Anthropology (Human Biology)"@en,
+        "Антропологія (Біологія людини)"@uk .
+
+<n010> a skos:Concept ;
+    skos:broader <n13> ;
+    skos:inScheme <scheme> ;
+    skos:notation "010" ;
+    skos:prefLabel "Arabisch/Arabistik"@de,
+        "Arabic/Arabic Studies"@en,
+        "Арабістика"@uk .
+
+<n011> a skos:Concept ;
+    skos:broader <n30> ;
+    skos:inScheme <scheme> ;
+    skos:notation "011" ;
+    skos:prefLabel "Arbeitslehre/Wirtschaftslehre"@de,
+        "Work Studies/Business Studies"@en,
+        "Студії у галузі організації праці/Бізнес"@uk .
+
+<n012> a skos:Concept ;
+    skos:broader <n05> ;
+    skos:inScheme <scheme> ;
+    skos:notation "012" ;
+    skos:prefLabel "Archäologie"@de,
+        "Archaeology"@en,
+        "Археологія"@uk .
+
+<n013> a skos:Concept ;
+    skos:broader <n66> ;
+    skos:inScheme <scheme> ;
+    skos:notation "013" ;
+    skos:prefLabel "Architektur"@de,
+        "Architecture"@en,
+        "Архітектура"@uk .
+
+<n014> a skos:Concept ;
+    skos:broader <n39> ;
+    skos:inScheme <scheme> ;
+    skos:notation "014" ;
+    skos:prefLabel "Astrophysik und Astronomie"@de,
+        "Astrophysics, Astronomy"@en,
+        "Астрофізика, Астрономія"@uk .
+
+<n015> a skos:Concept ;
+    skos:broader <n13> ;
+    skos:inScheme <scheme> ;
+    skos:notation "015" ;
+    skos:prefLabel "Außereuropäische Sprachen und Kulturen in Ozeanien und Amerika"@de,
+        "Non-European Languages and Cultures in Oceania and America"@en,
+        "Неєвропейські мови та культури в Океанії та Америці"@uk .
+
+<n016> a skos:Concept ;
+    skos:broader <n12> ;
+    skos:inScheme <scheme> ;
+    skos:notation "016" ;
+    skos:prefLabel "Baltistik"@de,
+        "Baltic Studies"@en,
+        "Балтійські студії"@uk .
+
+<n017> a skos:Concept ;
+    skos:broader <n68> ;
+    skos:inScheme <scheme> ;
+    skos:notation "017" ;
+    skos:prefLabel "Bauingenieurwesen/Ingenieurbau"@de,
+        "Civil Engineering/Structural Engineering"@en,
+        "Цивільна інженерія/Будівництво"@uk .
+
+<n018> a skos:Concept ;
+    skos:broader <n07> ;
+    skos:inScheme <scheme> ;
+    skos:notation "018" ;
+    skos:prefLabel "Berufsbezogene Fremdsprachenausbildung"@de,
+        "Occupation-specific Foreign Language Training"@en,
+        "Викладання іноземних мов за професійним спрямуванням"@uk .
+
+<n019> a skos:Concept ;
+    skos:broader <n36> ;
+    skos:inScheme <scheme> ;
+    skos:notation "019" ;
+    skos:prefLabel "Orientierungsstudium MINT"@de,
+        "STEM orientation studies"@en,
+        "Науки технологічного спрямування"@uk .
+
+<n020> a skos:Concept ;
+    skos:broader <n62> ;
+    skos:inScheme <scheme> ;
+    skos:notation "020" ;
+    skos:prefLabel "Bergbau/Bergtechnik"@de,
+        "Mining/Mine Engineering"@en,
+        "Гірнича справа/Гірнича технологія"@uk .
+
+<n021> a skos:Concept ;
+    skos:broader <n30> ;
+    skos:inScheme <scheme> ;
+    skos:notation "021" ;
+    skos:prefLabel "Betriebswirtschaftslehre"@de,
+        "Business Administration"@en,
+        "Бізнес-адміністрування"@uk .
+
+<n022> a skos:Concept ;
+    skos:broader <n06> ;
+    skos:inScheme <scheme> ;
+    skos:notation "022" ;
+    skos:prefLabel "Informations- und Bibliothekswissenschaften (nicht für Verwaltungsfachhochschulen)"@de,
+        "Information and Library Sciences"@en,
+        "Бібліотекознавство"@uk .
+
+<n023> a skos:Concept ;
+    skos:broader <n75> ;
+    skos:inScheme <scheme> ;
+    skos:notation "023" ;
+    skos:prefLabel "Bildende Kunst/Graphik"@de,
+        "Fine Arts/Graphics"@en,
+        "Образотворче мистецтво/Графіка"@uk .
+
+<n024> a skos:Concept ;
+    skos:broader <n14> ;
+    skos:inScheme <scheme> ;
+    skos:notation "024" ;
+    skos:prefLabel "Europäische Ethnologie und Kulturwissenschaft"@de,
+        "European Ethnology and Cultural Studies"@en,
+        "Європейська етнологія та культурологія"@uk .
+
+<n025> a skos:Concept ;
+    skos:broader <n40> ;
+    skos:inScheme <scheme> ;
+    skos:notation "025" ;
+    skos:prefLabel "Biochemie"@de,
+        "Biochemistry"@en,
+        "Біохімія"@uk .
+
+<n026> a skos:Concept ;
+    skos:broader <n42> ;
+    skos:inScheme <scheme> ;
+    skos:notation "026" ;
+    skos:prefLabel "Biologie"@de,
+        "Biology"@en,
+        "Біологія"@uk .
+
+<n028> a skos:Concept ;
+    skos:broader <n58> ;
+    skos:inScheme <scheme> ;
+    skos:notation "028" ;
+    skos:prefLabel "Brauwesen/Getränketechnologie"@de,
+        "Brewing Science/Beverage Technology"@en,
+        "Пивоваріння/Технологія напоїв"@uk .
+
+<n029> a skos:Concept ;
+    skos:broader <n22> ;
+    skos:inScheme <scheme> ;
+    skos:notation "029" ;
+    skos:prefLabel "Sportwissenschaft"@de,
+        "Sports Science"@en,
+        "Науки про спорт"@uk .
+
+<n030> a skos:Concept ;
+    skos:broader <n23> ;
+    skos:inScheme <scheme> ;
+    skos:notation "030" ;
+    skos:prefLabel "Interdisziplin. Studien (Schwerpunkt Rechts-, Wirtschafts- und Sozialwissenschaften)"@de,
+        "Interdisc. St. (spec. in Law, Econ. and Soc. Sci.)"@en,
+        "Міждисциплінарні дослідження(у галізях юрид., екон. та сусп. наук)"@uk .
+
+<n031> a skos:Concept ;
+    skos:broader <n08> ;
+    skos:inScheme <scheme> ;
+    skos:notation "031" ;
+    skos:prefLabel "Byzantinistik"@de,
+        "Byzantine Studies"@en,
+        "Комп'ютерна лінгвістика"@uk .
+
+<n032> a skos:Concept ;
+    skos:broader <n40> ;
+    skos:inScheme <scheme> ;
+    skos:notation "032" ;
+    skos:prefLabel "Chemie"@de,
+        "Chemistry"@en,
+        "Хімія"@uk .
+
+<n033> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "033" ;
+    skos:prefLabel "Chemie-Ingenieurwesen/Chemieverfahrenstechnik"@de,
+        "Chemical Engineering/Chemical Process Engineering"@en,
+        "Хімічна інженерія/Інженерія хімічних процесів"@uk .
+
+<n034> a skos:Concept ;
+    skos:broader <n09> ;
+    skos:inScheme <scheme> ;
+    skos:notation "034" ;
+    skos:prefLabel "Dänisch"@de,
+        "Danish"@en,
+        "Данська мова"@uk .
+
+<n035> a skos:Concept ;
+    skos:broader <n77> ;
+    skos:inScheme <scheme> ;
+    skos:notation "035" ;
+    skos:prefLabel "Darstellende Kunst/Bühnenkunst/Regie"@de,
+        "Performing Arts/Stagecraft/Directing"@en,
+        "Акторська гра/Сценічне мистецтво/Режисерська діяльність"@uk .
+
+<n036> a skos:Concept ;
+    skos:broader <n24> ;
+    skos:inScheme <scheme> ;
+    skos:notation "036" ;
+    skos:prefLabel "Sonstige Regionalwissenschaften"@de,
+        "Other regional studies"@en,
+        "Інші регіональні студії"@uk .
+
+<n037> a skos:Concept ;
+    skos:broader <n06> ;
+    skos:inScheme <scheme> ;
+    skos:notation "037" ;
+    skos:prefLabel "Archiv- und Dokumentationswissenschaft"@de,
+        "Archival and Documentation Science"@en,
+        "Документознавство"@uk .
+
+<n038> a skos:Concept ;
+    skos:broader <n24> ;
+    skos:inScheme <scheme> ;
+    skos:notation "038" ;
+    skos:prefLabel "Lateinamerika-Studien"@de,
+        "Latin American Studies"@en,
+        "Латиноамериканські студії"@uk .
+
+<n039> a skos:Concept ;
+    skos:broader <n43> ;
+    skos:inScheme <scheme> ;
+    skos:notation "039" ;
+    skos:prefLabel "Geowissenschaften allgemein"@de,
+        "Geosciences (general)"@en,
+        "Науки про Землю (загальні)"@uk .
+
+<n040> a skos:Concept ;
+    skos:broader <n74> ;
+    skos:inScheme <scheme> ;
+    skos:notation "040" ;
+    skos:prefLabel "Interdiszipl. Studien (Schwerpunkt Kunst, Kunstwissenschaft)"@de,
+        "Interdisc. Studies (special. in Art, Art Theory)"@en,
+        "Мультидисциплінарні науки (Мистецтво, Теорія мистецтв)"@uk .
+
+<n042> a skos:Concept ;
+    skos:broader <n28> ;
+    skos:inScheme <scheme> ;
+    skos:notation "042" ;
+    skos:prefLabel "Wirtschaftsrecht"@de,
+        "Business Law"@en,
+        "Господарське право"@uk .
+
+<n043> a skos:Concept ;
+    skos:broader <n08> ;
+    skos:inScheme <scheme> ;
+    skos:notation "043" ;
+    skos:prefLabel "Neugriechisch"@de,
+        "Modern Greek"@en,
+        "Новогрецька мова"@uk .
+
+<n044> a skos:Concept ;
+    skos:broader <n24> ;
+    skos:inScheme <scheme> ;
+    skos:notation "044" ;
+    skos:prefLabel "Ost- und Südosteuropa-Studien"@de,
+        "East and Southeast European Studies"@en,
+        "Дослідження Східної та Південно-Східної Європи"@uk .
+
+<n048> a skos:Concept ;
+    skos:broader <n64> ;
+    skos:inScheme <scheme> ;
+    skos:notation "048" ;
+    skos:prefLabel "Elektrotechnik/Elektronik"@de,
+        "Electrical Engineering/Electronics"@en,
+        "Електротехніка/Електроніка"@uk .
+
+<n049> a skos:Concept ;
+    skos:broader <n36> ;
+    skos:inScheme <scheme> ;
+    skos:notation "049" ;
+    skos:prefLabel "Interdisziplin. Studien (Schwerpunkt Naturwissenschaften)"@de,
+        "Interdisc. Studies (special. in Natural Sciences)"@en,
+        "Міждисциплінірні науки (у галузі Природничих наук)"@uk .
+
+<n050> a skos:Concept ;
+    skos:broader <n44> ;
+    skos:inScheme <scheme> ;
+    skos:notation "050" ;
+    skos:prefLabel "Geographie/Erdkunde"@de,
+        "Geography"@en,
+        "Географія"@uk .
+
+<n052> a skos:Concept ;
+    skos:broader <n33> ;
+    skos:inScheme <scheme> ;
+    skos:notation "052" ;
+    skos:prefLabel "Erziehungswissenschaft (Pädagogik)"@de,
+        "Educational Science (Pedagogy)"@en,
+        "Педагогіка"@uk .
+
+<n053> a skos:Concept ;
+    skos:broader <n02> ;
+    skos:inScheme <scheme> ;
+    skos:notation "053" ;
+    skos:prefLabel "Evang. Theologie, -Religionslehre"@de,
+        "Protestant Theology, Protestant Religious Education"@en,
+        "Протестантська теологія, протестантська релігійна освіта"@uk .
+
+<n054> a skos:Concept ;
+    skos:broader <n77> ;
+    skos:inScheme <scheme> ;
+    skos:notation "054" ;
+    skos:prefLabel "Film und Fernsehen"@de,
+        "Film and Television Studies"@en,
+        "Телемистецтво"@uk .
+
+<n055> a skos:Concept ;
+    skos:broader <n23> ;
+    skos:inScheme <scheme> ;
+    skos:notation "055" ;
+    skos:prefLabel "Orientierungsstudium Gesellschaftswissenschaften"@de,
+        "Social sciences orientation studies"@en,
+        "Орієнтаційні студії з соціальних наук"@uk .
+
+<n056> a skos:Concept ;
+    skos:broader <n12> ;
+    skos:inScheme <scheme> ;
+    skos:notation "056" ;
+    skos:prefLabel "Finno-Ugristik"@de,
+        "Finno-Ugrian Studies"@en,
+        "Фіно-угрознавство"@uk .
+
+<n057> a skos:Concept ;
+    skos:broader <n65> ;
+    skos:inScheme <scheme> ;
+    skos:notation "057" ;
+    skos:prefLabel "Luft- und Raumfahrttechnik"@de,
+        "Aeronautical and Aerospace Engineering"@en,
+        "Авіаційна та ракетно-космічна техніка"@uk .
+
+<n058> a skos:Concept ;
+    skos:broader <n59> ;
+    skos:inScheme <scheme> ;
+    skos:notation "058" ;
+    skos:prefLabel "Forstwissenschaft, -wirtschaft"@de,
+        "Forest Science, Forestry"@en,
+        "Лісівництво"@uk .
+
+<n059> a skos:Concept ;
+    skos:broader <n11> ;
+    skos:inScheme <scheme> ;
+    skos:notation "059" ;
+    skos:prefLabel "Französisch"@de,
+        "French"@en,
+        "Французька мова"@uk .
+
+<n060> a skos:Concept ;
+    skos:broader <n58> ;
+    skos:inScheme <scheme> ;
+    skos:notation "060" ;
+    skos:prefLabel "Gartenbau"@de,
+        "Horticulture"@en,
+        "Садово-паркове господарство"@uk .
+
+<n061> a skos:Concept ;
+    skos:broader <n57> ;
+    skos:inScheme <scheme> ;
+    skos:notation "061" ;
+    skos:prefLabel "Meliorationswesen"@de,
+        "Ground Improvement"@en,
+        "Меліорація"@uk .
+
+<n064> a skos:Concept ;
+    skos:broader <n57> ;
+    skos:inScheme <scheme> ;
+    skos:notation "064" ;
+    skos:prefLabel "Naturschutz"@de,
+        "Nature Conservation"@en,
+        "Охорона природи"@uk .
+
+<n065> a skos:Concept ;
+    skos:broader <n43> ;
+    skos:inScheme <scheme> ;
+    skos:notation "065" ;
+    skos:prefLabel "Geologie/Paläontologie"@de,
+        "Geology/Palaeontology"@en,
+        "Геологія/Палеонтологія"@uk .
+
+<n066> a skos:Concept ;
+    skos:broader <n43> ;
+    skos:inScheme <scheme> ;
+    skos:notation "066" ;
+    skos:prefLabel "Geophysik"@de,
+        "Geophysics"@en,
+        "Геофізика"@uk .
+
+<n067> a skos:Concept ;
+    skos:broader <n09> ;
+    skos:inScheme <scheme> ;
+    skos:notation "067" ;
+    skos:prefLabel "Germanistik/Deutsch"@de,
+        "German Studies/German"@en,
+        "Германістика"@uk .
+
+<n068> a skos:Concept ;
+    skos:broader <n05> ;
+    skos:inScheme <scheme> ;
+    skos:notation "068" ;
+    skos:prefLabel "Geschichte"@de,
+        "History"@en,
+        "Історія"@uk .
+
+<n069> a skos:Concept ;
+    skos:broader <n76> ;
+    skos:inScheme <scheme> ;
+    skos:notation "069" ;
+    skos:prefLabel "Graphikdesign/Kommunikationsgestaltung"@de,
+        "Graphic Design/Communication Design"@en,
+        "Графічний дизайн/Комунікаційний дизайн"@uk .
+
+<n070> a skos:Concept ;
+    skos:broader <n08> ;
+    skos:inScheme <scheme> ;
+    skos:notation "070" ;
+    skos:prefLabel "Griechisch"@de,
+        "Greek"@en,
+        "Грецька мова"@uk .
+
+<n071> a skos:Concept ;
+    skos:broader <n60> ;
+    skos:inScheme <scheme> ;
+    skos:notation "071" ;
+    skos:prefLabel "Haushalts- und Ernährungswissenschaft"@de,
+        "Domestic and Nutritional Sciences"@en,
+        "Побутові та харчові науки"@uk .
+
+<n072> a skos:Concept ;
+    skos:broader <n61> ;
+    skos:inScheme <scheme> ;
+    skos:notation "072" ;
+    skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Ingenieurwissenschaften)"@de,
+        "Interdisc. Studies (specialising in Engineering)"@en,
+        "Міждисциплінарні дослідження (фокус на інженерії)"@uk .
+
+<n073> a skos:Concept ;
+    skos:broader <n13> ;
+    skos:inScheme <scheme> ;
+    skos:notation "073" ;
+    skos:prefLabel "Judaistik/Hebräisch "@de,
+        "Judaic Studies/Hebrew"@en,
+        "Юдаїка"@uk .
+
+<n074> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "074" ;
+    skos:prefLabel "Transport-/Fördertechnik"@de,
+        "Transport and Conveying Technology"@en,
+        "Транспорт/Конвеєрна техніка"@uk .
+
+<n075> a skos:Concept ;
+    skos:broader <n59> ;
+    skos:inScheme <scheme> ;
+    skos:notation "075" ;
+    skos:prefLabel "Holzwirtschaft"@de,
+        "Wood Science"@en,
+        "Деревообробна промисловість"@uk .
+
+<n076> a skos:Concept ;
+    skos:broader <n62> ;
+    skos:inScheme <scheme> ;
+    skos:notation "076" ;
+    skos:prefLabel "Hütten- und Gießereiwesen"@de,
+        "Metallurgy and Foundry"@en,
+        "Металургія та ливарна промисловість"@uk .
+
+<n077> a skos:Concept ;
+    skos:broader <n68> ;
+    skos:inScheme <scheme> ;
+    skos:notation "077" ;
+    skos:prefLabel "Wasserwirtschaft"@de,
+        "Water Management"@en,
+        "Управління водними ресурсами"@uk .
+
+<n078> a skos:Concept ;
+    skos:broader <n13> ;
+    skos:inScheme <scheme> ;
+    skos:notation "078" ;
+    skos:prefLabel "Indologie"@de,
+        "Indology"@en,
+        "Індологія"@uk .
+
+<n079> a skos:Concept ;
+    skos:broader <n71> ;
+    skos:inScheme <scheme> ;
+    skos:notation "079" ;
+    skos:prefLabel "Informatik"@de,
+        "Computer Science"@en,
+        "Комп'ютерні науки"@uk .
+
+<n080> a skos:Concept ;
+    skos:broader <n78> ;
+    skos:inScheme <scheme> ;
+    skos:notation "080" ;
+    skos:prefLabel "Instrumentalmusik"@de,
+        "Instrumental Music"@en,
+        "Інструментальна музика"@uk .
+
+<n081> a skos:Concept ;
+    skos:broader <n13> ;
+    skos:inScheme <scheme> ;
+    skos:notation "081" ;
+    skos:prefLabel "Iranistik"@de,
+        "Iranian Studies"@en,
+        "Іраністика"@uk .
+
+<n082> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "082" ;
+    skos:prefLabel "Holz-/Fasertechnik"@de,
+        "Wood and Fibre Technology"@en,
+        "Технологія деревини та волокна"@uk .
+
+<n083> a skos:Concept ;
+    skos:broader <n13> ;
+    skos:inScheme <scheme> ;
+    skos:notation "083" ;
+    skos:prefLabel "Islamwissenschaft"@de,
+        "Islamic Studies"@en,
+        "Ісламознавство"@uk .
+
+<n084> a skos:Concept ;
+    skos:broader <n11> ;
+    skos:inScheme <scheme> ;
+    skos:notation "084" ;
+    skos:prefLabel "Italienisch"@de,
+        "Italian"@en,
+        "Італійська мова"@uk .
+
+<n085> a skos:Concept ;
+    skos:broader <n13> ;
+    skos:inScheme <scheme> ;
+    skos:notation "085" ;
+    skos:prefLabel "Japanologie"@de,
+        "Japanese Studies"@en,
+        "Японознавство"@uk .
+
+<n086> a skos:Concept ;
+    skos:broader <n03> ;
+    skos:inScheme <scheme> ;
+    skos:notation "086" ;
+    skos:prefLabel "Kath. Theologie, -Religionslehre"@de,
+        "Catholic Theology, Catholic Religious Education"@en,
+        "Католицька теологія, католицька релігійна освіта"@uk .
+
+<n088> a skos:Concept ;
+    skos:broader <n64> ;
+    skos:inScheme <scheme> ;
+    skos:notation "088" ;
+    skos:prefLabel "Optoelektronik"@de,
+        "Optoelectronics"@en,
+        "Оптоелектроніка"@uk .
+
+<n089> a skos:Concept ;
+    skos:broader <n65> ;
+    skos:inScheme <scheme> ;
+    skos:notation "089" ;
+    skos:prefLabel "Verkehrsingenieurwesen"@de,
+        "Transport Engineering"@en,
+        "Транспортна інженерія"@uk .
+
+<n090> a skos:Concept ;
+    skos:broader <n01> ;
+    skos:inScheme <scheme> ;
+    skos:notation "090" ;
+    skos:prefLabel "Lernbereich Geisteswissenschaften"@de,
+        "Area of study: Humanities"@en,
+        "Галузь знань: гуманітарні науки"@uk .
+
+<n091> a skos:Concept ;
+    skos:broader <n74> ;
+    skos:inScheme <scheme> ;
+    skos:notation "091" ;
+    skos:prefLabel "Kunsterziehung"@de,
+        "Arts Education"@en,
+        "Художня освіта"@uk .
+
+<n092> a skos:Concept ;
+    skos:broader <n74> ;
+    skos:inScheme <scheme> ;
+    skos:notation "092" ;
+    skos:prefLabel "Kunstgeschichte, Kunstwissenschaft"@de,
+        "Art History, Art Theory"@en,
+        "Історія та теорія образотворчого мистецтва"@uk .
+
+<n093> a skos:Concept ;
+    skos:broader <n57> ;
+    skos:inScheme <scheme> ;
+    skos:notation "093" ;
+    skos:prefLabel "Landespflege/Landschaftsgestaltung"@de,
+        "Land Management Engineering/Landscape Design"@en,
+        "Землеустрій/Ландшафтний дизайн"@uk .
+
+<n094> a skos:Concept ;
+    skos:broader <n68> ;
+    skos:inScheme <scheme> ;
+    skos:notation "094" ;
+    skos:prefLabel "Wasserbau"@de,
+        "Hydraulic Engineering"@en,
+        "Гідротехніка"@uk .
+
+<n095> a skos:Concept ;
+    skos:broader <n08> ;
+    skos:inScheme <scheme> ;
+    skos:notation "095" ;
+    skos:prefLabel "Latein"@de,
+        "Latin"@en,
+        "Латинська мова"@uk .
+
+<n096> a skos:Concept ;
+    skos:broader <n40> ;
+    skos:inScheme <scheme> ;
+    skos:notation "096" ;
+    skos:prefLabel "Lebensmittelchemie"@de,
+        "Food Chemistry"@en,
+        "Харчова хімія"@uk .
+
+<n097> a skos:Concept ;
+    skos:broader <n58> ;
+    skos:inScheme <scheme> ;
+    skos:notation "097" ;
+    skos:prefLabel "Lebensmitteltechnologie"@de,
+        "Food Technology"@en,
+        "Харчові технології"@uk .
+
+<n098> a skos:Concept ;
+    skos:broader <n22> ;
+    skos:inScheme <scheme> ;
+    skos:notation "098" ;
+    skos:prefLabel "Sportpädagogik/Sportpsychologie"@de,
+        "Sports Education/Sports Psychology"@en,
+        "Спортивне виховання/Психологія спорту"@uk .
+
+<n101> a skos:Concept ;
+    skos:broader <n74> ;
+    skos:inScheme <scheme> ;
+    skos:notation "101" ;
+    skos:prefLabel "Restaurierungskunde"@de,
+        "Restoration Studies"@en,
+        "Музейна реставрація"@uk .
+
+<n102> a skos:Concept ;
+    skos:broader <n77> ;
+    skos:inScheme <scheme> ;
+    skos:notation "102" ;
+    skos:prefLabel "Schauspiel"@de,
+        "Drama Studies"@en,
+        "Сценічне мистецтво"@uk .
+
+<n103> a skos:Concept ;
+    skos:broader <n62> ;
+    skos:inScheme <scheme> ;
+    skos:notation "103" ;
+    skos:prefLabel "Markscheidewesen"@de,
+        "Mine Surveying"@en,
+        "Маркшейдерія"@uk .
+
+<n104> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "104" ;
+    skos:prefLabel "Maschinenbau/-wesen"@de,
+        "Mechanical Engineering"@en,
+        "Машинобудування"@uk .
+
+<n105> a skos:Concept ;
+    skos:broader <n37> ;
+    skos:inScheme <scheme> ;
+    skos:notation "105" ;
+    skos:prefLabel "Mathematik"@de,
+        "Mathematics"@en,
+        "Математика"@uk .
+
+<n106> a skos:Concept ;
+    skos:broader <n77> ;
+    skos:inScheme <scheme> ;
+    skos:notation "106" ;
+    skos:prefLabel "Tanzpädagogik"@de,
+        "Dance Education"@en,
+        "Хореографічне мистецтво"@uk .
+
+<n107> a skos:Concept ;
+    skos:broader <n49> ;
+    skos:inScheme <scheme> ;
+    skos:notation "107" ;
+    skos:prefLabel "Medizin (Allgemein-Medizin)"@de,
+        "Medicine (General Medicine)"@en,
+        "Медицина (загальна медицина)"@uk .
+
+<n108> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "108" ;
+    skos:prefLabel "Metalltechnik"@de,
+        "Metals Technology"@en,
+        "Технологія металів"@uk .
+
+<n110> a skos:Concept ;
+    skos:broader <n43> ;
+    skos:inScheme <scheme> ;
+    skos:notation "110" ;
+    skos:prefLabel "Meteorologie"@de,
+        "Meteorology"@en,
+        "Метеорологія"@uk .
+
+<n111> a skos:Concept ;
+    skos:broader <n43> ;
+    skos:inScheme <scheme> ;
+    skos:notation "111" ;
+    skos:prefLabel "Mineralogie"@de,
+        "Mineralogy"@en,
+        "Мінералогія"@uk .
+
+<n113> a skos:Concept ;
+    skos:broader <n78> ;
+    skos:inScheme <scheme> ;
+    skos:notation "113" ;
+    skos:prefLabel "Musikerziehung"@de,
+        "Music Education"@en,
+        "Музична освіта"@uk .
+
+<n114> a skos:Concept ;
+    skos:broader <n78> ;
+    skos:inScheme <scheme> ;
+    skos:notation "114" ;
+    skos:prefLabel "Musikwissenschaft/-geschichte"@de,
+        "Musicology/History of Music"@en,
+        "Музикознавство/Історія музики"@uk .
+
+<n115> a skos:Concept ;
+    skos:broader <n33> ;
+    skos:inScheme <scheme> ;
+    skos:notation "115" ;
+    skos:prefLabel "Grundschul-/Primarstufenpädagogik"@de,
+        "Primary School Education/Primary Level Education"@en,
+        "Початкова освіта"@uk .
+
+<n116> a skos:Concept ;
+    skos:broader <n76> ;
+    skos:inScheme <scheme> ;
+    skos:notation "116" ;
+    skos:prefLabel "Textilgestaltung"@de,
+        "Textile Design"@en,
+        "Дизайн одягу"@uk .
+
+<n117> a skos:Concept ;
+    skos:broader <n33> ;
+    skos:inScheme <scheme> ;
+    skos:notation "117" ;
+    skos:prefLabel "Ausländerpädagogik"@de,
+        "Immigrant Education"@en,
+        "Освіта мігрантів"@uk .
+
+<n118> a skos:Concept ;
+    skos:broader <n37> ;
+    skos:inScheme <scheme> ;
+    skos:notation "118" ;
+    skos:prefLabel "Technomathematik"@de,
+        "Technomathematics"@en,
+        "Технічна математика"@uk .
+
+<n119> a skos:Concept ;
+    skos:broader <n09> ;
+    skos:inScheme <scheme> ;
+    skos:notation "119" ;
+    skos:prefLabel "Niederländisch"@de,
+        "Dutch"@en,
+        "Голландська мова"@uk .
+
+<n120> a skos:Concept ;
+    skos:broader <n09> ;
+    skos:inScheme <scheme> ;
+    skos:notation "120" ;
+    skos:prefLabel "Nordistik/Skandinavistik (Nord. Philologie, Einzelsprachen a.n.g.)"@de,
+        "Nordic/Scand. St. (Nord. Phil., ind. lang. n.e.c.)"@en,
+        "Скандинавські студії"@uk .
+
+<n121> a skos:Concept ;
+    skos:broader <n71> ;
+    skos:inScheme <scheme> ;
+    skos:notation "121" ;
+    skos:prefLabel "Medieninformatik"@de,
+        "Media Informatics"@en,
+        "Медіаінформатика"@uk .
+
+<n122> a skos:Concept ;
+    skos:broader <n13> ;
+    skos:inScheme <scheme> ;
+    skos:notation "122" ;
+    skos:prefLabel "Orientalistik, Altorientalistik"@de,
+        "Oriental Studies, Ancient Oriental Studies"@en,
+        "Сходознавство, Стародавнє сходознавство"@uk .
+
+<n123> a skos:Concept ;
+    skos:broader <n71> ;
+    skos:inScheme <scheme> ;
+    skos:notation "123" ;
+    skos:prefLabel "Ingenieurinformatik/Technische Informatik"@de,
+        "Computational Engineering/Technical Computer Science"@en,
+        "Обчислювальна техніка/Технічна інформатика"@uk .
+
+<n124> a skos:Concept ;
+    skos:broader <n43> ;
+    skos:inScheme <scheme> ;
+    skos:notation "124" ;
+    skos:prefLabel "Ozeanographie"@de,
+        "Oceanography"@en,
+        "Океанографія"@uk .
+
+<n125> a skos:Concept ;
+    skos:broader <n58> ;
+    skos:inScheme <scheme> ;
+    skos:notation "125" ;
+    skos:prefLabel "Agrarökonomie"@de,
+        "Agricultural Economics"@en,
+        "Економіка сільського господарства"@uk .
+
+<n126> a skos:Concept ;
+    skos:broader <n41> ;
+    skos:inScheme <scheme> ;
+    skos:notation "126" ;
+    skos:prefLabel "Pharmazie"@de,
+        "Pharmacy"@en,
+        "Фармація"@uk .
+
+<n127> a skos:Concept ;
+    skos:broader <n04> ;
+    skos:inScheme <scheme> ;
+    skos:notation "127" ;
+    skos:prefLabel "Philosophie"@de,
+        "Philosophy"@en,
+        "Філософія"@uk .
+
+<n128> a skos:Concept ;
+    skos:broader <n39> ;
+    skos:inScheme <scheme> ;
+    skos:notation "128" ;
+    skos:prefLabel "Physik"@de, "Physics"@en, "Фізика"@uk .
+
+<n129> a skos:Concept ;
+    skos:broader <n25> ;
+    skos:inScheme <scheme> ;
+    skos:notation "129" ;
+    skos:prefLabel "Politikwissenschaft/Politologie"@de,
+        "Political Science"@en,
+        "Політологія"@uk .
+
+<n130> a skos:Concept ;
+    skos:broader <n12> ;
+    skos:inScheme <scheme> ;
+    skos:notation "130" ;
+    skos:prefLabel "Westslawisch (allgemein und a.n.g.)"@de,
+        "Western Slavic (general and n.e.c.)"@en,
+        "Західнослов'янські мови"@uk .
+
+<n131> a skos:Concept ;
+    skos:broader <n11> ;
+    skos:inScheme <scheme> ;
+    skos:notation "131" ;
+    skos:prefLabel "Portugiesisch"@de,
+        "Portuguese"@en,
+        "Португальська мова"@uk .
+
+<n132> a skos:Concept ;
+    skos:broader <n32> ;
+    skos:inScheme <scheme> ;
+    skos:notation "132" ;
+    skos:prefLabel "Psychologie"@de,
+        "Psychology"@en,
+        "Психологія"@uk .
+
+<n134> a skos:Concept ;
+    skos:broader <n67> ;
+    skos:inScheme <scheme> ;
+    skos:notation "134" ;
+    skos:prefLabel "Raumplanung"@de,
+        "Spatial Planning"@en,
+        "Територіальне планування"@uk .
+
+<n135> a skos:Concept ;
+    skos:broader <n28> ;
+    skos:inScheme <scheme> ;
+    skos:notation "135" ;
+    skos:prefLabel "Rechtswissenschaft"@de,
+        "Law"@en,
+        "Правознавство"@uk .
+
+<n136> a skos:Concept ;
+    skos:broader <n04> ;
+    skos:inScheme <scheme> ;
+    skos:notation "136" ;
+    skos:prefLabel "Religionswissenschaft"@de,
+        "Religious Studies"@en,
+        "Релігієзнавство"@uk .
+
+<n137> a skos:Concept ;
+    skos:broader <n11> ;
+    skos:inScheme <scheme> ;
+    skos:notation "137" ;
+    skos:prefLabel "Romanistik (Romanische Philologie, Einzelsprachen a.n.g.)"@de,
+        "Romance Studies (Rom. Phil., indiv. lang. n.e.c.)"@en,
+        "Романістика"@uk .
+
+<n138> a skos:Concept ;
+    skos:broader <n58> ;
+    skos:inScheme <scheme> ;
+    skos:notation "138" ;
+    skos:prefLabel "Agrarbiologie"@de,
+        "Agricultural Biology"@en,
+        "Агробіологія"@uk .
+
+<n139> a skos:Concept ;
+    skos:broader <n12> ;
+    skos:inScheme <scheme> ;
+    skos:notation "139" ;
+    skos:prefLabel "Russisch"@de,
+        "Russian"@en,
+        "Російська мова"@uk .
+
+<n140> a skos:Concept ;
+    skos:broader <n61> ;
+    skos:inScheme <scheme> ;
+    skos:notation "140" ;
+    skos:prefLabel "Angewandte Systemwissenschaften"@de,
+        "Applied Systems Science"@en,
+        "Прикладні системні науки"@uk .
+
+<n141> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "141" ;
+    skos:prefLabel "Abfallwirtschaft"@de,
+        "Waste Management"@en,
+        "Управління відходами"@uk .
+
+<n142> a skos:Concept ;
+    skos:broader <n65> ;
+    skos:inScheme <scheme> ;
+    skos:notation "142" ;
+    skos:prefLabel "Schiffbau/Schiffstechnik"@de,
+        "Naval Architecture/Ship Technology"@en,
+        "Морський транспорт/Суднобудування"@uk .
+
+<n143> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "143" ;
+    skos:prefLabel "Augenoptik"@de,
+        "Ophthalmic Optics"@en,
+        "Офтальмологічна оптика"@uk .
+
+<n144> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "144" ;
+    skos:prefLabel "Technische Kybernetik"@de,
+        "Technical Cybernetics"@en,
+        "Технічна кібернетика"@uk .
+
+<n145> a skos:Concept ;
+    skos:broader <n13> ;
+    skos:inScheme <scheme> ;
+    skos:notation "145" ;
+    skos:prefLabel "Sinologie/Koreanistik"@de,
+        "Sinology/Korean Studies"@en,
+        "Китаєзнавство/Кореєзнавство"@uk .
+
+<n146> a skos:Concept ;
+    skos:broader <n12> ;
+    skos:inScheme <scheme> ;
+    skos:notation "146" ;
+    skos:prefLabel "Slawistik (Slaw. Philologie)"@de,
+        "Slavic Studies (Slavic Philology)"@en,
+        "Славістика (слов'янська філологія)"@uk .
+
+<n147> a skos:Concept ;
+    skos:broader <n26> ;
+    skos:inScheme <scheme> ;
+    skos:notation "147" ;
+    skos:prefLabel "Sozialkunde"@de,
+        "Social Studies"@en,
+        "Суспільствознавство"@uk .
+
+<n148> a skos:Concept ;
+    skos:broader <n26> ;
+    skos:inScheme <scheme> ;
+    skos:notation "148" ;
+    skos:prefLabel "Sozialwissenschaften"@de,
+        "Social Sciences"@en,
+        "Суспільні науки"@uk .
+
+<n149> a skos:Concept ;
+    skos:broader <n26> ;
+    skos:inScheme <scheme> ;
+    skos:notation "149" ;
+    skos:prefLabel "Soziologie"@de,
+        "Sociology"@en,
+        "Соціологія"@uk .
+
+<n150> a skos:Concept ;
+    skos:broader <n11> ;
+    skos:inScheme <scheme> ;
+    skos:notation "150" ;
+    skos:prefLabel "Spanisch"@de,
+        "Spanish"@en,
+        "Іспанська мова"@uk .
+
+<n152> a skos:Concept ;
+    skos:broader <n07> ;
+    skos:inScheme <scheme> ;
+    skos:notation "152" ;
+    skos:prefLabel "Allgemeine Sprachwissenschaft/Indogermanistik"@de,
+        "General Linguistics/Indo-European Studies"@en,
+        "Загальне мовознавство/Індоєвропейські студії"@uk .
+
+<n153> a skos:Concept ;
+    skos:broader <n12> ;
+    skos:inScheme <scheme> ;
+    skos:notation "153" ;
+    skos:prefLabel "Südslawisch (Bulgarisch, Serbokroatisch, Slowenisch usw.)"@de,
+        "South Slavic (Bulgar., Serbo-Croat., Slovene etc.)"@en,
+        "Південнослов'янські мови (болгарська, сербохорватська, словенська та ін.)"@uk .
+
+<n154> a skos:Concept ;
+    skos:broader <n23> ;
+    skos:inScheme <scheme> ;
+    skos:notation "154" ;
+    skos:prefLabel "Lernbereich Gesellschaftslehre"@de,
+        "Area of study: Social Studies"@en,
+        "Галузь знань: суспільні науки"@uk .
+
+<n155> a skos:Concept ;
+    skos:broader <n77> ;
+    skos:inScheme <scheme> ;
+    skos:notation "155" ;
+    skos:prefLabel "Theaterwissenschaft"@de,
+        "Theatre Studies"@en,
+        "Театральне мистецтво"@uk .
+
+<n156> a skos:Concept ;
+    skos:broader <n51> ;
+    skos:inScheme <scheme> ;
+    skos:notation "156" ;
+    skos:prefLabel "Tiermedizin/Veterinärmedizin"@de,
+        "Veterinary Medicine"@en,
+        "Ветеринарна медицина"@uk .
+
+<n157> a skos:Concept ;
+    skos:broader <n64> ;
+    skos:inScheme <scheme> ;
+    skos:notation "157" ;
+    skos:prefLabel "Mikroelektronik"@de,
+        "Microelectronics"@en,
+        "Мікроелектроніка"@uk .
+
+<n158> a skos:Concept ;
+    skos:broader <n13> ;
+    skos:inScheme <scheme> ;
+    skos:notation "158" ;
+    skos:prefLabel "Turkologie"@de,
+        "Turkish Studies"@en,
+        "Тюркологія"@uk .
+
+<n159> a skos:Concept ;
+    skos:broader <n76> ;
+    skos:inScheme <scheme> ;
+    skos:notation "159" ;
+    skos:prefLabel "Edelstein- und Schmuckdesign"@de,
+        "Gemstone and Jewellery Design"@en,
+        "Дизайн дорогоцінних каменів та ювелірних виробів"@uk .
+
+<n160> a skos:Concept ;
+    skos:broader <n07> ;
+    skos:inScheme <scheme> ;
+    skos:notation "160" ;
+    skos:prefLabel "Computerlinguistik"@de,
+        "Computer Linguistics"@en,
+        "Комп'ютерна лінгвістика"@uk .
+
+<n161> a skos:Concept ;
+    skos:broader <n02> ;
+    skos:inScheme <scheme> ;
+    skos:notation "161" ;
+    skos:prefLabel "Diakoniewissenschaft"@de,
+        "Pastoral Care Studies"@en,
+        "Душпастирські студії"@uk .
+
+<n162> a skos:Concept ;
+    skos:broader <n03> ;
+    skos:inScheme <scheme> ;
+    skos:notation "162" ;
+    skos:prefLabel "Caritaswissenschaft"@de,
+        "Caritas Science"@en,
+        "Наука Карітасу"@uk .
+
+<n163> a skos:Concept ;
+    skos:broader <n78> ;
+    skos:inScheme <scheme> ;
+    skos:notation "163" ;
+    skos:prefLabel "Rhythmik"@de,
+        "Rhythmics"@en,
+        "Ритміка"@uk .
+
+<n164> a skos:Concept ;
+    skos:broader <n78> ;
+    skos:inScheme <scheme> ;
+    skos:notation "164" ;
+    skos:prefLabel "Jazz und Popularmusik"@de,
+        "Jazz and Popular Music"@en,
+        "Джаз та популярна музика"@uk .
+
+<n165> a skos:Concept ;
+    skos:broader <n78> ;
+    skos:inScheme <scheme> ;
+    skos:notation "165" ;
+    skos:prefLabel "Orchestermusik"@de,
+        "Orchestral Music"@en,
+        "Оркестрова музика"@uk .
+
+<n166> a skos:Concept ;
+    skos:broader <n30> ;
+    skos:inScheme <scheme> ;
+    skos:notation "166" ;
+    skos:prefLabel "Sportmanagement/Sportökonomie"@de,
+        "Sports Management/Sports Economics"@en,
+        "Спортивний менеджмент/Економіка спорту"@uk .
+
+<n167> a skos:Concept ;
+    skos:broader <n30> ;
+    skos:inScheme <scheme> ;
+    skos:notation "167" ;
+    skos:prefLabel "Europäische Wirtschaft"@de,
+        "European Economic Studies"@en,
+        "Європейські економічні студії"@uk .
+
+<n168> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "168" ;
+    skos:prefLabel "Justizvollzug"@de,
+        "Law Enforcement"@en,
+        "Правоохоронна діяльність"@uk .
+
+<n169> a skos:Concept ;
+    skos:broader <n04> ;
+    skos:inScheme <scheme> ;
+    skos:notation "169" ;
+    skos:prefLabel "Ethik"@de,
+        "Ethics"@en,
+        "Етика"@uk .
+
+<n171> a skos:Concept ;
+    skos:broader <n69> ;
+    skos:inScheme <scheme> ;
+    skos:notation "171" ;
+    skos:prefLabel "Vermessungswesen (Geodäsie)"@de,
+        "Surveying (Geodesy)"@en,
+        "Геодезія та землеустрій"@uk .
+
+<n172> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "172" ;
+    skos:prefLabel "Verwaltungswissenschaft/-wesen"@de,
+        "Administrative Science/Public Administration"@en,
+        "Управлінські науки/Публічне адміністрування"@uk .
+
+<n173> a skos:Concept ;
+    skos:broader <n14> ;
+    skos:inScheme <scheme> ;
+    skos:notation "173" ;
+    skos:prefLabel "Ethnologie"@de,
+        "Ethnology"@en,
+        "Етнологія"@uk .
+
+<n174> a skos:Concept ;
+    skos:broader <n14> ;
+    skos:inScheme <scheme> ;
+    skos:notation "174" ;
+    skos:prefLabel "Volkskunde"@de,
+        "Folklore"@en,
+        "Фольклор"@uk .
+
+<n175> a skos:Concept ;
+    skos:broader <n30> ;
+    skos:inScheme <scheme> ;
+    skos:notation "175" ;
+    skos:prefLabel "Volkswirtschaftslehre"@de,
+        "Economics"@en,
+        "Економіка"@uk .
+
+<n176> a skos:Concept ;
+    skos:broader <n76> ;
+    skos:inScheme <scheme> ;
+    skos:notation "176" ;
+    skos:prefLabel "Werkerziehung"@de,
+        "Handicrafts Education"@en,
+        "Ремісництво"@uk .
+
+<n177> a skos:Concept ;
+    skos:broader <n72> ;
+    skos:inScheme <scheme> ;
+    skos:notation "177" ;
+    skos:prefLabel "Werkstofftechnik"@de,
+        "Materials Technology"@en,
+        "Матеріалознавство"@uk .
+
+<n178> a skos:Concept ;
+    skos:broader <n44> ;
+    skos:inScheme <scheme> ;
+    skos:notation "178" ;
+    skos:prefLabel "Wirtschafts-/Sozialgeographie"@de,
+        "Economic/Social Geography"@en,
+        "Соціально-економічна географія"@uk .
+
+<n179> a skos:Concept ;
+    skos:broader <n31> ;
+    skos:inScheme <scheme> ;
+    skos:notation "179" ;
+    skos:prefLabel "Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt"@de,
+        "Business Engineering specialising in Economics"@en,
+        "Бізнес інженерія у галузі економіки"@uk .
+
+<n180> a skos:Concept ;
+    skos:broader <n13> ;
+    skos:inScheme <scheme> ;
+    skos:notation "180" ;
+    skos:prefLabel "Kaukasistik"@de,
+        "Caucasian Studies"@en,
+        "Кавказознавство"@uk .
+
+<n181> a skos:Concept ;
+    skos:broader <n30> ;
+    skos:inScheme <scheme> ;
+    skos:notation "181" ;
+    skos:prefLabel "Wirtschaftspädagogik"@de,
+        "Business and Economics Education"@en,
+        "Економічна та бізнес-освіта"@uk .
+
+<n182> a skos:Concept ;
+    skos:broader <n30> ;
+    skos:inScheme <scheme> ;
+    skos:notation "182" ;
+    skos:prefLabel "Intern. Betriebswirtschaft/Management"@de,
+        "International Business Studies/Management"@en,
+        "Міжнародний бізнес/Менеджмент"@uk .
+
+<n183> a skos:Concept ;
+    skos:broader <n05> ;
+    skos:inScheme <scheme> ;
+    skos:notation "183" ;
+    skos:prefLabel "Wirtschafts-/Sozialgeschichte"@de,
+        "Economic/Social History"@en,
+        "Економічна/соціальна історія"@uk .
+
+<n184> a skos:Concept ;
+    skos:broader <n30> ;
+    skos:inScheme <scheme> ;
+    skos:notation "184" ;
+    skos:prefLabel "Wirtschaftswissenschaften"@de,
+        "Business and Economics"@en,
+        "Бізнес та економіка"@uk .
+
+<n185> a skos:Concept ;
+    skos:broader <n50> ;
+    skos:inScheme <scheme> ;
+    skos:notation "185" ;
+    skos:prefLabel "Zahnmedizin"@de,
+        "Dentistry"@en,
+        "Стоматологія"@uk .
+
+<n186> a skos:Concept ;
+    skos:broader <n36> ;
+    skos:inScheme <scheme> ;
+    skos:notation "186" ;
+    skos:prefLabel "Lernbereich Naturwissenschaft/Sachunterricht"@de,
+        "Area of study: Natural Sciences/General Studies"@en,
+        "Галузь знань: Природничі науки/Загальні науки"@uk .
+
+<n187> a skos:Concept ;
+    skos:broader <n13> ;
+    skos:inScheme <scheme> ;
+    skos:notation "187" ;
+    skos:prefLabel "Asiatische Sprachen und Kulturen/Asienwissenschaften"@de,
+        "Asian Languages and Cultures/Asian Studies"@en,
+        "Азійські мови та культури/Азіатські студії"@uk .
+
+<n188> a skos:Concept ;
+    skos:broader <n07> ;
+    skos:inScheme <scheme> ;
+    skos:notation "188" ;
+    skos:prefLabel "Allgemeine Literaturwissenschaft"@de,
+        "General Literary Studies"@en,
+        "Загальне літературознавство"@uk .
+
+<n189> a skos:Concept ;
+    skos:broader <n09> ;
+    skos:inScheme <scheme> ;
+    skos:notation "189" ;
+    skos:prefLabel "Niederdeutsch"@de,
+        "Low German"@en,
+        "Нижньонімецька мова"@uk .
+
+<n190> a skos:Concept ;
+    skos:broader <n33> ;
+    skos:inScheme <scheme> ;
+    skos:notation "190" ;
+    skos:prefLabel "Sonderpädagogik"@de,
+        "Special Needs Education"@en,
+        "Спеціальна освіта"@uk .
+
+<n191> a skos:Concept ;
+    skos:broader <n78> ;
+    skos:inScheme <scheme> ;
+    skos:notation "191" ;
+    skos:prefLabel "Komposition"@de,
+        "Composition"@en,
+        "Композиція"@uk .
+
+<n192> a skos:Concept ;
+    skos:broader <n78> ;
+    skos:inScheme <scheme> ;
+    skos:notation "192" ;
+    skos:prefLabel "Dirigieren"@de,
+        "Conducting"@en,
+        "Хорове диригування"@uk .
+
+<n193> a skos:Concept ;
+    skos:broader <n78> ;
+    skos:inScheme <scheme> ;
+    skos:notation "193" ;
+    skos:prefLabel "Kirchenmusik"@de,
+        "Church Music"@en,
+        "Церковна музика"@uk .
+
+<n194> a skos:Concept ;
+    skos:broader <n78> ;
+    skos:inScheme <scheme> ;
+    skos:notation "194" ;
+    skos:prefLabel "Tonmeister"@de,
+        "Sound Engineering"@en,
+        "Звукова інженерія"@uk .
+
+<n195> a skos:Concept ;
+    skos:broader <n48> ;
+    skos:inScheme <scheme> ;
+    skos:notation "195" ;
+    skos:prefLabel "Gesundheitspädagogik"@de,
+        "Health Education"@en,
+        "Санітарна освіта"@uk .
+
+<n197> a skos:Concept ;
+    skos:broader <n68> ;
+    skos:inScheme <scheme> ;
+    skos:notation "197" ;
+    skos:prefLabel "Holzbau"@de,
+        "Timber Construction"@en,
+        "Дерев'яне будівництво"@uk .
+
+<n199> a skos:Concept ;
+    skos:broader <n61> ;
+    skos:inScheme <scheme> ;
+    skos:notation "199" ;
+    skos:prefLabel "Lernbereich Technik"@de,
+        "Area of study: Technology"@en,
+        "Галузь знань: Технологія"@uk .
+
+<n200> a skos:Concept ;
+    skos:broader <n71> ;
+    skos:inScheme <scheme> ;
+    skos:notation "200" ;
+    skos:prefLabel "Computer- und Kommunikationstechniken"@de,
+        "Computer and Communication Technology"@en,
+        "Інформаційно-комунікаційні технології"@uk .
+
+<n201> a skos:Concept ;
+    skos:broader <n61> ;
+    skos:inScheme <scheme> ;
+    skos:notation "201" ;
+    skos:prefLabel "Werken (technisch)/Technologie"@de,
+        "Handicrafts (technical)/Technology"@en,
+        "Ремесла (технічні)/Технологія"@uk .
+
+<n202> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "202" ;
+    skos:prefLabel "Fertigungs-/Produktionstechnik"@de,
+        "Manufacturing Technology/Production Engineering"@en,
+        "Технологія виробництва/Виробнича інженерія"@uk .
+
+<n203> a skos:Concept ;
+    skos:broader <n76> ;
+    skos:inScheme <scheme> ;
+    skos:notation "203" ;
+    skos:prefLabel "Industriedesign/Produktgestaltung"@de,
+        "Industrial Design/Product Design"@en,
+        "Промисловий дизайн/Дизайн продуктів"@uk .
+
+<n204> a skos:Concept ;
+    skos:broader <n75> ;
+    skos:inScheme <scheme> ;
+    skos:notation "204" ;
+    skos:prefLabel "Malerei"@de,
+        "Painting"@en,
+        "Живопис"@uk .
+
+<n205> a skos:Concept ;
+    skos:broader <n75> ;
+    skos:inScheme <scheme> ;
+    skos:notation "205" ;
+    skos:prefLabel "Bildhauerei/Plastik"@de,
+        "Sculpting/Statuary Art"@en,
+        "Скульптурне мистецтво"@uk .
+
+<n206> a skos:Concept ;
+    skos:broader <n12> ;
+    skos:inScheme <scheme> ;
+    skos:notation "206" ;
+    skos:prefLabel "Polnisch"@de,
+        "Polish"@en,
+        "Польська мова"@uk .
+
+<n207> a skos:Concept ;
+    skos:broader <n12> ;
+    skos:inScheme <scheme> ;
+    skos:notation "207" ;
+    skos:prefLabel "Sorabistik"@de,
+        "Sorbian Studies"@en,
+        "Лужицькі студії"@uk .
+
+<n208> a skos:Concept ;
+    skos:broader <n27> ;
+    skos:inScheme <scheme> ;
+    skos:notation "208" ;
+    skos:prefLabel "Soziale Arbeit"@de,
+        "Social Work"@en,
+        "Соціальна робота"@uk .
+
+<n209> a skos:Concept ;
+    skos:broader <n12> ;
+    skos:inScheme <scheme> ;
+    skos:notation "209" ;
+    skos:prefLabel "Tschechisch"@de,
+        "Czech"@en,
+        "Чеська мова"@uk .
+
+<n210> a skos:Concept ;
+    skos:broader <n30> ;
+    skos:inScheme <scheme> ;
+    skos:notation "210" ;
+    skos:prefLabel "Verkehrswirtschaft"@de,
+        "Transport Economics"@en,
+        "Економіка транспорту"@uk .
+
+<n211> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "211" ;
+    skos:prefLabel "Energieverfahrenstechnik"@de,
+        "Energy Process Engineering"@en,
+        "Енергетичні технології (без електротехніки)"@uk .
+
+<n212> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "212" ;
+    skos:prefLabel "Feinwerktechnik"@de,
+        "Precision Engineering"@en,
+        "Точна інженерія"@uk .
+
+<n213> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "213" ;
+    skos:prefLabel "Versorgungstechnik"@de,
+        "Supply Technology"@en,
+        "Технології постачання"@uk .
+
+<n215> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "215" ;
+    skos:prefLabel "Gesundheitstechnik"@de,
+        "Health Technology"@en,
+        "Технологія охорони здоров'я"@uk .
+
+<n216> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "216" ;
+    skos:prefLabel "Glastechnik/Keramik"@de,
+        "Glass Technology/Ceramics"@en,
+        "Технологія скла/Кераміка"@uk .
+
+<n219> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "219" ;
+    skos:prefLabel "Kunststofftechnik"@de,
+        "Plastics Technology"@en,
+        "Технологія пластмас"@uk .
+
+<n220> a skos:Concept ;
+    skos:broader <n58> ;
+    skos:inScheme <scheme> ;
+    skos:notation "220" ;
+    skos:prefLabel "Milch- und Molkereiwirtschaft"@de,
+        "Dairy Farming"@en,
+        "Молочне тваринництво"@uk .
+
+<n221> a skos:Concept ;
+    skos:broader <n71> ;
+    skos:inScheme <scheme> ;
+    skos:notation "221" ;
+    skos:prefLabel "Bioinformatik"@de,
+        "Bioinformatics"@en,
+        "Біоінформатика"@uk .
+
+<n222> a skos:Concept ;
+    skos:broader <n64> ;
+    skos:inScheme <scheme> ;
+    skos:notation "222" ;
+    skos:prefLabel "Kommunikations- und Informationstechnik"@de,
+        "Communication Technology, Information Engineering"@en,
+        "Комунікаційні та інформаційні технології"@uk .
+
+<n223> a skos:Concept ;
+    skos:broader <n65> ;
+    skos:inScheme <scheme> ;
+    skos:notation "223" ;
+    skos:prefLabel "Nautik/Seefahrt"@de,
+        "Nautical Science/Maritime Studies"@en,
+        "Морські науки"@uk .
+
+<n224> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "224" ;
+    skos:prefLabel "Physikalische Technik/Mechanische Verfahrenstechnik"@de,
+        "Engineering Physics/Mechanical Process Engineering"@en,
+        "Інженерна фізика"@uk .
+
+<n225> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "225" ;
+    skos:prefLabel "Textil- und Bekleidungstechnik/-gewerbe"@de,
+        "Textile and Clothing Technology/Industry"@en,
+        "Текстильне виробництво/Легка промисловість"@uk .
+
+<n226> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "226" ;
+    skos:prefLabel "Verfahrenstechnik"@de,
+        "Process Engineering"@en,
+        "Технологія процесів"@uk .
+
+<n227> a skos:Concept ;
+    skos:broader <n58> ;
+    skos:inScheme <scheme> ;
+    skos:notation "227" ;
+    skos:prefLabel "Weinbau und Kellerwirtschaft"@de,
+        "Viticulture and Oenology"@en,
+        "Виноградарство і виноробство"@uk .
+
+<n230> a skos:Concept ;
+    skos:broader <n78> ;
+    skos:inScheme <scheme> ;
+    skos:notation "230" ;
+    skos:prefLabel "Gesang"@de,
+        "Singing"@en,
+        "Вокальне мистецтво"@uk .
+
+<n231> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "231" ;
+    skos:prefLabel "Druck- und Reproduktionstechnik"@de,
+        "Printing and Reproduction Technology"@en,
+        "Технологія друку та розмноження"@uk .
+
+<n232> a skos:Concept ;
+    skos:broader <n48> ;
+    skos:inScheme <scheme> ;
+    skos:notation "232" ;
+    skos:prefLabel "Gesundheitswissenschaften/-management"@de,
+        "Health Science/Health Management"@en,
+        "Науки про здоров'я/Управління охороною здоров'я"@uk .
+
+<n233> a skos:Concept ;
+    skos:broader <n48> ;
+    skos:inScheme <scheme> ;
+    skos:notation "233" ;
+    skos:prefLabel "Nichtärztliche Heilberufe/Therapien"@de,
+        "Non-medical Healthcare Professions/Therapies"@en,
+        "Немедичні професії охорони здоров’я/Терапії"@uk .
+
+<n234> a skos:Concept ;
+    skos:broader <n48> ;
+    skos:inScheme <scheme> ;
+    skos:notation "234" ;
+    skos:prefLabel "Pflegewissenschaft/-management"@de,
+        "Nursing Science/Nursing Management"@en,
+        "Медсестринство"@uk .
+
+<n235> a skos:Concept ;
+    skos:broader <n65> ;
+    skos:inScheme <scheme> ;
+    skos:notation "235" ;
+    skos:prefLabel "Fahrzeugtechnik"@de,
+        "Automotive Technology"@en,
+        "Автомобільний транспорт"@uk .
+
+<n242> a skos:Concept ;
+    skos:broader <n66> ;
+    skos:inScheme <scheme> ;
+    skos:notation "242" ;
+    skos:prefLabel "Innenarchitektur"@de,
+        "Interior Architecture"@en,
+        "Дизайн інтер'єру"@uk .
+
+<n245> a skos:Concept ;
+    skos:broader <n27> ;
+    skos:inScheme <scheme> ;
+    skos:notation "245" ;
+    skos:prefLabel "Sozialpädagogik"@de,
+        "Social Pedagogy"@en,
+        "Соціальна педагогіка"@uk .
+
+<n247> a skos:Concept ;
+    skos:broader <n71> ;
+    skos:inScheme <scheme> ;
+    skos:notation "247" ;
+    skos:prefLabel "Medizinische Informatik"@de,
+        "Medical Informatics"@en,
+        "Медична інформатика"@uk .
+
+<n253> a skos:Concept ;
+    skos:broader <n27> ;
+    skos:inScheme <scheme> ;
+    skos:notation "253" ;
+    skos:prefLabel "Sozialwesen"@de,
+        "Applied Social Science"@en,
+        "Прикладні суспільні науки"@uk .
+
+<n254> a skos:Concept ;
+    skos:broader <n33> ;
+    skos:inScheme <scheme> ;
+    skos:notation "254" ;
+    skos:prefLabel "Sachunterricht (einschl. Schulgarten)"@de,
+        "General Studies (including School Garden)"@en,
+        "Загальна педагогіка(включно з дошкільною освітою)"@uk .
+
+<n255> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "255" ;
+    skos:prefLabel "Archivwesen"@de,
+        "Archive Studies"@en,
+        "Архівна справа"@uk .
+
+<n256> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "256" ;
+    skos:prefLabel "Rechtspflege"@de,
+        "Administration of Justice"@en,
+        "Правосуддя"@uk .
+
+<n257> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "257" ;
+    skos:prefLabel "Arbeits- und Berufsberatung"@de,
+        "Occupational Guidance and Career Counselling"@en,
+        "Профорієнтація та розвиток кар'єри"@uk .
+
+<n258> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "258" ;
+    skos:prefLabel "Arbeitsverwaltung"@de,
+        "Labour Administration"@en,
+        "Управління трудовими ресурсами"@uk .
+
+<n259> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "259" ;
+    skos:prefLabel "Auswärtige Angelegenheiten"@de,
+        "Foreign Affairs Administration"@en,
+        "Міжнародні відносини"@uk .
+
+<n260> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "260" ;
+    skos:prefLabel "Bundeswehrverwaltung"@de,
+        "Armed Forces Administration"@en,
+        "Військове управління"@uk .
+
+<n261> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "261" ;
+    skos:prefLabel "Innere Verwaltung"@de,
+        "Internal Administration"@en,
+        "Внутрішнє адміністрування"@uk .
+
+<n262> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "262" ;
+    skos:prefLabel "Bibliothekswesen"@de,
+        "Librarianship"@en,
+        "Бібліотечна справа"@uk .
+
+<n263> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "263" ;
+    skos:prefLabel "Polizei/Verfassungsschutz"@de,
+        "Police/Protection of the Constitution"@en,
+        "Поліція/Захист Конституції"@uk .
+
+<n264> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "264" ;
+    skos:prefLabel "Sozialversicherung"@de,
+        "Social Security Administration"@en,
+        "Управління соціальним захистом"@uk .
+
+<n265> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "265" ;
+    skos:prefLabel "Bankwesen"@de,
+        "Banking"@en,
+        "Банківська справа"@uk .
+
+<n266> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "266" ;
+    skos:prefLabel "Finanzverwaltung"@de,
+        "Financial Administration"@en,
+        "Управління фінансами"@uk .
+
+<n268> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "268" ;
+    skos:prefLabel "Verkehrswesen"@de,
+        "Transportation Systems"@en,
+        "Транспортні системи"@uk .
+
+<n269> a skos:Concept ;
+    skos:broader <n29> ;
+    skos:inScheme <scheme> ;
+    skos:notation "269" ;
+    skos:prefLabel "Zoll- und Steuerverwaltung"@de,
+        "Customs and Tax Administration"@en,
+        "Управління митною та податковою справою"@uk .
+
+<n270> a skos:Concept ;
+    skos:broader <n33> ;
+    skos:inScheme <scheme> ;
+    skos:notation "270" ;
+    skos:prefLabel "Berufs- und Wirtschaftspädagogik"@de,
+        "Vocational, Business and Economics Education"@en,
+        "Професійна, бізнес та економічна освіта"@uk .
+
+<n271> a skos:Concept ;
+    skos:broader <n09> ;
+    skos:inScheme <scheme> ;
+    skos:notation "271" ;
+    skos:prefLabel "Deutsch als Fremdsprache oder als Zweitsprache"@de,
+        "German as a Foreign or Second Language"@en,
+        "Німецька як іноземна або друга мова"@uk .
+
+<n272> a skos:Concept ;
+    skos:broader <n05> ;
+    skos:inScheme <scheme> ;
+    skos:notation "272" ;
+    skos:prefLabel "Alte Geschichte"@de,
+        "Ancient History"@en,
+        "Стародавня історія"@uk .
+
+<n273> a skos:Concept ;
+    skos:broader <n05> ;
+    skos:inScheme <scheme> ;
+    skos:notation "273" ;
+    skos:prefLabel "Mittlere und neuere Geschichte"@de,
+        "Medieval and Modern History"@en,
+        "Історія середньовіччя та новітнього часу"@uk .
+
+<n274> a skos:Concept ;
+    skos:broader <n30> ;
+    skos:inScheme <scheme> ;
+    skos:notation "274" ;
+    skos:prefLabel "Tourismuswirtschaft"@de,
+        "Tourism Management"@en,
+        "Туристичний менеджмент"@uk .
+
+<n275> a skos:Concept ;
+    skos:broader <n05> ;
+    skos:inScheme <scheme> ;
+    skos:notation "275" ;
+    skos:prefLabel "Wissenschaftsgeschichte/Technikgeschichte"@de,
+        "History of Science/History of Technology"@en,
+        "Історія науки і техніки"@uk .
+
+<n276> a skos:Concept ;
+    skos:broader <n37> ;
+    skos:inScheme <scheme> ;
+    skos:notation "276" ;
+    skos:prefLabel "Wirtschaftsmathematik"@de,
+        "Business Mathematics"@en,
+        "Бізнес математика"@uk .
+
+<n277> a skos:Concept ;
+    skos:broader <n71> ;
+    skos:inScheme <scheme> ;
+    skos:notation "277" ;
+    skos:prefLabel "Wirtschaftsinformatik"@de,
+        "Business Informatics"@en,
+        "Бізнес-інформатика"@uk .
+
+<n280> a skos:Concept ;
+    skos:broader <n69> ;
+    skos:inScheme <scheme> ;
+    skos:notation "280" ;
+    skos:prefLabel "Kartographie"@de,
+        "Cartography"@en,
+        "Картографія"@uk .
+
+<n282> a skos:Concept ;
+    skos:broader <n42> ;
+    skos:inScheme <scheme> ;
+    skos:notation "282" ;
+    skos:prefLabel "Biotechnologie"@de,
+        "Biotechnology"@en,
+        "Біотехнологія"@uk .
+
+<n283> a skos:Concept ;
+    skos:broader <n44> ;
+    skos:inScheme <scheme> ;
+    skos:notation "283" ;
+    skos:prefLabel "Landschaftsökologie/Biogeographie"@de,
+        "Landscape Ecology/Biogeography"@en,
+        "Ландшафтна екологія/Біогеографія"@uk .
+
+<n284> a skos:Concept ;
+    skos:broader <n07> ;
+    skos:inScheme <scheme> ;
+    skos:notation "284" ;
+    skos:prefLabel "Angewandte Sprachwissenschaft"@de,
+        "Applied Linguistics"@en,
+        "Прикладна лінгвістика"@uk .
+
+<n286> a skos:Concept ;
+    skos:broader <n64> ;
+    skos:inScheme <scheme> ;
+    skos:notation "286" ;
+    skos:prefLabel "Mikrosystemtechnik"@de,
+        "Microsystems Technology"@en,
+        "Мікротехнологія"@uk .
+
+<n287> a skos:Concept ;
+    skos:broader <n75> ;
+    skos:inScheme <scheme> ;
+    skos:notation "287" ;
+    skos:prefLabel "Neue Medien"@de,
+        "New Media"@en,
+        "Нові засоби масової інформації"@uk .
+
+<n292> a skos:Concept ;
+    skos:broader <n18> ;
+    skos:inScheme <scheme> ;
+    skos:notation "292" ;
+    skos:prefLabel "Islamische Studien/Islamische Theologie"@de, "Islamic Studies/Islamic Theology"@en, "Ісламознавство"@uk .
+
+<n294> a skos:Concept ;
+    skos:broader <n72> ;
+    skos:inScheme <scheme> ;
+    skos:notation "294" ;
+    skos:prefLabel "Materialwissenschaft"@de,
+        "Materials Science"@en,
+        "Матеріалознавство"@uk .
+
+<n300> a skos:Concept ;
+    skos:broader <n42> ;
+    skos:inScheme <scheme> ;
+    skos:notation "300" ;
+    skos:prefLabel "Biomedizin"@de,
+        "Biomedicine"@en,
+        "Біомедицина"@uk .
+
+<n302> a skos:Concept ;
+    skos:broader <n19> ;
+    skos:inScheme <scheme> ;
+    skos:notation "302" ;
+    skos:prefLabel "Medienwissenschaft"@de,
+        "Media Science"@en,
+        "Медіазнавство"@uk .
+
+<n303> a skos:Concept ;
+    skos:broader <n34> ;
+    skos:inScheme <scheme> ;
+    skos:notation "303" ;
+    skos:prefLabel "Kommunikationswissenschaft/Publizistik"@de,
+        "Communication Science/Journalism"@en,
+        "Соціальні комунікації/Журналістика"@uk .
+
+<n304> a skos:Concept ;
+    skos:broader <n30> ;
+    skos:inScheme <scheme> ;
+    skos:notation "304" ;
+    skos:prefLabel "Medienwirtschaft/Medienmanagement"@de,
+        "Media Economics/Media Management"@en,
+        "Медіа-економіка/Медіа-менеджмент"@uk .
+
+<n305> a skos:Concept ;
+    skos:broader <n61> ;
+    skos:inScheme <scheme> ;
+    skos:notation "305" ;
+    skos:prefLabel "Medientechnik"@de,
+        "Media Technology"@en,
+        "Медіатехнології"@uk .
+
+<n310> a skos:Concept ;
+    skos:broader <n61> ;
+    skos:inScheme <scheme> ;
+    skos:notation "310" ;
+    skos:prefLabel "Regenerative Energien"@de,
+        "Renewable Energy"@en,
+        "Відновлювальна енергія"@uk .
+
+<n312> a skos:Concept ;
+    skos:broader <n36> ;
+    skos:inScheme <scheme> ;
+    skos:notation "312" ;
+    skos:prefLabel "Statistik"@de,
+        "Statistics"@en,
+        "Cтатистика"@uk .
+
+<n316> a skos:Concept ;
+    skos:broader <n64> ;
+    skos:inScheme <scheme> ;
+    skos:notation "316" ;
+    skos:prefLabel "Elektrische Energietechnik"@de,
+        "Electrical Power Engineering"@en,
+        "Електроенергетика"@uk .
+
+<n320> a skos:Concept ;
+    skos:broader <n60> ;
+    skos:inScheme <scheme> ;
+    skos:notation "320" ;
+    skos:prefLabel "Ernährungswissenschaft"@de,
+        "Nutritional Science"@en,
+        "Наука про харчування"@uk .
+
+<n321> a skos:Concept ;
+    skos:broader <n33> ;
+    skos:inScheme <scheme> ;
+    skos:notation "321" ;
+    skos:prefLabel "Erwachsenenbildung und außerschulische Jugendbildung"@de,
+        "Adult Education and Extracurricular Youth Educat."@en,
+        "Освіта дорослих та позашкільна освіта"@uk .
+
+<n333> a skos:Concept ;
+    skos:broader <n60> ;
+    skos:inScheme <scheme> ;
+    skos:notation "333" ;
+    skos:prefLabel "Haushaltswissenschaft"@de,
+        "Domestic Science"@en,
+        "Житлова економіка"@uk .
+
+<n353> a skos:Concept ;
+    skos:broader <n58> ;
+    skos:inScheme <scheme> ;
+    skos:notation "353" ;
+    skos:prefLabel "Pflanzenproduktion"@de,
+        "Plant Production"@en,
+        "Рослинництво"@uk .
+
+<n361> a skos:Concept ;
+    skos:broader <n33> ;
+    skos:inScheme <scheme> ;
+    skos:notation "361" ;
+    skos:prefLabel "Schulpädagogik"@de,
+        "School Pedagogy"@en,
+        "Середня освіта"@uk .
+
+<n365> a skos:Concept ;
+    skos:broader <n33> ;
+    skos:inScheme <scheme> ;
+    skos:notation "365" ;
+    skos:prefLabel "Pädagogik der frühen Kindheit"@de,
+        "Early Childhood Education"@en,
+        "Дошкільна освіта"@uk .
+
+<n370> a skos:Concept ;
+    skos:broader <n70> ;
+    skos:inScheme <scheme> ;
+    skos:notation "370" ;
+    skos:prefLabel "Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt"@de,
+        "Business Engineering specialising in Engineering Sciences"@en,
+        "Промислова інженерія у галузі технічних наук"@uk .
+
+<n371> a skos:Concept ;
+    skos:broader <n58> ;
+    skos:inScheme <scheme> ;
+    skos:notation "371" ;
+    skos:prefLabel "Tierproduktion"@de,
+        "Animal Production"@en,
+        "Тваринництво"@uk .
+
+<n380> a skos:Concept ;
+    skos:broader <n61> ;
+    skos:inScheme <scheme> ;
+    skos:notation "380" ;
+    skos:prefLabel "Mechatronik"@de,
+        "Mechatronics"@en,
+        "Мехатроніка"@uk .
+
+<n385> a skos:Concept ;
+    skos:broader <n43> ;
+    skos:inScheme <scheme> ;
+    skos:notation "385" ;
+    skos:prefLabel "Geoökologie"@de,
+        "Geoecology"@en,
+        "Геоекологія"@uk .
+
+<n390> a skos:Concept ;
+    skos:broader <n62> ;
+    skos:inScheme <scheme> ;
+    skos:notation "390" ;
+    skos:prefLabel "Archäometrie (Ingenieurarchäologie)"@de,
+        "Archaeometry (Archaeological Engineering)"@en,
+        "Археометрія (Археологічна інженерія)"@uk .
+
+<n429> a skos:Concept ;
+    skos:broader <n68> ;
+    skos:inScheme <scheme> ;
+    skos:notation "429" ;
+    skos:prefLabel "Stahlbau"@de,
+        "Steel Construction"@en,
+        "Сталеві будівельні конструкції"@uk .
+
+<n457> a skos:Concept ;
+    skos:broader <n63> ;
+    skos:inScheme <scheme> ;
+    skos:notation "457" ;
+    skos:prefLabel "Umwelttechnik (einschl. Recycling)"@de,
+        "Environmental Technology (including Recycling)"@en,
+        "Екологічні технології (включно з переробкою)"@uk .
+
+<n458> a skos:Concept ;
+    skos:broader <n67> ;
+    skos:inScheme <scheme> ;
+    skos:notation "458" ;
+    skos:prefLabel "Umweltschutz"@de,
+        "Environmental Protection"@en,
+        "Охорона навколишнього середовища"@uk .
+
+<n464> a skos:Concept ;
+    skos:broader <n31> ;
+    skos:inScheme <scheme> ;
+    skos:notation "464" ;
+    skos:prefLabel "Facility Management"@de,
+        "Facility Management"@en,
+        "Організація управління підприємством"@uk .
+
+<n544> a skos:Concept ;
+    skos:broader <n02> ;
+    skos:inScheme <scheme> ;
+    skos:notation "544" ;
+    skos:prefLabel "Evang. Religionspädagogik, kirchliche Bildungsarbeit"@de,
+        "Protestant Religious Pedagogy, Church Educational Work"@en,
+        "Протестантська релігійна педагогіка, церковно-виховна робота"@uk .
+
+<n545> a skos:Concept ;
+    skos:broader <n03> ;
+    skos:inScheme <scheme> ;
+    skos:notation "545" ;
+    skos:prefLabel "Kath. Religionspädagogik, kirchliche Bildungsarbeit"@de,
+        "Catholic Religious Pedagogy, Church Educational Work"@en,
+        "Католицька релігійна педагогіка, церковно-виховна робота"@uk .
+
+<n548> a skos:Concept ;
+    skos:broader <n05> ;
+    skos:inScheme <scheme> ;
+    skos:notation "548" ;
+    skos:prefLabel "Ur- und Frühgeschichte"@de,
+        "Prehistory and Early History"@en,
+        "Історія первісного суспільства"@uk .
 
