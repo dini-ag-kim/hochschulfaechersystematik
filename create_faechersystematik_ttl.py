@@ -27,6 +27,23 @@ def extract_preflabel_translations(current_ttl):
         pref_label_dict_list.append(pref_label_dict)
     return pref_label_dict_list
 
+def extract_deprecated_notations(current_ttl):
+    g_old = Graph()
+    g_old.parse(current_ttl, format="ttl")
+    qres = g_old.query(
+        """
+        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+        PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        PREFIX :  <https://w3id.org/kim/hochschulfaechersystematik/>
+
+        SELECT *
+           WHERE { 
+                    ?concept   owl:deprecated true ; 
+                    ?p ?o . 
+           }""")
+
+    return qres
+
 def add_pref_labels_lang(level_dict_list, current_pref_labels_dict):
     for idx, i in enumerate(level_dict_list):
         notation = level_dict_list[idx]['notation']
@@ -41,6 +58,7 @@ def add_pref_labels_lang(level_dict_list, current_pref_labels_dict):
 # extract translations of prefLabels
 current_hfs_file = "https://github.com/dini-ag-kim/hochschulfaechersystematik/blob/master/hochschulfaechersystematik.ttl?raw=true"
 lang_preflabel_list = extract_preflabel_translations(current_hfs_file)
+hfs_deprecated_notations = extract_deprecated_notations(current_hfs_file)
 
 # extract hfs data from destatis files
 url_1st_level = "https://github.com/dini-ag-kim/destatis-schluesseltabellen/blob/main/studierende/Faechergruppe.csv?raw=true"
@@ -143,4 +161,9 @@ g.add((URIRef('n0'), skos['topConceptOf'], (URIRef('scheme'))))
 g.add((URIRef('n0'), skos['notation'], Literal('0')))
 g.add((URIRef('scheme'), skos['hasTopConcept'], (URIRef('n0'))))
 g.bind("dct", DCTERMS)
+
+# add deprecated notations
+for row in hfs_deprecated_notations:
+    g.add((URIRef(row.concept), row.p, row.o))
+
 g.serialize('hochschulfaechersystematik.ttl', format='turtle')
