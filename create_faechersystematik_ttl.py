@@ -54,6 +54,22 @@ def add_pref_labels_lang(level_dict_list, current_pref_labels_dict):
                 level_dict_list[idx].update({"label_en": pref_label_en, "label_uk": pref_label_uk})
     return level_dict_list
 
+def extract_narrower(dict_list):
+    narrower_dict = {}
+    for dict in dict_list:
+        notation_broader_level = dict["broader"]
+        if notation_broader_level in narrower_dict:
+            narrower_dict[notation_broader_level].append(dict["notation"])
+        else:
+            narrower_dict[notation_broader_level]=[dict["notation"]]
+    return narrower_dict
+
+def add_narrower(dict_list_broader, dict_list_narrower):
+    narrower = extract_narrower(dict_list_narrower)
+    for dict in dict_list_broader:
+        if dict["notation"] in narrower:
+            dict.update(narrower=narrower[dict["notation"]])
+
 
 # extract translations of prefLabels
 current_hfs_file = "https://github.com/dini-ag-kim/hochschulfaechersystematik/blob/master/hochschulfaechersystematik.ttl?raw=true"
@@ -83,6 +99,10 @@ df_2nd_level['broader'] = df_2nd_level['broader'].str.lstrip("0")
 dict_1st_level = df_1st_level.to_dict("records")
 dict_2nd_level = df_2nd_level.to_dict("records")
 dict_3rd_level = df_3rd_level.to_dict("records")
+
+add_narrower(dict_1st_level, dict_2nd_level)
+add_narrower(dict_2nd_level, dict_3rd_level)
+
 
 # add translations from current hfs to dictionaries
 for lang_preflabel_dict in lang_preflabel_list:
@@ -119,6 +139,8 @@ for idx, i in enumerate(dict_1st_level):
     g.add((URIRef('n%s' % top_level), RDF['type'], skos['Concept']))
     g.add((URIRef('n%s' % top_level), skos['topConceptOf'], (URIRef('scheme'))))
     g.add((URIRef('n%s' % top_level), skos['prefLabel'], Literal(dict_1st_level[idx]['label'], lang='de')))
+    for item in dict_1st_level[idx]['narrower']:
+        g.add((URIRef('n%s' % top_level), skos['narrower'], (URIRef('n%s' % item))))
     if dict_1st_level[idx].get('label_en'):
         g.add((URIRef('n%s' % top_level), skos['prefLabel'], Literal(dict_1st_level[idx]['label_en'], lang='en')))
         g.add((URIRef('n%s' % top_level), skos['prefLabel'], Literal(dict_1st_level[idx]['label_uk'], lang='uk')))
@@ -137,6 +159,8 @@ for idx, i in enumerate(dict_1st_level):
             else:
                 logging.warning("No translation for {notation}".format(notation=level_2_notation))
             g.add((URIRef('n%s' % level_2_notation), skos['broader'], (URIRef('n%s' % dict_2nd_level[idx_2]['broader']))))
+            for item in dict_2nd_level[idx_2]['narrower']:
+                g.add((URIRef('n%s' % level_2_notation), skos['narrower'], (URIRef('n%s' % item))))
             g.add((URIRef('n%s' % level_2_notation), skos['notation'], Literal(level_2_notation)))
             g.add((URIRef('n%s' % level_2_notation), skos['inScheme'], (URIRef('scheme'))))
             for idx_3, i_3 in enumerate(dict_3rd_level):
