@@ -5,27 +5,35 @@ import logging
 
 def extract_preflabel_translations(current_ttl):
     pref_label_dict_list = []
+    deprecated_broader_list = []
     g_old = Graph()
     g_old.parse(current_ttl, format="ttl")
     qres = g_old.query(
         """
         PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-    
-        SELECT DISTINCT ?label_en ?label_uk ?concept
+
+        SELECT DISTINCT ?label_en ?label_uk ?concept ?broader
            WHERE {
                ?concept a skos:Concept ;
                     skos:prefLabel ?label ;
                     skos:prefLabel ?label_en ; 
                     skos:prefLabel ?label_uk . 
-                    
+
                 FILTER(lang(?label_en)="en") 
                 FILTER(lang(?label_uk)="uk")
+            OPTIONAL
+            {?concept   owl:deprecated true ;
+                    skos:broader ?broader .
+            }
            }""")
     for row in qres:
-        notation = row.concept.replace("https://w3id.org/kim/hochschulfaechersystematik/n","")
+        notation = row.concept.replace("https://w3id.org/kim/hochschulfaechersystematik/n", "")
         pref_label_dict = {notation: {"label_en": f"{row.label_en}", "label_uk": f"{row.label_uk}"}}
         pref_label_dict_list.append(pref_label_dict)
-    return pref_label_dict_list
+        if row.broader is not None:
+            deprecated_broader = {f"{row.broader.replace("https://w3id.org/kim/hochschulfaechersystematik/n", "")}": notation}
+            deprecated_broader_list.append(deprecated_broader)
+    return pref_label_dict_list, deprecated_broader_list
 
 def extract_deprecated_notations(current_ttl):
     g_old = Graph()
@@ -64,16 +72,20 @@ def extract_narrower(dict_list):
             narrower_dict[notation_broader_level]=[dict["notation"]]
     return narrower_dict
 
-def add_narrower(dict_list_broader, dict_list_narrower):
+def add_narrower(dict_list_broader, dict_list_narrower, deprecated_broader_list):
     narrower = extract_narrower(dict_list_narrower)
-    for dict in dict_list_broader:
-        if dict["notation"] in narrower:
-            dict.update(narrower=narrower[dict["notation"]])
+    for item in deprecated_broader_list:
+        for k,v in item.items():
+            if k in narrower:
+                narrower[k].append(v)
+    for d in dict_list_broader:
+        if d["notation"] in narrower:
+            d.update(narrower=narrower[d["notation"]])
 
 
 # extract translations of prefLabels
 current_hfs_file = "https://github.com/dini-ag-kim/hochschulfaechersystematik/blob/master/hochschulfaechersystematik.ttl?raw=true"
-lang_preflabel_list = extract_preflabel_translations(current_hfs_file)
+lang_preflabel_list, deprecated_broader_list = extract_preflabel_translations(current_hfs_file)
 hfs_deprecated_notations = extract_deprecated_notations(current_hfs_file)
 
 # extract hfs data from destatis files
@@ -100,8 +112,8 @@ dict_1st_level = df_1st_level.to_dict("records")
 dict_2nd_level = df_2nd_level.to_dict("records")
 dict_3rd_level = df_3rd_level.to_dict("records")
 
-add_narrower(dict_1st_level, dict_2nd_level)
-add_narrower(dict_2nd_level, dict_3rd_level)
+add_narrower(dict_1st_level, dict_2nd_level, deprecated_broader_list)
+add_narrower(dict_2nd_level, dict_3rd_level, deprecated_broader_list)
 
 
 # add translations from current hfs to dictionaries

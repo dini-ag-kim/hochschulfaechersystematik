@@ -527,6 +527,7 @@
     skos:inScheme <scheme> ;
     skos:narrower <n105>,
         <n118>,
+        <n237>,
         <n276> ;
     skos:notation "37" ;
     skos:prefLabel "Mathematik"@de,
@@ -739,6 +740,7 @@
         <n225>,
         <n226>,
         <n231>,
+        <n241>,
         <n457> ;
     skos:notation "63" ;
     skos:prefLabel "Maschinenbau/Verfahrenstechnik"@de,
