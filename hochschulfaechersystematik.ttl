@@ -10,7 +10,9 @@
     dct:alternative "Hochschulfächersystematik"@de ;
     dct:description "Diese SKOS-Klassifikation basiert auf der Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](https://bartoc.org/en/node/18919)."@de ;
     dct:issued "2019-12-11" ;
+    dct:license "http://dcat-ap.de/def/licenses/other-closed" ;
     dct:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
+    dct:source "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik.html" ;
     dct:title "Destatis-Systematik der Fächergruppen, Studienbereiche und Studienfächer"@de ;
     vann:preferredNamespacePrefix "hfs" ;
     vann:preferredNamespaceUri "https://w3id.org/kim/hochschulfaechersystematik/" ;
@@ -3124,4 +3126,24 @@
     skos:prefLabel "Ur- und Frühgeschichte"@de,
         "Prehistory and Early History"@en,
         "Історія первісного суспільства"@uk .
+
+<n0128> a skos:Concept ;
+    dct:isReplacedBy <n128> ;
+    owl:deprecated true ;
+    skos:broader <n39> ;
+    skos:inScheme <scheme> ;
+    skos:notation "128" ;
+    skos:prefLabel "Physik"@de,
+        "Physics"@en,
+        "Фізика"@uk .
+
+<n030010001> a skos:Concept ;
+    dct:isReplacedBy <n292> ;
+    owl:deprecated true ;
+    skos:broader <n18> ;
+    skos:inScheme <scheme> ;
+    skos:notation "292" ;
+    skos:prefLabel "Islamische Studien/Islamische Theologie"@de,
+        "Islamic Studies/Islamic Theology"@en,
+        "Ісламознавство"@uk .
 
