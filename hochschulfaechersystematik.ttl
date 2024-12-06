@@ -539,8 +539,8 @@
 <n39> a skos:Concept ;
     skos:broader <n4> ;
     skos:inScheme <scheme> ;
-    skos:narrower <n014>,
-        <n128> ;
+    skos:narrower <n0128>,
+        <n014> ;
     skos:notation "39" ;
     skos:prefLabel "Physik, Astronomie"@de,
         "Physics, Astronomy"@en,
@@ -1835,14 +1835,6 @@
         "Philosophy"@en,
         "Філософія"@uk .
 
-<n128> a skos:Concept ;
-    skos:broader <n39> ;
-    skos:inScheme <scheme> ;
-    skos:notation "128" ;
-    skos:prefLabel "Physik"@de,
-        "Physics"@en,
-        "Фізика"@uk .
-
 <n129> a skos:Concept ;
     skos:broader <n25> ;
     skos:inScheme <scheme> ;
@@ -3128,8 +3120,6 @@
         "Історія первісного суспільства"@uk .
 
 <n0128> a skos:Concept ;
-    dct:isReplacedBy <n128> ;
-    owl:deprecated true ;
     skos:broader <n39> ;
     skos:inScheme <scheme> ;
     skos:notation "128" ;
@@ -3146,4 +3136,3 @@
     skos:prefLabel "Islamische Studien/Islamische Theologie"@de,
         "Islamic Studies/Islamic Theology"@en,
         "Ісламознавство"@uk .
-
