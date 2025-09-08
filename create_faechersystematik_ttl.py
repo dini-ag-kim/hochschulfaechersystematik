@@ -3,7 +3,6 @@ import rdflib.term
 from rdflib import Graph, Literal, RDF, URIRef, Namespace, DCTERMS
 import logging
 
-
 def extract_preflabel_translations(current_ttl):
     pref_label_dict_list = []
     deprecated_broader_list = []
@@ -32,7 +31,7 @@ def extract_preflabel_translations(current_ttl):
         pref_label_dict = {notation: {"label_en": f"{row.label_en}", "label_uk": f"{row.label_uk}"}}
         pref_label_dict_list.append(pref_label_dict)
         if row.broader is not None:
-            deprecated_broader = {f"{row.broader.replace("https://w3id.org/kim/hochschulfaechersystematik/n", "")}": notation}
+            deprecated_broader = {f"{row.broader.replace('https://w3id.org/kim/hochschulfaechersystematik/n', '')}": notation}
             deprecated_broader_list.append(deprecated_broader)
     return pref_label_dict_list, deprecated_broader_list
 
