@@ -3,6 +3,7 @@ import rdflib.term
 from rdflib import Graph, Literal, RDF, URIRef, Namespace, DCTERMS
 import logging
 
+
 def extract_preflabel_translations(current_ttl):
     pref_label_dict_list = []
     deprecated_broader_list = []
@@ -31,7 +32,7 @@ def extract_preflabel_translations(current_ttl):
         pref_label_dict = {notation: {"label_en": f"{row.label_en}", "label_uk": f"{row.label_uk}"}}
         pref_label_dict_list.append(pref_label_dict)
         if row.broader is not None:
-            deprecated_broader = {f"{row.broader.replace('https://w3id.org/kim/hochschulfaechersystematik/n', '')}": notation}
+            deprecated_broader = {f"{row.broader.replace("https://w3id.org/kim/hochschulfaechersystematik/n", "")}": notation}
             deprecated_broader_list.append(deprecated_broader)
     return pref_label_dict_list, deprecated_broader_list
 
@@ -92,19 +93,20 @@ hfs_deprecated_notations = extract_deprecated_notations(current_hfs_file)
 
 # extract hfs data from destatis files
 url_1st_level = "https://github.com/dini-ag-kim/destatis-schluesseltabellen/blob/main/studierende/Faechergruppe.csv?raw=true"
-url_2nd_level = "https://github.com/dini-ag-kim/destatis-schluesseltabellen/raw/main/studierende/STB.csv?raw=true"
+url_2nd_level = "https://raw.githubusercontent.com/dini-ag-kim/destatis-schluesseltabellen/refs/heads/main/studierende/Studienbereich.csv"
 url_3rd_level = "https://github.com/dini-ag-kim/destatis-schluesseltabellen/blob/main/studierende/Studienfach.csv?raw=true"
 
-df_1st_level = pd.read_csv(url_1st_level, encoding="ISO-8859-1", sep=';', quotechar='"', header=None, engine ='python', dtype=str, usecols=[0, 2], names=["notation", "label"])
-df_2nd_level = pd.read_csv(url_2nd_level, encoding="ISO-8859-1", sep=';', quotechar='"', header=None, engine ='python', dtype=str, usecols=[0, 2, 3], names=["notation", "label", "broader"])
-df_3rd_level = pd.read_csv(url_3rd_level, encoding="ISO-8859-1", sep=';', quotechar='"', header=None, engine ='python', dtype=str, usecols=[0, 2, 3], names=["notation", "label", "broader"])
+df_1st_level = pd.read_csv(url_1st_level, encoding="utf-8", sep=';', quotechar='"', skiprows=1 , header=None, engine ='python', dtype=str, usecols=[0, 2], names=["notation", "label"])
+df_2nd_level = pd.read_csv(url_2nd_level, encoding="utf-8", sep=';', quotechar='"', skiprows=1 , header=None, engine ='python', dtype=str, usecols=[0, 2, 5], names=["notation", "label", "broader"])
+df_3rd_level = pd.read_csv(url_3rd_level, encoding="utf-8", sep=';', quotechar='"', skiprows=1, header=None, engine ='python', dtype=str, usecols=[0, 2, 5], names=["notation", "label", "broader"])
 
-# remove duplicate, unused notation 10 from top level
-# remove unused notations 15 & 20
-df_1st_level = df_1st_level[~df_1st_level["notation"].isin(["10", "15", "20"])]
+# remove duplicate notation 10 from top level
+# remove unused notations
+df_1st_level = df_1st_level[~df_1st_level["notation"].isin(["10", "15", "20", "90"])]
 
-# remove of "10" subordinate notations from 2nd and 3rd level
+# remove subordinate notations from 2nd and 3rd level
 df_2nd_level = df_2nd_level[df_2nd_level.broader !="10"]
+df_2nd_level = df_2nd_level[df_2nd_level.broader !="90"]
 df_3rd_level = df_3rd_level[df_3rd_level.broader !="83"]
 
 df_1st_level['notation'] = df_1st_level['notation'].str.lstrip("0")
@@ -157,14 +159,14 @@ g.add((URIRef('scheme'), vann['preferredNamespaceUri'], Literal('https://w3id.or
 g.add((URIRef('scheme'), vann['preferredNamespacePrefix'], Literal('hfs')))
 g.add((URIRef('scheme'), schema['isBasedOn'], rdflib.term.URIRef('http://bartoc.org/node/18919')))
 
-
 for idx, i in enumerate(dict_1st_level):
     top_level = dict_1st_level[idx]['uri']
     g.add((URIRef('n%s' % top_level), RDF['type'], skos['Concept']))
     g.add((URIRef('n%s' % top_level), skos['topConceptOf'], (URIRef('scheme'))))
     g.add((URIRef('n%s' % top_level), skos['prefLabel'], Literal(dict_1st_level[idx]['label'], lang='de')))
-    for item in dict_1st_level[idx]['narrower']:
-        g.add((URIRef('n%s' % top_level), skos['narrower'], (URIRef('n%s' % item))))
+    if dict_1st_level[idx].get('narrower'):
+        for item in dict_1st_level[idx]['narrower']:
+            g.add((URIRef('n%s' % top_level), skos['narrower'], (URIRef('n%s' % item))))
     if dict_1st_level[idx].get('label_en'):
         g.add((URIRef('n%s' % top_level), skos['prefLabel'], Literal(dict_1st_level[idx]['label_en'], lang='en')))
         g.add((URIRef('n%s' % top_level), skos['prefLabel'], Literal(dict_1st_level[idx]['label_uk'], lang='uk')))
@@ -183,8 +185,9 @@ for idx_2, i_2 in enumerate(dict_2nd_level):
     else:
         logging.warning("No translation for {notation}".format(notation=level_2_uri))
     g.add((URIRef('n%s' % level_2_uri), skos['broader'], (URIRef('n%s' % dict_2nd_level[idx_2]['broader']))))
-    for item in dict_2nd_level[idx_2]['narrower']:
-        g.add((URIRef('n%s' % level_2_uri), skos['narrower'], (URIRef('n%s' % item))))
+    if dict_2nd_level[idx_2].get('narrower'):
+        for item in dict_2nd_level[idx_2]['narrower']:
+            g.add((URIRef('n%s' % level_2_uri), skos['narrower'], (URIRef('n%s' % item))))
     g.add((URIRef('n%s' % level_2_uri), skos['notation'], Literal(dict_2nd_level[idx_2]['notation'])))
     g.add((URIRef('n%s' % level_2_uri), skos['inScheme'], (URIRef('scheme'))))
 
@@ -214,4 +217,4 @@ g.bind("dct", DCTERMS)
 for row in hfs_deprecated_notations:
     g.add((URIRef(row.concept), row.p, row.o))
 
-g.serialize('hochschulfaechersystematik.ttl', format='turtle')
+g.serialize('hochschulfaechersystematik.ttl', format='turtle', encoding='utf-8')
