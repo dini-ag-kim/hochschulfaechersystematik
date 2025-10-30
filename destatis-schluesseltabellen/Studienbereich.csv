@@ -14,19 +14,19 @@
 14;;Kulturwissenschaften i.e.S.;01
 18;;Islamische Studien/Islamische Theologie;01
 19;;Medienwissenschaft;01
-22;;Sport, Sportwissenschaft;02
-23;;Rechts-, Wirtschafts- und Sozialwissenschaften allgemein;03
-24;;Regionalwissenschaften;03
-25;;Politikwissenschaft;03
-26;;Sozialwissenschaften/Soziologie;03
-27;;Sozialwesen;03
-28;;Rechtswissenschaften;03
-29;;Verwaltungswissenschaften;03
-30;;Wirtschaftswissenschaften;03
-31;;Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt;03
-32;;Psychologie;03
-33;;Erziehungswissenschaften;03
-34;;Kommunikationswissenschaft/Publizistik;03
+23;;Sozial- und Verhaltenswissenschaften, Sport allgemein;13
+24;;Regionalwissenschaften;13
+25;;Politikwissenschaft;13
+26;;Sozialwissenschaften/Soziologie;13
+27;;Sozialwesen;13
+28;;Rechtswissenschaften;11
+29;;Verwaltungswissenschaften;11
+30;;Wirtschaftswissenschaften;12
+31;;Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt;12
+32;;Psychologie;13
+33;;Erziehungswissenschaften;13
+34;;Kommunikationswissenschaft/Publizistik;13
+35;;Sport, Sportwissenschaft;13
 36;;Mathematik, Naturwissenschaften allgemein;04
 37;;Mathematik;04
 39;;Physik, Astronomie;04
@@ -35,11 +35,11 @@
 42;;Biologie;04
 43;;Geowissenschaften (ohne Geographie);04
 44;;Geographie;04
-48;;Gesundheitswissenschaften allgemein;05
+48;;Gesundheitswissenschaften;05
 49;;Humanmedizin (ohne Zahnmedizin);05
 50;;Zahnmedizin;05
 51;;Veterin‰rmedizin;07
-57;;Landespflege, Umweltgestaltung;07
+57;;Landschaftsgestaltung/Naturschutz;07
 58;;Agrarwissenschaften, Lebensmittel- und Getr‰nketechnologie;07
 59;;Forstwissenschaft, Holzwirtschaft;07
 60;;Ern‰hrungs- und Haushaltswissenschaften;07
@@ -59,5 +59,7 @@
 75;;Bildende Kunst;09
 76;;Gestaltung;09
 77;;Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft;09
-78;;Musik, Musikwissenschaft;09
-83;;Auﬂerhalb der Studienbereichsgliederung;10
+78;;Musik;09
+79;;Kunstwissenschaft/-p‰dagogik;09
+80;;Musikwissenschaft/-p‰dagogik;09
+83;;Auﬂerhalb der Studienbereichsgliederung;90

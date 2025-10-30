@@ -8,7 +8,7 @@
 008;0110200;Anglistik/Englisch;10;222
 009;0442100;Anthropologie (Humanbiologie);42;421
 010;0113200;Arabisch/Arabistik;13;222
-011;0330100;Arbeitslehre/Wirtschaftslehre;30;145
+011;1230100;Arbeitslehre/Wirtschaftslehre;30;145
 012;0105200;Archäologie;05;225
 013;0866100;Architektur;66;581
 014;0439100;Astrophysik und Astronomie;39;441
@@ -18,42 +18,41 @@
 018;0107400;Berufsbezogene Fremdsprachenausbildung;07;222
 019;0436350;Orientierungsstudium MINT;36;145
 020;0862200;Bergbau/Bergtechnik;62;544
-021;0330150;Betriebswirtschaftslehre;30;340
+021;1230150;Betriebswirtschaftslehre;30;340
 022;0106100;Informations- und Bibliothekswissenschaften (nicht für Verwaltungsfachhochschulen);06;322
 023;0975100;Bildende Kunst/Graphik;75;211
 024;0114100;Europäische Ethnologie und Kulturwissenschaft;14;312
 025;0440100;Biochemie;40;421
 026;0442200;Biologie;42;421
 028;0758250;Brauwesen/Getränketechnologie;58;541
-029;0222200;Sportwissenschaft;22;813
-030;0323100;Interdisziplin. Studien (Schwerpunkt Rechts-, Wirtschafts- und Sozialwissenschaften);23;310
+029;1335200;Sportwissenschaft;35;813
+030;1323100;Interdisziplin. Studien (Schwerpunkt Sozial- und Verhaltenswissenschaften);23;310
 031;0108100;Byzantinistik;08;222
 032;0440200;Chemie;40;442
 033;0863180;Chemie-Ingenieurwesen/Chemieverfahrenstechnik;63;524
 034;0109100;Dänisch;09;223
 035;0977100;Darstellende Kunst/Bühnenkunst/Regie;77;212
-036;0324300;Sonstige Regionalwissenschaften;24;310
+036;1324300;Sonstige Regionalwissenschaften;24;310
 037;0106200;Archiv- und Dokumentationswissenschaft;06;322
-038;0324100;Lateinamerika-Studien;24;310
+038;1324100;Lateinamerika-Studien;24;310
 039;0443300;Geowissenschaften allgemein;43;443
 040;0974100;Interdiszipl. Studien (Schwerpunkt Kunst, Kunstwissenschaft);74;145
-041;1083050;Sonstiges Orientierungsstudium;83;999
-042;0328200;Wirtschaftsrecht;28;380
+041;9083050;Sonstiges Orientierungsstudium;83;999
+042;1128200;Wirtschaftsrecht;28;380
 043;0108500;Neugriechisch;08;222
-044;0324200;Ost- und Südosteuropa-Studien;24;310
+044;1324200;Ost- und Südosteuropa-Studien;24;310
 048;0864200;Elektrotechnik/Elektronik;64;523
 049;0436200;Interdisziplin. Studien (Schwerpunkt Naturwissenschaften);36;440
 050;0444100;Geographie/Erdkunde;44;443
-052;0333400;Erziehungswissenschaft (Pädagogik);33;142
+052;1333400;Erziehungswissenschaften (Pädagogik);33;142
 053;0102300;Evang. Theologie, -Religionslehre;02;221
 054;0977200;Film und Fernsehen;77;212
-055;0323250;Orientierungsstudium Gesellschaftswissenschaften;23;145
+055;1323250;Orientierungsstudium Gesellschaftswissenschaften;23;145
 056;0112200;Finno-Ugristik;12;222
 057;0865200;Luft- und Raumfahrttechnik;65;525
 058;0759100;Forstwissenschaft, -wirtschaft;59;623
 059;0111100;Französisch;11;222
 060;0758300;Gartenbau;58;622
-061;0757200;Meliorationswesen;57;581
 064;0757300;Naturschutz;57;851
 065;0443100;Geologie/Paläontologie;43;443
 066;0443200;Geophysik;43;443
@@ -80,14 +79,14 @@
 088;0864600;Optoelektronik;64;523
 089;0865500;Verkehrsingenieurwesen;65;525
 090;0101200;Lernbereich Geisteswissenschaften;01;145
-091;0974200;Kunsterziehung;74;145
-092;0974300;Kunstgeschichte, Kunstwissenschaft;74;211
-093;0757100;Landespflege/Landschaftsgestaltung;57;581
+091;0979100;Kunstpädagogik;79;145
+092;0979200;Kunstgeschichte, Kunstwissenschaft;79;211
+093;0757100;Landschaftsgestaltung;57;581
 094;0868400;Wasserbau;68;582
 095;0108400;Latein;08;222
 096;0440300;Lebensmittelchemie;40;442
 097;0758350;Lebensmitteltechnologie;58;541
-098;0222100;Sportpädagogik/Sportpsychologie;22;142
+098;1335100;Sportpädagogik/Sportpsychologie;35;142
 101;0974400;Restaurierungskunde;74;211
 102;0977300;Schauspiel;77;212
 103;0862400;Markscheidewesen;62;544
@@ -98,11 +97,11 @@
 108;0863620;Metalltechnik;63;521
 110;0443400;Meteorologie;43;443
 111;0443500;Mineralogie;43;443
-113;0978400;Musikerziehung;78;145
-114;0978450;Musikwissenschaft/-geschichte;78;212
-115;0333500;Grundschul-/Primarstufenpädagogik;33;144
+113;0980100;Musikpädagogik;80;145
+114;0980200;Musikwissenschaft/-geschichte;80;212
+115;1333500;Grundschul-/Primarstufenpädagogik;33;144
 116;0976500;Textilgestaltung;76;214
-117;0333100;Ausländerpädagogik;33;142
+117;1333100;Ausländerpädagogik;33;142
 118;0437300;Technomathematik;37;461
 119;0109600;Niederländisch;09;223
 120;0109700;Nordistik/Skandinavistik (Nord. Philologie, Einzelsprachen a.n.g.);09;222
@@ -114,30 +113,27 @@
 126;0441100;Pharmazie;41;727
 127;0104200;Philosophie;04;226
 128;0439200;Physik;39;441
-129;0325100;Politikwissenschaft/Politologie;25;313
-130;0112900;Westslawisch (allgemein und a.n.g.);12;222
+129;1325100;Politikwissenschaft/Politologie;25;313
 131;0111300;Portugiesisch;11;222
-132;0332100;Psychologie;32;311
+132;1332100;Psychologie;32;311
 134;0867100;Raumplanung;67;581
-135;0328100;Rechtswissenschaft;28;380
+135;1128100;Rechtswissenschaft;28;380
 136;0104300;Religionswissenschaft;04;221
 137;0111400;Romanistik (Romanische Philologie, Einzelsprachen a.n.g.);11;222
 138;0758100;Agrarbiologie;58;621
-139;0112400;Russisch;12;222
 140;0861100;Angewandte Systemwissenschaften;61;460
 141;0863100;Abfallwirtschaft;63;851
-142;0865400;Schiffbau/Schiffstechnik;65;525
+142;0865400;Schiffbau/Schiffstechnik, Meerestechnik;65;525
 143;0863140;Augenoptik;63;521
 144;0863700;Technische Kybernetik;63;520
 145;0113650;Sinologie/Koreanistik;13;222
-146;0112500;Slawistik (Slaw. Philologie);12;222
-147;0326100;Sozialkunde;26;145
-148;0326200;Sozialwissenschaften;26;312
-149;0326300;Soziologie;26;312
+146;0112500;Slawistik (Slaw. Philologie, ohne Sorabistik);12;222
+147;1326100;Sozialkunde;26;145
+148;1326200;Sozialwissenschaften;26;312
+149;1326300;Soziologie;26;312
 150;0111500;Spanisch;11;222
-152;0107200;Allgemeine Sprachwissenschaft/Indogermanistik;07;223
-153;0112700;Südslawisch (Bulgarisch, Serbokroatisch, Slowenisch usw.);12;222
-154;0323200;Lernbereich Gesellschaftslehre;23;145
+152;0107200;Allgemeine Sprachwissenschaft;07;223
+154;1323200;Lernbereich Gesellschaftslehre;23;145
 155;0977500;Theaterwissenschaft;77;212
 156;0751100;Tiermedizin/Veterinärmedizin;51;640
 157;0864300;Mikroelektronik;64;523
@@ -149,37 +145,36 @@
 163;0978550;Rhythmik;78;212
 164;0978250;Jazz und Popularmusik;78;212
 165;0978500;Orchestermusik;78;212
-166;0330300;Sportmanagement/Sportökonomie;30;345
-167;0330200;Europäische Wirtschaft;30;340
-168;0329550;Justizvollzug;29;861
+166;1230300;Sportmanagement/Sportökonomie;30;345
+167;1230200;Europäische Wirtschaft;30;340
 169;0104100;Ethik;04;226
 171;0869200;Vermessungswesen (Geodäsie);69;581
-172;0329800;Verwaltungswissenschaft/-wesen;29;345
+172;1129800;Verwaltungswissenschaft/-wesen;29;345
 173;0114200;Ethnologie;14;312
 174;0114300;Volkskunde;14;312
-175;0330450;Volkswirtschaftslehre;30;314
+175;1230450;Volkswirtschaftslehre;30;314
 176;0976600;Werkerziehung;76;145
 177;0872200;Werkstofftechnik;72;543
 178;0444300;Wirtschafts-/Sozialgeographie;44;443
-179;0331200;Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt;31;340
+179;1231200;Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt;31;340
 180;0113550;Kaukasistik;13;222
-181;0330500;Wirtschaftspädagogik;30;145
-182;0330250;Intern. Betriebswirtschaft/Management;30;340
+181;1230500;Wirtschaftspädagogik;30;145
+182;1230250;Intern. Betriebswirtschaft/Management;30;340
 183;0105600;Wirtschafts-/Sozialgeschichte;05;225
-184;0330550;Wirtschaftswissenschaften;30;340
+184;1230550;Wirtschaftswissenschaften;30;340
 185;0550100;Zahnmedizin;50;724
 186;0436300;Lernbereich Naturwissenschaft/Sachunterricht;36;145
 187;0113750;Asiatische Sprachen und Kulturen/Asienwissenschaften;13;222
 188;0107100;Allgemeine Literaturwissenschaft;07;223
 189;0109500;Niederdeutsch;09;223
-190;0333800;Sonderpädagogik;33;144
+190;1333800;Sonderpädagogik;33;144
 191;0978350;Komposition;78;212
 192;0978100;Dirigieren;78;212
 193;0978300;Kirchenmusik;78;212
 194;0978600;Tonmeister;78;212
 195;0548100;Gesundheitspädagogik;48;142
-196;1083100;Studienkolleg;83;999
-197;0868200;Holzbau;68;582
+196;9083100;Studienkolleg;83;999
+197;0868200;Konstruktiver Ingenieurbau;68;582
 199;0861300;Lernbereich Technik;61;145
 200;0871200;Computer- und Kommunikationstechniken;71;481
 201;0861500;Werken (technisch)/Technologie;61;145
@@ -187,11 +182,9 @@
 203;0976400;Industriedesign/Produktgestaltung;76;214
 204;0975300;Malerei;75;211
 205;0975200;Bildhauerei/Plastik;75;211
-206;0112300;Polnisch;12;222
 207;0112600;Sorabistik;12;222
-208;0327100;Soziale Arbeit;27;762
-209;0112800;Tschechisch;12;222
-210;0330400;Verkehrswirtschaft;30;840
+208;1327100;Soziale Arbeit;27;762
+210;1230400;Verkehrswirtschaft;30;840
 211;0863260;Energieverfahrenstechnik;63;522
 212;0863300;Feinwerktechnik;63;521
 213;0863900;Versorgungstechnik;63;522
@@ -209,33 +202,25 @@
 230;0978150;Gesang;78;212
 231;0863220;Druck- und Reproduktionstechnik;63;213
 232;0548200;Gesundheitswissenschaften/-management;48;345
-233;0548300;Nichtärztliche Heilberufe/Therapien;48;723
 234;0548400;Pflegewissenschaft/-management;48;723
 235;0865100;Fahrzeugtechnik;65;525
 242;0866200;Innenarchitektur;66;214
-245;0327200;Sozialpädagogik;27;761
+245;1327200;Sozialpädagogik;27;761
 247;0871600;Medizinische Informatik;71;481
-253;0327300;Sozialwesen;27;762
-254;0333600;Sachunterricht (einschl. Schulgarten);33;144
-255;0329200;Archivwesen;29;322
-256;0329650;Rechtspflege;29;380
-257;0329100;Arbeits- und Berufsberatung;29;762
-258;0329150;Arbeitsverwaltung;29;345
-259;0329250;Auswärtige Angelegenheiten;29;345
-260;0329400;Bundeswehrverwaltung;29;345
-261;0329500;Innere Verwaltung;29;345
-262;0329350;Bibliothekswesen;29;322
-263;0329600;Polizei/Verfassungsschutz;29;861
-264;0329700;Sozialversicherung;29;343
-265;0329300;Bankwesen;29;343
-266;0329450;Finanzverwaltung;29;344
-268;0329750;Verkehrswesen;29;840
-269;0329850;Zoll- und Steuerverwaltung;29;344
-270;0333200;Berufs- und Wirtschaftspädagogik;33;142
+253;1327300;Sozialwesen;27;762
+254;1333600;Sachunterricht (einschl. Schulgarten);33;144
+255;1129150;Archiv- und Bibliothekswesen;29;322
+259;1129250;Auswärtige Angelegenheiten;29;345
+261;1129500;Innere Verwaltung;29;345
+263;1129300;Bundeswehr, Justiz und Polizei;29;861
+264;1129100;Arbeits- und Sozialverwaltung, Berufsberatung;29;343
+268;1129750;Verkehrswesen;29;840
+269;1129400;Finanz-, Zoll- und Steuerverwaltung;29;344
+270;1333200;Berufs- und Wirtschaftspädagogik;33;142
 271;0109200;Deutsch als Fremdsprache oder als Zweitsprache;09;222
 272;0105100;Alte Geschichte;05;225
 273;0105400;Mittlere und neuere Geschichte;05;225
-274;0330350;Tourismuswirtschaft;30;812
+274;1230350;Tourismuswirtschaft;30;812
 275;0105700;Wissenschaftsgeschichte/Technikgeschichte;05;225
 276;0437400;Wirtschaftsmathematik;37;461
 277;0871700;Wirtschaftsinformatik;71;481
@@ -245,32 +230,35 @@
 284;0107300;Angewandte Sprachwissenschaft;07;223
 286;0864400;Mikrosystemtechnik;64;523
 287;0975400;Neue Medien;75;213
-290;1083200;Sonstige Fächer;83;999
+290;9083200;Sonstige Fächer;83;999
 292;0118100;Islamische Studien/Islamische Theologie;18;222
 294;0872100;Materialwissenschaft;72;543
 300;0442250;Biomedizin;42;421
 302;0119100;Medienwissenschaft;19;321
-303;0334100;Kommunikationswissenschaft/Publizistik;34;321
-304;0330220;Medienwirtschaft/Medienmanagement;30;340
+303;1334100;Kommunikationswissenschaft/Publizistik;34;321
+304;1230220;Medienwirtschaft/Medienmanagement;30;340
 305;0861600;Medientechnik;61;213
 310;0861700;Regenerative Energien;61;523
 312;0436400;Statistik;36;462
 316;0864100;Elektrische Energietechnik;64;523
 320;0760100;Ernährungswissenschaft;60;726
-321;0333300;Erwachsenenbildung und außerschulische Jugendbildung;33;142
+321;1333300;Erwachsenenbildung und außerschulische Jugendbildung;33;142
 333;0760300;Haushaltswissenschaft;60;814
 353;0758450;Pflanzenproduktion;58;621
-361;0333700;Schulpädagogik;33;142
-365;0333450;Pädagogik der frühen Kindheit;33;142
+361;1333700;Schulpädagogik;33;142
+365;1333550;Kindheitspädagogik;33;142
 370;0870100;Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt;70;520
 371;0758500;Tierproduktion;58;621
 380;0861400;Mechatronik;61;520
 385;0443150;Geoökologie;43;443
 390;0862100;Archäometrie (Ingenieurarchäologie);62;225
-429;0868300;Stahlbau;68;582
 457;0863820;Umwelttechnik (einschl. Recycling);63;851
 458;0867200;Umweltschutz;67;851
-464;0331100;Facility Management;31;341
+464;1231100;Facility Management;31;341
 544;0102200;Evang. Religionspädagogik, kirchliche Bildungsarbeit;02;221
 545;0103200;Kath. Religionspädagogik, kirchliche Bildungsarbeit;03;221
 548;0105500;Ur- und Frühgeschichte;05;225
+549;0548050;Ergotherapie;48;723
+550;0548250;Hebammenwissenschaft;48;723
+551;0548350;Logopädie/Sprachtherapie;48;723
+552;0548500;Physiotherapie;48;723
