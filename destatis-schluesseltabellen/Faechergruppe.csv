@@ -1,0 +1,13 @@
+Faechergruppe;Sortierschlüssel;Name;Gültig ab;Gültig bis;
+01;;Geisteswissenschaften;20152;99999;
+04;;Mathematik, Naturwissenschaften;20042;99999;
+05;;Humanmedizin/Gesundheitswissenschaften;20042;99999;
+07;;Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin;20152;99999;
+08;;Ingenieurwissenschaften;20042;99999;
+09;;Kunst, Kunstwissenschaft;20042;99999;
+11;;Rechts- und Verwaltungswissenschaften;20252;99999;
+12;;Wirtschaftswissenschaften;20252;99999;
+13;;Sozial- und Verhaltenswissenschaften, Sport;20252;99999;
+15;;Zentrale Einrichtungen (ohne klinikspezifische Einrichtungen);20042;99999;
+20;;Zentrale Einrichtungen der Hochschulkliniken (nur Humanmedizin);20042;99999;
+90;;Außerhalb der Studienbereichsgliederung/Sonstige Fächer;20252;99999;
