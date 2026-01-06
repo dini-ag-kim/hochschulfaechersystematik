@@ -385,7 +385,7 @@
     skos:prefLabel "Sport, Sportwissenschaft"@de,
         "Sports, Sports Science"@en,
         "Фізична культура та спорт"@uk,
-        "Idrott, idrottsvetenskap"@sv ;
+        "Idrott, idrottsvetenskap"@sv .
 
 <n23> a skos:Concept ;
     skos:broader <n3> ;
