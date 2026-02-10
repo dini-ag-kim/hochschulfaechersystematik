@@ -18,4 +18,4 @@ Die erste Turtle-codierte SKOS-Version wurde aus einer XML-Version der [Virtuell
 
 ## Mitarbeit und Kontakt
 
-Mitarbeit und Kontakt findet am besten statt über [Issues](https://github.com/dini-ag-kim/hochschulfaechersystematik/issues) oder die [Mailingliste der OER-Metadatengruppe](http://lists.dnb.de/mailman/listinfo/dini-ag-kim-oer).
+Mitarbeit und Kontakt findet am besten statt über [Issues](https://github.com/dini-ag-kim/hochschulfaechersystematik/issues) oder das [metadaten.community-Forum](https://metadaten.community/c/arbeitsgruppen/kim-oer/12).
