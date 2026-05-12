@@ -32,7 +32,8 @@
     skos:prefLabel "Fachübergreifend"@de,
         "Interdisciplinary"@en,
         "Міждисциплінарний"@uk,
-        "Tvärvetenskapligt"@sv ;
+        "Tvärvetenskapligt"@sv,
+        "Interdisciplinario"@es ;
     skos:topConceptOf <scheme> .
 
 <n1> a skos:Concept ;
@@ -56,7 +57,8 @@
     skos:prefLabel "Geisteswissenschaften"@de,
         "Humanities"@en,
         "Гуманітарні науки"@uk,
-        "Humaniora"@sv ;
+        "Humaniora"@sv,
+        "Humanidades"@es ;
     skos:topConceptOf <scheme> .
 
 <n2> a skos:Concept ;
@@ -65,7 +67,8 @@
     skos:prefLabel "Sport"@de,
         "Sports"@en,
         "Спорт"@uk,
-        "Idrott"@sv ;
+        "Idrott"@sv,
+        "Deportes"@es ;
     skos:topConceptOf <scheme> .
 
 <n3> a skos:Concept ;
@@ -85,7 +88,8 @@
     skos:prefLabel "Rechts-, Wirtschafts- und Sozialwissenschaften"@de,
         "Law, Economics and Social Sciences"@en,
         "Право, економіка та суспільні науки"@uk,
-        "Rätts-, ekonomi- och samhällsvetenskaper"@sv ;
+        "Rätts-, ekonomi- och samhällsvetenskaper"@sv,
+        "Derecho, Economía y Ciencias Sociales"@es ;
     skos:topConceptOf <scheme> .
 
 <n4> a skos:Concept ;
@@ -101,7 +105,8 @@
     skos:prefLabel "Mathematik, Naturwissenschaften"@de,
         "Mathematics, Natural Sciences"@en,
         "Математика, природничі науки"@uk,
-        "Matematik och naturvetenskaper"@sv ;
+        "Matematik och naturvetenskaper"@sv,
+        "Matemáticas y Ciencias Naturales"@es ;
     skos:topConceptOf <scheme> .
 
 <n5> a skos:Concept ;
@@ -112,7 +117,8 @@
     skos:prefLabel "Humanmedizin/Gesundheitswissenschaften"@de,
         "Human Medicine / Health Sciences"@en,
         "Медицина / Науки про здоров'я"@uk,
-        "Medicin/Hälsovetenskaper"@sv ;
+        "Medicin/Hälsovetenskaper"@sv,
+        "Medicina/Ciencias de la Salud"@es ;
     skos:topConceptOf <scheme> .
 
 <n7> a skos:Concept ;
@@ -125,7 +131,8 @@
     skos:prefLabel "Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin"@de,
         "Agricultural, Forest and Nutritional Sciences, Veterinary medicine"@en,
         "Сільськогосподарські, лісові та харчові науки, ветеринарія"@uk,
-        "Jordbruks-, skogs- och livsmedelsvetenskaper, veterinärmedicin"@sv ;
+        "Jordbruks-, skogs- och livsmedelsvetenskaper, veterinärmedicin"@sv,
+        "Ciencias Agrícolas, Forestales y Nutricionales, Medicina Veterinaria"@es ;
     skos:topConceptOf <scheme> .
 
 <n8> a skos:Concept ;
@@ -145,7 +152,8 @@
     skos:prefLabel "Ingenieurwissenschaften"@de,
         "Engineering Sciences"@en,
         "Інженерія"@uk,
-        "Ingenjörsvetenskaper"@sv ;
+        "Ingenjörsvetenskaper"@sv,
+        "Ingenierías"@es ;
     skos:topConceptOf <scheme> .
 
 <n9> a skos:Concept ;
@@ -158,7 +166,8 @@
     skos:prefLabel "Kunst, Kunstwissenschaft"@de,
         "Art, Art Theory"@en,
         "Мистецтво, мистецтвознавство"@uk,
-        "Konst, konstvetenskap"@sv ;
+        "Konst, konstvetenskap"@sv,
+        "Arte, Teoría del Arte"@es ;
     skos:topConceptOf <scheme> .
 
 <n01> a skos:Concept ;
@@ -170,7 +179,8 @@
     skos:prefLabel "Geisteswissenschaften allgemein"@de,
         "Humanities (general)"@en,
         "Гуманітарні науки загалом"@uk,
-        "Humaniora (allmänt)"@sv .
+        "Humaniora (allmänt)"@sv,
+        "Humanidades (general)"@es .
 
 <n02> a skos:Concept ;
     skos:broader <n1> ;
@@ -182,7 +192,8 @@
     skos:prefLabel "Evangelische Theologie, -Religionslehre"@de,
         "Protestant Theology, Protestant Religious Education"@en,
         "Протестантська теологія, протестантська релігійна освіта"@uk,
-        "Protestantisk teologi, protestantisk religionsundervisning"@sv .
+        "Protestantisk teologi, protestantisk religionsundervisning"@sv,
+        "Teología Protestante, Educación Religiosa Protestante"@es .
 
 <n03> a skos:Concept ;
     skos:broader <n1> ;
@@ -194,7 +205,8 @@
     skos:prefLabel "Katholische Theologie, -Religionslehre"@de,
         "Catholic Theology, Catholic Religious Education"@en,
         "Католицька теологія, католицька релігійна освіта"@uk,
-        "Katolsk teologi, katolsk religionsundervisning"@sv .
+        "Katolsk teologi, katolsk religionsundervisning"@sv,
+        "Teología Católica, Educación Religiosa Católica"@es .
 
 <n04> a skos:Concept ;
     skos:broader <n1> ;
@@ -206,7 +218,8 @@
     skos:prefLabel "Philosophie"@de,
         "Philosophy"@en,
         "Філософія"@uk,
-        "Filosofi"@sv .
+        "Filosofi"@sv,
+        "Filosofía"@es .
 
 <n05> a skos:Concept ;
     skos:broader <n1> ;
@@ -222,7 +235,8 @@
     skos:prefLabel "Geschichte"@de,
         "History"@en,
         "Історія"@uk,
-        "Historia"@sv .
+        "Historia"@sv,
+        "Historia"@es .
 
 <n06> a skos:Concept ;
     skos:broader <n1> ;
@@ -233,7 +247,8 @@
     skos:prefLabel "Informations- und Bibliothekswissenschaften"@de,
         "Information and Library Sciences"@en,
         "Бібліотекознавство, документознавство"@uk,
-        "Informations- och biblioteksvetenskap"@sv .
+        "Informations- och biblioteksvetenskap"@sv,
+        "Ciencias de la Información y Bibliotecología"@es .
 
 <n07> a skos:Concept ;
     skos:broader <n1> ;
@@ -247,7 +262,8 @@
     skos:prefLabel "Allgemeine und vergleichende Literatur- und Sprachwissenschaft"@de,
         "General and Comparative Literary Studies and Linguistics"@en,
         "Загальне та порівняльне літературознавство та мовознавство"@uk,
-        "Allmän och jämförande litteraturvetenskap och lingvistik"@sv .
+        "Allmän och jämförande litteraturvetenskap och lingvistik"@sv,
+        "Estudios Literarios y Lingüísticos Generales y Comparativos"@es .
 
 <n08> a skos:Concept ;
     skos:broader <n1> ;
@@ -261,7 +277,8 @@
     skos:prefLabel "Altphilologie (klassische Philologie), Neugriechisch"@de,
         "Classical Philology, Modern Greek"@en,
         "Класична філологія, новогрецька мова"@uk,
-        "Klassisk filologi, Moderna grekiska"@sv .
+        "Klassisk filologi, Moderna grekiska"@sv,
+        "Filología Clásica, Griego Moderno"@es .
 
 <n09> a skos:Concept ;
     skos:broader <n1> ;
@@ -276,7 +293,8 @@
     skos:prefLabel "Germanistik (Deutsch, germanische Sprachen ohne Anglistik)"@de,
         "German Studies (German, Germanic Languages excl. English)"@en,
         "Німецькі студії (німецька мова, германські мови без англійської мови)"@uk,
-        "Tysk studier (tyska, germanska språk exklusive engelska)"@sv .
+        "Tysk studier (tyska, germanska språk exklusive engelska)"@sv,
+        "Estudios Alemanes (Alemán y Lenguas Germánicas excl. Inglés)"@es .
 
 <n10> a skos:Concept ;
     skos:broader <n1> ;
@@ -287,7 +305,8 @@
     skos:prefLabel "Anglistik, Amerikanistik"@de,
         "English Studies, American Studies"@en,
         "Англійські студії, американські студії"@uk,
-        "Engelska studier, Amerikastudier"@sv .
+        "Engelska studier, Amerikastudier"@sv,
+        "Estudios Ingleses, Estudios Americanos"@es .
 
 <n11> a skos:Concept ;
     skos:broader <n1> ;
@@ -301,7 +320,8 @@
     skos:prefLabel "Romanistik"@de,
         "Romance Studies"@en,
         "Романістика"@uk,
-        "Romanska språk och litteratur"@sv .
+        "Romanska språk och litteratur"@sv,
+        "Estudios Romances"@es .
 
 <n12> a skos:Concept ;
     skos:broader <n1> ;
@@ -319,7 +339,8 @@
     skos:prefLabel "Slawistik, Baltistik, Finno-Ugristik"@de,
         "Slavic, Baltic, Finno-Ugrian Studies"@en,
         "Слов'янознавство, балтистика, фіно-угрознавство"@uk,
-        "Slaviska, baltiska och finsk-ugriska studier"@sv .
+        "Slaviska, baltiska och finsk-ugriska studier"@sv,
+        "Estudios Eslavos, Bálticos y Fino-ugrio"@es .
 
 <n13> a skos:Concept ;
     skos:broader <n1> ;
@@ -342,7 +363,8 @@
     skos:prefLabel "Sonstige Sprach- und Kulturwissenschaften"@de,
         "Other linguistic and cultural studies"@en,
         "Інші лінгвокультурологічні дослідження"@uk,
-        "Övriga språk- och kulturstudier"@sv .
+        "Övriga språk- och kulturstudier"@sv,
+        "Otros Estudios Lingüísticos y Culturales"@es .
 
 <n14> a skos:Concept ;
     skos:broader <n1> ;
@@ -354,7 +376,8 @@
     skos:prefLabel "Kulturwissenschaften i.e.S."@de,
         "Cultural Studies in the narrower sense"@en,
         "Культурологія у вужчому розумінні"@uk,
-        "Kulturvetenskap i snävare bemärkelse"@sv .
+        "Kulturvetenskap i snävare bemärkelse"@sv,
+        "Estudios Culturales (en sentido restringido)"@es .
 
 <n18> a skos:Concept ;
     skos:broader <n1> ;
@@ -364,7 +387,8 @@
     skos:prefLabel "Islamische Studien/Islamische Theologie"@de,
         "Islamic Studies/Islamic Theology"@en,
         "Ісламознавство/Ісламська теологія"@uk,
-        "Islamiska studier/Islamisk teologi"@sv .
+        "Islamiska studier/Islamisk teologi"@sv,
+        "Estudios Islámicos/Teología Islámica"@es .
 
 <n19> a skos:Concept ;
     skos:broader <n1> ;
@@ -374,7 +398,8 @@
     skos:prefLabel "Medienwissenschaft"@de,
         "Media Science"@en,
         "Медіазнавство"@uk,
-        "Medievetenskap"@sv .
+        "Medievetenskap"@sv,
+        "Ciencias de la comunicación y medios"@es .
 
 <n22> a skos:Concept ;
     skos:broader <n2> ;
@@ -385,7 +410,8 @@
     skos:prefLabel "Sport, Sportwissenschaft"@de,
         "Sports, Sports Science"@en,
         "Фізична культура та спорт"@uk,
-        "Idrott, idrottsvetenskap"@sv .
+        "Idrott, idrottsvetenskap"@sv,
+        "Deportes, Ciencias del Deporte"@es .
 
 <n23> a skos:Concept ;
     skos:broader <n3> ;
@@ -397,7 +423,8 @@
     skos:prefLabel "Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"@de,
         "Law, Economics and Social Sciences (general)"@en,
         "Право, економіка та суспільні науки"@uk,
-        "Rätts-, ekonomi- och samhällsvetenskaper (allmänt)"@sv .
+        "Rätts-, ekonomi- och samhällsvetenskaper (allmänt)"@sv,
+        "Derecho, Economía y Ciencias Sociales (general)"@es .
 
 <n24> a skos:Concept ;
     skos:broader <n3> ;
@@ -409,7 +436,8 @@
     skos:prefLabel "Regionalwissenschaften"@de,
         "Regional Studies"@en,
         "Регіональні студії"@uk,
-        "Regionala studier"@sv .
+        "Regionala studier"@sv,
+        "Estudios Regionales"@es .
 
 <n25> a skos:Concept ;
     skos:broader <n3> ;
@@ -419,7 +447,8 @@
     skos:prefLabel "Politikwissenschaft"@de,
         "Political Science"@en,
         "Політологія"@uk,
-        "Statsvetenskap"@sv .
+        "Statsvetenskap"@sv,
+        "Ciencia Política"@es .
 
 <n26> a skos:Concept ;
     skos:broader <n3> ;
@@ -431,7 +460,8 @@
     skos:prefLabel "Sozialwissenschaften/Soziologie"@de,
         "Social Sciences/Sociology"@en,
         "Суспільні науки та соціологія"@uk,
-        "Samhällsvetenskap/Sociologi"@sv .
+        "Samhällsvetenskap/Sociologi"@sv,
+        "Ciencias Sociales/Sociología"@es .
 
 <n27> a skos:Concept ;
     skos:broader <n3> ;
@@ -443,7 +473,8 @@
     skos:prefLabel "Sozialwesen"@de,
         "Applied Social Science"@en,
         "Прикладні суспільні науки"@uk,
-        "Tillämpad socialvetenskap"@sv .
+        "Tillämpad socialvetenskap"@sv,
+        "Ciencias Sociales Aplicadas"@es .
 
 <n28> a skos:Concept ;
     skos:broader <n3> ;
@@ -454,7 +485,8 @@
     skos:prefLabel "Rechtswissenschaften"@de,
         "Law"@en,
         "Правознавство"@uk,
-        "Rättsvetenskap"@sv .
+        "Rättsvetenskap"@sv,
+        "Derecho"@es .
 
 <n29> a skos:Concept ;
     skos:broader <n3> ;
@@ -479,7 +511,8 @@
     skos:prefLabel "Verwaltungswissenschaften"@de,
         "Administrative Sciences"@en,
         "Управління та адміністрування"@uk,
-        "Administrativ vetenskap"@sv .
+        "Administrativ vetenskap"@sv,
+        "Ciencias Administrativas"@es .
 
 <n30> a skos:Concept ;
     skos:broader <n3> ;
@@ -499,7 +532,8 @@
     skos:prefLabel "Wirtschaftswissenschaften"@de,
         "Business and Economics"@en,
         "Бізнес та економіка"@uk,
-        "Företagsekonomi och nationalekonomi"@sv .
+        "Företagsekonomi och nationalekonomi"@sv,
+        "Economía y Negocios"@es .
 
 <n31> a skos:Concept ;
     skos:broader <n3> ;
@@ -510,7 +544,8 @@
     skos:prefLabel "Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt"@de,
         "Business Engineering specialising in Economics"@en,
         "Бізнес інженерія у галузі економіки"@uk,
-        "Industriell ekonomi med ekonomiinriktning"@sv .
+        "Industriell ekonomi med ekonomiinriktning"@sv,
+        "Ingeniería empresarial con especialización en Economía"@es .
 
 <n32> a skos:Concept ;
     skos:broader <n3> ;
@@ -520,7 +555,8 @@
     skos:prefLabel "Psychologie"@de,
         "Psychology"@en,
         "Психологія"@uk,
-        "Psykologi"@sv .
+        "Psykologi"@sv,
+        "Psicología"@es .
 
 <n33> a skos:Concept ;
     skos:broader <n3> ;
@@ -538,7 +574,8 @@
     skos:prefLabel "Erziehungswissenschaften"@de,
         "Educational Sciences"@en,
         "Педагогічні науки"@uk,
-        "Pedagogik"@sv .
+        "Pedagogik"@sv,
+        "Ciencias de la Educación"@es .
 
 <n34> a skos:Concept ;
     skos:broader <n3> ;
@@ -548,7 +585,8 @@
     skos:prefLabel "Kommunikationswissenschaft/Publizistik"@de,
         "Communication Science/Journalism"@en,
         "Соціальні комунікації/Журналістика"@uk,
-        "Kommunikationsvetenskap/Journalistik"@sv .
+        "Kommunikationsvetenskap/Journalistik"@sv,
+        "Ciencias de la Comunicación/Periodismo"@es .
 
 <n36> a skos:Concept ;
     skos:broader <n4> ;
@@ -561,7 +599,8 @@
     skos:prefLabel "Mathematik, Naturwissenschaften allgemein"@de,
         "Mathematics, Natural Sciences (general)"@en,
         "Математика, Природничі науки (загальні)"@uk,
-        "Matematik och naturvetenskap (allmänt)"@sv .
+        "Matematik och naturvetenskap (allmänt)"@sv,
+        "Matemáticas y Ciencias Naturales (general)"@es .
 
 <n37> a skos:Concept ;
     skos:broader <n4> ;
@@ -574,7 +613,8 @@
     skos:prefLabel "Mathematik"@de,
         "Mathematics"@en,
         "Математика"@uk,
-        "Matematik"@sv .
+        "Matematik"@sv,
+        "Matemáticas"@es .
 
 <n39> a skos:Concept ;
     skos:broader <n4> ;
@@ -585,7 +625,8 @@
     skos:prefLabel "Physik, Astronomie"@de,
         "Physics, Astronomy"@en,
         "Фізика, Астрономія"@uk,
-        "Fysik, astronomi"@sv .
+        "Fysik, astronomi"@sv,
+        "Física, Astronomía"@es .
 
 <n40> a skos:Concept ;
     skos:broader <n4> ;
@@ -597,7 +638,8 @@
     skos:prefLabel "Chemie"@de,
         "Chemistry"@en,
         "Хімія"@uk,
-        "Kemi"@sv .
+        "Kemi"@sv,
+        "Química"@es .
 
 <n41> a skos:Concept ;
     skos:broader <n4> ;
@@ -607,7 +649,8 @@
     skos:prefLabel "Pharmazie"@de,
         "Pharmacy"@en,
         "Фармація"@uk,
-        "Farmaci"@sv .
+        "Farmaci"@sv,
+        "Farmacia"@es .
 
 <n42> a skos:Concept ;
     skos:broader <n4> ;
@@ -620,7 +663,8 @@
     skos:prefLabel "Biologie"@de,
         "Biology"@en,
         "Біологія"@uk,
-        "Biologi"@sv .
+        "Biologi"@sv,
+        "Biología"@es .
 
 <n43> a skos:Concept ;
     skos:broader <n4> ;
@@ -636,7 +680,8 @@
     skos:prefLabel "Geowissenschaften (ohne Geographie)"@de,
         "Geosciences (excl. Geography)"@en,
         "Науки про Землю(крім географії)"@uk,
-        "Geovetenskaper (exkl. geografi)"@sv .
+        "Geovetenskaper (exkl. geografi)"@sv,
+        "Ciencias de la Tierra (excl. Geografía)"@es .
 
 <n44> a skos:Concept ;
     skos:broader <n4> ;
@@ -648,7 +693,8 @@
     skos:prefLabel "Geographie"@de,
         "Geography"@en,
         "Географія"@uk,
-        "Geografi"@sv .
+        "Geografi"@sv,
+        "Geografía"@es .
 
 <n48> a skos:Concept ;
     skos:broader <n5> ;
@@ -661,7 +707,8 @@
     skos:prefLabel "Gesundheitswissenschaften allgemein"@de,
         "Health Sciences (general)"@en,
         "Науки про здоров'я (в цілому)"@uk,
-        "Hälsovetenskaper (allmänt)"@sv .
+        "Hälsovetenskaper (allmänt)"@sv,
+        "Ciencias de la Salud (general)"@es .
 
 <n49> a skos:Concept ;
     skos:broader <n5> ;
@@ -671,7 +718,8 @@
     skos:prefLabel "Humanmedizin (ohne Zahnmedizin)"@de,
         "Human Medicine (excl. Dentistry)"@en,
         "Медицина людини (крім стоматології)"@uk,
-        "Medicin (exkl. tandvård)"@sv .
+        "Medicin (exkl. tandvård)"@sv,
+        "Medicina Humana (excl. Odontología)"@es .
 
 <n50> a skos:Concept ;
     skos:broader <n5> ;
@@ -681,7 +729,8 @@
     skos:prefLabel "Zahnmedizin"@de,
         "Dentistry"@en,
         "Стоматологія"@uk,
-        "Tandvård"@sv .
+        "Tandvård"@sv,
+        "Odontología"@es .
 
 <n51> a skos:Concept ;
     skos:broader <n7> ;
@@ -691,7 +740,8 @@
     skos:prefLabel "Veterinärmedizin"@de,
         "Veterinary Medicine"@en,
         "Ветеринарна медицина"@uk,
-        "Veterinärmedicin"@sv .
+        "Veterinärmedicin"@sv,
+        "Medicina Veterinaria"@es .
 
 <n57> a skos:Concept ;
     skos:broader <n7> ;
@@ -703,7 +753,8 @@
     skos:prefLabel "Landespflege, Umweltgestaltung"@de,
         "Land Management Engineering, Environmental Design"@en,
         "Землеустрій, екологічний дизайн"@uk,
-        "Markskötsel, landskapsdesign"@sv .
+        "Markskötsel, landskapsdesign"@sv,
+        "Gestión Territorial y Diseño Ambiental"@es .
 
 <n58> a skos:Concept ;
     skos:broader <n7> ;
@@ -722,7 +773,8 @@
     skos:prefLabel "Agrarwissenschaften, Lebensmittel- und Getränketechnologie"@de,
         "Agricultural Science, Food- and Beverage Technology"@en,
         "Сільськогосподарська наука, харчові технології"@uk,
-        "Jordbruksvetenskap, livsmedels- och dryckesteknik"@sv .
+        "Jordbruksvetenskap, livsmedels- och dryckesteknik"@sv,
+        "Ciencias Agrícolas, Tecnología de Alimentos y Bebidas"@es .
 
 <n59> a skos:Concept ;
     skos:broader <n7> ;
@@ -733,7 +785,8 @@
     skos:prefLabel "Forstwissenschaft, Holzwirtschaft"@de,
         "Forestry, Wood Science"@en,
         "Лісівництво, деревообробна промисловість"@uk,
-        "Skogsvetenskap, träindustri"@sv .
+        "Skogsvetenskap, träindustri"@sv,
+        "Silvicultura, Ciencia de la Madera"@es .
 
 <n60> a skos:Concept ;
     skos:broader <n7> ;
@@ -745,7 +798,8 @@
     skos:prefLabel "Ernährungs- und Haushaltswissenschaften"@de,
         "Nutritional and Domestic Science"@en,
         "Харчові та побутові науки"@uk,
-        "Närings- och hushållsvetenskap"@sv .
+        "Närings- och hushållsvetenskap"@sv,
+        "Ciencias de la Nutrición y del Hogar"@es .
 
 <n61> a skos:Concept ;
     skos:broader <n8> ;
@@ -761,7 +815,8 @@
     skos:prefLabel "Ingenieurwesen allgemein"@de,
         "Engineering (general)"@en,
         "Інженерія (в цілому)"@uk,
-        "Ingenjörsvetenskap (allmänt)"@sv .
+        "Ingenjörsvetenskap (allmänt)"@sv,
+        "Ingeniería (general)"@es .
 
 <n62> a skos:Concept ;
     skos:broader <n8> ;
@@ -774,7 +829,8 @@
     skos:prefLabel "Bergbau, Hüttenwesen"@de,
         "Mining, Metallurgy"@en,
         "Гірнича справа, металургія"@uk,
-        "Gruvdrift, metallurgi"@sv .
+        "Gruvdrift, metallurgi"@sv,
+        "Minería y Metalurgia"@es .
 
 <n63> a skos:Concept ;
     skos:broader <n8> ;
@@ -804,7 +860,8 @@
     skos:prefLabel "Maschinenbau/Verfahrenstechnik"@de,
         "Mechanical Engineering / Process Engineering"@en,
         "Машинобудування/Технологія"@uk,
-        "Mekanik/Processteknik"@sv .
+        "Mekanik/Processteknik"@sv,
+        "Ingeniería Mecánica/Ingeniería de Procesos"@es .
 
 <n64> a skos:Concept ;
     skos:broader <n8> ;
@@ -819,7 +876,8 @@
     skos:prefLabel "Elektrotechnik und Informationstechnik"@de,
         "Electrical Engineering and Information Engineering"@en,
         "Електротехніка та інформаційні технології"@uk,
-        "Elektroteknik och informationsteknik"@sv .
+        "Elektroteknik och informationsteknik"@sv,
+        "Ingeniería Eléctrica e Ingeniería Informática"@es .
 
 <n65> a skos:Concept ;
     skos:broader <n8> ;
@@ -833,7 +891,8 @@
     skos:prefLabel "Verkehrstechnik, Nautik"@de,
         "Traffic Engineering, Nautical Science"@en,
         "Транспортні технології/Мореплавство"@uk,
-        "Trafikteknik, nautisk vetenskap"@sv .
+        "Trafikteknik, nautisk vetenskap"@sv,
+        "Ingeniería de Transporte y Ciencias Náuticas"@es .
 
 <n66> a skos:Concept ;
     skos:broader <n8> ;
@@ -844,7 +903,8 @@
     skos:prefLabel "Architektur, Innenarchitektur"@de,
         "Architecture, Interior Architecture "@en,
         "Архітектура, дизайн інтер'єру"@uk,
-        "Arkitektur, inredningsarkitektur"@sv .
+        "Arkitektur, inredningsarkitektur"@sv,
+        "Arquitectura y Diseño de Interiores"@es .
 
 <n67> a skos:Concept ;
     skos:broader <n8> ;
@@ -855,7 +915,8 @@
     skos:prefLabel "Raumplanung"@de,
         "Spatial Planning"@en,
         "Містобудування та територіальне планування"@uk,
-        "Regionalplanering"@sv .
+        "Regionalplanering"@sv,
+        "Planificación Territorial"@es .
 
 <n68> a skos:Concept ;
     skos:broader <n8> ;
@@ -869,7 +930,8 @@
     skos:prefLabel "Bauingenieurwesen"@de,
         "Civil Engineering"@en,
         "Цивільна інженерія"@uk,
-        "Väg- och vattenbyggnad/Byggnadsteknik"@sv .
+        "Väg- och vattenbyggnad/Byggnadsteknik"@sv,
+        "Ingeniería Civil"@es .
 
 <n69> a skos:Concept ;
     skos:broader <n8> ;
@@ -880,7 +942,8 @@
     skos:prefLabel "Vermessungswesen"@de,
         "Surveying"@en,
         "Землеустрій"@uk,
-        "Geomatik/Geodetisk mätning"@sv .
+        "Geomatik/Geodetisk mätning"@sv,
+        "Topografía"@es .
 
 <n70> a skos:Concept ;
     skos:broader <n8> ;
@@ -890,7 +953,8 @@
     skos:prefLabel "Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt"@de,
         "Business Engineering specialising in Engineering Sciences"@en,
         "Промислова інженерія у галузі технічних наук"@uk,
-        "Industriell ekonomi med teknikinriktning"@sv .
+        "Industriell ekonomi med teknikinriktning"@sv,
+        "Ingeniería Empresarial con especialización en Ingenierías"@es .
 
 <n71> a skos:Concept ;
     skos:broader <n8> ;
@@ -906,7 +970,8 @@
     skos:prefLabel "Informatik"@de,
         "Computer Science"@en,
         "Комп'ютерні науки"@uk,
-        "Datavetenskap"@sv .
+        "Datavetenskap"@sv,
+        "Ciencias de la Computación"@es .
 
 <n72> a skos:Concept ;
     skos:broader <n8> ;
@@ -917,7 +982,8 @@
     skos:prefLabel "Materialwissenschaft und Werkstofftechnik"@de,
         "Materials Science and Materials Engineering"@en,
         "Матеріалознавство та прикладна механіка"@uk,
-        "Materialvetenskap och materialteknik"@sv .
+        "Materialvetenskap och materialteknik"@sv,
+        "Ciencia de Materiales e Ingeniería de Materiales"@es .
 
 <n74> a skos:Concept ;
     skos:broader <n9> ;
@@ -930,7 +996,8 @@
     skos:prefLabel "Kunst, Kunstwissenschaft allgemein"@de,
         "Art, Art Theory (general)"@en,
         "Культура і мистецтво, теорія мистецтв (загальні)"@uk,
-        "Konst, konstvetenskap (allmänt)"@sv .
+        "Konst, konstvetenskap (allmänt)"@sv,
+        "Arte y Teoría del Arte (general)"@es .
 
 <n75> a skos:Concept ;
     skos:broader <n9> ;
@@ -943,7 +1010,8 @@
     skos:prefLabel "Bildende Kunst"@de,
         "Fine Arts"@en,
         "Образотворче мистецтво"@uk,
-        "Bildkonst"@sv .
+        "Bildkonst"@sv,
+        "Bellas Artes"@es .
 
 <n76> a skos:Concept ;
     skos:broader <n9> ;
@@ -958,7 +1026,8 @@
     skos:prefLabel "Gestaltung"@de,
         "Design"@en,
         "Дизайн"@uk,
-        "Design"@sv .
+        "Design"@sv,
+        "Diseño"@es .
 
 <n77> a skos:Concept ;
     skos:broader <n9> ;
@@ -972,7 +1041,8 @@
     skos:prefLabel "Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft"@de,
         "Performing Arts, Film and Television Studies, Theatre Studies"@en,
         "Акторська гра/Телемистецтво/Театральне мистецтво"@uk,
-        "Scenkonst, film- och tv-studier, teatervetenskap"@sv .
+        "Scenkonst, film- och tv-studier, teatervetenskap"@sv,
+        "Artes Escénicas, Cine y Televisión, Estudios Dramáticos"@es .
 
 <n78> a skos:Concept ;
     skos:broader <n9> ;
@@ -992,7 +1062,8 @@
     skos:prefLabel "Musik, Musikwissenschaft"@de,
         "Music, Musicology"@en,
         "Музика, музикознавство"@uk,
-        "Musik, musikvetenskap"@sv .
+        "Musik, musikvetenskap"@sv,
+        "Música y Musicología"@es .
 
 <n001> a skos:Concept ;
     skos:broader <n13> ;
@@ -1001,7 +1072,8 @@
     skos:prefLabel "Ägyptologie"@de,
         "Egyptology"@en,
         "Єгиптологія"@uk,
-        "Egyptologi"@sv .
+        "Egyptologi"@sv,
+        "Egiptología"@es .
 
 <n002> a skos:Concept ;
     skos:broader <n13> ;
@@ -1010,7 +1082,8 @@
     skos:prefLabel "Afrikanistik"@de,
         "African Studies"@en,
         "Африканські студії"@uk,
-        "Afrikastudier"@sv .
+        "Afrikastudier"@sv,
+        "Estudios Africanos"@es .
 
 <n003> a skos:Concept ;
     skos:broader <n58> ;
@@ -1019,7 +1092,8 @@
     skos:prefLabel "Agrarwissenschaft/Landwirtschaft"@de,
         "Agricultural Science/Agriculture"@en,
         "Аграрні науки/Сільське господарство"@uk,
-        "Jordbruksvetenskap/ jordbruk"@sv .
+        "Jordbruksvetenskap/ jordbruk"@sv,
+        "Ciencias Agrícolas/Agricultura"@es .
 
 <n004> a skos:Concept ;
     skos:broader <n01> ;
@@ -1028,7 +1102,8 @@
     skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften)"@de,
         "Interdisciplinary Studies (specialising in Humanities)"@en,
         "Міждисциплінарні науки (Спеціалізація гумагітарні науки)"@uk,
-        "Tvärvetenskapliga studier (inriktning humaniora)"@sv .
+        "Tvärvetenskapliga studier (inriktning humaniora)"@sv,
+        "Estudios Interdisciplinarios (especialización en Humanidades)"@es .
 
 <n005> a skos:Concept ;
     skos:broader <n08> ;
@@ -1037,7 +1112,8 @@
     skos:prefLabel "Klassische Philologie"@de,
         "Classical Philology"@en,
         "Класична філологія"@uk,
-        "Klassisk filologi"@sv .
+        "Klassisk filologi"@sv,
+        "Filología Clásica"@es .
 
 <n006> a skos:Concept ;
     skos:broader <n10> ;
@@ -1046,7 +1122,8 @@
     skos:prefLabel "Amerikanistik/Amerikakunde"@de,
         "American Studies"@en,
         "Американські студії"@uk,
-        "Amerikastudier"@sv .
+        "Amerikastudier"@sv,
+        "Estudios Americanos"@es .
 
 <n007> a skos:Concept ;
     skos:broader <n76> ;
@@ -1055,7 +1132,8 @@
     skos:prefLabel "Angewandte Kunst"@de,
         "Applied Art"@en,
         "Декоративно-ужиткове мистецтво"@uk,
-        "Tillämpad konst"@sv .
+        "Tillämpad konst"@sv,
+        "Arte Aplicado"@es .
 
 <n008> a skos:Concept ;
     skos:broader <n10> ;
@@ -1064,7 +1142,8 @@
     skos:prefLabel "Anglistik/Englisch"@de,
         "English Studies"@en,
         "Англійські студії"@uk,
-        "Engelska studier"@sv .
+        "Engelska studier"@sv,
+        "Estudios Ingleses"@es .
 
 <n009> a skos:Concept ;
     skos:broader <n42> ;
@@ -1073,7 +1152,8 @@
     skos:prefLabel "Anthropologie (Humanbiologie)"@de,
         "Anthropology (Human Biology)"@en,
         "Антропологія (Біологія людини)"@uk,
-        "Antropologi (människobiologi)"@sv .
+        "Antropologi (människobiologi)"@sv,
+        "Antropología (Biología Humana)"@es .
 
 <n010> a skos:Concept ;
     skos:broader <n13> ;
@@ -1082,7 +1162,8 @@
     skos:prefLabel "Arabisch/Arabistik"@de,
         "Arabic/Arabic Studies"@en,
         "Арабістика"@uk,
-        "Arabiska/Arabistiska studier"@sv .
+        "Arabiska/Arabistiska studier"@sv,
+        "Árabe/Estudios Árabes"@es .
 
 <n011> a skos:Concept ;
     skos:broader <n30> ;
@@ -1091,7 +1172,8 @@
     skos:prefLabel "Arbeitslehre/Wirtschaftslehre"@de,
         "Work Studies/Business Studies"@en,
         "Студії у галузі організації праці/Бізнес"@uk,
-        "Arbetslivsstudier/Företagsekonomi"@sv .
+        "Arbetslivsstudier/Företagsekonomi"@sv,
+        "Estudios del Trabajo/Estudios Empresariales"@es .
 
 <n012> a skos:Concept ;
     skos:broader <n05> ;
@@ -1100,7 +1182,8 @@
     skos:prefLabel "Archäologie"@de,
         "Archaeology"@en,
         "Археологія"@uk,
-        "Arkeologi"@sv .
+        "Arkeologi"@sv,
+        "Arqueología"@es .
 
 <n013> a skos:Concept ;
     skos:broader <n66> ;
@@ -1109,7 +1192,8 @@
     skos:prefLabel "Architektur"@de,
         "Architecture"@en,
         "Архітектура"@uk,
-        "Arkitektur"@sv .
+        "Arkitektur"@sv,
+        "Arquitectura"@es .
 
 <n014> a skos:Concept ;
     skos:broader <n39> ;
@@ -1118,7 +1202,8 @@
     skos:prefLabel "Astrophysik und Astronomie"@de,
         "Astrophysics, Astronomy"@en,
         "Астрофізика, Астрономія"@uk,
-        "Astrofysik, astronomi"@sv .
+        "Astrofysik, astronomi"@sv,
+        "Astrofísica y Astronomía"@es .
 
 <n015> a skos:Concept ;
     skos:broader <n13> ;
@@ -1127,7 +1212,8 @@
     skos:prefLabel "Außereuropäische Sprachen und Kulturen in Ozeanien und Amerika"@de,
         "Non-European Languages and Cultures in Oceania and America"@en,
         "Неєвропейські мови та культури в Океанії та Америці"@uk,
-        "Icke-europeiska språk och kulturer i Oceanien och Amerika"@sv .
+        "Icke-europeiska språk och kulturer i Oceanien och Amerika"@sv,
+        "Lenguas y Culturas No Europeas en Oceanía y América"@es .
 
 <n016> a skos:Concept ;
     skos:broader <n12> ;
@@ -1136,7 +1222,8 @@
     skos:prefLabel "Baltistik"@de,
         "Baltic Studies"@en,
         "Балтійські студії"@uk,
-        "Baltiska studier"@sv .
+        "Baltiska studier"@sv,
+        "Estudios Bálticos"@es .
 
 <n017> a skos:Concept ;
     skos:broader <n68> ;
@@ -1145,7 +1232,8 @@
     skos:prefLabel "Bauingenieurwesen/Ingenieurbau"@de,
         "Civil Engineering/Structural Engineering"@en,
         "Цивільна інженерія/Будівництво"@uk,
-        "Byggnadsteknik/strukturteknik"@sv .
+        "Byggnadsteknik/strukturteknik"@sv,
+        "Ingeniería Civil/Ingeniería Estructural"@es .
 
 <n018> a skos:Concept ;
     skos:broader <n07> ;
@@ -1154,7 +1242,8 @@
     skos:prefLabel "Berufsbezogene Fremdsprachenausbildung"@de,
         "Occupation-specific Foreign Language Training"@en,
         "Викладання іноземних мов за професійним спрямуванням"@uk,
-        "Yrkesinriktad språkutbildning"@sv .
+        "Yrkesinriktad språkutbildning"@sv,
+        "Formación de Idiomas Extranjeros para Profesiones"@es .
 
 <n019> a skos:Concept ;
     skos:broader <n36> ;
@@ -1163,7 +1252,8 @@
     skos:prefLabel "Orientierungsstudium MINT"@de,
         "STEM orientation studies"@en,
         "Науки технологічного спрямування"@uk,
-        "Orienteringsstudier MINT (STEM)"@sv .
+        "Orienteringsstudier MINT (STEM)"@sv,
+        "Estudios de Orientación STEM"@es .
 
 <n020> a skos:Concept ;
     skos:broader <n62> ;
@@ -1172,7 +1262,8 @@
     skos:prefLabel "Bergbau/Bergtechnik"@de,
         "Mining/Mine Engineering"@en,
         "Гірнича справа/Гірнича технологія"@uk,
-        "Gruvdrift/Gruvteknik"@sv .
+        "Gruvdrift/Gruvteknik"@sv,
+        "Minería/Ingeniería de Minas"@es .
 
 <n021> a skos:Concept ;
     skos:broader <n30> ;
@@ -1181,7 +1272,8 @@
     skos:prefLabel "Betriebswirtschaftslehre"@de,
         "Business Administration"@en,
         "Бізнес-адміністрування"@uk,
-        "Företagsekonomi"@sv .
+        "Företagsekonomi"@sv,
+        "Administración de Empresas"@es .
 
 <n022> a skos:Concept ;
     skos:broader <n06> ;
@@ -1190,7 +1282,8 @@
     skos:prefLabel "Informations- und Bibliothekswissenschaften (nicht für Verwaltungsfachhochschulen)"@de,
         "Information and Library Sciences"@en,
         "Бібліотекознавство"@uk,
-        "Informations- och biblioteksvetenskap (ej för förvaltningshögskolor)"@sv .
+        "Informations- och biblioteksvetenskap (ej för förvaltningshögskolor)"@sv,
+        "Ciencias de la Información y Bibliotecología (no para administración)"@es .
 
 <n023> a skos:Concept ;
     skos:broader <n75> ;
@@ -1199,7 +1292,8 @@
     skos:prefLabel "Bildende Kunst/Graphik"@de,
         "Fine Arts/Graphics"@en,
         "Образотворче мистецтво/Графіка"@uk,
-        "Bildkonst/Grafik"@sv .
+        "Bildkonst/Grafik"@sv,
+        "Bellas Artes/Artes gráficas"@es .
 
 <n024> a skos:Concept ;
     skos:broader <n14> ;
@@ -1208,7 +1302,8 @@
     skos:prefLabel "Europäische Ethnologie und Kulturwissenschaft"@de,
         "European Ethnology and Cultural Studies"@en,
         "Європейська етнологія та культурологія"@uk,
-        "Europeisk etnologi och kulturvetenskap"@sv .
+        "Europeisk etnologi och kulturvetenskap"@sv,
+        "Etnología Europea y Estudios Culturales"@es .
 
 <n025> a skos:Concept ;
     skos:broader <n40> ;
@@ -1217,7 +1312,8 @@
     skos:prefLabel "Biochemie"@de,
         "Biochemistry"@en,
         "Біохімія"@uk,
-        "Biokemi"@sv .
+        "Biokemi"@sv,
+        "Bioquímica"@es .
 
 <n026> a skos:Concept ;
     skos:broader <n42> ;
@@ -1226,7 +1322,8 @@
     skos:prefLabel "Biologie"@de,
         "Biology"@en,
         "Біологія"@uk,
-        "Biologi"@sv .
+        "Biologi"@sv,
+        "Biología"@es .
 
 <n028> a skos:Concept ;
     skos:broader <n58> ;
@@ -1235,7 +1332,8 @@
     skos:prefLabel "Brauwesen/Getränketechnologie"@de,
         "Brewing Science/Beverage Technology"@en,
         "Пивоваріння/Технологія напоїв"@uk,
-        "Bryggerivetenskap/ Dryckesteknik"@sv .
+        "Bryggerivetenskap/ Dryckesteknik"@sv,
+        "Ciencia Cervecera/Tecnología de Bebidas"@es .
 
 <n029> a skos:Concept ;
     skos:broader <n22> ;
@@ -1244,7 +1342,8 @@
     skos:prefLabel "Sportwissenschaft"@de,
         "Sports Science"@en,
         "Науки про спорт"@uk,
-        "Idrottsvetenskap"@sv .
+        "Idrottsvetenskap"@sv,
+        "Ciencias del Deporte"@es .
 
 <n030> a skos:Concept ;
     skos:broader <n23> ;
@@ -1253,7 +1352,8 @@
     skos:prefLabel "Interdisziplin. Studien (Schwerpunkt Rechts-, Wirtschafts- und Sozialwissenschaften)"@de,
         "Interdisc. St. (spec. in Law, Econ. and Soc. Sci.)"@en,
         "Міждисциплінарні дослідження(у галізях юрид., екон. та сусп. наук)"@uk,
-        "Tvärvetenskapliga studier (inriktning juridik, ekonomi och samhällsvetenskap)"@sv .
+        "Tvärvetenskapliga studier (inriktning juridik, ekonomi och samhällsvetenskap)"@sv,
+        "Estudios Interdisciplinarios (especialización en Derecho, Economía y Ciencias Sociales)"@es .
 
 <n031> a skos:Concept ;
     skos:broader <n08> ;
@@ -1262,7 +1362,8 @@
     skos:prefLabel "Byzantinistik"@de,
         "Byzantine Studies"@en,
         "Комп'ютерна лінгвістика"@uk,
-        "Byzantinistiska studier"@sv .
+        "Byzantinistiska studier"@sv,
+        "Estudios Bizantinos"@es .
 
 <n032> a skos:Concept ;
     skos:broader <n40> ;
@@ -1271,7 +1372,8 @@
     skos:prefLabel "Chemie"@de,
         "Chemistry"@en,
         "Хімія"@uk,
-        "Kemi"@sv .
+        "Kemi"@sv,
+        "Química"@es .
 
 <n033> a skos:Concept ;
     skos:broader <n63> ;
@@ -1280,7 +1382,8 @@
     skos:prefLabel "Chemie-Ingenieurwesen/Chemieverfahrenstechnik"@de,
         "Chemical Engineering/Chemical Process Engineering"@en,
         "Хімічна інженерія/Інженерія хімічних процесів"@uk,
-        "Kemiteknik/Processteknik inom kemi"@sv .
+        "Kemiteknik/Processteknik inom kemi"@sv,
+        "Ingeniería Química/Ingeniería de Procesos Químicos"@es .
 
 <n034> a skos:Concept ;
     skos:broader <n09> ;
@@ -1289,7 +1392,8 @@
     skos:prefLabel "Dänisch"@de,
         "Danish"@en,
         "Данська мова"@uk,
-        "Danska"@sv .
+        "Danska"@sv,
+        "Danés"@es .
 
 <n035> a skos:Concept ;
     skos:broader <n77> ;
@@ -1298,7 +1402,8 @@
     skos:prefLabel "Darstellende Kunst/Bühnenkunst/Regie"@de,
         "Performing Arts/Stagecraft/Directing"@en,
         "Акторська гра/Сценічне мистецтво/Режисерська діяльність"@uk,
-        "Scenkonst/Scenografi/Regi"@sv .
+        "Scenkonst/Scenografi/Regi"@sv,
+        "Artes Escénicas/Escenografía/Dirección"@es .
 
 <n036> a skos:Concept ;
     skos:broader <n24> ;
@@ -1307,7 +1412,8 @@
     skos:prefLabel "Sonstige Regionalwissenschaften"@de,
         "Other regional studies"@en,
         "Інші регіональні студії"@uk,
-        "Övriga regionala studier"@sv .
+        "Övriga regionala studier"@sv,
+        "Otros Estudios Regionales"@es .
 
 <n037> a skos:Concept ;
     skos:broader <n06> ;
@@ -1316,7 +1422,8 @@
     skos:prefLabel "Archiv- und Dokumentationswissenschaft"@de,
         "Archival and Documentation Science"@en,
         "Документознавство"@uk,
-        "Arkiv- och dokumentationsvetenskap"@sv .
+        "Arkiv- och dokumentationsvetenskap"@sv,
+        "Ciencias Archivísticas y Documentación"@es .
 
 <n038> a skos:Concept ;
     skos:broader <n24> ;
@@ -1325,7 +1432,8 @@
     skos:prefLabel "Lateinamerika-Studien"@de,
         "Latin American Studies"@en,
         "Латиноамериканські студії"@uk,
-        "Latinamerikastudier"@sv .
+        "Latinamerikastudier"@sv,
+        "Estudios Latinoamericanos"@es .
 
 <n039> a skos:Concept ;
     skos:broader <n43> ;
@@ -1334,7 +1442,8 @@
     skos:prefLabel "Geowissenschaften allgemein"@de,
         "Geosciences (general)"@en,
         "Науки про Землю (загальні)"@uk,
-        "Geovetenskap (allmänt)"@sv .
+        "Geovetenskap (allmänt)"@sv,
+        "Ciencias de la Tierra (general)"@es .
 
 <n040> a skos:Concept ;
     skos:broader <n74> ;
@@ -1343,7 +1452,8 @@
     skos:prefLabel "Interdiszipl. Studien (Schwerpunkt Kunst, Kunstwissenschaft)"@de,
         "Interdisc. Studies (special. in Art, Art Theory)"@en,
         "Мультидисциплінарні науки (Мистецтво, Теорія мистецтв)"@uk,
-        "Tvärvetenskapliga studier (inriktning konst, konstvetenskap)"@sv .
+        "Tvärvetenskapliga studier (inriktning konst, konstvetenskap)"@sv,
+        "Estudios Interdisciplinarios (especialización en Arte y Teoría del Arte)"@es .
 
 <n042> a skos:Concept ;
     skos:broader <n28> ;
@@ -1352,7 +1462,8 @@
     skos:prefLabel "Wirtschaftsrecht"@de,
         "Business Law"@en,
         "Господарське право"@uk,
-        "Affärsjuridik"@sv .
+        "Affärsjuridik"@sv,
+        "Derecho Empresarial"@es .
 
 <n043> a skos:Concept ;
     skos:broader <n08> ;
@@ -1361,7 +1472,8 @@
     skos:prefLabel "Neugriechisch"@de,
         "Modern Greek"@en,
         "Новогрецька мова"@uk,
-        "Nygrekiska"@sv .
+        "Nygrekiska"@sv,
+        "Griego Moderno"@es .
 
 <n044> a skos:Concept ;
     skos:broader <n24> ;
@@ -1370,7 +1482,8 @@
     skos:prefLabel "Ost- und Südosteuropa-Studien"@de,
         "East and Southeast European Studies"@en,
         "Дослідження Східної та Південно-Східної Європи"@uk,
-        "Öst- och Sydosteuropastudier"@sv .
+        "Öst- och Sydosteuropastudier"@sv,
+        "Estudios de Europa del Este y Sudeste"@es .
 
 <n048> a skos:Concept ;
     skos:broader <n64> ;
@@ -1379,7 +1492,8 @@
     skos:prefLabel "Elektrotechnik/Elektronik"@de,
         "Electrical Engineering/Electronics"@en,
         "Електротехніка/Електроніка"@uk,
-        "Elektroteknik/Elektronik"@sv .
+        "Elektroteknik/Elektronik"@sv,
+        "Ingeniería Eléctrica/Electrónica"@es .
 
 <n049> a skos:Concept ;
     skos:broader <n36> ;
@@ -1388,7 +1502,8 @@
     skos:prefLabel "Interdisziplin. Studien (Schwerpunkt Naturwissenschaften)"@de,
         "Interdisc. Studies (special. in Natural Sciences)"@en,
         "Міждисциплінірні науки (у галузі Природничих наук)"@uk,
-        "Tvärvetenskapliga studier (inriktning naturvetenskap)"@sv .
+        "Tvärvetenskapliga studier (inriktning naturvetenskap)"@sv,
+        "Estudios Interdisciplinarios (especialización en Ciencias Naturales)"@es .
 
 <n050> a skos:Concept ;
     skos:broader <n44> ;
@@ -1397,7 +1512,8 @@
     skos:prefLabel "Geographie/Erdkunde"@de,
         "Geography"@en,
         "Географія"@uk,
-        "Geografi"@sv .
+        "Geografi"@sv,
+        "Geografía"@es .
 
 <n052> a skos:Concept ;
     skos:broader <n33> ;
@@ -1406,7 +1522,8 @@
     skos:prefLabel "Erziehungswissenschaft (Pädagogik)"@de,
         "Educational Science (Pedagogy)"@en,
         "Педагогіка"@uk,
-        "Pedagogik"@sv .
+        "Pedagogik"@sv,
+        "Ciencias de la Educación (Pedagogía)"@es .
 
 <n053> a skos:Concept ;
     skos:broader <n02> ;
@@ -1415,7 +1532,8 @@
     skos:prefLabel "Evang. Theologie, -Religionslehre"@de,
         "Protestant Theology, Protestant Religious Education"@en,
         "Протестантська теологія, протестантська релігійна освіта"@uk,
-        "Protestantisk teologi, protestantisk religionsundervisning"@sv .
+        "Protestantisk teologi, protestantisk religionsundervisning"@sv,
+        "Teología Protestante, Educación Religiosa Protestante"@es .
 
 <n054> a skos:Concept ;
     skos:broader <n77> ;
@@ -1424,7 +1542,8 @@
     skos:prefLabel "Film und Fernsehen"@de,
         "Film and Television Studies"@en,
         "Телемистецтво"@uk,
-        "Film- och tv-studier"@sv .
+        "Film- och tv-studier"@sv,
+        "Estudios de Cine y Televisión"@es .
 
 <n055> a skos:Concept ;
     skos:broader <n23> ;
@@ -1433,7 +1552,8 @@
     skos:prefLabel "Orientierungsstudium Gesellschaftswissenschaften"@de,
         "Social sciences orientation studies"@en,
         "Орієнтаційні студії з соціальних наук"@uk,
-        "Orienteringsstudier i samhällsvetenskap"@sv .
+        "Orienteringsstudier i samhällsvetenskap"@sv,
+        "Estudios de Orientación en Ciencias Sociales"@es .
 
 <n056> a skos:Concept ;
     skos:broader <n12> ;
@@ -1442,7 +1562,8 @@
     skos:prefLabel "Finno-Ugristik"@de,
         "Finno-Ugrian Studies"@en,
         "Фіно-угрознавство"@uk,
-        "Finsk-ugriska studier"@sv .
+        "Finsk-ugriska studier"@sv,
+        "Estudios Fino-úgricos"@es .
 
 <n057> a skos:Concept ;
     skos:broader <n65> ;
@@ -1451,7 +1572,8 @@
     skos:prefLabel "Luft- und Raumfahrttechnik"@de,
         "Aeronautical and Aerospace Engineering"@en,
         "Авіаційна та ракетно-космічна техніка"@uk,
-        "Flyg- och rymdteknik"@sv .
+        "Flyg- och rymdteknik"@sv,
+        "Ingeniería Aeronáutica y Aeroespacial"@es .
 
 <n058> a skos:Concept ;
     skos:broader <n59> ;
@@ -1460,7 +1582,8 @@
     skos:prefLabel "Forstwissenschaft, -wirtschaft"@de,
         "Forest Science, Forestry"@en,
         "Лісівництво"@uk,
-        "Skogsvetenskap, skogsbruk"@sv .
+        "Skogsvetenskap, skogsbruk"@sv,
+        "Ciencias Forestales y Silvicultura"@es .
 
 <n059> a skos:Concept ;
     skos:broader <n11> ;
@@ -1469,7 +1592,8 @@
     skos:prefLabel "Französisch"@de,
         "French"@en,
         "Французька мова"@uk,
-        "Franska"@sv .
+        "Franska"@sv,
+        "Francés"@es .
 
 <n060> a skos:Concept ;
     skos:broader <n58> ;
@@ -1478,7 +1602,8 @@
     skos:prefLabel "Gartenbau"@de,
         "Horticulture"@en,
         "Садово-паркове господарство"@uk,
-        "Trädgårdsodling/Horticulture"@sv .
+        "Trädgårdsodling/Horticulture"@sv,
+        "Horticultura"@es .
 
 <n061> a skos:Concept ;
     skos:broader <n57> ;
@@ -1487,7 +1612,8 @@
     skos:prefLabel "Meliorationswesen"@de,
         "Ground Improvement"@en,
         "Меліорація"@uk,
-        "Markförbättring/markberedning"@sv .
+        "Markförbättring/markberedning"@sv,
+        "Mejora del terreno"@es .
 
 <n064> a skos:Concept ;
     skos:broader <n57> ;
@@ -1496,7 +1622,8 @@
     skos:prefLabel "Naturschutz"@de,
         "Nature Conservation"@en,
         "Охорона природи"@uk,
-        "Naturskydd"@sv .
+        "Naturskydd"@sv,
+        "Conservación de la Naturaleza"@es .
 
 <n065> a skos:Concept ;
     skos:broader <n43> ;
@@ -1505,7 +1632,8 @@
     skos:prefLabel "Geologie/Paläontologie"@de,
         "Geology/Palaeontology"@en,
         "Геологія/Палеонтологія"@uk,
-        "Geologi/Paleontologi"@sv .
+        "Geologi/Paleontologi"@sv,
+        "Geología/Paleontología"@es .
 
 <n066> a skos:Concept ;
     skos:broader <n43> ;
@@ -1514,7 +1642,8 @@
     skos:prefLabel "Geophysik"@de,
         "Geophysics"@en,
         "Геофізика"@uk,
-        "Geofysik"@sv .
+        "Geofysik"@sv,
+        "Geofísica"@es .
 
 <n067> a skos:Concept ;
     skos:broader <n09> ;
@@ -1523,7 +1652,8 @@
     skos:prefLabel "Germanistik/Deutsch"@de,
         "German Studies/German"@en,
         "Германістика"@uk,
-        "Tyskstudier/Tyska"@sv .
+        "Tyskstudier/Tyska"@sv,
+        "Estudios Alemanes/Alemán"@es .
 
 <n068> a skos:Concept ;
     skos:broader <n05> ;
@@ -1532,7 +1662,8 @@
     skos:prefLabel "Geschichte"@de,
         "History"@en,
         "Історія"@uk,
-        "Historia"@sv .
+        "Historia"@sv,
+        "Historia"@es .
 
 <n069> a skos:Concept ;
     skos:broader <n76> ;
@@ -1541,7 +1672,8 @@
     skos:prefLabel "Graphikdesign/Kommunikationsgestaltung"@de,
         "Graphic Design/Communication Design"@en,
         "Графічний дизайн/Комунікаційний дизайн"@uk,
-        "Grafisk design/Kommunikationsdesign"@sv .
+        "Grafisk design/Kommunikationsdesign"@sv,
+        "Diseño Gráfico/Diseño de Comunicación"@es .
 
 <n070> a skos:Concept ;
     skos:broader <n08> ;
@@ -1550,7 +1682,8 @@
     skos:prefLabel "Griechisch"@de,
         "Greek"@en,
         "Грецька мова"@uk,
-        "Grekiska"@sv .
+        "Grekiska"@sv,
+        "Griego"@es .
 
 <n071> a skos:Concept ;
     skos:broader <n60> ;
@@ -1559,7 +1692,8 @@
     skos:prefLabel "Haushalts- und Ernährungswissenschaft"@de,
         "Domestic and Nutritional Sciences"@en,
         "Побутові та харчові науки"@uk,
-        "Hushålls- och näringsvetenskap"@sv .
+        "Hushålls- och näringsvetenskap"@sv,
+        "Ciencias Domésticas y de la Nutrición"@es .
 
 <n072> a skos:Concept ;
     skos:broader <n61> ;
@@ -1568,7 +1702,8 @@
     skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Ingenieurwissenschaften)"@de,
         "Interdisc. Studies (specialising in Engineering)"@en,
         "Міждисциплінарні дослідження (фокус на інженерії)"@uk,
-        "Tvärvetenskapliga studier (inriktning ingenjörsvetenskap)"@sv .
+        "Tvärvetenskapliga studier (inriktning ingenjörsvetenskap)"@sv,
+        "Estudios Interdisciplinarios (especialización en Ingeniería)"@es .
 
 <n073> a skos:Concept ;
     skos:broader <n13> ;
@@ -1577,7 +1712,8 @@
     skos:prefLabel "Judaistik/Hebräisch "@de,
         "Judaic Studies/Hebrew"@en,
         "Юдаїка"@uk,
-        "Judaistik/Hebraiska"@sv .
+        "Judaistik/Hebraiska"@sv,
+        "Estudios Judaicos/Hebreo"@es .
 
 <n074> a skos:Concept ;
     skos:broader <n63> ;
@@ -1586,7 +1722,8 @@
     skos:prefLabel "Transport-/Fördertechnik"@de,
         "Transport and Conveying Technology"@en,
         "Транспорт/Конвеєрна техніка"@uk,
-        "Transport- och konveyorteknik"@sv .
+        "Transport- och konveyorteknik"@sv,
+        "Tecnología de Transporte y Manipulación"@es .
 
 <n075> a skos:Concept ;
     skos:broader <n59> ;
@@ -1595,7 +1732,8 @@
     skos:prefLabel "Holzwirtschaft"@de,
         "Wood Science"@en,
         "Деревообробна промисловість"@uk,
-        "Trävetenskap"@sv .
+        "Trävetenskap"@sv,
+        "Silvicultura"@es .
 
 <n076> a skos:Concept ;
     skos:broader <n62> ;
@@ -1604,7 +1742,8 @@
     skos:prefLabel "Hütten- und Gießereiwesen"@de,
         "Metallurgy and Foundry"@en,
         "Металургія та ливарна промисловість"@uk,
-        "Metallurgi och gjuteri"@sv .
+        "Metallurgi och gjuteri"@sv,
+        "Metalurgia y Fundición"@es .
 
 <n077> a skos:Concept ;
     skos:broader <n68> ;
@@ -1613,7 +1752,8 @@
     skos:prefLabel "Wasserwirtschaft"@de,
         "Water Management"@en,
         "Управління водними ресурсами"@uk,
-        "Vattenförvaltning"@sv .
+        "Vattenförvaltning"@sv,
+        "Gestión del Agua"@es .
 
 <n078> a skos:Concept ;
     skos:broader <n13> ;
@@ -1622,7 +1762,8 @@
     skos:prefLabel "Indologie"@de,
         "Indology"@en,
         "Індологія"@uk,
-        "Indologistik/Indologi"@sv .
+        "Indologistik/Indologi"@sv,
+        "Indología"@es .
 
 <n079> a skos:Concept ;
     skos:broader <n71> ;
@@ -1631,7 +1772,8 @@
     skos:prefLabel "Informatik"@de,
         "Computer Science"@en,
         "Комп'ютерні науки"@uk,
-        "Datavetenskap"@sv .
+        "Datavetenskap"@sv,
+        "Informática"@es .
 
 <n080> a skos:Concept ;
     skos:broader <n78> ;
@@ -1640,7 +1782,8 @@
     skos:prefLabel "Instrumentalmusik"@de,
         "Instrumental Music"@en,
         "Інструментальна музика"@uk,
-        "Instrumentalmusik"@sv .
+        "Instrumentalmusik"@sv,
+        "Música Instrumental"@es .
 
 <n081> a skos:Concept ;
     skos:broader <n13> ;
@@ -1649,7 +1792,8 @@
     skos:prefLabel "Iranistik"@de,
         "Iranian Studies"@en,
         "Іраністика"@uk,
-        "Iranistik"@sv .
+        "Iranistik"@sv,
+        "Estudios Iraníes"@es .
 
 <n082> a skos:Concept ;
     skos:broader <n63> ;
@@ -1658,7 +1802,8 @@
     skos:prefLabel "Holz-/Fasertechnik"@de,
         "Wood and Fibre Technology"@en,
         "Технологія деревини та волокна"@uk,
-        "Trä- och fibert eknik"@sv .
+        "Trä- och fibert eknik"@sv,
+        "Tecnología la madera y la fibras"@es .
 
 <n083> a skos:Concept ;
     skos:broader <n13> ;
@@ -1667,7 +1812,8 @@
     skos:prefLabel "Islamwissenschaft"@de,
         "Islamic Studies"@en,
         "Ісламознавство"@uk,
-        "Islamstudier"@sv .
+        "Islamstudier"@sv,
+        "Estudios Islámicos"@es .
 
 <n084> a skos:Concept ;
     skos:broader <n11> ;
@@ -1676,7 +1822,8 @@
     skos:prefLabel "Italienisch"@de,
         "Italian"@en,
         "Італійська мова"@uk,
-        "Italienska"@sv .
+        "Italienska"@sv,
+        "Italiano"@es .
 
 <n085> a skos:Concept ;
     skos:broader <n13> ;
@@ -1685,7 +1832,8 @@
     skos:prefLabel "Japanologie"@de,
         "Japanese Studies"@en,
         "Японознавство"@uk,
-        "Japanstudier"@sv .
+        "Japanstudier"@sv,
+        "Estudios Japoneses"@es .
 
 <n086> a skos:Concept ;
     skos:broader <n03> ;
@@ -1694,7 +1842,8 @@
     skos:prefLabel "Kath. Theologie, -Religionslehre"@de,
         "Catholic Theology, Catholic Religious Education"@en,
         "Католицька теологія, католицька релігійна освіта"@uk,
-        "Katolsk teologi, katolsk religionsundervisning"@sv .
+        "Katolsk teologi, katolsk religionsundervisning"@sv,
+        "Teología Católica, Educación Religiosa Católica"@es .
 
 <n088> a skos:Concept ;
     skos:broader <n64> ;
@@ -1703,7 +1852,8 @@
     skos:prefLabel "Optoelektronik"@de,
         "Optoelectronics"@en,
         "Оптоелектроніка"@uk,
-        "Optoelektronik"@sv .
+        "Optoelektronik"@sv,
+        "Optoelectrónica"@es .
 
 <n089> a skos:Concept ;
     skos:broader <n65> ;
@@ -1712,7 +1862,8 @@
     skos:prefLabel "Verkehrsingenieurwesen"@de,
         "Transport Engineering"@en,
         "Транспортна інженерія"@uk,
-        "Trafikingenjörsvetenskap"@sv .
+        "Trafikingenjörsvetenskap"@sv,
+        "Ingeniería de Transporte"@es .
 
 <n090> a skos:Concept ;
     skos:broader <n01> ;
@@ -1721,7 +1872,8 @@
     skos:prefLabel "Lernbereich Geisteswissenschaften"@de,
         "Area of study: Humanities"@en,
         "Галузь знань: гуманітарні науки"@uk,
-        "Ämnesområde: humaniora"@sv .
+        "Ämnesområde: humaniora"@sv,
+        "Área de estudio: Humanidades"@es .
 
 <n091> a skos:Concept ;
     skos:broader <n74> ;
@@ -1730,7 +1882,8 @@
     skos:prefLabel "Kunsterziehung"@de,
         "Arts Education"@en,
         "Художня освіта"@uk,
-        "Konstundervisning"@sv .
+        "Konstundervisning"@sv,
+        "Artes"@es .
 
 <n092> a skos:Concept ;
     skos:broader <n74> ;
@@ -1739,7 +1892,8 @@
     skos:prefLabel "Kunstgeschichte, Kunstwissenschaft"@de,
         "Art History, Art Theory"@en,
         "Історія та теорія образотворчого мистецтва"@uk,
-        "Konsthistoria, konstvetenskap"@sv .
+        "Konsthistoria, konstvetenskap"@sv,
+        "Historia del Arte, Teoría del Arte"@es .
 
 <n093> a skos:Concept ;
     skos:broader <n57> ;
@@ -1748,7 +1902,8 @@
     skos:prefLabel "Landespflege/Landschaftsgestaltung"@de,
         "Land Management Engineering/Landscape Design"@en,
         "Землеустрій/Ландшафтний дизайн"@uk,
-        "Markskötsel/Landskapsarkitektur"@sv .
+        "Markskötsel/Landskapsarkitektur"@sv,
+        "Ingeniería de Gestión Territorial/Paisajismo"@es .
 
 <n094> a skos:Concept ;
     skos:broader <n68> ;
@@ -1757,7 +1912,8 @@
     skos:prefLabel "Wasserbau"@de,
         "Hydraulic Engineering"@en,
         "Гідротехніка"@uk,
-        "Vattenbyggnad"@sv .
+        "Vattenbyggnad"@sv,
+        "Ingeniería Hidráulica"@es .
 
 <n095> a skos:Concept ;
     skos:broader <n08> ;
@@ -1766,7 +1922,8 @@
     skos:prefLabel "Latein"@de,
         "Latin"@en,
         "Латинська мова"@uk,
-        "Latin"@sv .
+        "Latin"@sv,
+        "Latín"@es .
 
 <n096> a skos:Concept ;
     skos:broader <n40> ;
@@ -1775,7 +1932,8 @@
     skos:prefLabel "Lebensmittelchemie"@de,
         "Food Chemistry"@en,
         "Харчова хімія"@uk,
-        "Livsmedelskemi"@sv .
+        "Livsmedelskemi"@sv,
+        "Química de los alimentos"@es .
 
 <n097> a skos:Concept ;
     skos:broader <n58> ;
@@ -1784,7 +1942,8 @@
     skos:prefLabel "Lebensmitteltechnologie"@de,
         "Food Technology"@en,
         "Харчові технології"@uk,
-        "Livsmedelsteknik"@sv .
+        "Livsmedelsteknik"@sv,
+        "Tecnología de los alimentos"@es .
 
 <n098> a skos:Concept ;
     skos:broader <n22> ;
@@ -1793,7 +1952,8 @@
     skos:prefLabel "Sportpädagogik/Sportpsychologie"@de,
         "Sports Education/Sports Psychology"@en,
         "Спортивне виховання/Психологія спорту"@uk,
-        "Idrottspedagogik/Idrottspsykologi"@sv .
+        "Idrottspedagogik/Idrottspsykologi"@sv,
+        "Educación deportiva/Psicología del deporte"@es .
 
 <n101> a skos:Concept ;
     skos:broader <n74> ;
@@ -1802,7 +1962,8 @@
     skos:prefLabel "Restaurierungskunde"@de,
         "Restoration Studies"@en,
         "Музейна реставрація"@uk,
-        "Konserveringsstudier/Restaurering"@sv .
+        "Konserveringsstudier/Restaurering"@sv,
+        "Estudios de Restauración"@es .
 
 <n102> a skos:Concept ;
     skos:broader <n77> ;
@@ -1811,7 +1972,8 @@
     skos:prefLabel "Schauspiel"@de,
         "Drama Studies"@en,
         "Сценічне мистецтво"@uk,
-        "Skådespeleri"@sv .
+        "Skådespeleri"@sv,
+        "Estudios Dramáticos"@es .
 
 <n103> a skos:Concept ;
     skos:broader <n62> ;
@@ -1820,7 +1982,8 @@
     skos:prefLabel "Markscheidewesen"@de,
         "Mine Surveying"@en,
         "Маркшейдерія"@uk,
-        "Gruvmätning/Markmätning"@sv .
+        "Gruvmätning/Markmätning"@sv,
+        "Topografía de minas"@es .
 
 <n104> a skos:Concept ;
     skos:broader <n63> ;
@@ -1829,7 +1992,8 @@
     skos:prefLabel "Maschinenbau/-wesen"@de,
         "Mechanical Engineering"@en,
         "Машинобудування"@uk,
-        "Maskiningenjörsvetenskap"@sv .
+        "Maskiningenjörsvetenskap"@sv,
+        "Ingeniería Mecánica"@es .
 
 <n105> a skos:Concept ;
     skos:broader <n37> ;
@@ -1838,7 +2002,8 @@
     skos:prefLabel "Mathematik"@de,
         "Mathematics"@en,
         "Математика"@uk,
-        "Matematik"@sv .
+        "Matematik"@sv,
+        "Matemáticas"@es .
 
 <n106> a skos:Concept ;
     skos:broader <n77> ;
@@ -1847,7 +2012,8 @@
     skos:prefLabel "Tanzpädagogik"@de,
         "Dance Education"@en,
         "Хореографічне мистецтво"@uk,
-        "Danspedagogik"@sv .
+        "Danspedagogik"@sv,
+        "Danza"@es .
 
 <n107> a skos:Concept ;
     skos:broader <n49> ;
@@ -1856,7 +2022,8 @@
     skos:prefLabel "Medizin (Allgemein-Medizin)"@de,
         "Medicine (General Medicine)"@en,
         "Медицина (загальна медицина)"@uk,
-        "Medicin (allmänmedicin)"@sv .
+        "Medicin (allmänmedicin)"@sv,
+        "Medicina (Medicina General)"@es .
 
 <n108> a skos:Concept ;
     skos:broader <n63> ;
@@ -1865,7 +2032,8 @@
     skos:prefLabel "Metalltechnik"@de,
         "Metals Technology"@en,
         "Технологія металів"@uk,
-        "Metalteknik"@sv .
+        "Metalteknik"@sv,
+        "Tecnología Metalúrgica"@es .
 
 <n110> a skos:Concept ;
     skos:broader <n43> ;
@@ -1874,7 +2042,8 @@
     skos:prefLabel "Meteorologie"@de,
         "Meteorology"@en,
         "Метеорологія"@uk,
-        "Meteorologi"@sv .
+        "Meteorologi"@sv,
+        "Meteorología"@es .
 
 <n111> a skos:Concept ;
     skos:broader <n43> ;
@@ -1883,7 +2052,8 @@
     skos:prefLabel "Mineralogie"@de,
         "Mineralogy"@en,
         "Мінералогія"@uk,
-        "Mineralogi"@sv .
+        "Mineralogi"@sv,
+        "Mineralogía"@es .
 
 <n113> a skos:Concept ;
     skos:broader <n78> ;
@@ -1892,7 +2062,8 @@
     skos:prefLabel "Musikerziehung"@de,
         "Music Education"@en,
         "Музична освіта"@uk,
-        "Musikutbildning"@sv .
+        "Musikutbildning"@sv,
+        "Música"@es .
 
 <n114> a skos:Concept ;
     skos:broader <n78> ;
@@ -1901,7 +2072,8 @@
     skos:prefLabel "Musikwissenschaft/-geschichte"@de,
         "Musicology/History of Music"@en,
         "Музикознавство/Історія музики"@uk,
-        "Musikvetenskap/Musikhistoria"@sv .
+        "Musikvetenskap/Musikhistoria"@sv,
+        "Musicología/Historia de la Música"@es .
 
 <n115> a skos:Concept ;
     skos:broader <n33> ;
@@ -1910,7 +2082,8 @@
     skos:prefLabel "Grundschul-/Primarstufenpädagogik"@de,
         "Primary School Education/Primary Level Education"@en,
         "Початкова освіта"@uk,
-        "Grundskolepedagogik"@sv .
+        "Grundskolepedagogik"@sv,
+        "Educación de Escuela Primaria"@es .
 
 <n116> a skos:Concept ;
     skos:broader <n76> ;
@@ -1919,7 +2092,8 @@
     skos:prefLabel "Textilgestaltung"@de,
         "Textile Design"@en,
         "Дизайн одягу"@uk,
-        "Textildesign"@sv .
+        "Textildesign"@sv,
+        "Diseño Textil"@es .
 
 <n117> a skos:Concept ;
     skos:broader <n33> ;
@@ -1928,7 +2102,8 @@
     skos:prefLabel "Ausländerpädagogik"@de,
         "Immigrant Education"@en,
         "Освіта мігрантів"@uk,
-        "Invandrarpedagogik"@sv .
+        "Invandrarpedagogik"@sv,
+        "Educación para Inmigrantes"@es .
 
 <n118> a skos:Concept ;
     skos:broader <n37> ;
@@ -1937,7 +2112,8 @@
     skos:prefLabel "Technomathematik"@de,
         "Technomathematics"@en,
         "Технічна математика"@uk,
-        "Teknisk matematik"@sv .
+        "Teknisk matematik"@sv,
+        "Tecno-matemáticas"@es .
 
 <n119> a skos:Concept ;
     skos:broader <n09> ;
@@ -1946,7 +2122,8 @@
     skos:prefLabel "Niederländisch"@de,
         "Dutch"@en,
         "Голландська мова"@uk,
-        "Nederländska"@sv .
+        "Nederländska"@sv,
+        "Neerlandés"@es .
 
 <n120> a skos:Concept ;
     skos:broader <n09> ;
@@ -1955,7 +2132,8 @@
     skos:prefLabel "Nordistik/Skandinavistik (Nord. Philologie, Einzelsprachen a.n.g.)"@de,
         "Nordic/Scand. St. (Nord. Phil., ind. lang. n.e.c.)"@en,
         "Скандинавські студії"@uk,
-        "Nordiska/Skandinaviska studier"@sv .
+        "Nordiska/Skandinaviska studier"@sv,
+        "Estudios Nórdicos/Escandinavos"@es .
 
 <n121> a skos:Concept ;
     skos:broader <n71> ;
@@ -1964,7 +2142,8 @@
     skos:prefLabel "Medieninformatik"@de,
         "Media Informatics"@en,
         "Медіаінформатика"@uk,
-        "Medieinformatik"@sv .
+        "Medieinformatik"@sv,
+        "Informática de la Comunicación y de los Medios"@es .
 
 <n122> a skos:Concept ;
     skos:broader <n13> ;
@@ -1973,7 +2152,8 @@
     skos:prefLabel "Orientalistik, Altorientalistik"@de,
         "Oriental Studies, Ancient Oriental Studies"@en,
         "Сходознавство, Стародавнє сходознавство"@uk,
-        "Orientalistik, forntida orientalistik"@sv .
+        "Orientalistik, forntida orientalistik"@sv,
+        "Estudios Orientales, Estudios del Antiguo Oriente"@es .
 
 <n123> a skos:Concept ;
     skos:broader <n71> ;
@@ -1982,7 +2162,8 @@
     skos:prefLabel "Ingenieurinformatik/Technische Informatik"@de,
         "Computational Engineering/Technical Computer Science"@en,
         "Обчислювальна техніка/Технічна інформатика"@uk,
-        "Ingenjörsinformatik/Teknisk datavetenskap"@sv .
+        "Ingenjörsinformatik/Teknisk datavetenskap"@sv,
+        "Ingeniería Informática/Informática Técnica"@es .
 
 <n124> a skos:Concept ;
     skos:broader <n43> ;
@@ -1991,7 +2172,8 @@
     skos:prefLabel "Ozeanographie"@de,
         "Oceanography"@en,
         "Океанографія"@uk,
-        "Okeanografi"@sv .
+        "Okeanografi"@sv,
+        "Oceanografía"@es .
 
 <n125> a skos:Concept ;
     skos:broader <n58> ;
@@ -2000,7 +2182,8 @@
     skos:prefLabel "Agrarökonomie"@de,
         "Agricultural Economics"@en,
         "Економіка сільського господарства"@uk,
-        "Jordbruksekonomi"@sv .
+        "Jordbruksekonomi"@sv,
+        "Economía Agrícola"@es .
 
 <n126> a skos:Concept ;
     skos:broader <n41> ;
@@ -2009,7 +2192,8 @@
     skos:prefLabel "Pharmazie"@de,
         "Pharmacy"@en,
         "Фармація"@uk,
-        "Farmaci"@sv .
+        "Farmaci"@sv,
+        "Farmacia"@es .
 
 <n127> a skos:Concept ;
     skos:broader <n04> ;
@@ -2018,7 +2202,8 @@
     skos:prefLabel "Philosophie"@de,
         "Philosophy"@en,
         "Філософія"@uk,
-        "Filosofi"@sv .
+        "Filosofi"@sv,
+        "Filosofía"@es .
 
 <n129> a skos:Concept ;
     skos:broader <n25> ;
@@ -2027,7 +2212,8 @@
     skos:prefLabel "Politikwissenschaft/Politologie"@de,
         "Political Science"@en,
         "Політологія"@uk,
-        "Statsvetenskap/Politologi"@sv .
+        "Statsvetenskap/Politologi"@sv,
+        "Ciencias Políticas"@es .
 
 <n130> a skos:Concept ;
     skos:broader <n12> ;
@@ -2036,7 +2222,8 @@
     skos:prefLabel "Westslawisch (allgemein und a.n.g.)"@de,
         "Western Slavic (general and n.e.c.)"@en,
         "Західнослов'янські мови"@uk,
-        "Västslaviska språk (allmänt)"@sv .
+        "Västslaviska språk (allmänt)"@sv,
+        "Eslavo Occidental (general)"@es .
 
 <n131> a skos:Concept ;
     skos:broader <n11> ;
@@ -2045,7 +2232,8 @@
     skos:prefLabel "Portugiesisch"@de,
         "Portuguese"@en,
         "Португальська мова"@uk,
-        "Portugisiska"@sv .
+        "Portugisiska"@sv,
+        "Portugués"@es .
 
 <n132> a skos:Concept ;
     skos:broader <n32> ;
@@ -2054,7 +2242,8 @@
     skos:prefLabel "Psychologie"@de,
         "Psychology"@en,
         "Психологія"@uk,
-        "Psykologi"@sv .
+        "Psykologi"@sv,
+        "Psicología"@es .
 
 <n134> a skos:Concept ;
     skos:broader <n67> ;
@@ -2063,7 +2252,8 @@
     skos:prefLabel "Raumplanung"@de,
         "Spatial Planning"@en,
         "Територіальне планування"@uk,
-        "Regionalplanering"@sv .
+        "Regionalplanering"@sv,
+        "Planificación Territorial"@es .
 
 <n135> a skos:Concept ;
     skos:broader <n28> ;
@@ -2072,7 +2262,8 @@
     skos:prefLabel "Rechtswissenschaft"@de,
         "Law"@en,
         "Правознавство"@uk,
-        "Rättsvetenskap"@sv .
+        "Rättsvetenskap"@sv,
+        "Derecho"@es .
 
 <n136> a skos:Concept ;
     skos:broader <n04> ;
@@ -2081,7 +2272,8 @@
     skos:prefLabel "Religionswissenschaft"@de,
         "Religious Studies"@en,
         "Релігієзнавство"@uk,
-        "Religionsvetenskap"@sv .
+        "Religionsvetenskap"@sv,
+        "Estudios Religiosos"@es .
 
 <n137> a skos:Concept ;
     skos:broader <n11> ;
@@ -2090,7 +2282,8 @@
     skos:prefLabel "Romanistik (Romanische Philologie, Einzelsprachen a.n.g.)"@de,
         "Romance Studies (Rom. Phil., indiv. lang. n.e.c.)"@en,
         "Романістика"@uk,
-        "Romanska studier (romansk filologi, enskilda språk)"@sv .
+        "Romanska studier (romansk filologi, enskilda språk)"@sv,
+        "Estudios Romances (Filología Romance, lenguas individuales)"@es .
 
 <n138> a skos:Concept ;
     skos:broader <n58> ;
@@ -2099,7 +2292,8 @@
     skos:prefLabel "Agrarbiologie"@de,
         "Agricultural Biology"@en,
         "Агробіологія"@uk,
-        "Jordbruksbiologi"@sv .
+        "Jordbruksbiologi"@sv,
+        "Biología Agrícola"@es .
 
 <n139> a skos:Concept ;
     skos:broader <n12> ;
@@ -2108,7 +2302,8 @@
     skos:prefLabel "Russisch"@de,
         "Russian"@en,
         "Російська мова"@uk,
-        "Ryska"@sv .
+        "Ryska"@sv,
+        "Ruso"@es .
 
 <n140> a skos:Concept ;
     skos:broader <n61> ;
@@ -2117,7 +2312,8 @@
     skos:prefLabel "Angewandte Systemwissenschaften"@de,
         "Applied Systems Science"@en,
         "Прикладні системні науки"@uk,
-        "Tillämpade systemvetenskap"@sv .
+        "Tillämpade systemvetenskap"@sv,
+        "Ciencias de Sistemas Aplicadas"@es .
 
 <n141> a skos:Concept ;
     skos:broader <n63> ;
@@ -2126,7 +2322,8 @@
     skos:prefLabel "Abfallwirtschaft"@de,
         "Waste Management"@en,
         "Управління відходами"@uk,
-        "Avfallshantering"@sv .
+        "Avfallshantering"@sv,
+        "Gestión de Residuos"@es .
 
 <n142> a skos:Concept ;
     skos:broader <n65> ;
@@ -2135,7 +2332,8 @@
     skos:prefLabel "Schiffbau/Schiffstechnik"@de,
         "Naval Architecture/Ship Technology"@en,
         "Морський транспорт/Суднобудування"@uk,
-        "Skeppsbyggnad/Skeppsteknik"@sv .
+        "Skeppsbyggnad/Skeppsteknik"@sv,
+        "Arquitectura Naval/Tecnología Naval"@es .
 
 <n143> a skos:Concept ;
     skos:broader <n63> ;
@@ -2144,7 +2342,8 @@
     skos:prefLabel "Augenoptik"@de,
         "Ophthalmic Optics"@en,
         "Офтальмологічна оптика"@uk,
-        "Ögonoptik"@sv .
+        "Ögonoptik"@sv,
+        "Óptica Oftálmica"@es .
 
 <n144> a skos:Concept ;
     skos:broader <n63> ;
@@ -2153,7 +2352,8 @@
     skos:prefLabel "Technische Kybernetik"@de,
         "Technical Cybernetics"@en,
         "Технічна кібернетика"@uk,
-        "Teknisk kybernetik"@sv .
+        "Teknisk kybernetik"@sv,
+        "Cibernética Técnica"@es .
 
 <n145> a skos:Concept ;
     skos:broader <n13> ;
@@ -2162,7 +2362,8 @@
     skos:prefLabel "Sinologie/Koreanistik"@de,
         "Sinology/Korean Studies"@en,
         "Китаєзнавство/Кореєзнавство"@uk,
-        "Kinaspråksstudier/Koreastudier"@sv .
+        "Kinaspråksstudier/Koreastudier"@sv,
+        "Sinología/Estudios Coreanos"@es .
 
 <n146> a skos:Concept ;
     skos:broader <n12> ;
@@ -2171,7 +2372,8 @@
     skos:prefLabel "Slawistik (Slaw. Philologie)"@de,
         "Slavic Studies (Slavic Philology)"@en,
         "Славістика (слов'янська філологія)"@uk,
-        "Slaviska studier (slavisk filologi)"@sv .
+        "Slaviska studier (slavisk filologi)"@sv,
+        "Estudios Eslavos (Filología Eslava)"@es .
 
 <n147> a skos:Concept ;
     skos:broader <n26> ;
@@ -2180,7 +2382,8 @@
     skos:prefLabel "Sozialkunde"@de,
         "Social Studies"@en,
         "Суспільствознавство"@uk,
-        "Samhällskunskap"@sv .
+        "Samhällskunskap"@sv,
+        "Estudios Sociales"@es .
 
 <n148> a skos:Concept ;
     skos:broader <n26> ;
@@ -2189,7 +2392,8 @@
     skos:prefLabel "Sozialwissenschaften"@de,
         "Social Sciences"@en,
         "Суспільні науки"@uk,
-        "Samhällsvetenskap"@sv .
+        "Samhällsvetenskap"@sv,
+        "Ciencias Sociales"@es .
 
 <n149> a skos:Concept ;
     skos:broader <n26> ;
@@ -2198,7 +2402,8 @@
     skos:prefLabel "Soziologie"@de,
         "Sociology"@en,
         "Соціологія"@uk,
-        "Sociologi"@sv .
+        "Sociologi"@sv,
+        "Sociología"@es .
 
 <n150> a skos:Concept ;
     skos:broader <n11> ;
@@ -2207,7 +2412,8 @@
     skos:prefLabel "Spanisch"@de,
         "Spanish"@en,
         "Іспанська мова"@uk,
-        "Spanska"@sv .
+        "Spanska"@sv,
+        "Español"@es .
 
 <n152> a skos:Concept ;
     skos:broader <n07> ;
@@ -2216,7 +2422,8 @@
     skos:prefLabel "Allgemeine Sprachwissenschaft/Indogermanistik"@de,
         "General Linguistics/Indo-European Studies"@en,
         "Загальне мовознавство/Індоєвропейські студії"@uk,
-        "Allmän lingvistik/Indoeuropeiska studier"@sv .
+        "Allmän lingvistik/Indoeuropeiska studier"@sv,
+        "Lingüística General/Estudios Indoeuropeos"@es .
 
 <n153> a skos:Concept ;
     skos:broader <n12> ;
@@ -2225,7 +2432,8 @@
     skos:prefLabel "Südslawisch (Bulgarisch, Serbokroatisch, Slowenisch usw.)"@de,
         "South Slavic (Bulgar., Serbo-Croat., Slovene etc.)"@en,
         "Південнослов'янські мови (болгарська, сербохорватська, словенська та ін.)"@uk,
-        "Sydslaviska språk (bulgariska, serbokroatiska, slovenska osv.)"@sv .
+        "Sydslaviska språk (bulgariska, serbokroatiska, slovenska osv.)"@sv,
+        "Eslavo Meridional (Búlgaro, Serbocroata, Esloveno, etc.)"@es .
 
 <n154> a skos:Concept ;
     skos:broader <n23> ;
@@ -2234,7 +2442,8 @@
     skos:prefLabel "Lernbereich Gesellschaftslehre"@de,
         "Area of study: Social Studies"@en,
         "Галузь знань: суспільні науки"@uk,
-        "Ämnesområde: samhällskunskap"@sv .
+        "Ämnesområde: samhällskunskap"@sv,
+        "Área de estudio: Ciencias Sociales"@es .
 
 <n155> a skos:Concept ;
     skos:broader <n77> ;
@@ -2243,7 +2452,8 @@
     skos:prefLabel "Theaterwissenschaft"@de,
         "Theatre Studies"@en,
         "Театральне мистецтво"@uk,
-        "Teatervetenskap"@sv .
+        "Teatervetenskap"@sv,
+        "Estudios Teatrales"@es .
 
 <n156> a skos:Concept ;
     skos:broader <n51> ;
@@ -2252,7 +2462,8 @@
     skos:prefLabel "Tiermedizin/Veterinärmedizin"@de,
         "Veterinary Medicine"@en,
         "Ветеринарна медицина"@uk,
-        "Veterinärmedicin"@sv .
+        "Veterinärmedicin"@sv,
+        "Medicina Veterinaria"@es .
 
 <n157> a skos:Concept ;
     skos:broader <n64> ;
@@ -2261,7 +2472,8 @@
     skos:prefLabel "Mikroelektronik"@de,
         "Microelectronics"@en,
         "Мікроелектроніка"@uk,
-        "Mikroelektronik"@sv .
+        "Mikroelektronik"@sv,
+        "Microelectrónica"@es .
 
 <n158> a skos:Concept ;
     skos:broader <n13> ;
@@ -2270,7 +2482,8 @@
     skos:prefLabel "Turkologie"@de,
         "Turkish Studies"@en,
         "Тюркологія"@uk,
-        "Turkiska studier"@sv .
+        "Turkiska studier"@sv,
+        "Estudios Turcos"@es .
 
 <n159> a skos:Concept ;
     skos:broader <n76> ;
@@ -2279,7 +2492,8 @@
     skos:prefLabel "Edelstein- und Schmuckdesign"@de,
         "Gemstone and Jewellery Design"@en,
         "Дизайн дорогоцінних каменів та ювелірних виробів"@uk,
-        "Ädelstens- och smyckesdesign"@sv .
+        "Ädelstens- och smyckesdesign"@sv,
+        "Diseño de Piedras preciosas y Joyería"@es .
 
 <n160> a skos:Concept ;
     skos:broader <n07> ;
@@ -2288,7 +2502,8 @@
     skos:prefLabel "Computerlinguistik"@de,
         "Computer Linguistics"@en,
         "Комп'ютерна лінгвістика"@uk,
-        "Datalogisk lingvistik"@sv .
+        "Datalogisk lingvistik"@sv,
+        "Lingüística Computacional"@es .
 
 <n161> a skos:Concept ;
     skos:broader <n02> ;
@@ -2297,7 +2512,8 @@
     skos:prefLabel "Diakoniewissenschaft"@de,
         "Pastoral Care Studies"@en,
         "Душпастирські студії"@uk,
-        "Pastoralstudier"@sv .
+        "Pastoralstudier"@sv,
+        "Estudios de Pastoral"@es .
 
 <n162> a skos:Concept ;
     skos:broader <n03> ;
@@ -2306,7 +2522,8 @@
     skos:prefLabel "Caritaswissenschaft"@de,
         "Caritas Science"@en,
         "Наука Карітасу"@uk,
-        "Caritasvetenskap"@sv .
+        "Caritasvetenskap"@sv,
+        "Ciencia Cáritas"@es .
 
 <n163> a skos:Concept ;
     skos:broader <n78> ;
@@ -2315,7 +2532,8 @@
     skos:prefLabel "Rhythmik"@de,
         "Rhythmics"@en,
         "Ритміка"@uk,
-        "Rytmik"@sv .
+        "Rytmik"@sv,
+        "Rítmica"@es .
 
 <n164> a skos:Concept ;
     skos:broader <n78> ;
@@ -2324,7 +2542,8 @@
     skos:prefLabel "Jazz und Popularmusik"@de,
         "Jazz and Popular Music"@en,
         "Джаз та популярна музика"@uk,
-        "Jazz och populärmusik"@sv .
+        "Jazz och populärmusik"@sv,
+        "Jazz y Música Popular"@es .
 
 <n165> a skos:Concept ;
     skos:broader <n78> ;
@@ -2333,7 +2552,8 @@
     skos:prefLabel "Orchestermusik"@de,
         "Orchestral Music"@en,
         "Оркестрова музика"@uk,
-        "Orkestermusik"@sv .
+        "Orkestermusik"@sv,
+        "Música Orquestal"@es .
 
 <n166> a skos:Concept ;
     skos:broader <n30> ;
@@ -2342,7 +2562,8 @@
     skos:prefLabel "Sportmanagement/Sportökonomie"@de,
         "Sports Management/Sports Economics"@en,
         "Спортивний менеджмент/Економіка спорту"@uk,
-        "Idrottsmanagement/Idrottekonomi"@sv .
+        "Idrottsmanagement/Idrottekonomi"@sv,
+        "Gestión Deportiva/Economía del Deporte"@es .
 
 <n167> a skos:Concept ;
     skos:broader <n30> ;
@@ -2351,7 +2572,8 @@
     skos:prefLabel "Europäische Wirtschaft"@de,
         "European Economic Studies"@en,
         "Європейські економічні студії"@uk,
-        "Europeiska ekonomistudier"@sv .
+        "Europeiska ekonomistudier"@sv,
+        "Estudios Económicos Europeos"@es .
 
 <n168> a skos:Concept ;
     skos:broader <n29> ;
@@ -2360,7 +2582,8 @@
     skos:prefLabel "Justizvollzug"@de,
         "Law Enforcement"@en,
         "Правоохоронна діяльність"@uk,
-        "Rättsväsendet/kriminalvård"@sv .
+        "Rättsväsendet/kriminalvård"@sv,
+        "Administración de Justicia Penal"@es .
 
 <n169> a skos:Concept ;
     skos:broader <n04> ;
@@ -2369,7 +2592,8 @@
     skos:prefLabel "Ethik"@de,
         "Ethics"@en,
         "Етика"@uk,
-        "Etik"@sv .
+        "Etik"@sv,
+        "Ética"@es .
 
 <n171> a skos:Concept ;
     skos:broader <n69> ;
@@ -2378,7 +2602,8 @@
     skos:prefLabel "Vermessungswesen (Geodäsie)"@de,
         "Surveying (Geodesy)"@en,
         "Геодезія та землеустрій"@uk,
-        "Mät- och kartografi (geodesi)"@sv .
+        "Mät- och kartografi (geodesi)"@sv,
+        "Topografía (Geodesia)"@es .
 
 <n172> a skos:Concept ;
     skos:broader <n29> ;
@@ -2387,7 +2612,8 @@
     skos:prefLabel "Verwaltungswissenschaft/-wesen"@de,
         "Administrative Science/Public Administration"@en,
         "Управлінські науки/Публічне адміністрування"@uk,
-        "Administrativvetenskap/Offentlig förvaltning"@sv .
+        "Administrativvetenskap/Offentlig förvaltning"@sv,
+        "Ciencias Administrativas/Administración Pública"@es .
 
 <n173> a skos:Concept ;
     skos:broader <n14> ;
@@ -2396,7 +2622,8 @@
     skos:prefLabel "Ethnologie"@de,
         "Ethnology"@en,
         "Етнологія"@uk,
-        "Etnologi"@sv .
+        "Etnologi"@sv,
+        "Etnología"@es .
 
 <n174> a skos:Concept ;
     skos:broader <n14> ;
@@ -2405,7 +2632,8 @@
     skos:prefLabel "Volkskunde"@de,
         "Folklore"@en,
         "Фольклор"@uk,
-        "Folkloristik"@sv .
+        "Folkloristik"@sv,
+        "Folclore"@es .
 
 <n175> a skos:Concept ;
     skos:broader <n30> ;
@@ -2414,7 +2642,8 @@
     skos:prefLabel "Volkswirtschaftslehre"@de,
         "Economics"@en,
         "Економіка"@uk,
-        "Nationalekonomi"@sv .
+        "Nationalekonomi"@sv,
+        "Economía"@es .
 
 <n176> a skos:Concept ;
     skos:broader <n76> ;
@@ -2423,7 +2652,8 @@
     skos:prefLabel "Werkerziehung"@de,
         "Handicrafts Education"@en,
         "Ремісництво"@uk,
-        "Slöjdpedagogik"@sv .
+        "Slöjdpedagogik"@sv,
+        "Artesanía"@es .
 
 <n177> a skos:Concept ;
     skos:broader <n72> ;
@@ -2432,7 +2662,8 @@
     skos:prefLabel "Werkstofftechnik"@de,
         "Materials Technology"@en,
         "Матеріалознавство"@uk,
-        "Materialteknik"@sv .
+        "Materialteknik"@sv,
+        "Tecnología de Materiales"@es .
 
 <n178> a skos:Concept ;
     skos:broader <n44> ;
@@ -2441,7 +2672,8 @@
     skos:prefLabel "Wirtschafts-/Sozialgeographie"@de,
         "Economic/Social Geography"@en,
         "Соціально-економічна географія"@uk,
-        "Ekonomisk/social geografi"@sv .
+        "Ekonomisk/social geografi"@sv,
+        "Geografía Económica/Social"@es .
 
 <n179> a skos:Concept ;
     skos:broader <n31> ;
@@ -2450,7 +2682,8 @@
     skos:prefLabel "Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt"@de,
         "Business Engineering specialising in Economics"@en,
         "Бізнес інженерія у галузі економіки"@uk,
-        "Industriell ekonomi med inriktning mot ekonomi"@sv .
+        "Industriell ekonomi med inriktning mot ekonomi"@sv,
+        "Ingeniería Industrial con especialización en Economía"@es .
 
 <n180> a skos:Concept ;
     skos:broader <n13> ;
@@ -2459,7 +2692,8 @@
     skos:prefLabel "Kaukasistik"@de,
         "Caucasian Studies"@en,
         "Кавказознавство"@uk,
-        "Kaukasusstudier"@sv .
+        "Kaukasusstudier"@sv,
+        "Estudios Caucásicos"@es .
 
 <n181> a skos:Concept ;
     skos:broader <n30> ;
@@ -2468,7 +2702,8 @@
     skos:prefLabel "Wirtschaftspädagogik"@de,
         "Business and Economics Education"@en,
         "Економічна та бізнес-освіта"@uk,
-        "Ekonomisk utbildning/Företagsekonomi och utbildning"@sv .
+        "Ekonomisk utbildning/Företagsekonomi och utbildning"@sv,
+        "Educación Empresarial y Económica"@es .
 
 <n182> a skos:Concept ;
     skos:broader <n30> ;
@@ -2477,7 +2712,8 @@
     skos:prefLabel "Intern. Betriebswirtschaft/Management"@de,
         "International Business Studies/Management"@en,
         "Міжнародний бізнес/Менеджмент"@uk,
-        "Internationella företagsekonomiska studier/Management"@sv .
+        "Internationella företagsekonomiska studier/Management"@sv,
+        "Estudios Internacionales de Negocios/Gestión"@es .
 
 <n183> a skos:Concept ;
     skos:broader <n05> ;
@@ -2486,7 +2722,8 @@
     skos:prefLabel "Wirtschafts-/Sozialgeschichte"@de,
         "Economic/Social History"@en,
         "Економічна/соціальна історія"@uk,
-        "Ekonomisk/samhällshistoria"@sv .
+        "Ekonomisk/samhällshistoria"@sv,
+        "Historia Económica/Social"@es .
 
 <n184> a skos:Concept ;
     skos:broader <n30> ;
@@ -2495,7 +2732,8 @@
     skos:prefLabel "Wirtschaftswissenschaften"@de,
         "Business and Economics"@en,
         "Бізнес та економіка"@uk,
-        "Företagsekonomi och nationalekonomi"@sv .
+        "Företagsekonomi och nationalekonomi"@sv,
+        "Economía y Negocios"@es .
 
 <n185> a skos:Concept ;
     skos:broader <n50> ;
@@ -2504,7 +2742,8 @@
     skos:prefLabel "Zahnmedizin"@de,
         "Dentistry"@en,
         "Стоматологія"@uk,
-        "Tandvård"@sv .
+        "Tandvård"@sv,
+        "Odontología"@es .
 
 <n186> a skos:Concept ;
     skos:broader <n36> ;
@@ -2513,7 +2752,8 @@
     skos:prefLabel "Lernbereich Naturwissenschaft/Sachunterricht"@de,
         "Area of study: Natural Sciences/General Studies"@en,
         "Галузь знань: Природничі науки/Загальні науки"@uk,
-        "Ämnesområde: naturvetenskap/allmänna studier"@sv .
+        "Ämnesområde: naturvetenskap/allmänna studier"@sv,
+        "Área de estudio: Ciencias Naturales/Estudios Generales"@es .
 
 <n187> a skos:Concept ;
     skos:broader <n13> ;
@@ -2522,7 +2762,8 @@
     skos:prefLabel "Asiatische Sprachen und Kulturen/Asienwissenschaften"@de,
         "Asian Languages and Cultures/Asian Studies"@en,
         "Азійські мови та культури/Азіатські студії"@uk,
-        "Asiatiska språk och kulturer/Asienstudier"@sv .
+        "Asiatiska språk och kulturer/Asienstudier"@sv,
+        "Lenguas y Culturas Asiáticas/Estudios Asiáticos"@es .
 
 <n188> a skos:Concept ;
     skos:broader <n07> ;
@@ -2531,7 +2772,8 @@
     skos:prefLabel "Allgemeine Literaturwissenschaft"@de,
         "General Literary Studies"@en,
         "Загальне літературознавство"@uk,
-        "Allmän litteraturvetenskap"@sv .
+        "Allmän litteraturvetenskap"@sv,
+        "Estudios Literarios Generales"@es .
 
 <n189> a skos:Concept ;
     skos:broader <n09> ;
@@ -2540,7 +2782,8 @@
     skos:prefLabel "Niederdeutsch"@de,
         "Low German"@en,
         "Нижньонімецька мова"@uk,
-        "Lågtyska"@sv .
+        "Lågtyska"@sv,
+        "Bajo Alemán"@es .
 
 <n190> a skos:Concept ;
     skos:broader <n33> ;
@@ -2549,7 +2792,8 @@
     skos:prefLabel "Sonderpädagogik"@de,
         "Special Needs Education"@en,
         "Спеціальна освіта"@uk,
-        "Specialpedagogik"@sv .
+        "Specialpedagogik"@sv,
+        "Educación Especial"@es .
 
 <n191> a skos:Concept ;
     skos:broader <n78> ;
@@ -2558,7 +2802,8 @@
     skos:prefLabel "Komposition"@de,
         "Composition"@en,
         "Композиція"@uk,
-        "Komposition"@sv .
+        "Komposition"@sv,
+        "Composición"@es .
 
 <n192> a skos:Concept ;
     skos:broader <n78> ;
@@ -2567,7 +2812,8 @@
     skos:prefLabel "Dirigieren"@de,
         "Conducting"@en,
         "Хорове диригування"@uk,
-        "Dirigering"@sv .
+        "Dirigering"@sv,
+        "Dirección de Orquesta"@es .
 
 <n193> a skos:Concept ;
     skos:broader <n78> ;
@@ -2576,7 +2822,8 @@
     skos:prefLabel "Kirchenmusik"@de,
         "Church Music"@en,
         "Церковна музика"@uk,
-        "Kyrkomusik"@sv .
+        "Kyrkomusik"@sv,
+        "Música Eclesiástica"@es .
 
 <n194> a skos:Concept ;
     skos:broader <n78> ;
@@ -2585,7 +2832,8 @@
     skos:prefLabel "Tonmeister"@de,
         "Sound Engineering"@en,
         "Звукова інженерія"@uk,
-        "Ljudteknik"@sv .
+        "Ljudteknik"@sv,
+        "Ingeniería de Sonido"@es .
 
 <n195> a skos:Concept ;
     skos:broader <n48> ;
@@ -2594,7 +2842,8 @@
     skos:prefLabel "Gesundheitspädagogik"@de,
         "Health Education"@en,
         "Санітарна освіта"@uk,
-        "Hälsoutbildning"@sv .
+        "Hälsoutbildning"@sv,
+        "Educación Sanitaria"@es .
 
 <n197> a skos:Concept ;
     skos:broader <n68> ;
@@ -2603,7 +2852,8 @@
     skos:prefLabel "Holzbau"@de,
         "Timber Construction"@en,
         "Дерев'яне будівництво"@uk,
-        "Träkonstruktion"@sv .
+        "Träkonstruktion"@sv,
+        "Construcción en Madera"@es .
 
 <n199> a skos:Concept ;
     skos:broader <n61> ;
@@ -2612,7 +2862,8 @@
     skos:prefLabel "Lernbereich Technik"@de,
         "Area of study: Technology"@en,
         "Галузь знань: Технологія"@uk,
-        "Ämnesområde: teknik"@sv .
+        "Ämnesområde: teknik"@sv,
+        "Área de estudio: Tecnología"@es .
 
 <n200> a skos:Concept ;
     skos:broader <n71> ;
@@ -2621,7 +2872,8 @@
     skos:prefLabel "Computer- und Kommunikationstechniken"@de,
         "Computer and Communication Technology"@en,
         "Інформаційно-комунікаційні технології"@uk,
-        "Dator- och kommunikationsteknik"@sv .
+        "Dator- och kommunikationsteknik"@sv,
+        "Tecnología Informática y de Comunicaciones"@es .
 
 <n201> a skos:Concept ;
     skos:broader <n61> ;
@@ -2630,7 +2882,8 @@
     skos:prefLabel "Werken (technisch)/Technologie"@de,
         "Handicrafts (technical)/Technology"@en,
         "Ремесла (технічні)/Технологія"@uk,
-        "Tekniskt hantverk/Teknik"@sv .
+        "Tekniskt hantverk/Teknik"@sv,
+        "Artesanía (técnica)/Tecnología"@es .
 
 <n202> a skos:Concept ;
     skos:broader <n63> ;
@@ -2639,7 +2892,8 @@
     skos:prefLabel "Fertigungs-/Produktionstechnik"@de,
         "Manufacturing Technology/Production Engineering"@en,
         "Технологія виробництва/Виробнича інженерія"@uk,
-        "Tillverkningsteknik/Produktionsteknik"@sv .
+        "Tillverkningsteknik/Produktionsteknik"@sv,
+        "Tecnología de Fabricación/Ingeniería de Producción"@es .
 
 <n203> a skos:Concept ;
     skos:broader <n76> ;
@@ -2648,7 +2902,8 @@
     skos:prefLabel "Industriedesign/Produktgestaltung"@de,
         "Industrial Design/Product Design"@en,
         "Промисловий дизайн/Дизайн продуктів"@uk,
-        "Industriell design/Produktdesign"@sv .
+        "Industriell design/Produktdesign"@sv,
+        "Diseño Industrial/Diseño de Productos"@es .
 
 <n204> a skos:Concept ;
     skos:broader <n75> ;
@@ -2657,7 +2912,8 @@
     skos:prefLabel "Malerei"@de,
         "Painting"@en,
         "Живопис"@uk,
-        "Måleri"@sv .
+        "Måleri"@sv,
+        "Pintura"@es .
 
 <n205> a skos:Concept ;
     skos:broader <n75> ;
@@ -2666,7 +2922,8 @@
     skos:prefLabel "Bildhauerei/Plastik"@de,
         "Sculpting/Statuary Art"@en,
         "Скульптурне мистецтво"@uk,
-        "Skulptur"@sv .
+        "Skulptur"@sv,
+        "Escultura"@es .
 
 <n206> a skos:Concept ;
     skos:broader <n12> ;
@@ -2675,7 +2932,8 @@
     skos:prefLabel "Polnisch"@de,
         "Polish"@en,
         "Польська мова"@uk,
-        "Polska"@sv .
+        "Polska"@sv,
+        "Polaco"@es .
 
 <n207> a skos:Concept ;
     skos:broader <n12> ;
@@ -2684,7 +2942,8 @@
     skos:prefLabel "Sorabistik"@de,
         "Sorbian Studies"@en,
         "Лужицькі студії"@uk,
-        "Sorbiskt studier"@sv .
+        "Sorbiskt studier"@sv,
+        "Estudios Sorbios"@es .
 
 <n208> a skos:Concept ;
     skos:broader <n27> ;
@@ -2693,7 +2952,8 @@
     skos:prefLabel "Soziale Arbeit"@de,
         "Social Work"@en,
         "Соціальна робота"@uk,
-        "Socialt arbete"@sv .
+        "Socialt arbete"@sv,
+        "Trabajo Social"@es .
 
 <n209> a skos:Concept ;
     skos:broader <n12> ;
@@ -2702,7 +2962,8 @@
     skos:prefLabel "Tschechisch"@de,
         "Czech"@en,
         "Чеська мова"@uk,
-        "Tjeckiska"@sv .
+        "Tjeckiska"@sv,
+        "Checo"@es .
 
 <n210> a skos:Concept ;
     skos:broader <n30> ;
@@ -2711,7 +2972,8 @@
     skos:prefLabel "Verkehrswirtschaft"@de,
         "Transport Economics"@en,
         "Економіка транспорту"@uk,
-        "Transportekonomi"@sv .
+        "Transportekonomi"@sv,
+        "Economía del Transporte"@es .
 
 <n211> a skos:Concept ;
     skos:broader <n63> ;
@@ -2720,7 +2982,8 @@
     skos:prefLabel "Energieverfahrenstechnik"@de,
         "Energy Process Engineering"@en,
         "Енергетичні технології (без електротехніки)"@uk,
-        "Energiprocessteknik"@sv .
+        "Energiprocessteknik"@sv,
+        "Ingeniería de Procesos Energéticos"@es .
 
 <n212> a skos:Concept ;
     skos:broader <n63> ;
@@ -2729,7 +2992,8 @@
     skos:prefLabel "Feinwerktechnik"@de,
         "Precision Engineering"@en,
         "Точна інженерія"@uk,
-        "Finmekanik/Precisionsteknik"@sv .
+        "Finmekanik/Precisionsteknik"@sv,
+        "Ingeniería de Precisión"@es .
 
 <n213> a skos:Concept ;
     skos:broader <n63> ;
@@ -2738,7 +3002,8 @@
     skos:prefLabel "Versorgungstechnik"@de,
         "Supply Technology"@en,
         "Технології постачання"@uk,
-        "Försörjningsteknik"@sv .
+        "Försörjningsteknik"@sv,
+        "Tecnología de Suministros"@es .
 
 <n215> a skos:Concept ;
     skos:broader <n63> ;
@@ -2747,7 +3012,8 @@
     skos:prefLabel "Gesundheitstechnik"@de,
         "Health Technology"@en,
         "Технологія охорони здоров'я"@uk,
-        "Hälso- och sjukvårdsteknik"@sv .
+        "Hälso- och sjukvårdsteknik"@sv,
+        "Tecnología Sanitaria"@es .
 
 <n216> a skos:Concept ;
     skos:broader <n63> ;
@@ -2756,7 +3022,8 @@
     skos:prefLabel "Glastechnik/Keramik"@de,
         "Glass Technology/Ceramics"@en,
         "Технологія скла/Кераміка"@uk,
-        "Glasteknik/Keramik"@sv .
+        "Glasteknik/Keramik"@sv,
+        "Tecnología del Vidrio/Cerámica"@es .
 
 <n219> a skos:Concept ;
     skos:broader <n63> ;
@@ -2765,7 +3032,8 @@
     skos:prefLabel "Kunststofftechnik"@de,
         "Plastics Technology"@en,
         "Технологія пластмас"@uk,
-        "Plastteknik"@sv .
+        "Plastteknik"@sv,
+        "Tecnología de Plásticos"@es .
 
 <n220> a skos:Concept ;
     skos:broader <n58> ;
@@ -2774,7 +3042,8 @@
     skos:prefLabel "Milch- und Molkereiwirtschaft"@de,
         "Dairy Farming"@en,
         "Молочне тваринництво"@uk,
-        "Mejeri- och mjölkproducerande näring"@sv .
+        "Mejeri- och mjölkproducerande näring"@sv,
+        "Ganadería lechera"@es .
 
 <n221> a skos:Concept ;
     skos:broader <n71> ;
@@ -2783,7 +3052,8 @@
     skos:prefLabel "Bioinformatik"@de,
         "Bioinformatics"@en,
         "Біоінформатика"@uk,
-        "Bioinformatik"@sv .
+        "Bioinformatik"@sv,
+        "Bioinformática"@es .
 
 <n222> a skos:Concept ;
     skos:broader <n64> ;
@@ -2792,7 +3062,8 @@
     skos:prefLabel "Kommunikations- und Informationstechnik"@de,
         "Communication Technology, Information Engineering"@en,
         "Комунікаційні та інформаційні технології"@uk,
-        "Kommunikationsteknik och informationsteknik"@sv .
+        "Kommunikationsteknik och informationsteknik"@sv,
+        "Tecnología de Comunicaciones e Información"@es .
 
 <n223> a skos:Concept ;
     skos:broader <n65> ;
@@ -2801,7 +3072,8 @@
     skos:prefLabel "Nautik/Seefahrt"@de,
         "Nautical Science/Maritime Studies"@en,
         "Морські науки"@uk,
-        "Nautik/Sjöfartsstudier"@sv .
+        "Nautik/Sjöfartsstudier"@sv,
+        "Ciencias Náuticas/Estudios Marítimos"@es .
 
 <n224> a skos:Concept ;
     skos:broader <n63> ;
@@ -2810,7 +3082,8 @@
     skos:prefLabel "Physikalische Technik/Mechanische Verfahrenstechnik"@de,
         "Engineering Physics/Mechanical Process Engineering"@en,
         "Інженерна фізика"@uk,
-        "Teknisk fysik/Maskinell processteknik"@sv .
+        "Teknisk fysik/Maskinell processteknik"@sv,
+        "Ingeniería Física/Ingeniería de Procesos Mecánicos"@es .
 
 <n225> a skos:Concept ;
     skos:broader <n63> ;
@@ -2819,7 +3092,8 @@
     skos:prefLabel "Textil- und Bekleidungstechnik/-gewerbe"@de,
         "Textile and Clothing Technology/Industry"@en,
         "Текстильне виробництво/Легка промисловість"@uk,
-        "Textil- och konfektionsteknik/industri"@sv .
+        "Textil- och konfektionsteknik/industri"@sv,
+        "Tecnología/Industria Textil y de la Confección"@es .
 
 <n226> a skos:Concept ;
     skos:broader <n63> ;
@@ -2828,7 +3102,8 @@
     skos:prefLabel "Verfahrenstechnik"@de,
         "Process Engineering"@en,
         "Технологія процесів"@uk,
-        "Process- och systemteknik"@sv .
+        "Process- och systemteknik"@sv,
+        "Ingeniería de Procesos"@es .
 
 <n227> a skos:Concept ;
     skos:broader <n58> ;
@@ -2837,7 +3112,8 @@
     skos:prefLabel "Weinbau und Kellerwirtschaft"@de,
         "Viticulture and Oenology"@en,
         "Виноградарство і виноробство"@uk,
-        "Vinodling och vinframställning"@sv .
+        "Vinodling och vinframställning"@sv,
+        "Viticultura y Enología"@es .
 
 <n230> a skos:Concept ;
     skos:broader <n78> ;
@@ -2846,7 +3122,8 @@
     skos:prefLabel "Gesang"@de,
         "Singing"@en,
         "Вокальне мистецтво"@uk,
-        "Sång"@sv .
+        "Sång"@sv,
+        "Canto"@es .
 
 <n231> a skos:Concept ;
     skos:broader <n63> ;
@@ -2855,7 +3132,8 @@
     skos:prefLabel "Druck- und Reproduktionstechnik"@de,
         "Printing and Reproduction Technology"@en,
         "Технологія друку та розмноження"@uk,
-        "Tryck- och reproduktionsteknik"@sv .
+        "Tryck- och reproduktionsteknik"@sv,
+        "Tecnología de Impresión y Reproducción"@es .
 
 <n232> a skos:Concept ;
     skos:broader <n48> ;
@@ -2864,7 +3142,8 @@
     skos:prefLabel "Gesundheitswissenschaften/-management"@de,
         "Health Science/Health Management"@en,
         "Науки про здоров'я/Управління охороною здоров'я"@uk,
-        "Hälsovetenskap/-förvaltning"@sv .
+        "Hälsovetenskap/-förvaltning"@sv,
+        "Ciencias de la Salud/Gestión Sanitaria"@es .
 
 <n233> a skos:Concept ;
     skos:broader <n48> ;
@@ -2873,7 +3152,8 @@
     skos:prefLabel "Nichtärztliche Heilberufe/Therapien"@de,
         "Non-medical Healthcare Professions/Therapies"@en,
         "Немедичні професії охорони здоров’я/Терапії"@uk,
-        "Icke-medicinska vårdyrken/terapier"@sv .
+        "Icke-medicinska vårdyrken/terapier"@sv,
+        "Profesiones Sanitarias No Médicas/Terapias"@es .
 
 <n234> a skos:Concept ;
     skos:broader <n48> ;
@@ -2882,7 +3162,8 @@
     skos:prefLabel "Pflegewissenschaft/-management"@de,
         "Nursing Science/Nursing Management"@en,
         "Медсестринство"@uk,
-        "Sjuksköterskevetenskap/-ledning"@sv .
+        "Sjuksköterskevetenskap/-ledning"@sv,
+        "Ciencias de Enfermería/Enfermería"@es .
 
 <n235> a skos:Concept ;
     skos:broader <n65> ;
@@ -2891,7 +3172,8 @@
     skos:prefLabel "Fahrzeugtechnik"@de,
         "Automotive Technology"@en,
         "Автомобільний транспорт"@uk,
-        "Fordonsteknik"@sv .
+        "Fordonsteknik"@sv,
+        "Tecnología Automotriz"@es .
 
 <n237> a skos:Concept ;
     dct:isReplacedBy <n312> ;
@@ -2902,7 +3184,8 @@
     skos:prefLabel "Mathematische Statistik/Wahrscheinlichkeitsrechnung"@de,
         "Mathematical statistics/probability calculation"@en,
         "Математична статистика/Теорія ймовірності"@uk,
-        "Matematisk statistik/sannolikhetslära"@sv .
+        "Matematisk statistik/sannolikhetslära"@sv,
+        "Estadística Matemática/Cálculo de Probabilidades"@es .
 
 <n241> a skos:Concept ;
     owl:deprecated true ;
@@ -2913,7 +3196,8 @@
     skos:prefLabel "Kerntechnik/Kernverfahrenstechnik"@de,
         "Nuclear technology/nuclear process engineering"@en,
         "Атомна інженерія/Інженерія ядерних процесів"@uk,
-        "Kärnteknik/Kärnprocess-teknik"@sv .
+        "Kärnteknik/Kärnprocess-teknik"@sv,
+        "Tecnología Nuclear/Ingeniería de Procesos Nucleares"@es .
 
 <n242> a skos:Concept ;
     skos:broader <n66> ;
@@ -2922,7 +3206,8 @@
     skos:prefLabel "Innenarchitektur"@de,
         "Interior Architecture"@en,
         "Дизайн інтер'єру"@uk,
-        "Inredningsarkitektur"@sv .
+        "Inredningsarkitektur"@sv,
+        "Arquitectura de Interiores"@es .
 
 <n245> a skos:Concept ;
     skos:broader <n27> ;
@@ -2931,7 +3216,8 @@
     skos:prefLabel "Sozialpädagogik"@de,
         "Social Pedagogy"@en,
         "Соціальна педагогіка"@uk,
-        "Socialpedagogik"@sv .
+        "Socialpedagogik"@sv,
+        "Pedagogía Social"@es .
 
 <n247> a skos:Concept ;
     skos:broader <n71> ;
@@ -2940,7 +3226,8 @@
     skos:prefLabel "Medizinische Informatik"@de,
         "Medical Informatics"@en,
         "Медична інформатика"@uk,
-        "Medicinsk informatik"@sv .
+        "Medicinsk informatik"@sv,
+        "Informática Médica"@es .
 
 <n253> a skos:Concept ;
     skos:broader <n27> ;
@@ -2949,7 +3236,8 @@
     skos:prefLabel "Sozialwesen"@de,
         "Applied Social Science"@en,
         "Прикладні суспільні науки"@uk,
-        "Tillämpade samhällsvetenskaper"@sv .
+        "Tillämpade samhällsvetenskaper"@sv,
+        "Ciencias Sociales Aplicadas"@es .
 
 <n254> a skos:Concept ;
     skos:broader <n33> ;
@@ -2958,7 +3246,8 @@
     skos:prefLabel "Sachunterricht (einschl. Schulgarten)"@de,
         "General Studies (including School Garden)"@en,
         "Загальна педагогіка(включно з дошкільною освітою)"@uk,
-        "Allmänorientering (inkl. skolträdgård)"@sv .
+        "Allmänorientering (inkl. skolträdgård)"@sv,
+        "Estudios Generales (incluyendo infantil)"@es .
 
 <n255> a skos:Concept ;
     skos:broader <n29> ;
@@ -2967,7 +3256,8 @@
     skos:prefLabel "Archivwesen"@de,
         "Archive Studies"@en,
         "Архівна справа"@uk,
-        "Arkivvetenskap"@sv .
+        "Arkivvetenskap"@sv,
+        "Estudios de Archivos"@es .
 
 <n256> a skos:Concept ;
     skos:broader <n29> ;
@@ -2976,7 +3266,8 @@
     skos:prefLabel "Rechtspflege"@de,
         "Administration of Justice"@en,
         "Правосуддя"@uk,
-        "Rättsväsendets förvaltning"@sv .
+        "Rättsväsendets förvaltning"@sv,
+        "Administración de Justicia"@es .
 
 <n257> a skos:Concept ;
     skos:broader <n29> ;
@@ -2985,7 +3276,8 @@
     skos:prefLabel "Arbeits- und Berufsberatung"@de,
         "Occupational Guidance and Career Counselling"@en,
         "Профорієнтація та розвиток кар'єри"@uk,
-        "Arbets- och yrkesvägledning"@sv .
+        "Arbets- och yrkesvägledning"@sv,
+        "Orientación Ocupacional y Asesoramiento de Carreras"@es .
 
 <n258> a skos:Concept ;
     skos:broader <n29> ;
@@ -2994,7 +3286,8 @@
     skos:prefLabel "Arbeitsverwaltung"@de,
         "Labour Administration"@en,
         "Управління трудовими ресурсами"@uk,
-        "Arbetsförvaltning"@sv .
+        "Arbetsförvaltning"@sv,
+        "Administración Laboral"@es .
 
 <n259> a skos:Concept ;
     skos:broader <n29> ;
@@ -3003,7 +3296,8 @@
     skos:prefLabel "Auswärtige Angelegenheiten"@de,
         "Foreign Affairs Administration"@en,
         "Міжнародні відносини"@uk,
-        "Utrikesförvaltning"@sv .
+        "Utrikesförvaltning"@sv,
+        "Administración de Asuntos Exteriores"@es .
 
 <n260> a skos:Concept ;
     skos:broader <n29> ;
@@ -3012,7 +3306,8 @@
     skos:prefLabel "Bundeswehrverwaltung"@de,
         "Armed Forces Administration"@en,
         "Військове управління"@uk,
-        "Försvarsförvaltning"@sv .
+        "Försvarsförvaltning"@sv,
+        "Administración de Fuerzas Armadas"@es .
 
 <n261> a skos:Concept ;
     skos:broader <n29> ;
@@ -3021,7 +3316,8 @@
     skos:prefLabel "Innere Verwaltung"@de,
         "Internal Administration"@en,
         "Внутрішнє адміністрування"@uk,
-        "Intern förvaltning"@sv .
+        "Intern förvaltning"@sv,
+        "Administración Interna"@es .
 
 <n262> a skos:Concept ;
     skos:broader <n29> ;
@@ -3030,7 +3326,8 @@
     skos:prefLabel "Bibliothekswesen"@de,
         "Librarianship"@en,
         "Бібліотечна справа"@uk,
-        "Biblioteksvetenskap"@sv .
+        "Biblioteksvetenskap"@sv,
+        "Bibliotecología"@es .
 
 <n263> a skos:Concept ;
     skos:broader <n29> ;
@@ -3039,7 +3336,8 @@
     skos:prefLabel "Polizei/Verfassungsschutz"@de,
         "Police/Protection of the Constitution"@en,
         "Поліція/Захист Конституції"@uk,
-        "Polis/konstitutionsskydd"@sv .
+        "Polis/konstitutionsskydd"@sv,
+        "Policía/Protección de la Constitución"@es .
 
 <n264> a skos:Concept ;
     skos:broader <n29> ;
@@ -3048,7 +3346,8 @@
     skos:prefLabel "Sozialversicherung"@de,
         "Social Security Administration"@en,
         "Управління соціальним захистом"@uk,
-        "Socialförsäkring"@sv .
+        "Socialförsäkring"@sv,
+        "Administración de Seguridad Social"@es .
 
 <n265> a skos:Concept ;
     skos:broader <n29> ;
@@ -3057,7 +3356,8 @@
     skos:prefLabel "Bankwesen"@de,
         "Banking"@en,
         "Банківська справа"@uk,
-        "Bankverksamhet"@sv .
+        "Bankverksamhet"@sv,
+        "Banca"@es .
 
 <n266> a skos:Concept ;
     skos:broader <n29> ;
@@ -3066,7 +3366,8 @@
     skos:prefLabel "Finanzverwaltung"@de,
         "Financial Administration"@en,
         "Управління фінансами"@uk,
-        "Finansförvaltning"@sv .
+        "Finansförvaltning"@sv,
+        "Administración Financiera"@es .
 
 <n268> a skos:Concept ;
     skos:broader <n29> ;
@@ -3075,7 +3376,8 @@
     skos:prefLabel "Verkehrswesen"@de,
         "Transportation Systems"@en,
         "Транспортні системи"@uk,
-        "Transportsektor"@sv .
+        "Transportsektor"@sv,
+        "Sistemas de Transporte"@es .
 
 <n269> a skos:Concept ;
     skos:broader <n29> ;
@@ -3084,7 +3386,8 @@
     skos:prefLabel "Zoll- und Steuerverwaltung"@de,
         "Customs and Tax Administration"@en,
         "Управління митною та податковою справою"@uk,
-        "Tull- och skatteförvaltning"@sv .
+        "Tull- och skatteförvaltning"@sv,
+        "Administración de Aduanas e Impuestos"@es .
 
 <n270> a skos:Concept ;
     skos:broader <n33> ;
@@ -3093,7 +3396,8 @@
     skos:prefLabel "Berufs- und Wirtschaftspädagogik"@de,
         "Vocational, Business and Economics Education"@en,
         "Професійна, бізнес та економічна освіта"@uk,
-        "Yrkes- och ekonomipedagogik"@sv .
+        "Yrkes- och ekonomipedagogik"@sv,
+        "Educación Vocacional, Empresarial y Económica"@es .
 
 <n271> a skos:Concept ;
     skos:broader <n09> ;
@@ -3102,7 +3406,8 @@
     skos:prefLabel "Deutsch als Fremdsprache oder als Zweitsprache"@de,
         "German as a Foreign or Second Language"@en,
         "Німецька як іноземна або друга мова"@uk,
-        "Tyska som främmande eller andraspråk"@sv .
+        "Tyska som främmande eller andraspråk"@sv,
+        "Alemán como Lengua Extranjera o Segunda Lengua"@es .
 
 <n272> a skos:Concept ;
     skos:broader <n05> ;
@@ -3111,7 +3416,8 @@
     skos:prefLabel "Alte Geschichte"@de,
         "Ancient History"@en,
         "Стародавня історія"@uk,
-        "Antikens historia"@sv .
+        "Antikens historia"@sv,
+        "Historia Antigua"@es .
 
 <n273> a skos:Concept ;
     skos:broader <n05> ;
@@ -3120,7 +3426,8 @@
     skos:prefLabel "Mittlere und neuere Geschichte"@de,
         "Medieval and Modern History"@en,
         "Історія середньовіччя та новітнього часу"@uk,
-        "Medeltids- och nyare historia"@sv .
+        "Medeltids- och nyare historia"@sv,
+        "Historia Medieval y Moderna"@es .
 
 <n274> a skos:Concept ;
     skos:broader <n30> ;
@@ -3129,7 +3436,8 @@
     skos:prefLabel "Tourismuswirtschaft"@de,
         "Tourism Management"@en,
         "Туристичний менеджмент"@uk,
-        "Turismnäring"@sv .
+        "Turismnäring"@sv,
+        "Gestión del Turismo"@es .
 
 <n275> a skos:Concept ;
     skos:broader <n05> ;
@@ -3138,7 +3446,8 @@
     skos:prefLabel "Wissenschaftsgeschichte/Technikgeschichte"@de,
         "History of Science/History of Technology"@en,
         "Історія науки і техніки"@uk,
-        "Vetenskapshistoria/teknikhistoria"@sv .
+        "Vetenskapshistoria/teknikhistoria"@sv,
+        "Historia de la Ciencia/Historia de la Tecnología"@es .
 
 <n276> a skos:Concept ;
     skos:broader <n37> ;
@@ -3147,7 +3456,8 @@
     skos:prefLabel "Wirtschaftsmathematik"@de,
         "Business Mathematics"@en,
         "Бізнес математика"@uk,
-        "Affärsmatematik"@sv .
+        "Affärsmatematik"@sv,
+        "Matemáticas Empresariales"@es .
 
 <n277> a skos:Concept ;
     skos:broader <n71> ;
@@ -3156,7 +3466,8 @@
     skos:prefLabel "Wirtschaftsinformatik"@de,
         "Business Informatics"@en,
         "Бізнес-інформатика"@uk,
-        "Affärsinformatik"@sv .
+        "Affärsinformatik"@sv,
+        "Informática Empresarial"@es .
 
 <n280> a skos:Concept ;
     skos:broader <n69> ;
@@ -3165,7 +3476,8 @@
     skos:prefLabel "Kartographie"@de,
         "Cartography"@en,
         "Картографія"@uk,
-        "Kartografi"@sv .
+        "Kartografi"@sv,
+        "Cartografía"@es .
 
 <n282> a skos:Concept ;
     skos:broader <n42> ;
@@ -3174,7 +3486,8 @@
     skos:prefLabel "Biotechnologie"@de,
         "Biotechnology"@en,
         "Біотехнологія"@uk,
-        "Bioteknik"@sv .
+        "Bioteknik"@sv,
+        "Biotecnología"@es .
 
 <n283> a skos:Concept ;
     skos:broader <n44> ;
@@ -3183,7 +3496,8 @@
     skos:prefLabel "Landschaftsökologie/Biogeographie"@de,
         "Landscape Ecology/Biogeography"@en,
         "Ландшафтна екологія/Біогеографія"@uk,
-        "Landskapsekologi/biogeografi"@sv .
+        "Landskapsekologi/biogeografi"@sv,
+        "Ecología del Paisaje/Biogeografía"@es .
 
 <n284> a skos:Concept ;
     skos:broader <n07> ;
@@ -3192,7 +3506,8 @@
     skos:prefLabel "Angewandte Sprachwissenschaft"@de,
         "Applied Linguistics"@en,
         "Прикладна лінгвістика"@uk,
-        "Tillämpad språkvetenskap"@sv .
+        "Tillämpad språkvetenskap"@sv,
+        "Lingüística Aplicada"@es .
 
 <n286> a skos:Concept ;
     skos:broader <n64> ;
@@ -3201,7 +3516,8 @@
     skos:prefLabel "Mikrosystemtechnik"@de,
         "Microsystems Technology"@en,
         "Мікротехнологія"@uk,
-        "Mikrosystemteknik"@sv .
+        "Mikrosystemteknik"@sv,
+        "Tecnología de Microsistemas"@es .
 
 <n287> a skos:Concept ;
     skos:broader <n75> ;
@@ -3210,7 +3526,8 @@
     skos:prefLabel "Neue Medien"@de,
         "New Media"@en,
         "Нові засоби масової інформаії"@uk,
-        "Nya medier"@sv .
+        "Nya medier"@sv,
+        "Nuevos Medios de comunicación"@es .
 
 <n292> a skos:Concept ;
     skos:broader <n18> ;
@@ -3219,7 +3536,8 @@
     skos:prefLabel "Islamische Studien/Islamische Theologie"@de,
         "Islamic Studies/Islamic Theology"@en,
         "Ісламознавство"@uk,
-        "Islamstudier/Islamisk teologi"@sv .
+        "Islamstudier/Islamisk teologi"@sv,
+        "Estudios Islámicos/Teología Islámica"@es .
 
 <n294> a skos:Concept ;
     skos:broader <n72> ;
@@ -3228,7 +3546,8 @@
     skos:prefLabel "Materialwissenschaft"@de,
         "Materials Science"@en,
         "Матеріалознавство"@uk,
-        "Materialvetenskap"@sv .
+        "Materialvetenskap"@sv,
+        "Ciencia de Materiales"@es .
 
 <n300> a skos:Concept ;
     skos:broader <n42> ;
@@ -3237,7 +3556,8 @@
     skos:prefLabel "Biomedizin"@de,
         "Biomedicine"@en,
         "Біомедицина"@uk,
-        "Biomedicin"@sv .
+        "Biomedicin"@sv,
+        "Biomedicina"@es .
 
 <n302> a skos:Concept ;
     skos:broader <n19> ;
@@ -3246,7 +3566,8 @@
     skos:prefLabel "Medienwissenschaft"@de,
         "Media Science"@en,
         "Медіазнавство"@uk,
-        "Medievetenskap"@sv .
+        "Medievetenskap"@sv,
+        "Ciencias de los Medios"@es .
 
 <n303> a skos:Concept ;
     skos:broader <n34> ;
@@ -3255,7 +3576,8 @@
     skos:prefLabel "Kommunikationswissenschaft/Publizistik"@de,
         "Communication Science/Journalism"@en,
         "Соціальні комунікації/Журналістика"@uk,
-        "Kommunikationsvetenskap/Journalistik"@sv .
+        "Kommunikationsvetenskap/Journalistik"@sv,
+        "Ciencias de la Comunicación/Periodismo"@es .
 
 <n304> a skos:Concept ;
     skos:broader <n30> ;
@@ -3264,7 +3586,8 @@
     skos:prefLabel "Medienwirtschaft/Medienmanagement"@de,
         "Media Economics/Media Management"@en,
         "Медіа-економіка/Медіа-менеджмент"@uk,
-        "Medieekonomi/Mediehantering"@sv .
+        "Medieekonomi/Mediehantering"@sv,
+        "Economía de Medios/Gestión de Medios"@es .
 
 <n305> a skos:Concept ;
     skos:broader <n61> ;
@@ -3273,7 +3596,8 @@
     skos:prefLabel "Medientechnik"@de,
         "Media Technology"@en,
         "Медіатехнології"@uk,
-        "Medieteknik"@sv .
+        "Medieteknik"@sv,
+        "Tecnología de Medios de comunicación"@es .
 
 <n310> a skos:Concept ;
     skos:broader <n61> ;
@@ -3282,7 +3606,8 @@
     skos:prefLabel "Regenerative Energien"@de,
         "Renewable Energy"@en,
         "Відновлювальна енергія"@uk,
-        "Förnybar energi"@sv .
+        "Förnybar energi"@sv,
+        "Energía Renovable"@es .
 
 <n312> a skos:Concept ;
     skos:broader <n36> ;
@@ -3291,7 +3616,8 @@
     skos:prefLabel "Statistik"@de,
         "Statistics"@en,
         "Cтатистика"@uk,
-        "Statistik"@sv .
+        "Statistik"@sv,
+        "Estadística"@es .
 
 <n316> a skos:Concept ;
     skos:broader <n64> ;
@@ -3300,7 +3626,8 @@
     skos:prefLabel "Elektrische Energietechnik"@de,
         "Electrical Power Engineering"@en,
         "Електроенергетика"@uk,
-        "Elektrisk kraftteknik"@sv .
+        "Elektrisk kraftteknik"@sv,
+        "Ingeniería de Energía Eléctrica"@es .
 
 <n320> a skos:Concept ;
     skos:broader <n60> ;
@@ -3309,7 +3636,8 @@
     skos:prefLabel "Ernährungswissenschaft"@de,
         "Nutritional Science"@en,
         "Наука про харчування"@uk,
-        "Näringsvetenskap"@sv .
+        "Näringsvetenskap"@sv,
+        "Ciencias de la Nutrición"@es .
 
 <n321> a skos:Concept ;
     skos:broader <n33> ;
@@ -3318,7 +3646,8 @@
     skos:prefLabel "Erwachsenenbildung und außerschulische Jugendbildung"@de,
         "Adult Education and Extracurricular Youth Educat."@en,
         "Освіта дорослих та позашкільна освіта"@uk,
-        "Vuxenutbildning och fritidsungdomsutbildning"@sv .
+        "Vuxenutbildning och fritidsungdomsutbildning"@sv,
+        "Educación de Adultos y Educación Juvenil Extracurricular"@es .
 
 <n333> a skos:Concept ;
     skos:broader <n60> ;
@@ -3327,7 +3656,8 @@
     skos:prefLabel "Haushaltswissenschaft"@de,
         "Domestic Science"@en,
         "Житлова економіка"@uk,
-        "Hushållsvetenskap"@sv .
+        "Hushållsvetenskap"@sv,
+        "Ciencias del Hogar"@es .
 
 <n353> a skos:Concept ;
     skos:broader <n58> ;
@@ -3336,7 +3666,8 @@
     skos:prefLabel "Pflanzenproduktion"@de,
         "Plant Production"@en,
         "Рослинництво"@uk,
-        "Växtproduktion"@sv .
+        "Växtproduktion"@sv,
+        "Producción Vegetal"@es .
 
 <n361> a skos:Concept ;
     skos:broader <n33> ;
@@ -3345,7 +3676,8 @@
     skos:prefLabel "Schulpädagogik"@de,
         "School Pedagogy"@en,
         "Середня освіта"@uk,
-        "Skolpedagogik"@sv .
+        "Skolpedagogik"@sv,
+        "Pedagogía Escolar"@es .
 
 <n365> a skos:Concept ;
     skos:broader <n33> ;
@@ -3354,7 +3686,8 @@
     skos:prefLabel "Pädagogik der frühen Kindheit"@de,
         "Early Childhood Education"@en,
         "Дошкільна освіта"@uk,
-        "Förskolepedagogik"@sv .
+        "Förskolepedagogik"@sv,
+        "Educación Infantil"@es .
 
 <n370> a skos:Concept ;
     skos:broader <n70> ;
@@ -3363,7 +3696,8 @@
     skos:prefLabel "Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt"@de,
         "Business Engineering specialising in Engineering Sciences"@en,
         "Промислова інженерія у галузі технічних наук"@uk,
-        "Industriell ekonomi med ingenjörsinriktning"@sv .
+        "Industriell ekonomi med ingenjörsinriktning"@sv,
+        "Ingeniería Industrial con especialización en Ciencias de la Ingeniería"@es .
 
 <n371> a skos:Concept ;
     skos:broader <n58> ;
@@ -3372,7 +3706,8 @@
     skos:prefLabel "Tierproduktion"@de,
         "Animal Production"@en,
         "Тваринництво"@uk,
-        "Djurproduktion"@sv .
+        "Djurproduktion"@sv,
+        "Producción Animal"@es .
 
 <n380> a skos:Concept ;
     skos:broader <n61> ;
@@ -3381,7 +3716,8 @@
     skos:prefLabel "Mechatronik"@de,
         "Mechatronics"@en,
         "Мехатроніка"@uk,
-        "Mekatronik"@sv .
+        "Mekatronik"@sv,
+        "Mecatrónica"@es .
 
 <n385> a skos:Concept ;
     skos:broader <n43> ;
@@ -3390,7 +3726,8 @@
     skos:prefLabel "Geoökologie"@de,
         "Geoecology"@en,
         "Геоекологія"@uk,
-        "Geoekologi"@sv .
+        "Geoekologi"@sv,
+        "Geoecología"@es .
 
 <n390> a skos:Concept ;
     skos:broader <n62> ;
@@ -3399,7 +3736,8 @@
     skos:prefLabel "Archäometrie (Ingenieurarchäologie)"@de,
         "Archaeometry (Archaeological Engineering)"@en,
         "Археометрія (Археологічна інженерія)"@uk,
-        "Arkeometri (ingenjörsarkeologi)"@sv .
+        "Arkeometri (ingenjörsarkeologi)"@sv,
+        "Arqueometría (Ingeniería Arqueológica)"@es .
 
 <n429> a skos:Concept ;
     skos:broader <n68> ;
@@ -3408,7 +3746,8 @@
     skos:prefLabel "Stahlbau"@de,
         "Steel Construction"@en,
         "Сталеві будівельні конструкції"@uk,
-        "Stålkonstruktion"@sv .
+        "Stålkonstruktion"@sv,
+        "Construcción en Acero"@es .
 
 <n457> a skos:Concept ;
     skos:broader <n63> ;
@@ -3417,7 +3756,8 @@
     skos:prefLabel "Umwelttechnik (einschl. Recycling)"@de,
         "Environmental Technology (including Recycling)"@en,
         "Екологічні технології (включно з переробкою)"@uk,
-        "Miljöteknik (inkl. återvinning)"@sv .
+        "Miljöteknik (inkl. återvinning)"@sv,
+        "Tecnología Ambiental (incluyendo Reciclaje)"@es .
 
 <n458> a skos:Concept ;
     skos:broader <n67> ;
@@ -3426,7 +3766,8 @@
     skos:prefLabel "Umweltschutz"@de,
         "Environmental Protection"@en,
         "Охорона навколишнього середовища"@uk,
-        "Miljöskydd"@sv .
+        "Miljöskydd"@sv,
+        "Protección Medioambiental"@es .
 
 <n464> a skos:Concept ;
     skos:broader <n31> ;
@@ -3435,7 +3776,8 @@
     skos:prefLabel "Facility Management"@de,
         "Facility Management"@en,
         "Організація управління підприємством"@uk,
-        "Facility Management"@sv .
+        "Facility Management"@sv,
+        "Gestión de Instalaciones"@es .
 
 <n544> a skos:Concept ;
     skos:broader <n02> ;
@@ -3444,7 +3786,8 @@
     skos:prefLabel "Evang. Religionspädagogik, kirchliche Bildungsarbeit"@de,
         "Protestant Religious Pedagogy, Church Educational Work"@en,
         "Протестантська релігійна педагогіка, церковно-виховна робота"@uk,
-        "Evangelisk religionspedagogik, kyrkligt utbildningsarbete"@sv .
+        "Evangelisk religionspedagogik, kyrkligt utbildningsarbete"@sv,
+        "Pedagogía Religiosa Protestante, Trabajo Educativo Eclesiástico"@es .
 
 <n545> a skos:Concept ;
     skos:broader <n03> ;
@@ -3453,7 +3796,8 @@
     skos:prefLabel "Kath. Religionspädagogik, kirchliche Bildungsarbeit"@de,
         "Catholic Religious Pedagogy, Church Educational Work"@en,
         "Католицька релігійна педагогіка, церковно-виховна робота"@uk,
-        "Katolsk religionspedagogik, kyrkligt utbildningsarbete"@sv .
+        "Katolsk religionspedagogik, kyrkligt utbildningsarbete"@sv,
+        "Pedagogía Religiosa Católica, Trabajo Educativo Eclesiástico"@es .
 
 <n548> a skos:Concept ;
     skos:broader <n05> ;
@@ -3462,7 +3806,8 @@
     skos:prefLabel "Ur- und Frühgeschichte"@de,
         "Prehistory and Early History"@en,
         "Історія первісного суспільства"@uk,
-        "Förhistoria och tidig historia"@sv .
+        "Förhistoria och tidig historia"@sv,
+        "Prehistoria e inicios"@es .
 
 <n0128> a skos:Concept ;
     skos:broader <n39> ;
@@ -3471,7 +3816,8 @@
     skos:prefLabel "Physik"@de,
         "Physics"@en,
         "Фізика"@uk,
-        "Fysik"@sv .
+        "Fysik"@sv,
+        "Física"@es .
 
 <n030010001> a skos:Concept ;
     dct:isReplacedBy <n292> ;
@@ -3482,4 +3828,5 @@
     skos:prefLabel "Islamische Studien/Islamische Theologie"@de,
         "Islamic Studies/Islamic Theology"@en,
         "Ісламознавство"@uk,
-        "Islamstudier/Islamisk teologi"@sv .
+        "Islamstudier/Islamisk teologi"@sv,
+        "Estudios Islámicos/Teología Islámica"@es .
