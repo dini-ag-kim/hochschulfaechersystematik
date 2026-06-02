@@ -34,7 +34,8 @@
         "Міждисциплінарний"@uk,
         "Tvärvetenskapligt"@sv,
         "Interdisciplinario"@es,
-        "Interdisciplinárny"@sk ;
+        "Interdisciplinárny"@sk,
+        "Διεπιστημονικό"@el ;
     skos:topConceptOf <scheme> .
 
 <n1> a skos:Concept ;
@@ -60,7 +61,8 @@
         "Гуманітарні науки"@uk,
         "Humaniora"@sv,
         "Humanidades"@es,
-        "Humanitné vedy"@sk ;
+        "Humanitné vedy"@sk,
+        "Ανθρωπιστικές Επιστήμες"@el ;
     skos:topConceptOf <scheme> .
 
 <n2> a skos:Concept ;
@@ -71,7 +73,8 @@
         "Спорт"@uk,
         "Idrott"@sv,
         "Deportes"@es,
-        "Šport"@sk ;
+        "Šport"@sk,
+        "Αθλητισμός"@el ;
     skos:topConceptOf <scheme> .
 
 <n3> a skos:Concept ;
@@ -93,7 +96,8 @@
         "Право, економіка та суспільні науки"@uk,
         "Rätts-, ekonomi- och samhällsvetenskaper"@sv,
         "Derecho, Economía y Ciencias Sociales"@es,
-        "Právo, ekonómia a spoločenské vedy"@sk ;
+        "Právo, ekonómia a spoločenské vedy"@sk,
+        "Νομική, Οικονομικά και Κοινωνικές Επιστήμες"@el ;
     skos:topConceptOf <scheme> .
 
 <n4> a skos:Concept ;
@@ -111,7 +115,8 @@
         "Математика, природничі науки"@uk,
         "Matematik och naturvetenskaper"@sv,
         "Matemáticas y Ciencias Naturales"@es,
-        "Matematika, prírodné vedy"@sk ;
+        "Matematika, prírodné vedy"@sk,
+        "Μαθηματικά, Φυσικές Επιστήμες"@el ;
     skos:topConceptOf <scheme> .
 
 <n5> a skos:Concept ;
@@ -124,7 +129,8 @@
         "Медицина / Науки про здоров'я"@uk,
         "Medicin/Hälsovetenskaper"@sv,
         "Medicina/Ciencias de la Salud"@es,
-        "Humánna medicína / Zdravotné vedy"@sk ;
+        "Humánna medicína / Zdravotné vedy"@sk,
+        "Ιατρική / Επιστήμες Υγείας"@el ;
     skos:topConceptOf <scheme> .
 
 <n7> a skos:Concept ;
@@ -139,7 +145,8 @@
         "Сільськогосподарські, лісові та харчові науки, ветеринарія"@uk,
         "Jordbruks-, skogs- och livsmedelsvetenskaper, veterinärmedicin"@sv,
         "Ciencias Agrícolas, Forestales y Nutricionales, Medicina Veterinaria"@es,
-        "Poľnohospodárske, lesnícke a výživové vedy, veterinárna medicína"@sk ;
+        "Poľnohospodárske, lesnícke a výživové vedy, veterinárna medicína"@sk,
+        "Γεωπονικές, Δασολογικές και Διατροφικές Επιστήμες, Κτηνιατρική"@el ;
     skos:topConceptOf <scheme> .
 
 <n8> a skos:Concept ;
@@ -161,7 +168,8 @@
         "Інженерія"@uk,
         "Ingenjörsvetenskaper"@sv,
         "Ingenierías"@es,
-        "Inžinierske vedy"@sk ;
+        "Inžinierske vedy"@sk,
+        "Επιστήμες Μηχανικής"@el ;
     skos:topConceptOf <scheme> .
 
 <n9> a skos:Concept ;
@@ -176,7 +184,8 @@
         "Мистецтво, мистецтвознавство"@uk,
         "Konst, konstvetenskap"@sv,
         "Arte, Teoría del Arte"@es,
-        "Umenie, veda o umení"@sk ;
+        "Umenie, veda o umení"@sk,
+        "Τέχνη, Θεωρία Τέχνης"@el ;
     skos:topConceptOf <scheme> .
 
 <n01> a skos:Concept ;
@@ -190,7 +199,8 @@
         "Гуманітарні науки загалом"@uk,
         "Humaniora (allmänt)"@sv,
         "Humanidades (general)"@es,
-        "Humanitné vedy (všeobecné)"@sk .
+        "Humanitné vedy (všeobecné)"@sk,
+        "Ανθρωπιστικές Επιστήμες (γενικά)"@el .
 
 <n02> a skos:Concept ;
     skos:broader <n1> ;
@@ -204,7 +214,8 @@
         "Протестантська теологія, протестантська релігійна освіта"@uk,
         "Protestantisk teologi, protestantisk religionsundervisning"@sv,
         "Teología Protestante, Educación Religiosa Protestante"@es,
-        "Evanjelická teológia, evanjelická náboženská výchova"@sk .
+        "Evanjelická teológia, evanjelická náboženská výchova"@sk,
+        "Προτεσταντική Θεολογία, Προτεσταντική Θρησκευτική Εκπαίδευση"@el .
 
 <n03> a skos:Concept ;
     skos:broader <n1> ;
@@ -218,7 +229,8 @@
         "Католицька теологія, католицька релігійна освіта"@uk,
         "Katolsk teologi, katolsk religionsundervisning"@sv,
         "Teología Católica, Educación Religiosa Católica"@es,
-        "Katolícka teológia, katolícka náboženská výchova"@sk .
+        "Katolícka teológia, katolícka náboženská výchova"@sk,
+        "Καθολική Θεολογία, Καθολική Θρησκευτική Εκπαίδευση"@el .
 
 <n04> a skos:Concept ;
     skos:broader <n1> ;
@@ -232,7 +244,8 @@
         "Філософія"@uk,
         "Filosofi"@sv,
         "Filosofía"@es,
-        "Filozofia"@sk .
+        "Filozofia"@sk,
+        "Φιλοσοφία"@el .
 
 <n05> a skos:Concept ;
     skos:broader <n1> ;
@@ -250,7 +263,8 @@
         "Історія"@uk,
         "Historia"@sv,
         "Historia"@es,
-        "História"@sk .
+        "História"@sk,
+        "Ιστορία"@el .
 
 <n06> a skos:Concept ;
     skos:broader <n1> ;
@@ -263,7 +277,8 @@
         "Бібліотекознавство, документознавство"@uk,
         "Informations- och biblioteksvetenskap"@sv,
         "Ciencias de la Información y Bibliotecología"@es,
-        "Informačné a knižničné vedy"@sk .
+        "Informačné a knižničné vedy"@sk,
+        "Βιβλιοθηκονομία και Επιστήμη της Πληροφόρησης"@el .
 
 <n07> a skos:Concept ;
     skos:broader <n1> ;
@@ -279,7 +294,8 @@
         "Загальне та порівняльне літературознавство та мовознавство"@uk,
         "Allmän och jämförande litteraturvetenskap och lingvistik"@sv,
         "Estudios Literarios y Lingüísticos Generales y Comparativos"@es,
-        "Všeobecná a porovnávacia literárna veda a lingvistika"@sk .
+        "Všeobecná a porovnávacia literárna veda a lingvistika"@sk,
+        "Γενικές και Συγκριτικές Λογοτεχνικές Σπουδές και Γλωσσολογία"@el .
 
 <n08> a skos:Concept ;
     skos:broader <n1> ;
@@ -295,7 +311,8 @@
         "Класична філологія, новогрецька мова"@uk,
         "Klassisk filologi, Moderna grekiska"@sv,
         "Filología Clásica, Griego Moderno"@es,
-        "Klasická filológia, novogréčtina"@sk .
+        "Klasická filológia, novogréčtina"@sk,
+        "Κλασική Φιλολογία, Νέα Ελληνικά"@el .
 
 <n09> a skos:Concept ;
     skos:broader <n1> ;
@@ -312,7 +329,8 @@
         "Німецькі студії (німецька мова, германські мови без англійської мови)"@uk,
         "Tysk studier (tyska, germanska språk exklusive engelska)"@sv,
         "Estudios Alemanes (Alemán y Lenguas Germánicas excl. Inglés)"@es,
-        "Germanistika (nemčina, germánske jazyky okrem angličtiny)"@sk .
+        "Germanistika (nemčina, germánske jazyky okrem angličtiny)"@sk,
+        "Γερμανικές Σπουδές (Γερμανικά, Γερμανικές Γλώσσες εκτός Αγγλικών)"@el .
 
 <n10> a skos:Concept ;
     skos:broader <n1> ;
@@ -325,7 +343,8 @@
         "Англійські студії, американські студії"@uk,
         "Engelska studier, Amerikastudier"@sv,
         "Estudios Ingleses, Estudios Americanos"@es,
-        "Anglistika, amerikanistika"@sk .
+        "Anglistika, amerikanistika"@sk,
+        "Αγγλικές Σπουδές, Αμερικανικές Σπουδές"@el .
 
 <n11> a skos:Concept ;
     skos:broader <n1> ;
@@ -341,7 +360,8 @@
         "Романістика"@uk,
         "Romanska språk och litteratur"@sv,
         "Estudios Romances"@es,
-        "Romanistika"@sk .
+        "Romanistika"@sk,
+        "Ρομανικές Σπουδές"@el .
 
 <n12> a skos:Concept ;
     skos:broader <n1> ;
@@ -361,7 +381,8 @@
         "Слов'янознавство, балтистика, фіно-угрознавство"@uk,
         "Slaviska, baltiska och finsk-ugriska studier"@sv,
         "Estudios Eslavos, Bálticos y Fino-ugrio"@es,
-        "Slavistika, baltistika, fino-hungaristika"@sk .
+        "Slavistika, baltistika, fino-hungaristika"@sk,
+        "Σλαβικές, Βαλτικές, Φινο-Ουγγρικές Σπουδές"@el .
 
 <n13> a skos:Concept ;
     skos:broader <n1> ;
@@ -386,7 +407,8 @@
         "Інші лінгвокультурологічні дослідження"@uk,
         "Övriga språk- och kulturstudier"@sv,
         "Otros Estudios Lingüísticos y Culturales"@es,
-        "Iné jazykové a kultúrne štúdiá"@sk .
+        "Iné jazykové a kultúrne štúdiá"@sk,
+        "Άλλες γλωσσικές και πολιτισμικές σπουδές"@el .
 
 <n14> a skos:Concept ;
     skos:broader <n1> ;
@@ -400,7 +422,8 @@
         "Культурологія у вужчому розумінні"@uk,
         "Kulturvetenskap i snävare bemärkelse"@sv,
         "Estudios Culturales (en sentido restringido)"@es,
-        "Kultúrne štúdiá v užšom zmysle"@sk .
+        "Kultúrne štúdiá v užšom zmysle"@sk,
+        "Πολιτισμικές Σπουδές με τη στενή έννοια"@el .
 
 <n18> a skos:Concept ;
     skos:broader <n1> ;
@@ -412,7 +435,8 @@
         "Ісламознавство/Ісламська теологія"@uk,
         "Islamiska studier/Islamisk teologi"@sv,
         "Estudios Islámicos/Teología Islámica"@es,
-        "Islamské štúdiá/Islamská teológia"@sk .
+        "Islamské štúdiá/Islamská teológia"@sk,
+        "Ισλαμικές Σπουδές/Ισλαμική Θεολογία"@el .
 
 <n19> a skos:Concept ;
     skos:broader <n1> ;
@@ -424,7 +448,8 @@
         "Медіазнавство"@uk,
         "Medievetenskap"@sv,
         "Ciencias de la comunicación y medios"@es,
-        "Mediálne štúdiá"@sk .
+        "Mediálne štúdiá"@sk,
+        "Επιστήμη των Μέσων Ενημέρωσης"@el .
 
 <n22> a skos:Concept ;
     skos:broader <n2> ;
@@ -437,7 +462,8 @@
         "Фізична культура та спорт"@uk,
         "Idrott, idrottsvetenskap"@sv,
         "Deportes, Ciencias del Deporte"@es,
-        "Šport, telovýchova"@sk .
+        "Šport, telovýchova"@sk,
+        "Αθλητισμός, Επιστήμη του Αθλητισμού"@el .
 
 <n23> a skos:Concept ;
     skos:broader <n3> ;
@@ -451,7 +477,8 @@
         "Право, економіка та суспільні науки"@uk,
         "Rätts-, ekonomi- och samhällsvetenskaper (allmänt)"@sv,
         "Derecho, Economía y Ciencias Sociales (general)"@es,
-        "Právo, ekonómia a spoločenské vedy (všeobecné)"@sk .
+        "Právo, ekonómia a spoločenské vedy (všeobecné)"@sk,
+        "Νομική, Οικονομικά και Κοινωνικές Επιστήμες (γενικά)"@el .
 
 <n24> a skos:Concept ;
     skos:broader <n3> ;
@@ -465,7 +492,8 @@
         "Регіональні студії"@uk,
         "Regionala studier"@sv,
         "Estudios Regionales"@es,
-        "Regionalistika"@sk .
+        "Regionalistika"@sk,
+        "Περιφερειακές Σπουδές"@el .
 
 <n25> a skos:Concept ;
     skos:broader <n3> ;
@@ -477,7 +505,8 @@
         "Політологія"@uk,
         "Statsvetenskap"@sv,
         "Ciencia Política"@es,
-        "Politológia"@sk .
+        "Politológia"@sk,
+        "Πολιτική Επιστήμη"@el .
 
 <n26> a skos:Concept ;
     skos:broader <n3> ;
@@ -491,7 +520,8 @@
         "Суспільні науки та соціологія"@uk,
         "Samhällsvetenskap/Sociologi"@sv,
         "Ciencias Sociales/Sociología"@es,
-        "Spoločenské vedy/Sociológia"@sk .
+        "Spoločenské vedy/Sociológia"@sk,
+        "Κοινωνικές Επιστήμες/Κοινωνιολογία"@el .
 
 <n27> a skos:Concept ;
     skos:broader <n3> ;
@@ -505,7 +535,8 @@
         "Прикладні суспільні науки"@uk,
         "Tillämpad socialvetenskap"@sv,
         "Ciencias Sociales Aplicadas"@es,
-        "Aplikované spoločenské vedy"@sk .
+        "Aplikované spoločenské vedy"@sk,
+        "Εφαρμοσμένες Κοινωνικές Επιστήμες"@el .
 
 <n28> a skos:Concept ;
     skos:broader <n3> ;
@@ -518,7 +549,8 @@
         "Правознавство"@uk,
         "Rättsvetenskap"@sv,
         "Derecho"@es,
-        "Právo"@sk .
+        "Právo"@sk,
+        "Νομική"@el .
 
 <n29> a skos:Concept ;
     skos:broader <n3> ;
@@ -545,7 +577,8 @@
         "Управління та адміністрування"@uk,
         "Administrativ vetenskap"@sv,
         "Ciencias Administrativas"@es,
-        "Verejná správa"@sk .
+        "Verejná správa"@sk,
+        "Διοικητικές Επιστήμες"@el .
 
 <n30> a skos:Concept ;
     skos:broader <n3> ;
@@ -567,7 +600,8 @@
         "Бізнес та економіка"@uk,
         "Företagsekonomi och nationalekonomi"@sv,
         "Economía y Negocios"@es,
-        "Obchod a ekonómia"@sk .
+        "Obchod a ekonómia"@sk,
+        "Οικονομικά και Επιχειρηματικότητα"@el .
 
 <n31> a skos:Concept ;
     skos:broader <n3> ;
@@ -580,7 +614,8 @@
         "Бізнес інженерія у галузі економіки"@uk,
         "Industriell ekonomi med ekonomiinriktning"@sv,
         "Ingeniería empresarial con especialización en Economía"@es,
-        "Podnikové inžinierstvo so zameraním na ekonómiu"@sk .
+        "Podnikové inžinierstvo so zameraním na ekonómiu"@sk,
+        "Επιχειρησιακή Μηχανική με ειδίκευση στα Οικονομικά"@el .
 
 <n32> a skos:Concept ;
     skos:broader <n3> ;
@@ -592,7 +627,8 @@
         "Психологія"@uk,
         "Psykologi"@sv,
         "Psicología"@es,
-        "Psychológia"@sk .
+        "Psychológia"@sk,
+        "Ψυχολογία"@el .
 
 <n33> a skos:Concept ;
     skos:broader <n3> ;
@@ -612,7 +648,8 @@
         "Педагогічні науки"@uk,
         "Pedagogik"@sv,
         "Ciencias de la Educación"@es,
-        "Pedagogické vedy"@sk .
+        "Pedagogické vedy"@sk,
+        "Παιδαγωγικές Επιστήμες"@el .
 
 <n34> a skos:Concept ;
     skos:broader <n3> ;
@@ -624,7 +661,8 @@
         "Соціальні комунікації/Журналістика"@uk,
         "Kommunikationsvetenskap/Journalistik"@sv,
         "Ciencias de la Comunicación/Periodismo"@es,
-        "Komunikačná veda/Žurnalistika"@sk .
+        "Komunikačná veda/Žurnalistika"@sk,
+        "Επιστήμη της Επικοινωνίας/Δημοσιογραφία"@el .
 
 <n36> a skos:Concept ;
     skos:broader <n4> ;
@@ -639,7 +677,8 @@
         "Математика, Природничі науки (загальні)"@uk,
         "Matematik och naturvetenskap (allmänt)"@sv,
         "Matemáticas y Ciencias Naturales (general)"@es,
-        "Matematika, prírodné vedy (všeobecné)"@sk .
+        "Matematika, prírodné vedy (všeobecné)"@sk,
+        "Μαθηματικά, Φυσικές Επιστήμες (γενικά)"@el .
 
 <n37> a skos:Concept ;
     skos:broader <n4> ;
@@ -654,7 +693,8 @@
         "Математика"@uk,
         "Matematik"@sv,
         "Matemáticas"@es,
-        "Matematika"@sk .
+        "Matematika"@sk,
+        "Μαθηματικά"@el .
 
 <n39> a skos:Concept ;
     skos:broader <n4> ;
@@ -667,7 +707,8 @@
         "Фізика, Астрономія"@uk,
         "Fysik, astronomi"@sv,
         "Física, Astronomía"@es,
-        "Fyzika, astronómia"@sk .
+        "Fyzika, astronómia"@sk,
+        "Φυσική, Αστρονομία"@el .
 
 <n40> a skos:Concept ;
     skos:broader <n4> ;
@@ -681,7 +722,8 @@
         "Хімія"@uk,
         "Kemi"@sv,
         "Química"@es,
-        "Chémia"@sk .
+        "Chémia"@sk,
+        "Χημεία"@el .
 
 <n41> a skos:Concept ;
     skos:broader <n4> ;
@@ -693,7 +735,8 @@
         "Фармація"@uk,
         "Farmaci"@sv,
         "Farmacia"@es,
-        "Farmácia"@sk .
+        "Farmácia"@sk,
+        "Φαρμακευτική"@el .
 
 <n42> a skos:Concept ;
     skos:broader <n4> ;
@@ -708,7 +751,8 @@
         "Біологія"@uk,
         "Biologi"@sv,
         "Biología"@es,
-        "Biológia"@sk .
+        "Biológia"@sk,
+        "Βιολογία"@el .
 
 <n43> a skos:Concept ;
     skos:broader <n4> ;
@@ -726,7 +770,8 @@
         "Науки про Землю(крім географії)"@uk,
         "Geovetenskaper (exkl. geografi)"@sv,
         "Ciencias de la Tierra (excl. Geografía)"@es,
-        "Geovedy (bez geografie)"@sk .
+        "Geovedy (bez geografie)"@sk,
+        "Γεωεπιστήμες (εκτός Γεωγραφία)"@el .
 
 <n44> a skos:Concept ;
     skos:broader <n4> ;
@@ -740,7 +785,8 @@
         "Географія"@uk,
         "Geografi"@sv,
         "Geografía"@es,
-        "Geografia"@sk .
+        "Geografia"@sk,
+        "Γεωγραφία"@el .
 
 <n48> a skos:Concept ;
     skos:broader <n5> ;
@@ -755,7 +801,8 @@
         "Науки про здоров'я (в цілому)"@uk,
         "Hälsovetenskaper (allmänt)"@sv,
         "Ciencias de la Salud (general)"@es,
-        "Zdravotné vedy (všeobecné)"@sk .
+        "Zdravotné vedy (všeobecné)"@sk,
+        "Επιστήμες Υγείας (γενικά)"@el .
 
 <n49> a skos:Concept ;
     skos:broader <n5> ;
@@ -767,7 +814,8 @@
         "Медицина людини (крім стоматології)"@uk,
         "Medicin (exkl. tandvård)"@sv,
         "Medicina Humana (excl. Odontología)"@es,
-        "Humánna medicína (bez stomatológie)"@sk .
+        "Humánna medicína (bez stomatológie)"@sk,
+        "Ιατρική (εκτός από την Οδοντιατρική)"@el .
 
 <n50> a skos:Concept ;
     skos:broader <n5> ;
@@ -779,7 +827,8 @@
         "Стоматологія"@uk,
         "Tandvård"@sv,
         "Odontología"@es,
-        "Stomatológia"@sk .
+        "Stomatológia"@sk,
+        "Οδοντιατρική"@el .
 
 <n51> a skos:Concept ;
     skos:broader <n7> ;
@@ -791,7 +840,8 @@
         "Ветеринарна медицина"@uk,
         "Veterinärmedicin"@sv,
         "Medicina Veterinaria"@es,
-        "Veterinárna medicína"@sk .
+        "Veterinárna medicína"@sk,
+        "Κτηνιατρική"@el .
 
 <n57> a skos:Concept ;
     skos:broader <n7> ;
@@ -805,7 +855,8 @@
         "Землеустрій, екологічний дизайн"@uk,
         "Markskötsel, landskapsdesign"@sv,
         "Gestión Territorial y Diseño Ambiental"@es,
-        "Správa krajiny, environmentálny dizajn"@sk .
+        "Správa krajiny, environmentálny dizajn"@sk,
+        "Μηχανική Διαχείρισης Γης, Περιβαλλοντικός Σχεδιασμός"@el .
 
 <n58> a skos:Concept ;
     skos:broader <n7> ;
@@ -826,7 +877,8 @@
         "Сільськогосподарська наука, харчові технології"@uk,
         "Jordbruksvetenskap, livsmedels- och dryckesteknik"@sv,
         "Ciencias Agrícolas, Tecnología de Alimentos y Bebidas"@es,
-        "Poľnohospodárske vedy, potravinárska technológia"@sk .
+        "Poľnohospodárske vedy, potravinárska technológia"@sk,
+        "Γεωπονική, Τεχνολογία Τροφίμων και Ποτών"@el .
 
 <n59> a skos:Concept ;
     skos:broader <n7> ;
@@ -839,7 +891,8 @@
         "Лісівництво, деревообробна промисловість"@uk,
         "Skogsvetenskap, träindustri"@sv,
         "Silvicultura, Ciencia de la Madera"@es,
-        "Lesníctvo, drevárska veda"@sk .
+        "Lesníctvo, drevárska veda"@sk,
+        "Δασοκομία, Επιστήμη του Ξύλου"@el .
 
 <n60> a skos:Concept ;
     skos:broader <n7> ;
@@ -853,7 +906,8 @@
         "Харчові та побутові науки"@uk,
         "Närings- och hushållsvetenskap"@sv,
         "Ciencias de la Nutrición y del Hogar"@es,
-        "Výživa ľudí"@sk .
+        "Výživa ľudí"@sk,
+        "Διατροφική και Οικιακή Επιστήμη"@el .
 
 <n61> a skos:Concept ;
     skos:broader <n8> ;
@@ -871,7 +925,8 @@
         "Інженерія (в цілому)"@uk,
         "Ingenjörsvetenskap (allmänt)"@sv,
         "Ingeniería (general)"@es,
-        "Inžinierstvo (všeobecné)"@sk .
+        "Inžinierstvo (všeobecné)"@sk,
+        "Μηχανική (γενικά)"@el .
 
 <n62> a skos:Concept ;
     skos:broader <n8> ;
@@ -886,7 +941,8 @@
         "Гірнича справа, металургія"@uk,
         "Gruvdrift, metallurgi"@sv,
         "Minería y Metalurgia"@es,
-        "Baníctvo, hutníctvo"@sk .
+        "Baníctvo, hutníctvo"@sk,
+        "Μεταλλευτική, Μεταλλουργία"@el .
 
 <n63> a skos:Concept ;
     skos:broader <n8> ;
@@ -918,7 +974,8 @@
         "Машинобудування/Технологія"@uk,
         "Mekanik/Processteknik"@sv,
         "Ingeniería Mecánica/Ingeniería de Procesos"@es,
-        "Strojárstvo/Procesná technika"@sk .
+        "Strojárstvo/Procesná technika"@sk,
+        "Μηχανολογία / Τεχνολογία Διαδικασιών"@el .
 
 <n64> a skos:Concept ;
     skos:broader <n8> ;
@@ -935,7 +992,8 @@
         "Електротехніка та інформаційні технології"@uk,
         "Elektroteknik och informationsteknik"@sv,
         "Ingeniería Eléctrica e Ingeniería Informática"@es,
-        "Elektrotechnika a informačná technika"@sk .
+        "Elektrotechnika a informačná technika"@sk,
+        "Ηλεκτρολογία και Μηχανική Πληροφοριών"@el .
 
 <n65> a skos:Concept ;
     skos:broader <n8> ;
@@ -951,7 +1009,8 @@
         "Транспортні технології/Мореплавство"@uk,
         "Trafikteknik, nautisk vetenskap"@sv,
         "Ingeniería de Transporte y Ciencias Náuticas"@es,
-        "Dopravná technika, lodná doprava"@sk .
+        "Dopravná technika, lodná doprava"@sk,
+        "Κυκλοφοριακή Μηχανική, Ναυτική Επιστήμη"@el .
 
 <n66> a skos:Concept ;
     skos:broader <n8> ;
@@ -964,7 +1023,8 @@
         "Архітектура, дизайн інтер'єру"@uk,
         "Arkitektur, inredningsarkitektur"@sv,
         "Arquitectura y Diseño de Interiores"@es,
-        "Architektúra, interiérová architektúra"@sk .
+        "Architektúra, interiérová architektúra"@sk,
+        "Αρχιτεκτονική, Αρχιτεκτονική Εσωτερικών Χώρων"@el .
 
 <n67> a skos:Concept ;
     skos:broader <n8> ;
@@ -977,7 +1037,8 @@
         "Містобудування та територіальне планування"@uk,
         "Regionalplanering"@sv,
         "Planificación Territorial"@es,
-        "Územné plánovanie"@sk .
+        "Územné plánovanie"@sk,
+        "Χωροταξία"@el .
 
 <n68> a skos:Concept ;
     skos:broader <n8> ;
@@ -993,7 +1054,8 @@
         "Цивільна інженерія"@uk,
         "Väg- och vattenbyggnad/Byggnadsteknik"@sv,
         "Ingeniería Civil"@es,
-        "Stavebné inžinierstvo"@sk .
+        "Stavebné inžinierstvo"@sk,
+        "Πολιτική Μηχανική"@el .
 
 <n69> a skos:Concept ;
     skos:broader <n8> ;
@@ -1006,7 +1068,8 @@
         "Землеустрій"@uk,
         "Geomatik/Geodetisk mätning"@sv,
         "Topografía"@es,
-        "Geodézia a kartografia"@sk .
+        "Geodézia a kartografia"@sk,
+        "Τοπογραφία"@el .
 
 <n70> a skos:Concept ;
     skos:broader <n8> ;
@@ -1018,7 +1081,8 @@
         "Промислова інженерія у галузі технічних наук"@uk,
         "Industriell ekonomi med teknikinriktning"@sv,
         "Ingeniería Empresarial con especialización en Ingenierías"@es,
-        "Podnikové inžinierstvo so zameraním na inžinierske vedy"@sk .
+        "Podnikové inžinierstvo so zameraním na inžinierske vedy"@sk,
+        "Μηχανική Επιχειρήσεων με ειδίκευση στις Επιστήμες της Μηχανικής"@el .
 
 <n71> a skos:Concept ;
     skos:broader <n8> ;
@@ -1036,7 +1100,8 @@
         "Комп'ютерні науки"@uk,
         "Datavetenskap"@sv,
         "Ciencias de la Computación"@es,
-        "Informatika"@sk .
+        "Informatika"@sk,
+        "Επιστήμη των Υπολογιστών"@el .
 
 <n72> a skos:Concept ;
     skos:broader <n8> ;
@@ -1049,7 +1114,8 @@
         "Матеріалознавство та прикладна механіка"@uk,
         "Materialvetenskap och materialteknik"@sv,
         "Ciencia de Materiales e Ingeniería de Materiales"@es,
-        "Materiálová veda a materiálové inžinierstvo"@sk .
+        "Materiálová veda a materiálové inžinierstvo"@sk,
+        "Επιστήμη Υλικών και Μηχανική Υλικών"@el .
 
 <n74> a skos:Concept ;
     skos:broader <n9> ;
@@ -1064,7 +1130,8 @@
         "Культура і мистецтво, теорія мистецтв (загальні)"@uk,
         "Konst, konstvetenskap (allmänt)"@sv,
         "Arte y Teoría del Arte (general)"@es,
-        "Umenie, veda o umení (všeobecné)"@sk .
+        "Umenie, veda o umení (všeobecné)"@sk,
+        "Τέχνη, Θεωρία Τέχνης (γενικά)"@el .
 
 <n75> a skos:Concept ;
     skos:broader <n9> ;
@@ -1079,7 +1146,8 @@
         "Образотворче мистецтво"@uk,
         "Bildkonst"@sv,
         "Bellas Artes"@es,
-        "Výtvarné umenie"@sk .
+        "Výtvarné umenie"@sk,
+        "Καλές Τέχνες"@el .
 
 <n76> a skos:Concept ;
     skos:broader <n9> ;
@@ -1096,7 +1164,8 @@
         "Дизайн"@uk,
         "Design"@sv,
         "Diseño"@es,
-        "Dizajn"@sk .
+        "Dizajn"@sk,
+        "Σχέδιο"@el .
 
 <n77> a skos:Concept ;
     skos:broader <n9> ;
@@ -1112,7 +1181,8 @@
         "Акторська гра/Телемистецтво/Театральне мистецтво"@uk,
         "Scenkonst, film- och tv-studier, teatervetenskap"@sv,
         "Artes Escénicas, Cine y Televisión, Estudios Dramáticos"@es,
-        "Múzické umenie, filmové a televízne štúdiá, divadelná veda"@sk .
+        "Múzické umenie, filmové a televízne štúdiá, divadelná veda"@sk,
+        "Παραστατικές Τέχνες, Σπουδές Κινηματογράφου και Τηλεόρασης, Θεατρικές Σπουδές"@el .
 
 <n78> a skos:Concept ;
     skos:broader <n9> ;
@@ -1134,7 +1204,8 @@
         "Музика, музикознавство"@uk,
         "Musik, musikvetenskap"@sv,
         "Música y Musicología"@es,
-        "Hudba, muzikológia"@sk .
+        "Hudba, muzikológia"@sk,
+        "Μουσική, Μουσικολογία)"@el .
 
 <n001> a skos:Concept ;
     skos:broader <n13> ;
@@ -1145,7 +1216,8 @@
         "Єгиптологія"@uk,
         "Egyptologi"@sv,
         "Egiptología"@es,
-        "Egyptológia"@sk .
+        "Egyptológia"@sk,
+        "Αιγυπτιολογία"@el .
 
 <n002> a skos:Concept ;
     skos:broader <n13> ;
@@ -1156,7 +1228,8 @@
         "Африканські студії"@uk,
         "Afrikastudier"@sv,
         "Estudios Africanos"@es,
-        "Africké štúdiá"@sk .
+        "Africké štúdiá"@sk,
+        "Αφρικανικές Σπουδές"@el .
 
 <n003> a skos:Concept ;
     skos:broader <n58> ;
@@ -1167,7 +1240,8 @@
         "Аграрні науки/Сільське господарство"@uk,
         "Jordbruksvetenskap/ jordbruk"@sv,
         "Ciencias Agrícolas/Agricultura"@es,
-        "Poľnohospodárska veda/poľnohospodárstvo"@sk .
+        "Poľnohospodárska veda/poľnohospodárstvo"@sk,
+        "Γεωπονική Επιστήμη/Γεωργία"@el .
 
 <n004> a skos:Concept ;
     skos:broader <n01> ;
@@ -1178,7 +1252,8 @@
         "Міждисциплінарні науки (Спеціалізація гумагітарні науки)"@uk,
         "Tvärvetenskapliga studier (inriktning humaniora)"@sv,
         "Estudios Interdisciplinarios (especialización en Humanidades)"@es,
-        "Interdisciplinárne štúdiá (so zameraním na humanitné vedy)"@sk .
+        "Interdisciplinárne štúdiá (so zameraním na humanitné vedy)"@sk,
+        "Διεπιστημονικές Σπουδές (με ειδίκευση στις Ανθρωπιστικές Επιστήμες)"@el .
 
 <n005> a skos:Concept ;
     skos:broader <n08> ;
@@ -1189,7 +1264,8 @@
         "Класична філологія"@uk,
         "Klassisk filologi"@sv,
         "Filología Clásica"@es,
-        "Klasická filológia"@sk .
+        "Klasická filológia"@sk,
+        "Κλασσική Φιλολογία"@el .
 
 <n006> a skos:Concept ;
     skos:broader <n10> ;
@@ -1200,7 +1276,8 @@
         "Американські студії"@uk,
         "Amerikastudier"@sv,
         "Estudios Americanos"@es,
-        "Americké štúdiá"@sk .
+        "Americké štúdiá"@sk,
+        "Αμερικανικές Σπουδές"@el .
 
 <n007> a skos:Concept ;
     skos:broader <n76> ;
@@ -1211,7 +1288,8 @@
         "Декоративно-ужиткове мистецтво"@uk,
         "Tillämpad konst"@sv,
         "Arte Aplicado"@es,
-        "Úžitkové umenie"@sk .
+        "Úžitkové umenie"@sk,
+        "Εφαρμοσμένη Τέχνη"@el .
 
 <n008> a skos:Concept ;
     skos:broader <n10> ;
@@ -1222,7 +1300,8 @@
         "Англійські студії"@uk,
         "Engelska studier"@sv,
         "Estudios Ingleses"@es,
-        "Anglistika/anglický jazyk"@sk .
+        "Anglistika/anglický jazyk"@sk,
+        "Αγγλική Φιλολογία"@el .
 
 <n009> a skos:Concept ;
     skos:broader <n42> ;
@@ -1233,7 +1312,8 @@
         "Антропологія (Біологія людини)"@uk,
         "Antropologi (människobiologi)"@sv,
         "Antropología (Biología Humana)"@es,
-        "Antropológia (humánna biológia)"@sk .
+        "Antropológia (humánna biológia)"@sk,
+        "Ανθρωπολογία (Βιολογική Ανθρωπολογία)"@el .
 
 <n010> a skos:Concept ;
     skos:broader <n13> ;
@@ -1244,7 +1324,8 @@
         "Арабістика"@uk,
         "Arabiska/Arabistiska studier"@sv,
         "Árabe/Estudios Árabes"@es,
-        "Arabčina/arabistika"@sk .
+        "Arabčina/arabistika"@sk,
+        "Αραβικά/Αραβικές Σπουδές"@el .
 
 <n011> a skos:Concept ;
     skos:broader <n30> ;
@@ -1255,7 +1336,8 @@
         "Студії у галузі організації праці/Бізнес"@uk,
         "Arbetslivsstudier/Företagsekonomi"@sv,
         "Estudios del Trabajo/Estudios Empresariales"@es,
-        "Pracovné štúdiá/obchodné štúdiá"@sk .
+        "Pracovné štúdiá/obchodné štúdiá"@sk,
+        "Μελέτη της Εργασίας/Επιχειρηματικές Σπουδές"@el .
 
 <n012> a skos:Concept ;
     skos:broader <n05> ;
@@ -1266,7 +1348,8 @@
         "Археологія"@uk,
         "Arkeologi"@sv,
         "Arqueología"@es,
-        "Archeológia"@sk .
+        "Archeológia"@sk,
+        "Αρχαιολογία"@el .
 
 <n013> a skos:Concept ;
     skos:broader <n66> ;
@@ -1277,7 +1360,8 @@
         "Архітектура"@uk,
         "Arkitektur"@sv,
         "Arquitectura"@es,
-        "Architektúra"@sk .
+        "Architektúra"@sk,
+        "Αρχιτεκτονική"@el .
 
 <n014> a skos:Concept ;
     skos:broader <n39> ;
@@ -1288,7 +1372,8 @@
         "Астрофізика, Астрономія"@uk,
         "Astrofysik, astronomi"@sv,
         "Astrofísica y Astronomía"@es,
-        "Astrofyzika, astronómia"@sk .
+        "Astrofyzika, astronómia"@sk,
+        "Αστροφυσική, Αστρονομία"@el .
 
 <n015> a skos:Concept ;
     skos:broader <n13> ;
@@ -1299,7 +1384,8 @@
         "Неєвропейські мови та культури в Океанії та Америці"@uk,
         "Icke-europeiska språk och kulturer i Oceanien och Amerika"@sv,
         "Lenguas y Culturas No Europeas en Oceanía y América"@es,
-        "Mimoeurópske jazyky a kultúry v Oceánii a Amerike"@sk .
+        "Mimoeurópske jazyky a kultúry v Oceánii a Amerike"@sk,
+        "Μη Ευρωπαϊκές Γλώσσες και Πολιτισμοί στην Ωκεανία και την Αμερική"@el .
 
 <n016> a skos:Concept ;
     skos:broader <n12> ;
@@ -1310,7 +1396,8 @@
         "Балтійські студії"@uk,
         "Baltiska studier"@sv,
         "Estudios Bálticos"@es,
-        "Baltistika"@sk .
+        "Baltistika"@sk,
+        "Βαλτικές Σπουδές"@el .
 
 <n017> a skos:Concept ;
     skos:broader <n68> ;
@@ -1321,7 +1408,8 @@
         "Цивільна інженерія/Будівництво"@uk,
         "Byggnadsteknik/strukturteknik"@sv,
         "Ingeniería Civil/Ingeniería Estructural"@es,
-        "Stavebníctvo/konštrukčné inžinierstvo"@sk .
+        "Stavebníctvo/konštrukčné inžinierstvo"@sk,
+        "Πολιτική Μηχανική/Δομική Μηχανική"@el .
 
 <n018> a skos:Concept ;
     skos:broader <n07> ;
@@ -1332,7 +1420,8 @@
         "Викладання іноземних мов за професійним спрямуванням"@uk,
         "Yrkesinriktad språkutbildning"@sv,
         "Formación de Idiomas Extranjeros para Profesiones"@es,
-        "Odborná výučba cudzích jazykov"@sk .
+        "Odborná výučba cudzích jazykov"@sk,
+        "Εκμάθηση Ξένης Γλώσσας για ειδικούς επαγγελματικούς σκοπούς"@el .
 
 <n019> a skos:Concept ;
     skos:broader <n36> ;
@@ -1343,7 +1432,8 @@
         "Науки технологічного спрямування"@uk,
         "Orienteringsstudier MINT (STEM)"@sv,
         "Estudios de Orientación STEM"@es,
-        "Orientačné štúdium v prírodovedných a technických odboroch"@sk .
+        "Orientačné štúdium v prírodovedných a technických odboroch"@sk,
+        "Σπουδές/Μελέτες στους τομείς STEM"@el .
 
 <n020> a skos:Concept ;
     skos:broader <n62> ;
@@ -1354,7 +1444,8 @@
         "Гірнича справа/Гірнича технологія"@uk,
         "Gruvdrift/Gruvteknik"@sv,
         "Minería/Ingeniería de Minas"@es,
-        "Baníctvo/banská technika"@sk .
+        "Baníctvo/banská technika"@sk,
+        "Μεταλλευτική/Μηχανική Ορυχείων"@el .
 
 <n021> a skos:Concept ;
     skos:broader <n30> ;
@@ -1365,7 +1456,8 @@
         "Бізнес-адміністрування"@uk,
         "Företagsekonomi"@sv,
         "Administración de Empresas"@es,
-        "Podniková ekonómia"@sk .
+        "Podniková ekonómia"@sk,
+        "Διοίκηση Επιχειρήσεων"@el .
 
 <n022> a skos:Concept ;
     skos:broader <n06> ;
@@ -1376,7 +1468,8 @@
         "Бібліотекознавство"@uk,
         "Informations- och biblioteksvetenskap (ej för förvaltningshögskolor)"@sv,
         "Ciencias de la Información y Bibliotecología (no para administración)"@es,
-        "Informačné a knižničné vedy"@sk .
+        "Informačné a knižničné vedy"@sk,
+        "Επιστήμες Πληροφόρησης και Βιβλιοθηκονομίας."@el .
 
 <n023> a skos:Concept ;
     skos:broader <n75> ;
@@ -1387,7 +1480,8 @@
         "Образотворче мистецтво/Графіка"@uk,
         "Bildkonst/Grafik"@sv,
         "Bellas Artes/Artes gráficas"@es,
-        "Výtvarné umenie/grafika"@sk .
+        "Výtvarné umenie/grafika"@sk,
+        "Καλές Τέχνες/Γραφιστική"@el .
 
 <n024> a skos:Concept ;
     skos:broader <n14> ;
@@ -1398,7 +1492,8 @@
         "Європейська етнологія та культурологія"@uk,
         "Europeisk etnologi och kulturvetenskap"@sv,
         "Etnología Europea y Estudios Culturales"@es,
-        "Európska etnológia a kultúrne štúdiá"@sk .
+        "Európska etnológia a kultúrne štúdiá"@sk,
+        "Ευρωπαϊκή Εθνολογία και Πολιτισμικές Σπουδές"@el .
 
 <n025> a skos:Concept ;
     skos:broader <n40> ;
@@ -1409,7 +1504,8 @@
         "Біохімія"@uk,
         "Biokemi"@sv,
         "Bioquímica"@es,
-        "Biochémia"@sk .
+        "Biochémia"@sk,
+        "Βιοχημεία"@el .
 
 <n026> a skos:Concept ;
     skos:broader <n42> ;
@@ -1420,7 +1516,8 @@
         "Біологія"@uk,
         "Biologi"@sv,
         "Biología"@es,
-        "Biológia"@sk .
+        "Biológia"@sk,
+        "Βιολογία"@el .
 
 <n028> a skos:Concept ;
     skos:broader <n58> ;
@@ -1431,7 +1528,8 @@
         "Пивоваріння/Технологія напоїв"@uk,
         "Bryggerivetenskap/ Dryckesteknik"@sv,
         "Ciencia Cervecera/Tecnología de Bebidas"@es,
-        "Pivovarníctvo/technológia nápojov"@sk .
+        "Pivovarníctvo/technológia nápojov"@sk,
+        "Επιστήμη Ζυθοποιίας/Τεχνολογία Ποτών"@el .
 
 <n029> a skos:Concept ;
     skos:broader <n22> ;
@@ -1442,7 +1540,8 @@
         "Науки про спорт"@uk,
         "Idrottsvetenskap"@sv,
         "Ciencias del Deporte"@es,
-        "Športová veda"@sk .
+        "Športová veda"@sk,
+        "Αθλητικές Επιστήμες"@el .
 
 <n030> a skos:Concept ;
     skos:broader <n23> ;
@@ -1453,7 +1552,8 @@
         "Міждисциплінарні дослідження(у галізях юрид., екон. та сусп. наук)"@uk,
         "Tvärvetenskapliga studier (inriktning juridik, ekonomi och samhällsvetenskap)"@sv,
         "Estudios Interdisciplinarios (especialización en Derecho, Economía y Ciencias Sociales)"@es,
-        "Interdisciplinárne štúdiá (so zameraním na právo, ekonómiu a spoločenské vedy)"@sk .
+        "Interdisciplinárne štúdiá (so zameraním na právo, ekonómiu a spoločenské vedy)"@sk,
+        "Διεπιστημονικός κλάδος (με ειδίκευση στο Δίκαιο, τα Οικονομικά και τις Κοινωνικές Επιστήμες)"@el .
 
 <n031> a skos:Concept ;
     skos:broader <n08> ;
@@ -1464,7 +1564,8 @@
         "Комп'ютерна лінгвістика"@uk,
         "Byzantinistiska studier"@sv,
         "Estudios Bizantinos"@es,
-        "Byzantológia"@sk .
+        "Byzantológia"@sk,
+        "Βυζαντινές Σπουδές"@el .
 
 <n032> a skos:Concept ;
     skos:broader <n40> ;
@@ -1475,7 +1576,8 @@
         "Хімія"@uk,
         "Kemi"@sv,
         "Química"@es,
-        "Chémia"@sk .
+        "Chémia"@sk,
+        "Χημεία"@el .
 
 <n033> a skos:Concept ;
     skos:broader <n63> ;
@@ -1486,7 +1588,8 @@
         "Хімічна інженерія/Інженерія хімічних процесів"@uk,
         "Kemiteknik/Processteknik inom kemi"@sv,
         "Ingeniería Química/Ingeniería de Procesos Químicos"@es,
-        "Chemické inžinierstvo/chemická procesná technika"@sk .
+        "Chemické inžinierstvo/chemická procesná technika"@sk,
+        "Χημική Μηχανική/Μηχανική Χημικών Διαδικασιών"@el .
 
 <n034> a skos:Concept ;
     skos:broader <n09> ;
@@ -1497,7 +1600,8 @@
         "Данська мова"@uk,
         "Danska"@sv,
         "Danés"@es,
-        "Dánčina"@sk .
+        "Dánčina"@sk,
+        "Δανέζικα"@el .
 
 <n035> a skos:Concept ;
     skos:broader <n77> ;
@@ -1508,7 +1612,8 @@
         "Акторська гра/Сценічне мистецтво/Режисерська діяльність"@uk,
         "Scenkonst/Scenografi/Regi"@sv,
         "Artes Escénicas/Escenografía/Dirección"@es,
-        "Scénické umenie/divadelná réžia"@sk .
+        "Scénické umenie/divadelná réžia"@sk,
+        "Παραστατικές τέχνες/Σκηνογραφία/Σκηνοθεσία"@el .
 
 <n036> a skos:Concept ;
     skos:broader <n24> ;
@@ -1519,7 +1624,8 @@
         "Інші регіональні студії"@uk,
         "Övriga regionala studier"@sv,
         "Otros Estudios Regionales"@es,
-        "Iné regionálne štúdiá"@sk .
+        "Iné regionálne štúdiá"@sk,
+        "Άλλες περιφερειακές σπουδές"@el .
 
 <n037> a skos:Concept ;
     skos:broader <n06> ;
@@ -1530,7 +1636,8 @@
         "Документознавство"@uk,
         "Arkiv- och dokumentationsvetenskap"@sv,
         "Ciencias Archivísticas y Documentación"@es,
-        "Archívnictvo a dokumentačná veda"@sk .
+        "Archívnictvo a dokumentačná veda"@sk,
+        "Επιστήμη Αρχειονομίας και Τεκμηρίωσης"@el .
 
 <n038> a skos:Concept ;
     skos:broader <n24> ;
@@ -1541,7 +1648,8 @@
         "Латиноамериканські студії"@uk,
         "Latinamerikastudier"@sv,
         "Estudios Latinoamericanos"@es,
-        "Latinskoamerické štúdiá"@sk .
+        "Latinskoamerické štúdiá"@sk,
+        "Λατινοαμερικανικές Σπουδές"@el .
 
 <n039> a skos:Concept ;
     skos:broader <n43> ;
@@ -1552,7 +1660,8 @@
         "Науки про Землю (загальні)"@uk,
         "Geovetenskap (allmänt)"@sv,
         "Ciencias de la Tierra (general)"@es,
-        "Geovedy (všeobecné)"@sk .
+        "Geovedy (všeobecné)"@sk,
+        "Γεωεπιστήμες (γενικά)"@el .
 
 <n040> a skos:Concept ;
     skos:broader <n74> ;
@@ -1563,7 +1672,8 @@
         "Мультидисциплінарні науки (Мистецтво, Теорія мистецтв)"@uk,
         "Tvärvetenskapliga studier (inriktning konst, konstvetenskap)"@sv,
         "Estudios Interdisciplinarios (especialización en Arte y Teoría del Arte)"@es,
-        "Interdisciplinárne štúdiá (so zameraním na umenie a vedu o umení)"@sk .
+        "Interdisciplinárne štúdiá (so zameraním na umenie a vedu o umení)"@sk,
+        "Διεπιστημονικές Σπουδές (με ειδίκευση στην Τέχνη και τη Θεωρία Τέχνης)"@el .
 
 <n042> a skos:Concept ;
     skos:broader <n28> ;
@@ -1574,7 +1684,8 @@
         "Господарське право"@uk,
         "Affärsjuridik"@sv,
         "Derecho Empresarial"@es,
-        "Obchodné právo"@sk .
+        "Obchodné právo"@sk,
+        "Εμπορικό Δίκαιο"@el .
 
 <n043> a skos:Concept ;
     skos:broader <n08> ;
@@ -1585,7 +1696,8 @@
         "Новогрецька мова"@uk,
         "Nygrekiska"@sv,
         "Griego Moderno"@es,
-        "Novogréčtina"@sk .
+        "Novogréčtina"@sk,
+        "Νέα Ελληνικά"@el .
 
 <n044> a skos:Concept ;
     skos:broader <n24> ;
@@ -1596,7 +1708,8 @@
         "Дослідження Східної та Південно-Східної Європи"@uk,
         "Öst- och Sydosteuropastudier"@sv,
         "Estudios de Europa del Este y Sudeste"@es,
-        "Štúdiá východnej a juhovýchodnej Európy"@sk .
+        "Štúdiá východnej a juhovýchodnej Európy"@sk,
+        "Σπουδές Ανατολικής και Νοτιοανατολικής Ευρώπης"@el .
 
 <n048> a skos:Concept ;
     skos:broader <n64> ;
@@ -1607,7 +1720,8 @@
         "Електротехніка/Електроніка"@uk,
         "Elektroteknik/Elektronik"@sv,
         "Ingeniería Eléctrica/Electrónica"@es,
-        "Elektrotechnika/elektronika"@sk .
+        "Elektrotechnika/elektronika"@sk,
+        "Ηλεκτρολογία/Ηλεκτρονική"@el .
 
 <n049> a skos:Concept ;
     skos:broader <n36> ;
@@ -1618,7 +1732,8 @@
         "Міждисциплінірні науки (у галузі Природничих наук)"@uk,
         "Tvärvetenskapliga studier (inriktning naturvetenskap)"@sv,
         "Estudios Interdisciplinarios (especialización en Ciencias Naturales)"@es,
-        "Interdisciplinárne štúdiá (so zameraním na prírodné vedy)"@sk .
+        "Interdisciplinárne štúdiá (so zameraním na prírodné vedy)"@sk,
+        "Διεπιστημονικές Σπουδές (με ειδίκευση στις Φυσικές Επιστήμες)"@el .
 
 <n050> a skos:Concept ;
     skos:broader <n44> ;
@@ -1629,7 +1744,8 @@
         "Географія"@uk,
         "Geografi"@sv,
         "Geografía"@es,
-        "Geografia"@sk .
+        "Geografia"@sk,
+        "Γεωγραφία"@el .
 
 <n052> a skos:Concept ;
     skos:broader <n33> ;
@@ -1640,7 +1756,8 @@
         "Педагогіка"@uk,
         "Pedagogik"@sv,
         "Ciencias de la Educación (Pedagogía)"@es,
-        "Pedagogická veda (pedagogika)"@sk .
+        "Pedagogická veda (pedagogika)"@sk,
+        "Εκπαιδευτικές Επιστήμες (Παιδαγωγική)"@el .
 
 <n053> a skos:Concept ;
     skos:broader <n02> ;
@@ -1651,7 +1768,8 @@
         "Протестантська теологія, протестантська релігійна освіта"@uk,
         "Protestantisk teologi, protestantisk religionsundervisning"@sv,
         "Teología Protestante, Educación Religiosa Protestante"@es,
-        "Evanjelická teológia, evanjelická náboženská výchova"@sk .
+        "Evanjelická teológia, evanjelická náboženská výchova"@sk,
+        "Προτεσταντική Θεολογία, Προτεσταντική Θρησκευτική Εκπαίδευση"@el .
 
 <n054> a skos:Concept ;
     skos:broader <n77> ;
@@ -1662,7 +1780,8 @@
         "Телемистецтво"@uk,
         "Film- och tv-studier"@sv,
         "Estudios de Cine y Televisión"@es,
-        "Filmové a televízne štúdiá"@sk .
+        "Filmové a televízne štúdiá"@sk,
+        "Σπουδές Κινηματογράφου και Τηλεόρασης"@el .
 
 <n055> a skos:Concept ;
     skos:broader <n23> ;
@@ -1673,7 +1792,8 @@
         "Орієнтаційні студії з соціальних наук"@uk,
         "Orienteringsstudier i samhällsvetenskap"@sv,
         "Estudios de Orientación en Ciencias Sociales"@es,
-        "Orientačné štúdium spoločenských vied"@sk .
+        "Orientačné štúdium spoločenských vied"@sk,
+        "Κύκλος σπουδών Κοινωνικών Επιστημών"@el .
 
 <n056> a skos:Concept ;
     skos:broader <n12> ;
@@ -1684,7 +1804,8 @@
         "Фіно-угрознавство"@uk,
         "Finsk-ugriska studier"@sv,
         "Estudios Fino-úgricos"@es,
-        "Fino-hungaristika"@sk .
+        "Fino-hungaristika"@sk,
+        "Φιννο-ουγκρικές Σπουδές"@el .
 
 <n057> a skos:Concept ;
     skos:broader <n65> ;
@@ -1695,7 +1816,8 @@
         "Авіаційна та ракетно-космічна техніка"@uk,
         "Flyg- och rymdteknik"@sv,
         "Ingeniería Aeronáutica y Aeroespacial"@es,
-        "Letecká a kozmická technika"@sk .
+        "Letecká a kozmická technika"@sk,
+        "Αεροναυτική και Αεροδιαστημική Μηχανική"@el .
 
 <n058> a skos:Concept ;
     skos:broader <n59> ;
@@ -1706,7 +1828,8 @@
         "Лісівництво"@uk,
         "Skogsvetenskap, skogsbruk"@sv,
         "Ciencias Forestales y Silvicultura"@es,
-        "Lesnícka veda, lesné hospodárstvo"@sk .
+        "Lesnícka veda, lesné hospodárstvo"@sk,
+        "Δασολογία, Δασοκομία"@el .
 
 <n059> a skos:Concept ;
     skos:broader <n11> ;
@@ -1717,7 +1840,8 @@
         "Французька мова"@uk,
         "Franska"@sv,
         "Francés"@es,
-        "Francúzština"@sk .
+        "Francúzština"@sk,
+        "Γαλλικά"@el .
 
 <n060> a skos:Concept ;
     skos:broader <n58> ;
@@ -1728,7 +1852,8 @@
         "Садово-паркове господарство"@uk,
         "Trädgårdsodling/Horticulture"@sv,
         "Horticultura"@es,
-        "Záhradníctvo"@sk .
+        "Záhradníctvo"@sk,
+        "Κηπουρική"@el .
 
 <n061> a skos:Concept ;
     skos:broader <n57> ;
@@ -1739,7 +1864,8 @@
         "Меліорація"@uk,
         "Markförbättring/markberedning"@sv,
         "Mejora del terreno"@es,
-        "Meliorácia"@sk .
+        "Meliorácia"@sk,
+        "Βελτίωση Εδάφους"@el .
 
 <n064> a skos:Concept ;
     skos:broader <n57> ;
@@ -1750,7 +1876,8 @@
         "Охорона природи"@uk,
         "Naturskydd"@sv,
         "Conservación de la Naturaleza"@es,
-        "Ochrana prírody"@sk .
+        "Ochrana prírody"@sk,
+        "Προστασία της Φύσης"@el .
 
 <n065> a skos:Concept ;
     skos:broader <n43> ;
@@ -1761,7 +1888,8 @@
         "Геологія/Палеонтологія"@uk,
         "Geologi/Paleontologi"@sv,
         "Geología/Paleontología"@es,
-        "Geológia/Paleontológia"@sk .
+        "Geológia/Paleontológia"@sk,
+        "Γεωλογία/Παλαιοντολογία"@el .
 
 <n066> a skos:Concept ;
     skos:broader <n43> ;
@@ -1772,7 +1900,8 @@
         "Геофізика"@uk,
         "Geofysik"@sv,
         "Geofísica"@es,
-        "Geofyzika"@sk .
+        "Geofyzika"@sk,
+        "Γεωφυσική"@el .
 
 <n067> a skos:Concept ;
     skos:broader <n09> ;
@@ -1783,7 +1912,8 @@
         "Германістика"@uk,
         "Tyskstudier/Tyska"@sv,
         "Estudios Alemanes/Alemán"@es,
-        "Germanistika/Nemecký jazyk"@sk .
+        "Germanistika/Nemecký jazyk"@sk,
+        "Γερμανικές Σπουδές/Γερμανικά"@el .
 
 <n068> a skos:Concept ;
     skos:broader <n05> ;
@@ -1794,7 +1924,8 @@
         "Історія"@uk,
         "Historia"@sv,
         "Historia"@es,
-        "História"@sk .
+        "História"@sk,
+        "Ιστορία"@el .
 
 <n069> a skos:Concept ;
     skos:broader <n76> ;
@@ -1805,7 +1936,8 @@
         "Графічний дизайн/Комунікаційний дизайн"@uk,
         "Grafisk design/Kommunikationsdesign"@sv,
         "Diseño Gráfico/Diseño de Comunicación"@es,
-        "Grafický dizajn/Komunikačný dizajn"@sk .
+        "Grafický dizajn/Komunikačný dizajn"@sk,
+        "Γραφιστική/Σχεδιασμός Επικοινωνίας"@el .
 
 <n070> a skos:Concept ;
     skos:broader <n08> ;
@@ -1816,7 +1948,8 @@
         "Грецька мова"@uk,
         "Grekiska"@sv,
         "Griego"@es,
-        "Gréčtina"@sk .
+        "Gréčtina"@sk,
+        "Ελληνικά"@el .
 
 <n071> a skos:Concept ;
     skos:broader <n60> ;
@@ -1827,7 +1960,8 @@
         "Побутові та харчові науки"@uk,
         "Hushålls- och näringsvetenskap"@sv,
         "Ciencias Domésticas y de la Nutrición"@es,
-        "Domáce a výživové vedy"@sk .
+        "Domáce a výživové vedy"@sk,
+        "Οικιακές και Διατροφικές Επιστήμες"@el .
 
 <n072> a skos:Concept ;
     skos:broader <n61> ;
@@ -1838,7 +1972,8 @@
         "Міждисциплінарні дослідження (фокус на інженерії)"@uk,
         "Tvärvetenskapliga studier (inriktning ingenjörsvetenskap)"@sv,
         "Estudios Interdisciplinarios (especialización en Ingeniería)"@es,
-        "Interdisciplinárne štúdiá (so zameraním na inžinierstvo)"@sk .
+        "Interdisciplinárne štúdiá (so zameraním na inžinierstvo)"@sk,
+        "Διεπιστημονικές Σπουδές (με ειδίκευση στη Μηχανική)"@el .
 
 <n073> a skos:Concept ;
     skos:broader <n13> ;
@@ -1849,7 +1984,8 @@
         "Юдаїка"@uk,
         "Judaistik/Hebraiska"@sv,
         "Estudios Judaicos/Hebreo"@es,
-        "Judaistika/hebrejčina"@sk .
+        "Judaistika/hebrejčina"@sk,
+        "Ιουδαϊκές Σπουδές/Εβραϊκά"@el .
 
 <n074> a skos:Concept ;
     skos:broader <n63> ;
@@ -1860,7 +1996,8 @@
         "Транспорт/Конвеєрна техніка"@uk,
         "Transport- och konveyorteknik"@sv,
         "Tecnología de Transporte y Manipulación"@es,
-        "Dopravná a prepravná technika"@sk .
+        "Dopravná a prepravná technika"@sk,
+        "Τεχνολογία Μεταφορών και Μετακίνησης"@el .
 
 <n075> a skos:Concept ;
     skos:broader <n59> ;
@@ -1871,7 +2008,8 @@
         "Деревообробна промисловість"@uk,
         "Trävetenskap"@sv,
         "Silvicultura"@es,
-        "Drevárska veda"@sk .
+        "Drevárska veda"@sk,
+        "Επιστήμη και Τεχνολογία Ξύλου"@el .
 
 <n076> a skos:Concept ;
     skos:broader <n62> ;
@@ -1882,7 +2020,8 @@
         "Металургія та ливарна промисловість"@uk,
         "Metallurgi och gjuteri"@sv,
         "Metalurgia y Fundición"@es,
-        "Hutníctvo a zlievareňstvo"@sk .
+        "Hutníctvo a zlievareňstvo"@sk,
+        "Μεταλλουργία και Χυτήρια"@el .
 
 <n077> a skos:Concept ;
     skos:broader <n68> ;
@@ -1893,7 +2032,8 @@
         "Управління водними ресурсами"@uk,
         "Vattenförvaltning"@sv,
         "Gestión del Agua"@es,
-        "Vodné hospodárstvo"@sk .
+        "Vodné hospodárstvo"@sk,
+        "Διαχείριση Υδάτων"@el .
 
 <n078> a skos:Concept ;
     skos:broader <n13> ;
@@ -1904,7 +2044,8 @@
         "Індологія"@uk,
         "Indologistik/Indologi"@sv,
         "Indología"@es,
-        "Indológia"@sk .
+        "Indológia"@sk,
+        "Ινδολογία"@el .
 
 <n079> a skos:Concept ;
     skos:broader <n71> ;
@@ -1915,7 +2056,8 @@
         "Комп'ютерні науки"@uk,
         "Datavetenskap"@sv,
         "Informática"@es,
-        "Informatika"@sk .
+        "Informatika"@sk,
+        "Επιστήμη των Υπολογιστών"@el .
 
 <n080> a skos:Concept ;
     skos:broader <n78> ;
@@ -1926,7 +2068,8 @@
         "Інструментальна музика"@uk,
         "Instrumentalmusik"@sv,
         "Música Instrumental"@es,
-        "Inštrumentálna hudba"@sk .
+        "Inštrumentálna hudba"@sk,
+        "Ορχηστρική Μουσική"@el .
 
 <n081> a skos:Concept ;
     skos:broader <n13> ;
@@ -1937,7 +2080,8 @@
         "Іраністика"@uk,
         "Iranistik"@sv,
         "Estudios Iraníes"@es,
-        "Iránske štúdiá"@sk .
+        "Iránske štúdiá"@sk,
+        "Ιρανικές Σπουδές"@el .
 
 <n082> a skos:Concept ;
     skos:broader <n63> ;
@@ -1948,7 +2092,8 @@
         "Технологія деревини та волокна"@uk,
         "Trä- och fibert eknik"@sv,
         "Tecnología la madera y la fibras"@es,
-        "Drevárstvo a technológia vlániek"@sk .
+        "Drevárstvo a technológia vlániek"@sk,
+        "Τεχνολογία Ξύλου και Ινών"@el .
 
 <n083> a skos:Concept ;
     skos:broader <n13> ;
@@ -1959,7 +2104,8 @@
         "Ісламознавство"@uk,
         "Islamstudier"@sv,
         "Estudios Islámicos"@es,
-        "Islamské štúdiá"@sk .
+        "Islamské štúdiá"@sk,
+        "Ισλαμικές Σπουδές"@el .
 
 <n084> a skos:Concept ;
     skos:broader <n11> ;
@@ -1970,7 +2116,8 @@
         "Італійська мова"@uk,
         "Italienska"@sv,
         "Italiano"@es,
-        "Taliančina"@sk .
+        "Taliančina"@sk,
+        "Ιταλικά"@el .
 
 <n085> a skos:Concept ;
     skos:broader <n13> ;
@@ -1981,7 +2128,8 @@
         "Японознавство"@uk,
         "Japanstudier"@sv,
         "Estudios Japoneses"@es,
-        "Japonológia"@sk .
+        "Japonológia"@sk,
+        "Ιαπωνικές Σπουδές"@el .
 
 <n086> a skos:Concept ;
     skos:broader <n03> ;
@@ -1992,7 +2140,8 @@
         "Католицька теологія, католицька релігійна освіта"@uk,
         "Katolsk teologi, katolsk religionsundervisning"@sv,
         "Teología Católica, Educación Religiosa Católica"@es,
-        "Katolícka teológia, katolícka náboženská výchova"@sk .
+        "Katolícka teológia, katolícka náboženská výchova"@sk,
+        "Καθολική Θεολογία, Καθολική Θρησκευτική Εκπαίδευση"@el .
 
 <n088> a skos:Concept ;
     skos:broader <n64> ;
@@ -2003,7 +2152,8 @@
         "Оптоелектроніка"@uk,
         "Optoelektronik"@sv,
         "Optoelectrónica"@es,
-        "Optoelektronika"@sk .
+        "Optoelektronika"@sk,
+        "Οπτοηλεκτρονική"@el .
 
 <n089> a skos:Concept ;
     skos:broader <n65> ;
@@ -2014,7 +2164,8 @@
         "Транспортна інженерія"@uk,
         "Trafikingenjörsvetenskap"@sv,
         "Ingeniería de Transporte"@es,
-        "Dopravné inžinierstvo"@sk .
+        "Dopravné inžinierstvo"@sk,
+        "Μηχανική Μεταφορών"@el .
 
 <n090> a skos:Concept ;
     skos:broader <n01> ;
@@ -2025,7 +2176,8 @@
         "Галузь знань: гуманітарні науки"@uk,
         "Ämnesområde: humaniora"@sv,
         "Área de estudio: Humanidades"@es,
-        "Oblasť štúdia: humanitné vedy"@sk .
+        "Oblasť štúdia: humanitné vedy"@sk,
+        "Τομέας σπουδών: Ανθρωπιστικές Επιστήμες"@el .
 
 <n091> a skos:Concept ;
     skos:broader <n74> ;
@@ -2036,7 +2188,8 @@
         "Художня освіта"@uk,
         "Konstundervisning"@sv,
         "Artes"@es,
-        "Výtvarná výchova"@sk .
+        "Výtvarná výchova"@sk,
+        "Καλλιτεχνική Εκπαίδευση"@el .
 
 <n092> a skos:Concept ;
     skos:broader <n74> ;
@@ -2047,7 +2200,8 @@
         "Історія та теорія образотворчого мистецтва"@uk,
         "Konsthistoria, konstvetenskap"@sv,
         "Historia del Arte, Teoría del Arte"@es,
-        "Dejiny umenia, veda o umení"@sk .
+        "Dejiny umenia, veda o umení"@sk,
+        "Ιστορία Τέχνης, Θεωρία Τέχνης"@el .
 
 <n093> a skos:Concept ;
     skos:broader <n57> ;
@@ -2058,7 +2212,8 @@
         "Землеустрій/Ландшафтний дизайн"@uk,
         "Markskötsel/Landskapsarkitektur"@sv,
         "Ingeniería de Gestión Territorial/Paisajismo"@es,
-        "Krajinárstvo/krajinný dizajn"@sk .
+        "Krajinárstvo/krajinný dizajn"@sk,
+        "Μηχανική Διαχείρισης Γης/Σχεδιασμός Τοπίου"@el .
 
 <n094> a skos:Concept ;
     skos:broader <n68> ;
@@ -2069,7 +2224,8 @@
         "Гідротехніка"@uk,
         "Vattenbyggnad"@sv,
         "Ingeniería Hidráulica"@es,
-        "Hydraulické inžinierstvo"@sk .
+        "Hydraulické inžinierstvo"@sk,
+        "Υδραυλική Μηχανική"@el .
 
 <n095> a skos:Concept ;
     skos:broader <n08> ;
@@ -2080,7 +2236,8 @@
         "Латинська мова"@uk,
         "Latin"@sv,
         "Latín"@es,
-        "Latinčina"@sk .
+        "Latinčina"@sk,
+        "Λατινικά"@el .
 
 <n096> a skos:Concept ;
     skos:broader <n40> ;
@@ -2091,7 +2248,8 @@
         "Харчова хімія"@uk,
         "Livsmedelskemi"@sv,
         "Química de los alimentos"@es,
-        "Potravinárska chémia"@sk .
+        "Potravinárska chémia"@sk,
+        "Χημεία Τροφίμων"@el .
 
 <n097> a skos:Concept ;
     skos:broader <n58> ;
@@ -2102,7 +2260,8 @@
         "Харчові технології"@uk,
         "Livsmedelsteknik"@sv,
         "Tecnología de los alimentos"@es,
-        "Potravinárska technológia"@sk .
+        "Potravinárska technológia"@sk,
+        "Τεχνολογία Τροφίμων"@el .
 
 <n098> a skos:Concept ;
     skos:broader <n22> ;
@@ -2113,7 +2272,8 @@
         "Спортивне виховання/Психологія спорту"@uk,
         "Idrottspedagogik/Idrottspsykologi"@sv,
         "Educación deportiva/Psicología del deporte"@es,
-        "Športová pedagogika/športová psychológia"@sk .
+        "Športová pedagogika/športová psychológia"@sk,
+        "Αθλητική Αγωγή/Αθλητική Ψυχολογία"@el .
 
 <n101> a skos:Concept ;
     skos:broader <n74> ;
@@ -2124,7 +2284,8 @@
         "Музейна реставрація"@uk,
         "Konserveringsstudier/Restaurering"@sv,
         "Estudios de Restauración"@es,
-        "Reštaurátorstvo"@sk .
+        "Reštaurátorstvo"@sk,
+        "Σπουδές Αποκατάστασης"@el .
 
 <n102> a skos:Concept ;
     skos:broader <n77> ;
@@ -2135,7 +2296,8 @@
         "Сценічне мистецтво"@uk,
         "Skådespeleri"@sv,
         "Estudios Dramáticos"@es,
-        "Herectvo"@sk .
+        "Herectvo"@sk,
+        "Θεατρικές Σπουδές"@el .
 
 <n103> a skos:Concept ;
     skos:broader <n62> ;
@@ -2146,7 +2308,8 @@
         "Маркшейдерія"@uk,
         "Gruvmätning/Markmätning"@sv,
         "Topografía de minas"@es,
-        "Banská meračská činnosť"@sk .
+        "Banská meračská činnosť"@sk,
+        "Τοπογραφία Ορυχείων"@el .
 
 <n104> a skos:Concept ;
     skos:broader <n63> ;
@@ -2157,7 +2320,8 @@
         "Машинобудування"@uk,
         "Maskiningenjörsvetenskap"@sv,
         "Ingeniería Mecánica"@es,
-        "Strojárstvo"@sk .
+        "Strojárstvo"@sk,
+        "Μηχανολογία"@el .
 
 <n105> a skos:Concept ;
     skos:broader <n37> ;
@@ -2168,7 +2332,8 @@
         "Математика"@uk,
         "Matematik"@sv,
         "Matemáticas"@es,
-        "Matematika"@sk .
+        "Matematika"@sk,
+        "Μαθηματικά"@el .
 
 <n106> a skos:Concept ;
     skos:broader <n77> ;
@@ -2179,7 +2344,8 @@
         "Хореографічне мистецтво"@uk,
         "Danspedagogik"@sv,
         "Danza"@es,
-        "Tanečná pedagogika"@sk .
+        "Tanečná pedagogika"@sk,
+        "Εκπαίδευση στον Χορό"@el .
 
 <n107> a skos:Concept ;
     skos:broader <n49> ;
@@ -2190,7 +2356,8 @@
         "Медицина (загальна медицина)"@uk,
         "Medicin (allmänmedicin)"@sv,
         "Medicina (Medicina General)"@es,
-        "Medicína (všeobecná medicína)"@sk .
+        "Medicína (všeobecná medicína)"@sk,
+        "Ιατρική (Γενική Ιατρική)"@el .
 
 <n108> a skos:Concept ;
     skos:broader <n63> ;
@@ -2201,7 +2368,8 @@
         "Технологія металів"@uk,
         "Metalteknik"@sv,
         "Tecnología Metalúrgica"@es,
-        "Technológia spracovania kovov"@sk .
+        "Technológia spracovania kovov"@sk,
+        "Τεχνολογία Μετάλλων"@el .
 
 <n110> a skos:Concept ;
     skos:broader <n43> ;
@@ -2212,7 +2380,8 @@
         "Метеорологія"@uk,
         "Meteorologi"@sv,
         "Meteorología"@es,
-        "Meteorológia"@sk .
+        "Meteorológia"@sk,
+        "Μετεωρολογία"@el .
 
 <n111> a skos:Concept ;
     skos:broader <n43> ;
@@ -2223,7 +2392,8 @@
         "Мінералогія"@uk,
         "Mineralogi"@sv,
         "Mineralogía"@es,
-        "Mineralógia"@sk .
+        "Mineralógia"@sk,
+        "Ορυκτολογία"@el .
 
 <n113> a skos:Concept ;
     skos:broader <n78> ;
@@ -2234,7 +2404,8 @@
         "Музична освіта"@uk,
         "Musikutbildning"@sv,
         "Música"@es,
-        "Hudobná výchova"@sk .
+        "Hudobná výchova"@sk,
+        "Μουσική Εκπαίδευση"@el .
 
 <n114> a skos:Concept ;
     skos:broader <n78> ;
@@ -2245,7 +2416,8 @@
         "Музикознавство/Історія музики"@uk,
         "Musikvetenskap/Musikhistoria"@sv,
         "Musicología/Historia de la Música"@es,
-        "Muzikológia/dejiny hudby"@sk .
+        "Muzikológia/dejiny hudby"@sk,
+        "Μουσικολογία/Ιστορία της Μουσικής"@el .
 
 <n115> a skos:Concept ;
     skos:broader <n33> ;
@@ -2256,7 +2428,8 @@
         "Початкова освіта"@uk,
         "Grundskolepedagogik"@sv,
         "Educación de Escuela Primaria"@es,
-        "Pedagogika primárneho vzdelávania"@sk .
+        "Pedagogika primárneho vzdelávania"@sk,
+        "Δημοτική Εκπαίδευση/Πρωτοβάθμια Εκπαίδευση"@el .
 
 <n116> a skos:Concept ;
     skos:broader <n76> ;
@@ -2267,7 +2440,8 @@
         "Дизайн одягу"@uk,
         "Textildesign"@sv,
         "Diseño Textil"@es,
-        "Textilný dizajn"@sk .
+        "Textilný dizajn"@sk,
+        "Σχεδιασμός Υφασμάτων"@el .
 
 <n117> a skos:Concept ;
     skos:broader <n33> ;
@@ -2278,7 +2452,8 @@
         "Освіта мігрантів"@uk,
         "Invandrarpedagogik"@sv,
         "Educación para Inmigrantes"@es,
-        "Vzdelávanie migrantov"@sk .
+        "Vzdelávanie migrantov"@sk,
+        "Εκπαίδευση Μεταναστών"@el .
 
 <n118> a skos:Concept ;
     skos:broader <n37> ;
@@ -2289,7 +2464,8 @@
         "Технічна математика"@uk,
         "Teknisk matematik"@sv,
         "Tecno-matemáticas"@es,
-        "Technická matematika"@sk .
+        "Technická matematika"@sk,
+        "Τεχνομαθηματικά"@el .
 
 <n119> a skos:Concept ;
     skos:broader <n09> ;
@@ -2300,7 +2476,8 @@
         "Голландська мова"@uk,
         "Nederländska"@sv,
         "Neerlandés"@es,
-        "Holandčina"@sk .
+        "Holandčina"@sk,
+        "Ολλανδικά"@el .
 
 <n120> a skos:Concept ;
     skos:broader <n09> ;
@@ -2311,7 +2488,8 @@
         "Скандинавські студії"@uk,
         "Nordiska/Skandinaviska studier"@sv,
         "Estudios Nórdicos/Escandinavos"@es,
-        "Nordistika/škandinávske štúdiá"@sk .
+        "Nordistika/škandinávske štúdiá"@sk,
+        "Σκανδιναβικές χώρες (Σκανδιναβική φιλολογία, Άλλες γλώσσες που δεν περιλαμβάνονται αλλού)"@el .
 
 <n121> a skos:Concept ;
     skos:broader <n71> ;
@@ -2322,7 +2500,8 @@
         "Медіаінформатика"@uk,
         "Medieinformatik"@sv,
         "Informática de la Comunicación y de los Medios"@es,
-        "Mediálna informatika"@sk .
+        "Mediálna informatika"@sk,
+        "Πληροφορική Μέσων Ενημέρωσης"@el .
 
 <n122> a skos:Concept ;
     skos:broader <n13> ;
@@ -2333,7 +2512,8 @@
         "Сходознавство, Стародавнє сходознавство"@uk,
         "Orientalistik, forntida orientalistik"@sv,
         "Estudios Orientales, Estudios del Antiguo Oriente"@es,
-        "Orientalistika, starorientalistika"@sk .
+        "Orientalistika, starorientalistika"@sk,
+        "Ανατολικές Σπουδές, Αρχαίες Ανατολικές Σπουδές"@el .
 
 <n123> a skos:Concept ;
     skos:broader <n71> ;
@@ -2344,7 +2524,8 @@
         "Обчислювальна техніка/Технічна інформатика"@uk,
         "Ingenjörsinformatik/Teknisk datavetenskap"@sv,
         "Ingeniería Informática/Informática Técnica"@es,
-        "Inžinierska informatika/technická informatika"@sk .
+        "Inžinierska informatika/technická informatika"@sk,
+        "Υπολογιστική Μηχανική/Τεχνική Πληροφορική"@el .
 
 <n124> a skos:Concept ;
     skos:broader <n43> ;
@@ -2355,7 +2536,8 @@
         "Океанографія"@uk,
         "Okeanografi"@sv,
         "Oceanografía"@es,
-        "Oceánografia"@sk .
+        "Oceánografia"@sk,
+        "Ωκεανογραφία"@el .
 
 <n125> a skos:Concept ;
     skos:broader <n58> ;
@@ -2366,7 +2548,8 @@
         "Економіка сільського господарства"@uk,
         "Jordbruksekonomi"@sv,
         "Economía Agrícola"@es,
-        "Agrárna ekonómia"@sk .
+        "Agrárna ekonómia"@sk,
+        "Αγροτική Οικονομία"@el .
 
 <n126> a skos:Concept ;
     skos:broader <n41> ;
@@ -2377,7 +2560,8 @@
         "Фармація"@uk,
         "Farmaci"@sv,
         "Farmacia"@es,
-        "Farmácia"@sk .
+        "Farmácia"@sk,
+        "Φαρμακείο"@el .
 
 <n127> a skos:Concept ;
     skos:broader <n04> ;
@@ -2388,7 +2572,8 @@
         "Філософія"@uk,
         "Filosofi"@sv,
         "Filosofía"@es,
-        "Filozofia"@sk .
+        "Filozofia"@sk,
+        "Φιλοσοφία"@el .
 
 <n129> a skos:Concept ;
     skos:broader <n25> ;
@@ -2399,7 +2584,8 @@
         "Політологія"@uk,
         "Statsvetenskap/Politologi"@sv,
         "Ciencias Políticas"@es,
-        "Politické vedy/politológia"@sk .
+        "Politické vedy/politológia"@sk,
+        "Πολιτικές Επιστήμες"@el .
 
 <n130> a skos:Concept ;
     skos:broader <n12> ;
@@ -2410,7 +2596,8 @@
         "Західнослов'янські мови"@uk,
         "Västslaviska språk (allmänt)"@sv,
         "Eslavo Occidental (general)"@es,
-        "Západoslovanské jazyky (všeobecné)"@sk .
+        "Západoslovanské jazyky (všeobecné)"@sk,
+        "Δυτικές Σλαβικές Γλώσσες (γενικά και μη καταχωρημένες)"@el .
 
 <n131> a skos:Concept ;
     skos:broader <n11> ;
@@ -2421,7 +2608,8 @@
         "Португальська мова"@uk,
         "Portugisiska"@sv,
         "Portugués"@es,
-        "Portugalčina"@sk .
+        "Portugalčina"@sk,
+        "Πορτογαλλικά"@el .
 
 <n132> a skos:Concept ;
     skos:broader <n32> ;
@@ -2432,7 +2620,8 @@
         "Психологія"@uk,
         "Psykologi"@sv,
         "Psicología"@es,
-        "Psychológia"@sk .
+        "Psychológia"@sk,
+        "Ψυχολογία"@el .
 
 <n134> a skos:Concept ;
     skos:broader <n67> ;
@@ -2443,7 +2632,8 @@
         "Територіальне планування"@uk,
         "Regionalplanering"@sv,
         "Planificación Territorial"@es,
-        "Územné plánovanie"@sk .
+        "Územné plánovanie"@sk,
+        "Χωροταξία"@el .
 
 <n135> a skos:Concept ;
     skos:broader <n28> ;
@@ -2454,7 +2644,8 @@
         "Правознавство"@uk,
         "Rättsvetenskap"@sv,
         "Derecho"@es,
-        "Právne vedy"@sk .
+        "Právne vedy"@sk,
+        "Δίκαιο"@el .
 
 <n136> a skos:Concept ;
     skos:broader <n04> ;
@@ -2465,7 +2656,8 @@
         "Релігієзнавство"@uk,
         "Religionsvetenskap"@sv,
         "Estudios Religiosos"@es,
-        "Religionistika"@sk .
+        "Religionistika"@sk,
+        "Θρησκευτικές Σπουδές"@el .
 
 <n137> a skos:Concept ;
     skos:broader <n11> ;
@@ -2476,7 +2668,8 @@
         "Романістика"@uk,
         "Romanska studier (romansk filologi, enskilda språk)"@sv,
         "Estudios Romances (Filología Romance, lenguas individuales)"@es,
-        "Romanistika (románska filológia, jednotlivé jazyky)"@sk .
+        "Romanistika (románska filológia, jednotlivé jazyky)"@sk,
+        "Ρομανικές Σπουδές (Ρομανική Φιλολογία, μεμονωμένες γλώσσες που δεν περιλαμβάνονται αλλού)"@el .
 
 <n138> a skos:Concept ;
     skos:broader <n58> ;
@@ -2487,7 +2680,8 @@
         "Агробіологія"@uk,
         "Jordbruksbiologi"@sv,
         "Biología Agrícola"@es,
-        "Agrobiológia"@sk .
+        "Agrobiológia"@sk,
+        "Γεωργική Βιολογία"@el .
 
 <n139> a skos:Concept ;
     skos:broader <n12> ;
@@ -2498,7 +2692,8 @@
         "Російська мова"@uk,
         "Ryska"@sv,
         "Ruso"@es,
-        "Ruština"@sk .
+        "Ruština"@sk,
+        "Ρωσικά"@el .
 
 <n140> a skos:Concept ;
     skos:broader <n61> ;
@@ -2509,7 +2704,8 @@
         "Прикладні системні науки"@uk,
         "Tillämpade systemvetenskap"@sv,
         "Ciencias de Sistemas Aplicadas"@es,
-        "Aplikované systémové vedy"@sk .
+        "Aplikované systémové vedy"@sk,
+        "Εφαρμοσμένη Συστημική Επιστήμη"@el .
 
 <n141> a skos:Concept ;
     skos:broader <n63> ;
@@ -2520,7 +2716,8 @@
         "Управління відходами"@uk,
         "Avfallshantering"@sv,
         "Gestión de Residuos"@es,
-        "Odpadové hospodárstvo"@sk .
+        "Odpadové hospodárstvo"@sk,
+        "Διαχείριση Αποβλήτων"@el .
 
 <n142> a skos:Concept ;
     skos:broader <n65> ;
@@ -2531,7 +2728,8 @@
         "Морський транспорт/Суднобудування"@uk,
         "Skeppsbyggnad/Skeppsteknik"@sv,
         "Arquitectura Naval/Tecnología Naval"@es,
-        "Lodné staviteľstvo/lodná technika"@sk .
+        "Lodné staviteľstvo/lodná technika"@sk,
+        "Ναυπηγική/Τεχνολογία Πλοίων"@el .
 
 <n143> a skos:Concept ;
     skos:broader <n63> ;
@@ -2542,7 +2740,8 @@
         "Офтальмологічна оптика"@uk,
         "Ögonoptik"@sv,
         "Óptica Oftálmica"@es,
-        "Optometria"@sk .
+        "Optometria"@sk,
+        "Οφθαλμική Οπτική"@el .
 
 <n144> a skos:Concept ;
     skos:broader <n63> ;
@@ -2553,7 +2752,8 @@
         "Технічна кібернетика"@uk,
         "Teknisk kybernetik"@sv,
         "Cibernética Técnica"@es,
-        "Technická kybernetika"@sk .
+        "Technická kybernetika"@sk,
+        "Τεχνική Κυβερνητική"@el .
 
 <n145> a skos:Concept ;
     skos:broader <n13> ;
@@ -2564,7 +2764,8 @@
         "Китаєзнавство/Кореєзнавство"@uk,
         "Kinaspråksstudier/Koreastudier"@sv,
         "Sinología/Estudios Coreanos"@es,
-        "Sinológia/koreanistika"@sk .
+        "Sinológia/koreanistika"@sk,
+        "Σινολογία/Κορεατικές Σπουδές"@el .
 
 <n146> a skos:Concept ;
     skos:broader <n12> ;
@@ -2575,7 +2776,8 @@
         "Славістика (слов'янська філологія)"@uk,
         "Slaviska studier (slavisk filologi)"@sv,
         "Estudios Eslavos (Filología Eslava)"@es,
-        "Slavistika (slovanská filológia)"@sk .
+        "Slavistika (slovanská filológia)"@sk,
+        "ΤΣλαβικές Σπουδές (Σλαβική Φιλολογία)"@el .
 
 <n147> a skos:Concept ;
     skos:broader <n26> ;
@@ -2586,7 +2788,8 @@
         "Суспільствознавство"@uk,
         "Samhällskunskap"@sv,
         "Estudios Sociales"@es,
-        "Náuka o spoločnosti"@sk .
+        "Náuka o spoločnosti"@sk,
+        "Κοινωνικές Σπουδές"@el .
 
 <n148> a skos:Concept ;
     skos:broader <n26> ;
@@ -2597,7 +2800,8 @@
         "Суспільні науки"@uk,
         "Samhällsvetenskap"@sv,
         "Ciencias Sociales"@es,
-        "Spoločenské vedy"@sk .
+        "Spoločenské vedy"@sk,
+        "Κοινωνικές Επιστήμες"@el .
 
 <n149> a skos:Concept ;
     skos:broader <n26> ;
@@ -2608,7 +2812,8 @@
         "Соціологія"@uk,
         "Sociologi"@sv,
         "Sociología"@es,
-        "Sociológia"@sk .
+        "Sociológia"@sk,
+        "Κοινωνιολογία"@el .
 
 <n150> a skos:Concept ;
     skos:broader <n11> ;
@@ -2619,7 +2824,8 @@
         "Іспанська мова"@uk,
         "Spanska"@sv,
         "Español"@es,
-        "Španielčina"@sk .
+        "Španielčina"@sk,
+        "Ισπανικά"@el .
 
 <n152> a skos:Concept ;
     skos:broader <n07> ;
@@ -2630,7 +2836,8 @@
         "Загальне мовознавство/Індоєвропейські студії"@uk,
         "Allmän lingvistik/Indoeuropeiska studier"@sv,
         "Lingüística General/Estudios Indoeuropeos"@es,
-        "Všeobecná lingvistika/indoeuropeistika"@sk .
+        "Všeobecná lingvistika/indoeuropeistika"@sk,
+        "Γενική Γλωσσολογία/Ινδοευρωπαϊκές Σπουδές"@el .
 
 <n153> a skos:Concept ;
     skos:broader <n12> ;
@@ -2641,7 +2848,8 @@
         "Південнослов'янські мови (болгарська, сербохорватська, словенська та ін.)"@uk,
         "Sydslaviska språk (bulgariska, serbokroatiska, slovenska osv.)"@sv,
         "Eslavo Meridional (Búlgaro, Serbocroata, Esloveno, etc.)"@es,
-        "Južnoslovanské jazyky (bulharčina, srbochorvátčina, slovinčina atď.)"@sk .
+        "Južnoslovanské jazyky (bulharčina, srbochorvátčina, slovinčina atď.)"@sk,
+        "Νοτιοσλαβικές Γλώσσες (Βουλγαρικά, Σερβοκροατικά, Σλοβενικά κ.λπ.)"@el .
 
 <n154> a skos:Concept ;
     skos:broader <n23> ;
@@ -2652,7 +2860,8 @@
         "Галузь знань: суспільні науки"@uk,
         "Ämnesområde: samhällskunskap"@sv,
         "Área de estudio: Ciencias Sociales"@es,
-        "Oblasť štúdia: spoločenské vedy"@sk .
+        "Oblasť štúdia: spoločenské vedy"@sk,
+        "Τομέας σπουδών: Κοινωνικές Επιστήμες"@el .
 
 <n155> a skos:Concept ;
     skos:broader <n77> ;
@@ -2663,7 +2872,8 @@
         "Театральне мистецтво"@uk,
         "Teatervetenskap"@sv,
         "Estudios Teatrales"@es,
-        "Divadelná veda"@sk .
+        "Divadelná veda"@sk,
+        "Θεατρολογία"@el .
 
 <n156> a skos:Concept ;
     skos:broader <n51> ;
@@ -2674,7 +2884,8 @@
         "Ветеринарна медицина"@uk,
         "Veterinärmedicin"@sv,
         "Medicina Veterinaria"@es,
-        "Veterinárna medicína"@sk .
+        "Veterinárna medicína"@sk,
+        "Κτηνιατρική"@el .
 
 <n157> a skos:Concept ;
     skos:broader <n64> ;
@@ -2685,7 +2896,8 @@
         "Мікроелектроніка"@uk,
         "Mikroelektronik"@sv,
         "Microelectrónica"@es,
-        "Mikroelektronika"@sk .
+        "Mikroelektronika"@sk,
+        "Μικροηλεκτρονική"@el .
 
 <n158> a skos:Concept ;
     skos:broader <n13> ;
@@ -2696,7 +2908,8 @@
         "Тюркологія"@uk,
         "Turkiska studier"@sv,
         "Estudios Turcos"@es,
-        "Turkológia"@sk .
+        "Turkológia"@sk,
+        "Τουρκικές Σπουδές"@el .
 
 <n159> a skos:Concept ;
     skos:broader <n76> ;
@@ -2707,7 +2920,8 @@
         "Дизайн дорогоцінних каменів та ювелірних виробів"@uk,
         "Ädelstens- och smyckesdesign"@sv,
         "Diseño de Piedras preciosas y Joyería"@es,
-        "Dizajn drahokamov a šperkov"@sk .
+        "Dizajn drahokamov a šperkov"@sk,
+        "Σχεδιασμός Πολύτιμων Λίθων και Κοσμημάτων"@el .
 
 <n160> a skos:Concept ;
     skos:broader <n07> ;
@@ -2718,7 +2932,8 @@
         "Комп'ютерна лінгвістика"@uk,
         "Datalogisk lingvistik"@sv,
         "Lingüística Computacional"@es,
-        "Počítačová lingvistika"@sk .
+        "Počítačová lingvistika"@sk,
+        "Γλωσσολογία Υπολογιστών"@el .
 
 <n161> a skos:Concept ;
     skos:broader <n02> ;
@@ -2729,7 +2944,8 @@
         "Душпастирські студії"@uk,
         "Pastoralstudier"@sv,
         "Estudios de Pastoral"@es,
-        "Diakonická veda"@sk .
+        "Diakonická veda"@sk,
+        "Σπουδές στην Ποιμαντική Φροντίδα"@el .
 
 <n162> a skos:Concept ;
     skos:broader <n03> ;
@@ -2740,7 +2956,8 @@
         "Наука Карітасу"@uk,
         "Caritasvetenskap"@sv,
         "Ciencia Cáritas"@es,
-        "Veda Caritas"@sk .
+        "Veda Caritas"@sk,
+        "Επιστήμη της Φροντίδας"@el .
 
 <n163> a skos:Concept ;
     skos:broader <n78> ;
@@ -2751,7 +2968,8 @@
         "Ритміка"@uk,
         "Rytmik"@sv,
         "Rítmica"@es,
-        "Rytmika"@sk .
+        "Rytmika"@sk,
+        "Ρυθμική"@el .
 
 <n164> a skos:Concept ;
     skos:broader <n78> ;
@@ -2762,7 +2980,8 @@
         "Джаз та популярна музика"@uk,
         "Jazz och populärmusik"@sv,
         "Jazz y Música Popular"@es,
-        "Jazz a populárna hudba"@sk .
+        "Jazz a populárna hudba"@sk,
+        "Τζαζ και Λαϊκή Μουσική"@el .
 
 <n165> a skos:Concept ;
     skos:broader <n78> ;
@@ -2773,7 +2992,8 @@
         "Оркестрова музика"@uk,
         "Orkestermusik"@sv,
         "Música Orquestal"@es,
-        "Orchestrálna hudba"@sk .
+        "Orchestrálna hudba"@sk,
+        "Ορχηστρική Μουσική"@el .
 
 <n166> a skos:Concept ;
     skos:broader <n30> ;
@@ -2784,7 +3004,8 @@
         "Спортивний менеджмент/Економіка спорту"@uk,
         "Idrottsmanagement/Idrottekonomi"@sv,
         "Gestión Deportiva/Economía del Deporte"@es,
-        "Športový manažment/športová ekonómia"@sk .
+        "Športový manažment/športová ekonómia"@sk,
+        "Διοίκηση Αθλητισμού/Αθλητική Οικονομία"@el .
 
 <n167> a skos:Concept ;
     skos:broader <n30> ;
@@ -2795,7 +3016,8 @@
         "Європейські економічні студії"@uk,
         "Europeiska ekonomistudier"@sv,
         "Estudios Económicos Europeos"@es,
-        "Európske ekonomické štúdiá"@sk .
+        "Európske ekonomické štúdiá"@sk,
+        "Ευρωπαϊκές Οικονομικές Σπουδές"@el .
 
 <n168> a skos:Concept ;
     skos:broader <n29> ;
@@ -2806,7 +3028,8 @@
         "Правоохоронна діяльність"@uk,
         "Rättsväsendet/kriminalvård"@sv,
         "Administración de Justicia Penal"@es,
-        "Výkon spravodlivosti"@sk .
+        "Výkon spravodlivosti"@sk,
+        "Επιβολή του Νόμου"@el .
 
 <n169> a skos:Concept ;
     skos:broader <n04> ;
@@ -2817,7 +3040,8 @@
         "Етика"@uk,
         "Etik"@sv,
         "Ética"@es,
-        "Etika"@sk .
+        "Etika"@sk,
+        "Ηθική"@el .
 
 <n171> a skos:Concept ;
     skos:broader <n69> ;
@@ -2828,7 +3052,8 @@
         "Геодезія та землеустрій"@uk,
         "Mät- och kartografi (geodesi)"@sv,
         "Topografía (Geodesia)"@es,
-        "Geodézia"@sk .
+        "Geodézia"@sk,
+        "Τοπογραφία (Γεωδαισία)"@el .
 
 <n172> a skos:Concept ;
     skos:broader <n29> ;
@@ -2839,7 +3064,8 @@
         "Управлінські науки/Публічне адміністрування"@uk,
         "Administrativvetenskap/Offentlig förvaltning"@sv,
         "Ciencias Administrativas/Administración Pública"@es,
-        "Správna veda/verejná správa"@sk .
+        "Správna veda/verejná správa"@sk,
+        "Διοικητικές Επιστήμες/Δημόσια Διοίκηση"@el .
 
 <n173> a skos:Concept ;
     skos:broader <n14> ;
@@ -2850,7 +3076,8 @@
         "Етнологія"@uk,
         "Etnologi"@sv,
         "Etnología"@es,
-        "Etnológia"@sk .
+        "Etnológia"@sk,
+        "Εθνολογία"@el .
 
 <n174> a skos:Concept ;
     skos:broader <n14> ;
@@ -2861,7 +3088,8 @@
         "Фольклор"@uk,
         "Folkloristik"@sv,
         "Folclore"@es,
-        "Folkloristika"@sk .
+        "Folkloristika"@sk,
+        "Λαογραφία"@el .
 
 <n175> a skos:Concept ;
     skos:broader <n30> ;
@@ -2872,7 +3100,8 @@
         "Економіка"@uk,
         "Nationalekonomi"@sv,
         "Economía"@es,
-        "Ekonómia"@sk .
+        "Ekonómia"@sk,
+        "Οικονομικά"@el .
 
 <n176> a skos:Concept ;
     skos:broader <n76> ;
@@ -2883,7 +3112,8 @@
         "Ремісництво"@uk,
         "Slöjdpedagogik"@sv,
         "Artesanía"@es,
-        "Výchova k remeslu"@sk .
+        "Výchova k remeslu"@sk,
+        "Εκπαίδευση στις Χειροτεχνίες"@el .
 
 <n177> a skos:Concept ;
     skos:broader <n72> ;
@@ -2894,7 +3124,8 @@
         "Матеріалознавство"@uk,
         "Materialteknik"@sv,
         "Tecnología de Materiales"@es,
-        "Materiálová technológia"@sk .
+        "Materiálová technológia"@sk,
+        "Τεχνολογία Υλικών"@el .
 
 <n178> a skos:Concept ;
     skos:broader <n44> ;
@@ -2905,7 +3136,8 @@
         "Соціально-економічна географія"@uk,
         "Ekonomisk/social geografi"@sv,
         "Geografía Económica/Social"@es,
-        "Ekonomická/sociálna geografia"@sk .
+        "Ekonomická/sociálna geografia"@sk,
+        "Οικονομική/Κοινωνική Γεωγραφία"@el .
 
 <n179> a skos:Concept ;
     skos:broader <n31> ;
@@ -2916,7 +3148,8 @@
         "Бізнес інженерія у галузі економіки"@uk,
         "Industriell ekonomi med inriktning mot ekonomi"@sv,
         "Ingeniería Industrial con especialización en Economía"@es,
-        "Podnikové inžinierstvo so zameraním na ekonómiu"@sk .
+        "Podnikové inžinierstvo so zameraním na ekonómiu"@sk,
+        "Επιχειρηματική Μηχανική με ειδίκευση στην Οικονομία"@el .
 
 <n180> a skos:Concept ;
     skos:broader <n13> ;
@@ -2927,7 +3160,8 @@
         "Кавказознавство"@uk,
         "Kaukasusstudier"@sv,
         "Estudios Caucásicos"@es,
-        "Kaukazské štúdiá"@sk .
+        "Kaukazské štúdiá"@sk,
+        "Καυκάσιες Σπουδές"@el .
 
 <n181> a skos:Concept ;
     skos:broader <n30> ;
@@ -2938,7 +3172,8 @@
         "Економічна та бізнес-освіта"@uk,
         "Ekonomisk utbildning/Företagsekonomi och utbildning"@sv,
         "Educación Empresarial y Económica"@es,
-        "Obchodná a ekonomická pedagogika"@sk .
+        "Obchodná a ekonomická pedagogika"@sk,
+        "Εκπαίδευση στην Οικονομία και τις Επιχειρήσεις"@el .
 
 <n182> a skos:Concept ;
     skos:broader <n30> ;
@@ -2949,7 +3184,8 @@
         "Міжнародний бізнес/Менеджмент"@uk,
         "Internationella företagsekonomiska studier/Management"@sv,
         "Estudios Internacionales de Negocios/Gestión"@es,
-        "Medzinárodné obchodné štúdiá/manažment"@sk .
+        "Medzinárodné obchodné štúdiá/manažment"@sk,
+        "Διεθνείς Επιχειρηματικές Σπουδές/Διοίκηση"@el .
 
 <n183> a skos:Concept ;
     skos:broader <n05> ;
@@ -2960,7 +3196,8 @@
         "Економічна/соціальна історія"@uk,
         "Ekonomisk/samhällshistoria"@sv,
         "Historia Económica/Social"@es,
-        "Hospodárske/sociálne dejiny"@sk .
+        "Hospodárske/sociálne dejiny"@sk,
+        "Οικονομική/Κοινωνική Ιστορία"@el .
 
 <n184> a skos:Concept ;
     skos:broader <n30> ;
@@ -2971,7 +3208,8 @@
         "Бізнес та економіка"@uk,
         "Företagsekonomi och nationalekonomi"@sv,
         "Economía y Negocios"@es,
-        "Obchod a ekonómia"@sk .
+        "Obchod a ekonómia"@sk,
+        "Επιχειρήσεις και Οικονομικά"@el .
 
 <n185> a skos:Concept ;
     skos:broader <n50> ;
@@ -2982,7 +3220,8 @@
         "Стоматологія"@uk,
         "Tandvård"@sv,
         "Odontología"@es,
-        "Stomatológia"@sk .
+        "Stomatológia"@sk,
+        "Οδοντιατρική"@el .
 
 <n186> a skos:Concept ;
     skos:broader <n36> ;
@@ -2993,7 +3232,8 @@
         "Галузь знань: Природничі науки/Загальні науки"@uk,
         "Ämnesområde: naturvetenskap/allmänna studier"@sv,
         "Área de estudio: Ciencias Naturales/Estudios Generales"@es,
-        "Oblasť štúdia: prírodné vedy/všeobecné štúdiá"@sk .
+        "Oblasť štúdia: prírodné vedy/všeobecné štúdiá"@sk,
+        "Τομέας σπουδών: Φυσικές Επιστήμες/Γενικές Σπουδές"@el .
 
 <n187> a skos:Concept ;
     skos:broader <n13> ;
@@ -3004,7 +3244,8 @@
         "Азійські мови та культури/Азіатські студії"@uk,
         "Asiatiska språk och kulturer/Asienstudier"@sv,
         "Lenguas y Culturas Asiáticas/Estudios Asiáticos"@es,
-        "Ázijské jazyky a kultúry/ázijské štúdiá"@sk .
+        "Ázijské jazyky a kultúry/ázijské štúdiá"@sk,
+        "Ασιατικές Γλώσσες και Πολιτισμοί/Ασιατικές Σπουδές"@el .
 
 <n188> a skos:Concept ;
     skos:broader <n07> ;
@@ -3015,7 +3256,8 @@
         "Загальне літературознавство"@uk,
         "Allmän litteraturvetenskap"@sv,
         "Estudios Literarios Generales"@es,
-        "Všeobecná literárna veda"@sk .
+        "Všeobecná literárna veda"@sk,
+        "Γενικές Λογοτεχνικές Σπουδές"@el .
 
 <n189> a skos:Concept ;
     skos:broader <n09> ;
@@ -3026,7 +3268,8 @@
         "Нижньонімецька мова"@uk,
         "Lågtyska"@sv,
         "Bajo Alemán"@es,
-        "Dolnonemčina"@sk .
+        "Dolnonemčina"@sk,
+        "Κάτω Γερμανικά"@el .
 
 <n190> a skos:Concept ;
     skos:broader <n33> ;
@@ -3037,7 +3280,8 @@
         "Спеціальна освіта"@uk,
         "Specialpedagogik"@sv,
         "Educación Especial"@es,
-        "Špeciálna pedagogika"@sk .
+        "Špeciálna pedagogika"@sk,
+        "Ειδική Αγωγή και Εκπαίδευση"@el .
 
 <n191> a skos:Concept ;
     skos:broader <n78> ;
@@ -3048,7 +3292,8 @@
         "Композиція"@uk,
         "Komposition"@sv,
         "Composición"@es,
-        "Kompozícia"@sk .
+        "Kompozícia"@sk,
+        "Σύνθεση"@el .
 
 <n192> a skos:Concept ;
     skos:broader <n78> ;
@@ -3059,7 +3304,8 @@
         "Хорове диригування"@uk,
         "Dirigering"@sv,
         "Dirección de Orquesta"@es,
-        "Dirigovanie"@sk .
+        "Dirigovanie"@sk,
+        "Διεύθυνση"@el .
 
 <n193> a skos:Concept ;
     skos:broader <n78> ;
@@ -3070,7 +3316,8 @@
         "Церковна музика"@uk,
         "Kyrkomusik"@sv,
         "Música Eclesiástica"@es,
-        "Cirkevná hudba"@sk .
+        "Cirkevná hudba"@sk,
+        "Εκκλησιαστική Μουσική"@el .
 
 <n194> a skos:Concept ;
     skos:broader <n78> ;
@@ -3081,7 +3328,8 @@
         "Звукова інженерія"@uk,
         "Ljudteknik"@sv,
         "Ingeniería de Sonido"@es,
-        "Zvuková technika"@sk .
+        "Zvuková technika"@sk,
+        "Μηχανική Ήχου"@el .
 
 <n195> a skos:Concept ;
     skos:broader <n48> ;
@@ -3092,7 +3340,8 @@
         "Санітарна освіта"@uk,
         "Hälsoutbildning"@sv,
         "Educación Sanitaria"@es,
-        "Zdravotná výchova"@sk .
+        "Zdravotná výchova"@sk,
+        "Υγειονομική Εκπαίδευση"@el .
 
 <n197> a skos:Concept ;
     skos:broader <n68> ;
@@ -3103,7 +3352,8 @@
         "Дерев'яне будівництво"@uk,
         "Träkonstruktion"@sv,
         "Construcción en Madera"@es,
-        "Drevené konštrukcie"@sk .
+        "Drevené konštrukcie"@sk,
+        "Κατασκευή Ξυλείας"@el .
 
 <n199> a skos:Concept ;
     skos:broader <n61> ;
@@ -3114,7 +3364,8 @@
         "Галузь знань: Технологія"@uk,
         "Ämnesområde: teknik"@sv,
         "Área de estudio: Tecnología"@es,
-        "Oblasť štúdia: technika"@sk .
+        "Oblasť štúdia: technika"@sk,
+        "Τομέας σπουδών: Τεχνολογία"@el .
 
 <n200> a skos:Concept ;
     skos:broader <n71> ;
@@ -3125,7 +3376,8 @@
         "Інформаційно-комунікаційні технології"@uk,
         "Dator- och kommunikationsteknik"@sv,
         "Tecnología Informática y de Comunicaciones"@es,
-        "Počítačové a komunikačné technológie"@sk .
+        "Počítačové a komunikačné technológie"@sk,
+        "Τεχνολογία Υπολογιστών και Επικοινωνιών"@el .
 
 <n201> a skos:Concept ;
     skos:broader <n61> ;
@@ -3136,7 +3388,8 @@
         "Ремесла (технічні)/Технологія"@uk,
         "Tekniskt hantverk/Teknik"@sv,
         "Artesanía (técnica)/Tecnología"@es,
-        "Technické práce/technológia"@sk .
+        "Technické práce/technológia"@sk,
+        "Χειροτεχνία (τεχνική)/Τεχνολογία"@el .
 
 <n202> a skos:Concept ;
     skos:broader <n63> ;
@@ -3147,7 +3400,8 @@
         "Технологія виробництва/Виробнича інженерія"@uk,
         "Tillverkningsteknik/Produktionsteknik"@sv,
         "Tecnología de Fabricación/Ingeniería de Producción"@es,
-        "Výrobné technológie/produkčné inžinierstvo"@sk .
+        "Výrobné technológie/produkčné inžinierstvo"@sk,
+        "Τεχνολογία Κατασκευής/Μηχανική Παραγωγής"@el .
 
 <n203> a skos:Concept ;
     skos:broader <n76> ;
@@ -3158,7 +3412,8 @@
         "Промисловий дизайн/Дизайн продуктів"@uk,
         "Industriell design/Produktdesign"@sv,
         "Diseño Industrial/Diseño de Productos"@es,
-        "Priemyselný dizajn/dizajn produktov"@sk .
+        "Priemyselný dizajn/dizajn produktov"@sk,
+        "Βιομηχανικός Σχεδιασμός/Σχεδιασμός Προϊόντων"@el .
 
 <n204> a skos:Concept ;
     skos:broader <n75> ;
@@ -3169,7 +3424,8 @@
         "Живопис"@uk,
         "Måleri"@sv,
         "Pintura"@es,
-        "Maľba"@sk .
+        "Maľba"@sk,
+        "Ζωγραφική"@el .
 
 <n205> a skos:Concept ;
     skos:broader <n75> ;
@@ -3180,7 +3436,8 @@
         "Скульптурне мистецтво"@uk,
         "Skulptur"@sv,
         "Escultura"@es,
-        "Sochárstvo"@sk .
+        "Sochárstvo"@sk,
+        "Γλυπτική/Γλυπτική Τέχνη"@el .
 
 <n206> a skos:Concept ;
     skos:broader <n12> ;
@@ -3191,7 +3448,8 @@
         "Польська мова"@uk,
         "Polska"@sv,
         "Polaco"@es,
-        "Poľština"@sk .
+        "Poľština"@sk,
+        "Πολωνικά"@el .
 
 <n207> a skos:Concept ;
     skos:broader <n12> ;
@@ -3202,7 +3460,8 @@
         "Лужицькі студії"@uk,
         "Sorbiskt studier"@sv,
         "Estudios Sorbios"@es,
-        "Lužickosrbské štúdiá"@sk .
+        "Lužickosrbské štúdiá"@sk,
+        "Σορβικές Σπουδές"@el .
 
 <n208> a skos:Concept ;
     skos:broader <n27> ;
@@ -3213,7 +3472,8 @@
         "Соціальна робота"@uk,
         "Socialt arbete"@sv,
         "Trabajo Social"@es,
-        "Sociálna práca"@sk .
+        "Sociálna práca"@sk,
+        "Κοινωνική Εργασία"@el .
 
 <n209> a skos:Concept ;
     skos:broader <n12> ;
@@ -3224,7 +3484,8 @@
         "Чеська мова"@uk,
         "Tjeckiska"@sv,
         "Checo"@es,
-        "Čeština"@sk .
+        "Čeština"@sk,
+        "Τσεχικά"@el .
 
 <n210> a skos:Concept ;
     skos:broader <n30> ;
@@ -3235,7 +3496,8 @@
         "Економіка транспорту"@uk,
         "Transportekonomi"@sv,
         "Economía del Transporte"@es,
-        "Dopravná ekonómia"@sk .
+        "Dopravná ekonómia"@sk,
+        "Οικονομικά των Μεταφορών"@el .
 
 <n211> a skos:Concept ;
     skos:broader <n63> ;
@@ -3246,7 +3508,8 @@
         "Енергетичні технології (без електротехніки)"@uk,
         "Energiprocessteknik"@sv,
         "Ingeniería de Procesos Energéticos"@es,
-        "Energetické procesné technológie"@sk .
+        "Energetické procesné technológie"@sk,
+        "Μηχανική Ενεργειακών Διαδικασιών"@el .
 
 <n212> a skos:Concept ;
     skos:broader <n63> ;
@@ -3257,7 +3520,8 @@
         "Точна інженерія"@uk,
         "Finmekanik/Precisionsteknik"@sv,
         "Ingeniería de Precisión"@es,
-        "Precízne inžinierstvo"@sk .
+        "Precízne inžinierstvo"@sk,
+        "Μηχανική Ακριβείας"@el .
 
 <n213> a skos:Concept ;
     skos:broader <n63> ;
@@ -3268,7 +3532,8 @@
         "Технології постачання"@uk,
         "Försörjningsteknik"@sv,
         "Tecnología de Suministros"@es,
-        "Technológie dodávok"@sk .
+        "Technológie dodávok"@sk,
+        "Τεχνολογία Εφοδιασμού"@el .
 
 <n215> a skos:Concept ;
     skos:broader <n63> ;
@@ -3279,7 +3544,8 @@
         "Технологія охорони здоров'я"@uk,
         "Hälso- och sjukvårdsteknik"@sv,
         "Tecnología Sanitaria"@es,
-        "Zdravotnícke technológie"@sk .
+        "Zdravotnícke technológie"@sk,
+        "Τεχνολογία Υγείας"@el .
 
 <n216> a skos:Concept ;
     skos:broader <n63> ;
@@ -3290,7 +3556,8 @@
         "Технологія скла/Кераміка"@uk,
         "Glasteknik/Keramik"@sv,
         "Tecnología del Vidrio/Cerámica"@es,
-        "Sklárske technológie/keramika"@sk .
+        "Sklárske technológie/keramika"@sk,
+        "Τεχνολογία Γυαλιού/Κεραμική"@el .
 
 <n219> a skos:Concept ;
     skos:broader <n63> ;
@@ -3301,7 +3568,8 @@
         "Технологія пластмас"@uk,
         "Plastteknik"@sv,
         "Tecnología de Plásticos"@es,
-        "Technológia plastov"@sk .
+        "Technológia plastov"@sk,
+        "Τεχνολογία Πλαστικών"@el .
 
 <n220> a skos:Concept ;
     skos:broader <n58> ;
@@ -3312,7 +3580,8 @@
         "Молочне тваринництво"@uk,
         "Mejeri- och mjölkproducerande näring"@sv,
         "Ganadería lechera"@es,
-        "Technológia mlieka"@sk .
+        "Technológia mlieka"@sk,
+        "Γαλακτοκομία"@el .
 
 <n221> a skos:Concept ;
     skos:broader <n71> ;
@@ -3323,7 +3592,8 @@
         "Біоінформатика"@uk,
         "Bioinformatik"@sv,
         "Bioinformática"@es,
-        "Bioinformatika"@sk .
+        "Bioinformatika"@sk,
+        "Βιοπληροφορική"@el .
 
 <n222> a skos:Concept ;
     skos:broader <n64> ;
@@ -3334,7 +3604,8 @@
         "Комунікаційні та інформаційні технології"@uk,
         "Kommunikationsteknik och informationsteknik"@sv,
         "Tecnología de Comunicaciones e Información"@es,
-        "Komunikačná a informačná technika"@sk .
+        "Komunikačná a informačná technika"@sk,
+        "Τεχνολογία Επικοινωνιών, Μηχανική Πληροφορικής"@el .
 
 <n223> a skos:Concept ;
     skos:broader <n65> ;
@@ -3345,7 +3616,8 @@
         "Морські науки"@uk,
         "Nautik/Sjöfartsstudier"@sv,
         "Ciencias Náuticas/Estudios Marítimos"@es,
-        "Námorné vedy/Námorné štúdiá"@sk .
+        "Námorné vedy/Námorné štúdiá"@sk,
+        "Ναυτική Επιστήμη/Ναυτιλιακές Σπουδές"@el .
 
 <n224> a skos:Concept ;
     skos:broader <n63> ;
@@ -3356,7 +3628,8 @@
         "Інженерна фізика"@uk,
         "Teknisk fysik/Maskinell processteknik"@sv,
         "Ingeniería Física/Ingeniería de Procesos Mecánicos"@es,
-        "Inžinierska fyzika/Strojnícke procesné inžinierstvo"@sk .
+        "Inžinierska fyzika/Strojnícke procesné inžinierstvo"@sk,
+        "Φυσική Μηχανική/Μηχανική Διαδικασιών"@el .
 
 <n225> a skos:Concept ;
     skos:broader <n63> ;
@@ -3367,7 +3640,8 @@
         "Текстильне виробництво/Легка промисловість"@uk,
         "Textil- och konfektionsteknik/industri"@sv,
         "Tecnología/Industria Textil y de la Confección"@es,
-        "Textilná a odevná technológia/priemysel"@sk .
+        "Textilná a odevná technológia/priemysel"@sk,
+        "Τεχνολογία/Βιομηχανία Κλωστοϋφαντουργίας και Ενδυμάτων"@el .
 
 <n226> a skos:Concept ;
     skos:broader <n63> ;
@@ -3378,7 +3652,8 @@
         "Технологія процесів"@uk,
         "Process- och systemteknik"@sv,
         "Ingeniería de Procesos"@es,
-        "Procesné inžinierstvo"@sk .
+        "Procesné inžinierstvo"@sk,
+        "Μηχανική Διεργασιών"@el .
 
 <n227> a skos:Concept ;
     skos:broader <n58> ;
@@ -3389,7 +3664,8 @@
         "Виноградарство і виноробство"@uk,
         "Vinodling och vinframställning"@sv,
         "Viticultura y Enología"@es,
-        "Vinohradníctvo a vinárstvo"@sk .
+        "Vinohradníctvo a vinárstvo"@sk,
+        "Αμπελουργία και Οινολογία"@el .
 
 <n230> a skos:Concept ;
     skos:broader <n78> ;
@@ -3400,7 +3676,8 @@
         "Вокальне мистецтво"@uk,
         "Sång"@sv,
         "Canto"@es,
-        "Spev"@sk .
+        "Spev"@sk,
+        "Τραγούδι"@el .
 
 <n231> a skos:Concept ;
     skos:broader <n63> ;
@@ -3411,7 +3688,8 @@
         "Технологія друку та розмноження"@uk,
         "Tryck- och reproduktionsteknik"@sv,
         "Tecnología de Impresión y Reproducción"@es,
-        "Technológia tlače a reprodukcie"@sk .
+        "Technológia tlače a reprodukcie"@sk,
+        "Τεχνολογία Εκτύπωσης και Αναπαραγωγής"@el .
 
 <n232> a skos:Concept ;
     skos:broader <n48> ;
@@ -3422,7 +3700,8 @@
         "Науки про здоров'я/Управління охороною здоров'я"@uk,
         "Hälsovetenskap/-förvaltning"@sv,
         "Ciencias de la Salud/Gestión Sanitaria"@es,
-        "Zdravotné vedy/manažment zdravotníctva"@sk .
+        "Zdravotné vedy/manažment zdravotníctva"@sk,
+        "Επιστήμες Υγείας / Διοίκηση Υγείας"@el .
 
 <n233> a skos:Concept ;
     skos:broader <n48> ;
@@ -3433,7 +3712,8 @@
         "Немедичні професії охорони здоров’я/Терапії"@uk,
         "Icke-medicinska vårdyrken/terapier"@sv,
         "Profesiones Sanitarias No Médicas/Terapias"@es,
-        "Nelekárske zdravotnícke profesie/terapie"@sk .
+        "Nelekárske zdravotnícke profesie/terapie"@sk,
+        "Μη ιατρικά επαγγέλματα στον τομέα της Υγείας/Θεραπείες"@el .
 
 <n234> a skos:Concept ;
     skos:broader <n48> ;
@@ -3444,7 +3724,8 @@
         "Медсестринство"@uk,
         "Sjuksköterskevetenskap/-ledning"@sv,
         "Ciencias de Enfermería/Enfermería"@es,
-        "Ošetrovateľská veda/manažment ošetrovateľstva"@sk .
+        "Ošetrovateľská veda/manažment ošetrovateľstva"@sk,
+        "Επιστήμη της Νοσηλευτικής/Διοίκηση Νοσηλευτικής"@el .
 
 <n235> a skos:Concept ;
     skos:broader <n65> ;
@@ -3455,7 +3736,8 @@
         "Автомобільний транспорт"@uk,
         "Fordonsteknik"@sv,
         "Tecnología Automotriz"@es,
-        "Automobilová technika"@sk .
+        "Automobilová technika"@sk,
+        "Τεχνολογία Αυτοκινήτων"@el .
 
 <n237> a skos:Concept ;
     dct:isReplacedBy <n312> ;
@@ -3468,7 +3750,8 @@
         "Математична статистика/Теорія ймовірності"@uk,
         "Matematisk statistik/sannolikhetslära"@sv,
         "Estadística Matemática/Cálculo de Probabilidades"@es,
-        "Matematická štatistika/výpočet pravdepodobnosti"@sk .
+        "Matematická štatistika/výpočet pravdepodobnosti"@sk,
+        "Μαθηματική στατιστική/υπολογισμός πιθανοτήτων"@el .
 
 <n241> a skos:Concept ;
     owl:deprecated true ;
@@ -3481,7 +3764,8 @@
         "Атомна інженерія/Інженерія ядерних процесів"@uk,
         "Kärnteknik/Kärnprocess-teknik"@sv,
         "Tecnología Nuclear/Ingeniería de Procesos Nucleares"@es,
-        "Jadrová technika/jadrové procesné inžinierstvo"@sk .
+        "Jadrová technika/jadrové procesné inžinierstvo"@sk,
+        "Πυρηνική τεχνολογία/μηχανική πυρηνικών διεργασιών"@el .
 
 <n242> a skos:Concept ;
     skos:broader <n66> ;
@@ -3492,7 +3776,8 @@
         "Дизайн інтер'єру"@uk,
         "Inredningsarkitektur"@sv,
         "Arquitectura de Interiores"@es,
-        "Interiérový dizajn"@sk .
+        "Interiérový dizajn"@sk,
+        "Αρχιτεκτονική Εσωτερικών Χώρων"@el .
 
 <n245> a skos:Concept ;
     skos:broader <n27> ;
@@ -3503,7 +3788,8 @@
         "Соціальна педагогіка"@uk,
         "Socialpedagogik"@sv,
         "Pedagogía Social"@es,
-        "Sociálna pedagogika"@sk .
+        "Sociálna pedagogika"@sk,
+        "Κοινωνική Παιδαγωγική"@el .
 
 <n247> a skos:Concept ;
     skos:broader <n71> ;
@@ -3514,7 +3800,8 @@
         "Медична інформатика"@uk,
         "Medicinsk informatik"@sv,
         "Informática Médica"@es,
-        "Medicínska informatika"@sk .
+        "Medicínska informatika"@sk,
+        "Ιατρική Πληροφορική"@el .
 
 <n253> a skos:Concept ;
     skos:broader <n27> ;
@@ -3525,7 +3812,8 @@
         "Прикладні суспільні науки"@uk,
         "Tillämpade samhällsvetenskaper"@sv,
         "Ciencias Sociales Aplicadas"@es,
-        "Aplikované spoločenské vedy"@sk .
+        "Aplikované spoločenské vedy"@sk,
+        "Εφαρμοσμένες Κοινωνικές Επιστήμες"@el .
 
 <n254> a skos:Concept ;
     skos:broader <n33> ;
@@ -3536,7 +3824,8 @@
         "Загальна педагогіка(включно з дошкільною освітою)"@uk,
         "Allmänorientering (inkl. skolträdgård)"@sv,
         "Estudios Generales (incluyendo infantil)"@es,
-        "Všeobecné štúdiá (vrátane školskej záhrady)"@sk .
+        "Všeobecné štúdiá (vrátane školskej záhrady)"@sk,
+        "Γενικές Σπουδές (συμπεριλαμβανομένου του Σχολικού Κήπου)"@el .
 
 <n255> a skos:Concept ;
     skos:broader <n29> ;
@@ -3547,7 +3836,8 @@
         "Архівна справа"@uk,
         "Arkivvetenskap"@sv,
         "Estudios de Archivos"@es,
-        "Archívnictvo"@sk .
+        "Archívnictvo"@sk,
+        "Σπουδές Αρχειονομίας"@el .
 
 <n256> a skos:Concept ;
     skos:broader <n29> ;
@@ -3558,7 +3848,8 @@
         "Правосуддя"@uk,
         "Rättsväsendets förvaltning"@sv,
         "Administración de Justicia"@es,
-        "Výkon spravodlivosti"@sk .
+        "Výkon spravodlivosti"@sk,
+        "Απονομή Δικαιοσύνης"@el .
 
 <n257> a skos:Concept ;
     skos:broader <n29> ;
@@ -3569,7 +3860,8 @@
         "Профорієнтація та розвиток кар'єри"@uk,
         "Arbets- och yrkesvägledning"@sv,
         "Orientación Ocupacional y Asesoramiento de Carreras"@es,
-        "Pracovné a kariérne poradenstvo"@sk .
+        "Pracovné a kariérne poradenstvo"@sk,
+        "Επαγγελματικός Προσανατολισμός και Συμβουλευτική Σταδιοδρομίας"@el .
 
 <n258> a skos:Concept ;
     skos:broader <n29> ;
@@ -3580,7 +3872,8 @@
         "Управління трудовими ресурсами"@uk,
         "Arbetsförvaltning"@sv,
         "Administración Laboral"@es,
-        "Správa práce"@sk .
+        "Správa práce"@sk,
+        "Διοίκηση Εργασίας"@el .
 
 <n259> a skos:Concept ;
     skos:broader <n29> ;
@@ -3591,7 +3884,8 @@
         "Міжнародні відносини"@uk,
         "Utrikesförvaltning"@sv,
         "Administración de Asuntos Exteriores"@es,
-        "Správa zahraničných vecí"@sk .
+        "Správa zahraničných vecí"@sk,
+        "Διοίκηση Εξωτερικών Υποθέσεων"@el .
 
 <n260> a skos:Concept ;
     skos:broader <n29> ;
@@ -3602,7 +3896,8 @@
         "Військове управління"@uk,
         "Försvarsförvaltning"@sv,
         "Administración de Fuerzas Armadas"@es,
-        "Správa ozbrojených síl"@sk .
+        "Správa ozbrojených síl"@sk,
+        "Διοίκηση Ενόπλων Δυνάμεων"@el .
 
 <n261> a skos:Concept ;
     skos:broader <n29> ;
@@ -3613,7 +3908,8 @@
         "Внутрішнє адміністрування"@uk,
         "Intern förvaltning"@sv,
         "Administración Interna"@es,
-        "Vnútorná správa"@sk .
+        "Vnútorná správa"@sk,
+        "Εσωτερική Διοίκηση"@el .
 
 <n262> a skos:Concept ;
     skos:broader <n29> ;
@@ -3624,7 +3920,8 @@
         "Бібліотечна справа"@uk,
         "Biblioteksvetenskap"@sv,
         "Bibliotecología"@es,
-        "Knihovníctvo"@sk .
+        "Knihovníctvo"@sk,
+        "Βιβλιοθηκονομία"@el .
 
 <n263> a skos:Concept ;
     skos:broader <n29> ;
@@ -3635,7 +3932,8 @@
         "Поліція/Захист Конституції"@uk,
         "Polis/konstitutionsskydd"@sv,
         "Policía/Protección de la Constitución"@es,
-        "Polícia/ochrana ústavy"@sk .
+        "Polícia/ochrana ústavy"@sk,
+        "Αστυνομία/Προστασία του Συντάγματος"@el .
 
 <n264> a skos:Concept ;
     skos:broader <n29> ;
@@ -3646,7 +3944,8 @@
         "Управління соціальним захистом"@uk,
         "Socialförsäkring"@sv,
         "Administración de Seguridad Social"@es,
-        "Správa sociálneho zabezpečenia"@sk .
+        "Správa sociálneho zabezpečenia"@sk,
+        "Υπηρεσία Κοινωνικής Ασφάλισης"@el .
 
 <n265> a skos:Concept ;
     skos:broader <n29> ;
@@ -3657,7 +3956,8 @@
         "Банківська справа"@uk,
         "Bankverksamhet"@sv,
         "Banca"@es,
-        "Bankovníctvo"@sk .
+        "Bankovníctvo"@sk,
+        "Τραπεζικές Υπηρεσίες"@el .
 
 <n266> a skos:Concept ;
     skos:broader <n29> ;
@@ -3668,7 +3968,8 @@
         "Управління фінансами"@uk,
         "Finansförvaltning"@sv,
         "Administración Financiera"@es,
-        "Finančná správa"@sk .
+        "Finančná správa"@sk,
+        "Οικονομική Διοίκηση"@el .
 
 <n268> a skos:Concept ;
     skos:broader <n29> ;
@@ -3679,7 +3980,8 @@
         "Транспортні системи"@uk,
         "Transportsektor"@sv,
         "Sistemas de Transporte"@es,
-        "Dopravné systémy"@sk .
+        "Dopravné systémy"@sk,
+        "Συστήματα Μεταφορών"@el .
 
 <n269> a skos:Concept ;
     skos:broader <n29> ;
@@ -3690,7 +3992,8 @@
         "Управління митною та податковою справою"@uk,
         "Tull- och skatteförvaltning"@sv,
         "Administración de Aduanas e Impuestos"@es,
-        "Colná a daňová správa"@sk .
+        "Colná a daňová správa"@sk,
+        "Τελωνειακή και Φορολογική Διοίκηση"@el .
 
 <n270> a skos:Concept ;
     skos:broader <n33> ;
@@ -3701,7 +4004,8 @@
         "Професійна, бізнес та економічна освіта"@uk,
         "Yrkes- och ekonomipedagogik"@sv,
         "Educación Vocacional, Empresarial y Económica"@es,
-        "Odborná, obchodná a ekonomická pedagogika"@sk .
+        "Odborná, obchodná a ekonomická pedagogika"@sk,
+        "Επαγγελματική, Επιχειρηματική και Οικονομική Εκπαίδευση"@el .
 
 <n271> a skos:Concept ;
     skos:broader <n09> ;
@@ -3712,7 +4016,8 @@
         "Німецька як іноземна або друга мова"@uk,
         "Tyska som främmande eller andraspråk"@sv,
         "Alemán como Lengua Extranjera o Segunda Lengua"@es,
-        "Nemčina ako cudzí alebo druhý jazyk"@sk .
+        "Nemčina ako cudzí alebo druhý jazyk"@sk,
+        "Γερμανικά ως Ξένη ή Δεύτερη Γλώσσα"@el .
 
 <n272> a skos:Concept ;
     skos:broader <n05> ;
@@ -3723,7 +4028,8 @@
         "Стародавня історія"@uk,
         "Antikens historia"@sv,
         "Historia Antigua"@es,
-        "Staroveké dejiny"@sk .
+        "Staroveké dejiny"@sk,
+        "Αρχαία Ιστορία"@el .
 
 <n273> a skos:Concept ;
     skos:broader <n05> ;
@@ -3734,7 +4040,8 @@
         "Історія середньовіччя та новітнього часу"@uk,
         "Medeltids- och nyare historia"@sv,
         "Historia Medieval y Moderna"@es,
-        "Stredoveké a novoveké dejiny"@sk .
+        "Stredoveké a novoveké dejiny"@sk,
+        "Μεσαιωνική και Σύγχρονη Ιστορία"@el .
 
 <n274> a skos:Concept ;
     skos:broader <n30> ;
@@ -3745,7 +4052,8 @@
         "Туристичний менеджмент"@uk,
         "Turismnäring"@sv,
         "Gestión del Turismo"@es,
-        "Manažment cestovného ruchu"@sk .
+        "Manažment cestovného ruchu"@sk,
+        "Διοίκηση Τουρισμού"@el .
 
 <n275> a skos:Concept ;
     skos:broader <n05> ;
@@ -3756,7 +4064,8 @@
         "Історія науки і техніки"@uk,
         "Vetenskapshistoria/teknikhistoria"@sv,
         "Historia de la Ciencia/Historia de la Tecnología"@es,
-        "Dejiny vedy/dejiny techniky"@sk .
+        "Dejiny vedy/dejiny techniky"@sk,
+        "Ιστορία της Επιστήμης/Ιστορία της Τεχνολογίας"@el .
 
 <n276> a skos:Concept ;
     skos:broader <n37> ;
@@ -3767,7 +4076,8 @@
         "Бізнес математика"@uk,
         "Affärsmatematik"@sv,
         "Matemáticas Empresariales"@es,
-        "Obchodná matematika"@sk .
+        "Obchodná matematika"@sk,
+        "Μαθηματικά για Επιχειρήσεις"@el .
 
 <n277> a skos:Concept ;
     skos:broader <n71> ;
@@ -3778,7 +4088,8 @@
         "Бізнес-інформатика"@uk,
         "Affärsinformatik"@sv,
         "Informática Empresarial"@es,
-        "Obchodná informatika"@sk .
+        "Obchodná informatika"@sk,
+        "Πληροφορική Επιχειρήσεων"@el .
 
 <n280> a skos:Concept ;
     skos:broader <n69> ;
@@ -3789,7 +4100,8 @@
         "Картографія"@uk,
         "Kartografi"@sv,
         "Cartografía"@es,
-        "Kartografia"@sk .
+        "Kartografia"@sk,
+        "Χαρτογραφία"@el .
 
 <n282> a skos:Concept ;
     skos:broader <n42> ;
@@ -3800,7 +4112,8 @@
         "Біотехнологія"@uk,
         "Bioteknik"@sv,
         "Biotecnología"@es,
-        "Biotechnológia"@sk .
+        "Biotechnológia"@sk,
+        "Βιοτεχνολογία"@el .
 
 <n283> a skos:Concept ;
     skos:broader <n44> ;
@@ -3811,7 +4124,8 @@
         "Ландшафтна екологія/Біогеографія"@uk,
         "Landskapsekologi/biogeografi"@sv,
         "Ecología del Paisaje/Biogeografía"@es,
-        "Krajinná ekológia/biogeografia"@sk .
+        "Krajinná ekológia/biogeografia"@sk,
+        "Οικολογία Τοπίου/Βιογεωγραφία"@el .
 
 <n284> a skos:Concept ;
     skos:broader <n07> ;
@@ -3822,7 +4136,8 @@
         "Прикладна лінгвістика"@uk,
         "Tillämpad språkvetenskap"@sv,
         "Lingüística Aplicada"@es,
-        "Aplikovaná lingvistika"@sk .
+        "Aplikovaná lingvistika"@sk,
+        "Εφαρμοσμένη Γλωσσολογία"@el .
 
 <n286> a skos:Concept ;
     skos:broader <n64> ;
@@ -3833,7 +4148,8 @@
         "Мікротехнологія"@uk,
         "Mikrosystemteknik"@sv,
         "Tecnología de Microsistemas"@es,
-        "Mikrosystémová technika"@sk .
+        "Mikrosystémová technika"@sk,
+        "Τεχνολογία Μικροσυστημάτων"@el .
 
 <n287> a skos:Concept ;
     skos:broader <n75> ;
@@ -3844,7 +4160,8 @@
         "Нові засоби масової інформаії"@uk,
         "Nya medier"@sv,
         "Nuevos Medios de comunicación"@es,
-        "Nové médiá"@sk .
+        "Nové médiá"@sk,
+        "Νέα Μέσα"@el .
 
 <n292> a skos:Concept ;
     skos:broader <n18> ;
@@ -3855,7 +4172,8 @@
         "Ісламознавство"@uk,
         "Islamstudier/Islamisk teologi"@sv,
         "Estudios Islámicos/Teología Islámica"@es,
-        "Islamské štúdiá/islamská teológia"@sk .
+        "Islamské štúdiá/islamská teológia"@sk,
+        "Ισλαμικές Σπουδές/Ισλαμική Θεολογία"@el .
 
 <n294> a skos:Concept ;
     skos:broader <n72> ;
@@ -3866,7 +4184,8 @@
         "Матеріалознавство"@uk,
         "Materialvetenskap"@sv,
         "Ciencia de Materiales"@es,
-        "Materiálové inžinierstvo"@sk .
+        "Materiálové inžinierstvo"@sk,
+        "Επιστήμη Υλικών"@el .
 
 <n300> a skos:Concept ;
     skos:broader <n42> ;
@@ -3877,7 +4196,8 @@
         "Біомедицина"@uk,
         "Biomedicin"@sv,
         "Biomedicina"@es,
-        "Biomedicína"@sk .
+        "Biomedicína"@sk,
+        "Βιοιατρική"@el .
 
 <n302> a skos:Concept ;
     skos:broader <n19> ;
@@ -3888,7 +4208,8 @@
         "Медіазнавство"@uk,
         "Medievetenskap"@sv,
         "Ciencias de los Medios"@es,
-        "Mediálne vedy"@sk .
+        "Mediálne vedy"@sk,
+        "Επιστήμη των Μέσων Ενημέρωσης"@el .
 
 <n303> a skos:Concept ;
     skos:broader <n34> ;
@@ -3899,7 +4220,8 @@
         "Соціальні комунікації/Журналістика"@uk,
         "Kommunikationsvetenskap/Journalistik"@sv,
         "Ciencias de la Comunicación/Periodismo"@es,
-        "Komunikačné vedy/žurnalistika"@sk .
+        "Komunikačné vedy/žurnalistika"@sk,
+        "Επιστήμη της Επικοινωνίας/Δημοσιογραφία"@el .
 
 <n304> a skos:Concept ;
     skos:broader <n30> ;
@@ -3910,7 +4232,8 @@
         "Медіа-економіка/Медіа-менеджмент"@uk,
         "Medieekonomi/Mediehantering"@sv,
         "Economía de Medios/Gestión de Medios"@es,
-        "Mediálna ekonómia/manažment médií"@sk .
+        "Mediálna ekonómia/manažment médií"@sk,
+        "Οικονομικά Μέσων Ενημέρωσης/Διαχείριση Μέσων Ενημέρωσης"@el .
 
 <n305> a skos:Concept ;
     skos:broader <n61> ;
@@ -3921,7 +4244,8 @@
         "Медіатехнології"@uk,
         "Medieteknik"@sv,
         "Tecnología de Medios de comunicación"@es,
-        "Mediálne technológie"@sk .
+        "Mediálne technológie"@sk,
+        "Τεχνολογία Μέσων Ενημέρωσης"@el .
 
 <n310> a skos:Concept ;
     skos:broader <n61> ;
@@ -3932,7 +4256,8 @@
         "Відновлювальна енергія"@uk,
         "Förnybar energi"@sv,
         "Energía Renovable"@es,
-        "Obnoviteľná energia"@sk .
+        "Obnoviteľná energia"@sk,
+        "Ανανεώσιμες Πηγές Ενέργειας"@el .
 
 <n312> a skos:Concept ;
     skos:broader <n36> ;
@@ -3943,7 +4268,8 @@
         "Cтатистика"@uk,
         "Statistik"@sv,
         "Estadística"@es,
-        "Štatistika"@sk .
+        "Štatistika"@sk,
+        "Στατιστική"@el .
 
 <n316> a skos:Concept ;
     skos:broader <n64> ;
@@ -3954,7 +4280,8 @@
         "Електроенергетика"@uk,
         "Elektrisk kraftteknik"@sv,
         "Ingeniería de Energía Eléctrica"@es,
-        "Elektroenergetika"@sk .
+        "Elektroenergetika"@sk,
+        "Ηλεκτρολογική Μηχανική"@el .
 
 <n320> a skos:Concept ;
     skos:broader <n60> ;
@@ -3965,7 +4292,8 @@
         "Наука про харчування"@uk,
         "Näringsvetenskap"@sv,
         "Ciencias de la Nutrición"@es,
-        "Výživa"@sk .
+        "Výživa"@sk,
+        "Διατροφική Επιστήμη"@el .
 
 <n321> a skos:Concept ;
     skos:broader <n33> ;
@@ -3976,7 +4304,8 @@
         "Освіта дорослих та позашкільна освіта"@uk,
         "Vuxenutbildning och fritidsungdomsutbildning"@sv,
         "Educación de Adultos y Educación Juvenil Extracurricular"@es,
-        "Vzdelávanie dospelých a mimoškolské vzdelávanie mládeže"@sk .
+        "Vzdelávanie dospelých a mimoškolské vzdelávanie mládeže"@sk,
+        "Εκπαίδευση Ενηλίκων και Εξωσχολική Εκπαίδευση Νέων"@el .
 
 <n333> a skos:Concept ;
     skos:broader <n60> ;
@@ -3987,7 +4316,8 @@
         "Житлова економіка"@uk,
         "Hushållsvetenskap"@sv,
         "Ciencias del Hogar"@es,
-        "Domáca veda"@sk .
+        "Domáca veda"@sk,
+        "Οικιακή Επιστήμη"@el .
 
 <n353> a skos:Concept ;
     skos:broader <n58> ;
@@ -3998,7 +4328,8 @@
         "Рослинництво"@uk,
         "Växtproduktion"@sv,
         "Producción Vegetal"@es,
-        "Rastlinná výroba"@sk .
+        "Rastlinná výroba"@sk,
+        "Παραγωγή Φυτών"@el .
 
 <n361> a skos:Concept ;
     skos:broader <n33> ;
@@ -4009,7 +4340,8 @@
         "Середня освіта"@uk,
         "Skolpedagogik"@sv,
         "Pedagogía Escolar"@es,
-        "Školská pedagogika"@sk .
+        "Školská pedagogika"@sk,
+        "Σχολική Παιδαγωγική"@el .
 
 <n365> a skos:Concept ;
     skos:broader <n33> ;
@@ -4020,7 +4352,8 @@
         "Дошкільна освіта"@uk,
         "Förskolepedagogik"@sv,
         "Educación Infantil"@es,
-        "Pedagogika raného detstva"@sk .
+        "Pedagogika raného detstva"@sk,
+        "Παιδαγωγική Πρώιμης Παιδικής Ηλικίας"@el .
 
 <n370> a skos:Concept ;
     skos:broader <n70> ;
@@ -4031,7 +4364,8 @@
         "Промислова інженерія у галузі технічних наук"@uk,
         "Industriell ekonomi med ingenjörsinriktning"@sv,
         "Ingeniería Industrial con especialización en Ciencias de la Ingeniería"@es,
-        "Podnikové inžinierstvo so zameraním na inžinierske vedy"@sk .
+        "Podnikové inžinierstvo so zameraním na inžinierske vedy"@sk,
+        "Επιχειρησιακή Μηχανική με ειδίκευση στις Επιστήμες Μηχανικού"@el .
 
 <n371> a skos:Concept ;
     skos:broader <n58> ;
@@ -4042,7 +4376,8 @@
         "Тваринництво"@uk,
         "Djurproduktion"@sv,
         "Producción Animal"@es,
-        "Živočíšna výroba"@sk .
+        "Živočíšna výroba"@sk,
+        "Παραγωγή Ζώων"@el .
 
 <n380> a skos:Concept ;
     skos:broader <n61> ;
@@ -4053,7 +4388,8 @@
         "Мехатроніка"@uk,
         "Mekatronik"@sv,
         "Mecatrónica"@es,
-        "Mechatronika"@sk .
+        "Mechatronika"@sk,
+        "Μηχατρονική"@el .
 
 <n385> a skos:Concept ;
     skos:broader <n43> ;
@@ -4064,7 +4400,8 @@
         "Геоекологія"@uk,
         "Geoekologi"@sv,
         "Geoecología"@es,
-        "Geoekológia"@sk .
+        "Geoekológia"@sk,
+        "Γεωοικολογία"@el .
 
 <n390> a skos:Concept ;
     skos:broader <n62> ;
@@ -4075,7 +4412,8 @@
         "Археометрія (Археологічна інженерія)"@uk,
         "Arkeometri (ingenjörsarkeologi)"@sv,
         "Arqueometría (Ingeniería Arqueológica)"@es,
-        "Archeometria (archeologické inžinierstvo)"@sk .
+        "Archeometria (archeologické inžinierstvo)"@sk,
+        "Αρχαιομετρία (Αρχαιολογική Μηχανική)"@el .
 
 <n429> a skos:Concept ;
     skos:broader <n68> ;
@@ -4086,7 +4424,8 @@
         "Сталеві будівельні конструкції"@uk,
         "Stålkonstruktion"@sv,
         "Construcción en Acero"@es,
-        "Oceľové konštrukcie"@sk .
+        "Oceľové konštrukcie"@sk,
+        "Μεταλλικές Κατασκευές"@el .
 
 <n457> a skos:Concept ;
     skos:broader <n63> ;
@@ -4097,7 +4436,8 @@
         "Екологічні технології (включно з переробкою)"@uk,
         "Miljöteknik (inkl. återvinning)"@sv,
         "Tecnología Ambiental (incluyendo Reciclaje)"@es,
-        "Environmentálna technológia (vrátane recyklácie)"@sk .
+        "Environmentálna technológia (vrátane recyklácie)"@sk,
+        "Περιβαλλοντική Τεχνολογία (συμπ. Ανακύκλωση)"@el .
 
 <n458> a skos:Concept ;
     skos:broader <n67> ;
@@ -4108,7 +4448,8 @@
         "Охорона навколишнього середовища"@uk,
         "Miljöskydd"@sv,
         "Protección Medioambiental"@es,
-        "Ochrana životného prostredia"@sk .
+        "Ochrana životného prostredia"@sk,
+        "Προστασία Περιβάλλοντος"@el .
 
 <n464> a skos:Concept ;
     skos:broader <n31> ;
@@ -4119,7 +4460,8 @@
         "Організація управління підприємством"@uk,
         "Facility Management"@sv,
         "Gestión de Instalaciones"@es,
-        "Správa budov a zariadení"@sk .
+        "Správa budov a zariadení"@sk,
+        "Διαχείριση Εγκαταστάσεων"@el .
 
 <n544> a skos:Concept ;
     skos:broader <n02> ;
@@ -4130,7 +4472,8 @@
         "Протестантська релігійна педагогіка, церковно-виховна робота"@uk,
         "Evangelisk religionspedagogik, kyrkligt utbildningsarbete"@sv,
         "Pedagogía Religiosa Protestante, Trabajo Educativo Eclesiástico"@es,
-        "Evanjelická náboženská pedagogika, cirkevná vzdelávacia práca"@sk .
+        "Evanjelická náboženská pedagogika, cirkevná vzdelávacia práca"@sk,
+        "Προτεσταντική Θρησκευτική Παιδαγωγική, Εκκλησιαστικό Εκπαιδευτικό Έργο"@el .
 
 <n545> a skos:Concept ;
     skos:broader <n03> ;
@@ -4141,7 +4484,8 @@
         "Католицька релігійна педагогіка, церковно-виховна робота"@uk,
         "Katolsk religionspedagogik, kyrkligt utbildningsarbete"@sv,
         "Pedagogía Religiosa Católica, Trabajo Educativo Eclesiástico"@es,
-        "Katolícka náboženská pedagogika, cirkevná vzdelávacia práca"@sk .
+        "Katolícka náboženská pedagogika, cirkevná vzdelávacia práca"@sk,
+        "Καθολική Θρησκευτική Παιδαγωγική, Εκκλησιαστικό Εκπαιδευτικό Έργο"@el .
 
 <n548> a skos:Concept ;
     skos:broader <n05> ;
@@ -4152,7 +4496,8 @@
         "Історія первісного суспільства"@uk,
         "Förhistoria och tidig historia"@sv,
         "Prehistoria e inicios"@es,
-        "Pravek a raná história"@sk .
+        "Pravek a raná história"@sk,
+        "Προϊστορία και Πρώιμη Ιστορία"@el .
 
 <n0128> a skos:Concept ;
     skos:broader <n39> ;
@@ -4163,7 +4508,8 @@
         "Фізика"@uk,
         "Fysik"@sv,
         "Física"@es,
-        "Fyzika"@sk .
+        "Fyzika"@sk,
+        "Φυσική"@el .
 
 <n030010001> a skos:Concept ;
     dct:isReplacedBy <n292> ;
@@ -4176,4 +4522,5 @@
         "Ісламознавство"@uk,
         "Islamstudier/Islamisk teologi"@sv,
         "Estudios Islámicos/Teología Islámica"@es,
-        "Islamské štúdiá/islamská teológia"@sk .
+        "Islamské štúdiá/islamská teológia"@sk,
+        "Ισλαμικές Σπουδές/Ισλαμική Θεολογία"@el .
