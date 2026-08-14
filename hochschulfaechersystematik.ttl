@@ -8,12 +8,12 @@
 
 <scheme> a skos:ConceptScheme ;
     dct:alternative "Hochschulfächersystematik"@de ;
-    dct:description "Diese SKOS-Klassifikation basiert auf der Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](https://bartoc.org/en/node/18919)."@de ;
+    dct:description "Diese SKOS-Klassifikation wird publiziert und gepflegt durch die [OER-Metadatengruppe](https://wiki.dnb.de/x/IQ30B) des Kompetenzzentrums Interoperable Metadaten (DINI AG KIM). Entwickelt wurde die Klassifikation im Kontext der Beschreibung von Open Educational Resources (OER) im Hochschulbereich und findet Verwendung in [LOM for Higher Education OER Repositories](https://w3id.org/kim/hs-oer-lom-profil/latest/) sowie [AMB – Allgemeines Metadatenprofil für Bildungsressourcen (AMB)](https://w3id.org/kim/amb/latest/). Die Klassifikation basiert auf Versionen der Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](https://bartoc.org/en/node/18919) vor 2025. Für weitere Informationen wie Kontaktdaten und Informationen zur Mitarbeit siehe das [git-Repo](https://github.com/dini-ag-kim/hochschulfaechersystematik)."@de ;
     dct:issued "2019-12-11" ;
     dct:license <http://dcat-ap.de/def/licenses/other-closed> ;
     dct:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
-    dct:source <https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik.html> ;
-    dct:title "Destatis-Systematik der Fächergruppen, Studienbereiche und Studienfächer"@de ;
+    dct:source <https://bartoc.org/en/node/18919> ;
+    dct:title "KIM-Hochschulfächersystematik"@de ;
     vann:preferredNamespacePrefix "hfs" ;
     vann:preferredNamespaceUri "https://w3id.org/kim/hochschulfaechersystematik/" ;
     skos:hasTopConcept <n0>,
